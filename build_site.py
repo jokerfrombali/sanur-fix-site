@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Статический сайт мастера в Сануре: RU (корень) + EN (/en/). Запуск: python build_site.py → папка site/."""
+"""Статический сайт мастера в Сануре: EN (корень) + RU (/ru/) + статьи из content/. Запуск: python build_site.py → site/."""
 import json, pathlib, shutil, html
 
 # ======== ЗАПОЛНИТЬ ДАННЫМИ МАСТЕРА ========
@@ -9,7 +9,6 @@ PREVIEW = True                          # True = закрыт от индекс�
 BRAND = "Sanur Fix"                     # название (рабочее)
 WHATSAPP = "6280000000000"              # номер WhatsApp без +
 PHONE = "+62 800-0000-0000"
-TELEGRAM = "username"                   # без @
 GBP_URL = ""   # ссылка на карточку в Google Картах, когда появится
 PRICES = {}   # {"srv-santehnik": "от 300 000 IDR"} — пусто = «по запросу»
 # ===========================================
@@ -107,7 +106,7 @@ S = [
 ]
 
 T = {
- "ru": dict(lang="ru", pre="", other="en", tagline="Сантехник и мастер по бассейнам в Сануре", wa="Написать в WhatsApp", tg="Telegram", call="Позвонить",
+ "ru": dict(lang="ru", pre="ru/", other="en", tagline="Сантехник и мастер по бассейнам в Сануре", wa="Написать в WhatsApp", tg="Telegram", call="Позвонить",
             wa_text="Здравствуйте! Нужен мастер в Сануре: ", services="Услуги", prices="Цены", areas="Зона выезда", contacts="Контакты",
             fix="Что делаю", how="Как это работает", faq="Частые вопросы", on_req="по запросу", work="Работа", price="Цена",
             steps=["Пришлите фото или видео проблемы в WhatsApp", "Скажу примерную цену и когда смогу приехать", "Приезжаю, чиню, показываю результат"],
@@ -117,7 +116,7 @@ T = {
             prices_h1="Цены на работы в Сануре", prices_note="Цена зависит от объёма работ. Точную стоимость скажу по фото до выезда. Материалы — отдельно по чеку.",
             areas_h1="Работаю только в Сануре", contacts_h1="Контакты", contacts_lead="Быстрее всего — WhatsApp с фото проблемы и районом.",
             nf="Страница не найдена", home="Главная"),
- "en": dict(lang="en", pre="en/", other="ru", tagline="Plumber & Pool Service in Sanur", wa="WhatsApp me", tg="Telegram", call="Call",
+ "en": dict(lang="en", pre="", other="ru", tagline="Plumber & Pool Service in Sanur", wa="WhatsApp me", tg="Telegram", call="Call",
             wa_text="Hi! I need a technician in Sanur: ", services="Services", prices="Prices", areas="Service Area", contacts="Contact",
             fix="What I fix", how="How it works", faq="FAQ", on_req="on request", work="Job", price="Price",
             steps=["Send a photo or video of the problem on WhatsApp", "I'll give an estimate and a time I can come", "I come, fix it and show you the result"],
@@ -130,13 +129,16 @@ T = {
 }
 
 
-# ================== ВИЗУАЛ ==================
-# Фото: Unsplash (бесплатно, коммерческое использование разрешено, хотлинк рекомендован Unsplash).
-# ЗАМЕНИТЬ на реальные фото мастера и его работ, как только они будут — это важнее для доверия и Google.
+
+# ================== ВИЗУАЛ И СБОРКА ==================
+# Фото: Unsplash (бесплатная лицензия, хотлинк). ЗАМЕНИТЬ на реальные фото мастера и работ.
+import sys
+sys.path.insert(0, str(pathlib.Path(__file__).parent / "tools"))
+from articles_plan import HUB_EN
 U = "https://images.unsplash.com/"
 def img(pid, w=900, h=None):
     return f"{U}{pid}?auto=format&fit=crop&w={w}{'&h=' + str(h) if h else ''}&q=70"
-PH = {  # id: (photo, автор)
+PH = {
     "hero": ("photo-1720161263981-84281892ee4b", "Pepita Martasya"),
     "sanur": ("photo-1733281120655-8da3dc371514", "Didi Suprapta"),
     "sanur2": ("photo-1733281121312-6bec65d3c809", "Didi Suprapta"),
@@ -153,91 +155,131 @@ PH = {  # id: (photo, автор)
     "srv-melkij-remont": ("photo-1615974679600-665fb9468c4f", "Valentina Giarre"),
     "srv-obsluzhivanie-villy": ("photo-1634671651144-adbeca8623cb", "We Do Creative Films"),
 }
-ICON = {"srv-santehnik": "🔧", "srv-protechki": "💧", "srv-zasor": "🚽", "srv-bojler": "🔥", "srv-voda": "🚰", "srv-chistka-bassejna": "🏊",
-        "srv-obsluzhivanie-bassejna": "🌊", "srv-oborudovanie-bassejna": "⚙️", "srv-remont-bassejna": "🧱", "srv-septik": "🛠️",
-        "srv-melkij-remont": "🔨", "srv-obsluzhivanie-villy": "🌴"}
+HUB_PHOTOS = json.loads((pathlib.Path(__file__).parent / "tools" / "photos.json").read_text(encoding="utf-8"))
+HUB_SRV = {"S": "srv-santehnik", "W": "srv-voda", "PC": "srv-chistka-bassejna", "PE": "srv-oborudovanie-bassejna",
+           "PR": "srv-remont-bassejna", "K": "srv-septik", "R": "srv-melkij-remont", "V": "srv-obsluzhivanie-villy"}
+HUB_RU = {"S": "Сантехника", "W": "Вода и насосы", "PC": "Уход за бассейном", "PE": "Оборудование бассейна", "PR": "Ремонт бассейна",
+          "K": "Септик и канализация", "R": "Мелкий ремонт", "V": "Обслуживание виллы"}
+CREDITS = {a for _, a in PH.values()}
 
 X = {
- "ru": dict(badge="Санур · Бали · выезд к вам", trust=[("📸", "Фото-отчёт в WhatsApp после каждой работы"), ("💬", "Цена по фото — до выезда"), ("🛵", "Работаю только в Сануре"), ("🧾", "Материалы по чеку")],
-            why="Почему зовут меня", why_items=[("Приезжаю сам", "Не диспетчерская и не бригада — работу делает мастер, с которым вы переписываетесь."), ("Только Санур", "Не мотаюсь по всему Бали — работаю в одном районе и знаю его виллы: старые бассейны, солёную воду у моря, баки на крыше."), ("Отчёт владельцу", "Если вы не на Бали — пришлю фото «до» и «после» и что было сделано.")],
-            master_h="Мастер", master_txt="Здесь будет фото и пара слов о мастере: как зовут, сколько лет работает, на каких языках общается. Клиенты на Бали выбирают человека, а не компанию.",
-            master_ph="Фото мастера", gallery="Работы в Сануре", gallery_note="Сюда — реальные фото работ «до / после». Пока показаны иллюстрации.",
-            map_h="Где работаю", ready="Сломалось? Пришлите фото — отвечу в WhatsApp", credits="Иллюстрации: Unsplash"),
- "en": dict(badge="Sanur · Bali · we come to you", trust=[("📸", "Photo report on WhatsApp after every job"), ("💬", "Quote from photos — before the visit"), ("🛵", "Sanur only — I live and work here"), ("🧾", "Parts with receipts")],
-            why="Why people call me", why_items=[("I come myself", "Not a call centre or a crew — the technician you chat with does the job."), ("Sanur only", "I don't cross the whole island — one area, and I know its villas: old pools, brackish water near the beach, rooftop tanks."), ("Reports for owners", "Not in Bali? You get before/after photos and a list of what was done.")],
-            master_h="Your technician", master_txt="Photo and a few words about the technician go here: name, years of experience, languages. In Bali people choose a person, not a company.",
-            master_ph="Technician photo", gallery="Work in Sanur", gallery_note="Real before/after photos go here. Illustrations shown for now.",
-            map_h="Where I work", ready="Something broken? Send a photo — I'll reply on WhatsApp", credits="Illustrations: Unsplash"),
+ "en": dict(badge="Sanur only · Bali", guides="Guides", guides_h1="Villa & Pool Guides for Sanur", guides_lead="Practical guides from a technician who works only in Sanur: leaks, hot water, pumps, pools, septic tanks and small repairs.",
+            toc="In this guide", related="Related guides", read="Read guide", all_guides="All guides", need_help="Need it fixed?", faq_h="Questions",
+            trust=["Photo report on WhatsApp after every job", "Quote from your photos before I come", "Sanur only — I live and work here", "Parts charged with receipts"],
+            why="Why Sanur villa owners call me", why_items=[("I come myself", "Not a call centre and not a crew. The person you message is the person who does the job."), ("One area only", "I don't cross the island. I know Sanur villas: old pools, brackish wells near the beach, rooftop tanks."), ("Reports for owners", "Abroad? You get before-and-after photos and a short list of what was done.")],
+            master_h="Your technician", master_txt="A photo and a few words about the technician go here: name, years of experience, languages. In Bali people choose a person, not a company.",
+            master_ph="Technician photo", map_h="Where I work", ready="Something broken? Send a photo on WhatsApp.",
+            ready_sub="I'll reply with what's needed, a price and when I can come.", credits="Photos: Unsplash", eyebrow="Plumbing · Pools · Repairs"),
+ "ru": dict(badge="Только Санур · Бали", guides="Статьи", guides_h1="Советы по вилле и бассейну в Сануре", guides_lead="Практические статьи от мастера, который работает только в Сануре: протечки, горячая вода, насосы, бассейны, септики, мелкий ремонт.",
+            toc="Содержание", related="Похожие статьи", read="Читать", all_guides="Все статьи", need_help="Нужно починить?", faq_h="Вопросы",
+            trust=["Фото-отчёт в WhatsApp после каждой работы", "Цена по фото — до выезда", "Только Санур — живу и работаю здесь", "Материалы по чеку"],
+            why="Почему меня зовут владельцы вилл", why_items=[("Приезжаю сам", "Не диспетчерская и не бригада. С кем переписываетесь — тот и делает работу."), ("Только Санур", "Не мотаюсь по острову. Знаю виллы Санура: старые бассейны, солоноватые скважины у моря, баки на крыше."), ("Отчёт владельцу", "Вы не на Бали? Пришлю фото «до» и «после» и что было сделано.")],
+            master_h="Мастер", master_txt="Здесь будет фото и пара слов о мастере: имя, опыт, языки. На Бали выбирают человека, а не компанию.",
+            master_ph="Фото мастера", map_h="Где работаю", ready="Сломалось? Пришлите фото в WhatsApp.",
+            ready_sub="Отвечу, что нужно, сколько стоит и когда смогу приехать.", credits="Фото: Unsplash", eyebrow="Сантехника · Бассейны · Ремонт"),
 }
+T["en"]["steps"] = ["Send a photo or short video on WhatsApp", "Get a price and a time that suits you", "I fix it and send you the result"]
+T["ru"]["steps"] = ["Пришлите фото или видео в WhatsApp", "Получите цену и удобное время", "Чиню и присылаю результат"]
 
 CSS = """
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Manrope:wght@400;600;800&display=swap');
-:root{--bg:#fbf6ee;--fg:#1d2a2c;--muted:#58676a;--card:#fff;--line:#eadfcd;--sea:#0b8a92;--sea2:#06606a;--sun:#f28c28;--hib:#e2465b;--leaf:#2f8f5b;--wa:#1faa59;--shadow:0 10px 30px rgba(20,60,60,.12)}
-@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0f1a1b;--fg:#eef4f2;--muted:#a3b6b4;--card:#172628;--line:#26393b;--sea:#3cc2c9;--sea2:#8fe0e4;--shadow:0 10px 30px rgba(0,0,0,.4)}}
-*{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;font:17px/1.65 Manrope,system-ui,sans-serif;background:var(--bg);color:var(--fg)}
-h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.12;letter-spacing:-.01em}
-a{color:var(--sea)}img{max-width:100%;display:block}
-.wrap{max-width:1140px;margin:0 auto;padding:0 16px}
-.topbar{background:var(--sea2);color:#fff;font-size:14px}.topbar .wrap{display:flex;justify-content:space-between;gap:10px;padding:7px 16px;flex-wrap:wrap}
-.topbar a{color:#fff;font-weight:800;text-decoration:none}
-header{background:color-mix(in srgb,var(--card) 92%,transparent);backdrop-filter:blur(8px);position:sticky;top:0;z-index:20;border-bottom:1px solid var(--line)}
-header .wrap{display:flex;align-items:center;justify-content:space-between;min-height:64px;gap:12px}
-.logo{display:flex;align-items:center;gap:10px;font:800 21px Fraunces,serif;color:var(--fg);text-decoration:none}
-.logo i{width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,var(--sea),var(--leaf));display:grid;place-items:center;font-style:normal;font-size:20px}
-nav{display:flex;gap:18px;align-items:center}nav a{color:var(--muted);text-decoration:none;font-weight:600;font-size:15px}nav a:hover{color:var(--sea)}
-.hcall{background:var(--wa);color:#fff!important;padding:9px 16px;border-radius:999px}
-@media(max-width:860px){nav a:not(.hcall):not(.lang){display:none}}
-.hero{position:relative;color:#fff;min-height:620px;display:flex;align-items:flex-end;overflow:hidden}
-.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,40,44,.15) 0%,rgba(4,40,44,.55) 45%,rgba(4,30,33,.92) 100%)}
-.hero .wrap{position:relative;z-index:1;padding-bottom:56px;width:100%}
-.badge{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);padding:6px 14px;border-radius:999px;font-weight:600;font-size:14px;backdrop-filter:blur(6px)}
-.hero h1{font-size:clamp(36px,6.4vw,70px);margin:16px 0 14px;max-width:860px}.hero p{font-size:clamp(17px,2.2vw,21px);max-width:680px;opacity:.95}
-.btns{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0 0}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:15px 24px;border-radius:14px;font-weight:800;text-decoration:none;border:2px solid transparent;transition:transform .15s}
-.btn:hover{transform:translateY(-2px)}.btn.wa{background:var(--wa);color:#fff;box-shadow:0 8px 24px rgba(31,170,89,.4)}
-.btn.tel{background:var(--sun);color:#fff}.btn.tg{background:rgba(255,255,255,.14);color:inherit;border-color:currentColor}
-.trust{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:-34px;position:relative;z-index:3}
-.trust div{background:var(--card);border-radius:16px;padding:16px 18px;box-shadow:var(--shadow);display:flex;gap:12px;align-items:center;font-weight:600;font-size:15px}
-.trust b{font-size:26px}
-section{padding:64px 0}h2{font-size:clamp(30px,4.2vw,44px);margin:0 0 10px}.sub{color:var(--muted);max-width:640px;margin:0 0 28px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px}
-.scard{background:var(--card);border-radius:20px;overflow:hidden;text-decoration:none;color:var(--fg);box-shadow:var(--shadow);transition:transform .2s}
-.scard:hover{transform:translateY(-4px)}.scard img{height:170px;width:100%;object-fit:cover}
-.scard div{padding:16px 18px 20px}.scard b{font:700 20px Fraunces,serif;display:block;margin-bottom:4px}.scard span{color:var(--muted);font-size:15px}
-.band{background:linear-gradient(135deg,#06606a,#0b8a92);color:#fff}.band .sub{color:#d9f3f3}
-.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;counter-reset:s;padding:0;list-style:none}
-.steps li{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);border-radius:18px;padding:22px;counter-increment:s;font-weight:600}
-.steps li:before{content:counter(s);display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--sun);color:#fff;font:800 20px Fraunces;margin-bottom:12px}
-.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}.why div{border-left:4px solid var(--hib);padding:4px 0 4px 18px}
-.why b{font:700 21px Fraunces,serif;display:block}
-.master{display:grid;grid-template-columns:minmax(220px,360px) 1fr;gap:34px;align-items:center}
-@media(max-width:760px){.master{grid-template-columns:1fr}}
-.ph{aspect-ratio:4/5;border-radius:24px;border:3px dashed var(--sun);display:grid;place-items:center;text-align:center;color:var(--muted);background:repeating-linear-gradient(45deg,transparent 0 14px,rgba(242,140,40,.07) 14px 28px);font-weight:700;padding:20px}
-.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}.gal img{border-radius:16px;aspect-ratio:1;object-fit:cover}
-.areas{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 22px}.areas span{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-weight:600;font-size:15px}
-.map{border:0;width:100%;height:380px;border-radius:20px;box-shadow:var(--shadow)}
-.split{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center}@media(max-width:860px){.split{grid-template-columns:1fr}}
-.split img{border-radius:24px;box-shadow:var(--shadow);aspect-ratio:4/3;object-fit:cover}
-ul.check{list-style:none;padding:0}ul.check li{padding:8px 0 8px 34px;position:relative;border-bottom:1px solid var(--line)}
-ul.check li:before{content:"✓";position:absolute;left:0;top:7px;width:24px;height:24px;border-radius:50%;background:var(--leaf);color:#fff;display:grid;place-items:center;font-size:14px;font-weight:800}
-details{background:var(--card);border-radius:14px;padding:14px 18px;margin:10px 0;box-shadow:var(--shadow)}summary{font-weight:800;cursor:pointer}
-table{width:100%;border-collapse:collapse;background:var(--card);border-radius:16px;overflow:hidden;box-shadow:var(--shadow)}td,th{padding:14px;text-align:left;border-bottom:1px solid var(--line)}th{background:var(--sea);color:#fff}
-.phead{position:relative;color:#fff;padding:70px 0 50px;overflow:hidden}.phead>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.phead:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(4,40,44,.92),rgba(4,40,44,.5))}.phead .wrap{position:relative;z-index:1}
-.phead h1{font-size:clamp(32px,5vw,54px);margin:10px 0}.crumbs{font-size:14px;opacity:.85}.crumbs a{color:#fff}
-.cta{background:linear-gradient(135deg,var(--sun),var(--hib));color:#fff;border-radius:28px;padding:40px;text-align:center;margin:30px 0}
-.cta h2{color:#fff}.cta .btns{justify-content:center}
-footer{background:#0a2f33;color:#cfe3e2;padding:44px 0 90px;font-size:15px}footer a{color:#fff}footer .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px}
-footer b{font-family:Fraunces,serif;font-size:19px;color:#fff}.cred{opacity:.6;font-size:13px;margin-top:20px}
-.mbar{display:none}@media(max-width:760px){.mbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:30}
-.mbar a{padding:15px;text-align:center;font-weight:800;color:#fff;text-decoration:none}.mbar .w{background:var(--wa)}.mbar .t{background:var(--sun)}.float{display:none}}
-.float{position:fixed;right:18px;bottom:18px;z-index:30;width:62px;height:62px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.3);animation:p 2.4s infinite}
-@media(max-width:760px){.float{display:none}}
-@keyframes p{0%{box-shadow:0 0 0 0 rgba(31,170,89,.55)}70%{box-shadow:0 0 0 18px rgba(31,170,89,0)}100%{box-shadow:0 0 0 0 rgba(31,170,89,0)}}
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap');
+:root{--bg:#f6f3ee;--paper:#fffdf9;--ink:#1c2422;--muted:#66706c;--line:#e6e0d6;--green:#1f3b35;--green2:#2c5249;--brass:#a8834a;--wa:#1f9d57;--r:18px;--shadow:0 1px 2px rgba(28,36,34,.04),0 12px 32px rgba(28,36,34,.07)}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#121816;--paper:#18201e;--ink:#ece8e1;--muted:#9aa39f;--line:#29332f;--green:#1a2f2a;--green2:#244039;--brass:#c9a46a;--shadow:0 12px 32px rgba(0,0,0,.35)}}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;font:16.5px/1.7 Inter,system-ui,sans-serif;background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:"Instrument Serif",Georgia,serif;font-weight:400;line-height:1.08;letter-spacing:-.01em;margin:0}
+h1 em,h2 em{font-style:italic;color:var(--brass)}
+a{color:inherit}img{max-width:100%;display:block}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}.narrow{max-width:760px}
+.eyebrow{font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass);font-weight:600}
+header{position:sticky;top:0;z-index:40;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:saturate(1.4) blur(12px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
+.logo{font:400 26px "Instrument Serif",serif;text-decoration:none;letter-spacing:-.01em}.logo span{color:var(--brass);font-style:italic}
+nav{display:flex;align-items:center;gap:26px}nav a{text-decoration:none;font-size:14.5px;color:var(--muted);font-weight:500}nav a:hover{color:var(--ink)}
+.lang{border:1px solid var(--line);border-radius:999px;padding:4px 10px;font-size:13px}
+.lang b{color:var(--ink)}
+.hbtn{background:var(--wa);color:#fff!important;padding:9px 16px;border-radius:999px;display:inline-flex;gap:7px;align-items:center}
+@media(max-width:900px){nav a.m{display:none}nav{gap:12px}}
+.btns{display:flex;gap:10px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 22px;border-radius:999px;font-weight:600;font-size:15.5px;text-decoration:none;transition:transform .15s,background .15s;border:1px solid transparent}
+.btn:hover{transform:translateY(-1px)}.btn svg{flex:none}
+.btn.wa{background:var(--wa);color:#fff}.btn.wa:hover{background:#188a4b}
+.btn.ghost{border-color:currentColor;color:inherit;background:transparent}
+.hero{position:relative;min-height:min(88vh,760px);display:flex;align-items:flex-end;color:#fff;overflow:hidden}
+.hero>img,.phead>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,20,18,.1) 20%,rgba(15,20,18,.72) 100%)}
+.hero .wrap{position:relative;z-index:1;padding-bottom:72px;width:100%}
+.hero .eyebrow{color:#e9d6b3}
+.hero h1{font-size:clamp(46px,7.4vw,96px);max-width:900px;margin:14px 0 18px}.hero h1 em{color:#e9d6b3}
+.hero p{font-size:clamp(17px,1.9vw,20px);max-width:600px;color:rgba(255,255,255,.88);margin:0 0 30px}
+.strip{background:var(--green);color:#e8ece9}
+.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:0}.strip div{padding:22px 20px;border-left:1px solid rgba(255,255,255,.1);font-size:14.5px;display:flex;gap:12px;align-items:flex-start}
+.strip div:first-child{border-left:0;padding-left:0}.strip svg{flex:none;margin-top:3px;color:#e9d6b3}
+@media(max-width:860px){.strip .wrap{grid-template-columns:1fr 1fr}.strip div:nth-child(3){border-left:0;padding-left:0}}
+section{padding:96px 0}@media(max-width:700px){section{padding:64px 0}}
+.shead{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:40px;flex-wrap:wrap}
+.shead h2{font-size:clamp(38px,5vw,62px);max-width:720px;margin-top:10px}.shead p{color:var(--muted);max-width:420px;margin:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:22px}
+.card{text-decoration:none;display:block;group:1}.card .im{border-radius:var(--r);overflow:hidden;aspect-ratio:4/3;background:var(--line)}
+.card img{width:100%;height:100%;object-fit:cover;transition:transform .5s}.card:hover img{transform:scale(1.04)}
+.card h3{font-size:25px;margin:16px 0 4px}.card p{color:var(--muted);font-size:14.5px;margin:0}
+.card .more{display:inline-block;margin-top:8px;font-size:14px;font-weight:600;color:var(--brass)}
+.dark{background:var(--green);color:#eef1ee}.dark .shead p{color:#b9c5c0}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;list-style:none;padding:0;margin:0;counter-reset:s}
+@media(max-width:760px){.steps{grid-template-columns:1fr}}
+.steps li{counter-increment:s;border-top:1px solid rgba(255,255,255,.2);padding-top:22px;font-size:17px}
+.steps li:before{content:"0" counter(s);display:block;font:italic 400 44px "Instrument Serif",serif;color:#e9d6b3;margin-bottom:6px}
+.why{display:grid;grid-template-columns:repeat(3,1fr);gap:36px}@media(max-width:860px){.why{grid-template-columns:1fr}}
+.why h3{font-size:30px;margin-bottom:8px}.why p{color:var(--muted);margin:0}
+.master{display:grid;grid-template-columns:5fr 7fr;gap:60px;align-items:center}@media(max-width:860px){.master{grid-template-columns:1fr;gap:28px}}
+.ph{aspect-ratio:4/5;border-radius:var(--r);border:1px dashed var(--brass);display:grid;place-items:center;text-align:center;color:var(--muted);font-size:14px;padding:20px;background:var(--paper)}
+.master h2{font-size:clamp(38px,4.6vw,56px);margin:10px 0 16px}.master p{color:var(--muted);font-size:17.5px;max-width:560px;margin:0 0 28px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}@media(max-width:860px){.split{grid-template-columns:1fr;gap:28px}}
+.split h2{font-size:clamp(36px,4.4vw,54px);margin:10px 0 16px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 28px}.chips span{border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:6px 14px;font-size:14px}
+.map{border:0;width:100%;aspect-ratio:4/3;border-radius:var(--r);filter:grayscale(.35) contrast(1.02)}
+.phead{position:relative;color:#fff;padding:140px 0 64px;overflow:hidden}
+.phead:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,20,18,.25),rgba(15,20,18,.78))}
+.phead .wrap{position:relative;z-index:1}.phead h1{font-size:clamp(40px,6vw,76px);max-width:900px;margin:12px 0 16px}
+.phead p{max-width:640px;font-size:18px;color:rgba(255,255,255,.88);margin:0 0 28px}
+.crumbs{font-size:13px;color:rgba(255,255,255,.8)}.crumbs a{text-decoration:none}.crumbs a:hover{text-decoration:underline}
+ul.check{list-style:none;padding:0;margin:0}ul.check li{padding:14px 0 14px 34px;border-bottom:1px solid var(--line);position:relative}
+ul.check li:before{content:"";position:absolute;left:4px;top:22px;width:12px;height:7px;border-left:2px solid var(--brass);border-bottom:2px solid var(--brass);transform:rotate(-45deg)}
+.split img.side{border-radius:var(--r);aspect-ratio:4/5;object-fit:cover;width:100%}
+details{border-bottom:1px solid var(--line);padding:20px 0}summary{font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:20px}
+summary:after{content:"+";font-size:22px;color:var(--brass);line-height:1}details[open] summary:after{content:"–"}details p{color:var(--muted);margin:10px 0 0}
+table{width:100%;border-collapse:collapse}td,th{padding:18px 0;text-align:left;border-bottom:1px solid var(--line)}th{font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+td:last-child,th:last-child{text-align:right;color:var(--muted)}td a{text-decoration:none;font-weight:500}
+.cta{background:var(--green);color:#eef1ee;border-radius:28px;padding:64px 48px;display:grid;grid-template-columns:1.4fr 1fr;gap:32px;align-items:center}
+.cta h2{font-size:clamp(34px,4.4vw,52px)}.cta p{color:#b9c5c0;margin:12px 0 0}.cta .btns{justify-content:flex-end}
+@media(max-width:860px){.cta{grid-template-columns:1fr;padding:40px 26px}.cta .btns{justify-content:flex-start}}
+.art{display:grid;grid-template-columns:240px minmax(0,720px);gap:64px;justify-content:center;padding:64px 0}
+@media(max-width:980px){.art{grid-template-columns:1fr;gap:0}.toc{display:none}}
+.toc{position:sticky;top:96px;align-self:start;font-size:14px}.toc b{display:block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
+.toc a{display:block;text-decoration:none;color:var(--muted);padding:6px 0;border-left:2px solid var(--line);padding-left:14px}.toc a:hover{color:var(--ink);border-color:var(--brass)}
+.prose{font-size:18px;line-height:1.75}.prose .lead{font-size:21px;line-height:1.6;color:var(--ink);margin:0 0 12px}
+.prose h2{font-size:clamp(30px,3.4vw,40px);margin:52px 0 14px;scroll-margin-top:90px}.prose p{margin:0 0 18px;color:color-mix(in srgb,var(--ink) 86%,var(--muted))}
+.prose ul{padding-left:20px;margin:0 0 20px}.prose li{margin:6px 0}
+.inline-cta{background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--brass);border-radius:14px;padding:24px 26px;margin:36px 0;display:flex;gap:20px;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.inline-cta b{font:400 26px "Instrument Serif",serif}
+.hubs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:36px}.hubs a{border:1px solid var(--line);border-radius:999px;padding:8px 16px;font-size:14px;text-decoration:none;background:var(--paper)}.hubs a:hover,.hubs a.on{background:var(--green);color:#fff;border-color:var(--green)}
+footer{background:#141c1a;color:#aeb8b4;padding:72px 0 110px;font-size:14.5px}footer a{text-decoration:none;color:#e8ece9}
+footer .cols{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:36px}@media(max-width:860px){footer .cols{grid-template-columns:1fr 1fr}}
+footer h4{font:400 13px Inter;letter-spacing:.14em;text-transform:uppercase;color:#6f7b77;margin:0 0 14px}footer .logo{color:#fff;font-size:30px}
+.cred{margin-top:48px;font-size:12px;color:#5f6b67}
+.float{position:fixed;right:22px;bottom:22px;z-index:50;width:58px;height:58px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 10px 26px rgba(0,0,0,.22)}
+.mbar{display:none}
+@media(max-width:760px){.float{display:none}.mbar{display:grid;grid-template-columns:1fr 1fr;gap:8px;position:fixed;left:10px;right:10px;bottom:10px;z-index:50}
+.mbar a{display:flex;align-items:center;justify-content:center;gap:8px;padding:14px;border-radius:999px;font-weight:600;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,.2)}
+.mbar .w{background:var(--wa);color:#fff}.mbar .t{background:var(--paper);color:var(--ink);border:1px solid var(--line)}}
 """
-WA_SVG = '<svg width="30" height="30" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 1.9 17.7L.3 23.7l6.1-1.6A11.8 11.8 0 0 0 20.5 3.5zM12 21.6c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.6.9 1-3.5-.2-.4A9.8 9.8 0 1 1 12 21.6zm5.4-7.3c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-1 1.2-.4.2-.7.1a8 8 0 0 1-4-3.5c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4s-1 1-1 2.5 1 2.9 1.2 3.1 2.1 3.2 5.1 4.5c1.9.8 2.6.9 3.6.7.6-.1 1.8-.7 2-1.4s.3-1.3.2-1.4-.3-.2-.6-.3z"/></svg>'
+
+WA_ICO = '<svg width="{s}" height="{s}" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 1.9 17.7L.3 23.7l6.1-1.6A11.8 11.8 0 0 0 20.5 3.5zM12 21.6c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.6.9 1-3.5-.2-.4A9.8 9.8 0 1 1 12 21.6zm5.4-7.3c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-1 1.2-.4.2-.7.1a8 8 0 0 1-4-3.5c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4s-1 1-1 2.5 1 2.9 1.2 3.1 2.1 3.2 5.1 4.5c1.9.8 2.6.9 3.6.7.6-.1 1.8-.7 2-1.4s.3-1.3.2-1.4-.3-.2-.6-.3z"/></svg>'
+PHONE_ICO = '<svg width="{s}" height="{s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>'
+CHECK_ICO = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>'
+wa_i = lambda s=20: WA_ICO.format(s=s)
+ph_i = lambda s=18: PHONE_ICO.format(s=s)
+TEL = "tel:" + PHONE.replace(" ", "").replace("-", "")
 
 def wa_link(t, what=""):
     from urllib.parse import quote
@@ -246,52 +288,60 @@ def wa_link(t, what=""):
 def url(lang, slug=""):
     return BASE + "/" + T[lang]["pre"] + (slug + "/" if slug else "")
 
-TEL = "tel:" + PHONE.replace(" ", "").replace("-", "")
+def buttons(t, what="", light=True):
+    b = f'<div class="btns"><a class="btn wa" href="{wa_link(t, what)}">{wa_i()} {t["wa"]}</a><a class="btn ghost" href="{TEL}">{ph_i()} {PHONE}</a>'
+    if GBP_URL:
+        b += f'<a class="btn ghost" href="{GBP_URL}">Google reviews</a>'
+    return b + "</div>"
 
-def buttons(t, what="", dark=True):
-    return (f'<div class="btns"><a class="btn wa" href="{wa_link(t, what)}">{WA_SVG[:-6].replace("30", "22")}</svg> {t["wa"]}</a>'
-            f'<a class="btn tel" href="{TEL}">📞 {PHONE}</a>'
-            f'<a class="btn tg" href="https://t.me/{TELEGRAM}">✈️ {t["tg"]}</a>'
-            + (f'<a class="btn tg" href="{GBP_URL}">⭐ Google</a>' if GBP_URL else '') + '</div>')
+SL = {"en": dict(sv="services", pr="prices", ar="area", ct="contact", gd="guides"),
+      "ru": dict(sv="uslugi", pr="ceny", ar="rajon", ct="kontakty", gd="stati")}
 
-def page(lang, slug, title, descr, body, alt_slug, crumbs=None, schema=None, head=None):
-    t, x, e = T[lang], X[lang], html.escape
-    sv, pr, ar, ct = ("uslugi", "ceny", "rajony", "kontakty") if lang == "ru" else ("services", "prices", "areas", "contact")
-    nav = "".join(f'<a href="{url(lang, s)}">{n}</a>' for s, n in [(sv, t["services"]), (pr, t["prices"]), (ar, t["areas"]), (ct, t["contacts"])])
-    nav += f'<a class="lang" href="{url(t["other"], alt_slug)}" hreflang="{t["other"]}">{t["switch"]}</a><a class="hcall" href="{wa_link(t)}">WhatsApp</a>'
+def page(lang, slug, title, descr, body, alt_slug, crumbs=None, schema=None, head=None, og=None):
+    t, x, e, sl = T[lang], X[lang], html.escape, SL[lang]
+    other = t["other"]
+    nav = "".join(f'<a class="m" href="{url(lang, s)}">{n}</a>' for s, n in [(sl["sv"], t["services"]), (sl["gd"], x["guides"]), (sl["pr"], t["prices"]), (sl["ar"], t["areas"]), (sl["ct"], t["contacts"])])
+    lab = "<b>EN</b> · RU" if lang == "en" else "EN · <b>RU</b>"
+    nav += f'<a class="lang" href="{url(other, alt_slug)}" hreflang="{other}">{lab}</a><a class="hbtn" href="{wa_link(t)}">{wa_i(16)} WhatsApp</a>'
     top = ""
-    if head:  # шапка внутренней страницы с фото
-        cr = '<div class="crumbs"><a href="' + url(lang) + '">' + t["home"] + "</a> › " + " › ".join(
+    if head:
+        cr = '<div class="crumbs"><a href="' + url(lang) + '">' + t["home"] + "</a> / " + " / ".join(
             f'<a href="{u}">{n}</a>' if u else n for n, u in (crumbs or [])) + "</div>"
-        top = f'<div class="phead"><img src="{img(head[0], 1600, 700)}" alt="" fetchpriority="high"><div class="wrap">{cr}<h1>{head[1]}</h1><p style="max-width:680px;font-size:19px">{head[2]}</p>{buttons(t, head[1])}</div></div>'
-    ld = f'<script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>' if schema else ""
-    svc_links = "".join(f'<a href="{url(lang, s[1] if lang == "ru" else s[2])}">{s[3] if lang == "ru" else s[4]}</a><br>' for s in S[:8])
+        top = (f'<div class="phead"><img src="{img(head[0], 1800, 900)}" alt="" fetchpriority="high"><div class="wrap">{cr}'
+               f'<h1>{head[1]}</h1><p>{head[2]}</p>{buttons(t, head[1])}</div></div>')
+    ld = "".join(f'<script type="application/ld+json">{json.dumps(sc, ensure_ascii=False)}</script>' for sc in (schema if isinstance(schema, list) else [schema] if schema else []))
+    svc = "".join(f'<a href="{url(lang, s[2] if lang == "en" else s[1])}">{s[4] if lang == "en" else s[3]}</a><br>' for s in S[:6])
+    hubs = "".join(f'<a href="{url(lang, sl["gd"] + "/" + HUB_EN[h][0])}">{HUB_EN[h][1] if lang == "en" else HUB_RU[h]}</a><br>' for h in HUB_EN)
+    ogimg = og or (head[0] if head else PH["hero"][0])
     return f"""<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{e(title)}</title><meta name="description" content="{e(descr)}"><meta name="theme-color" content="#06606a">
+<title>{e(title)}</title><meta name="description" content="{e(descr)}"><meta name="theme-color" content="#1f3b35">
+{'<meta name="robots" content="noindex,nofollow">' if PREVIEW else ''}
 <link rel="canonical" href="{DOMAIN}{url(lang, slug)}">
-<link rel="alternate" hreflang="{lang}" href="{DOMAIN}{url(lang, slug)}"><link rel="alternate" hreflang="{t['other']}" href="{DOMAIN}{url(t['other'], alt_slug)}">
-<link rel="alternate" hreflang="x-default" href="{DOMAIN}{url('en', alt_slug if lang == 'ru' else slug)}">
-<meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(descr)}"><meta property="og:image" content="{img(PH['hero'][0], 1200, 630)}">
-<link rel="preconnect" href="https://images.unsplash.com"><link rel="stylesheet" href="{BASE}/style.css">{'<meta name="robots" content="noindex,nofollow">' if PREVIEW else ''}{ld}</head><body>
-<div class="topbar"><div class="wrap"><span>🌴 {t['tagline']}</span><span><a href="{TEL}">📞 {PHONE}</a> · <a href="{wa_link(t)}">WhatsApp</a></span></div></div>
-<header><div class="wrap"><a class="logo" href="{url(lang)}"><i>🌺</i>{BRAND}</a><nav>{nav}</nav></div></header>
+<link rel="alternate" hreflang="{lang}" href="{DOMAIN}{url(lang, slug)}"><link rel="alternate" hreflang="{other}" href="{DOMAIN}{url(other, alt_slug)}">
+<link rel="alternate" hreflang="x-default" href="{DOMAIN}{url('en', slug if lang == 'en' else alt_slug)}">
+<meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(descr)}"><meta property="og:image" content="{img(ogimg, 1200, 630)}">
+<link rel="preconnect" href="https://images.unsplash.com"><link rel="stylesheet" href="{BASE}/style.css">{ld}</head><body>
+<header><div class="wrap"><a class="logo" href="{url(lang)}">Sanur<span>Fix</span></a><nav>{nav}</nav></div></header>
 <main>{top}{body}</main>
-<footer><div class="wrap"><div class="cols"><div><b>{BRAND}</b><br>{t['tagline']}.<br>{', '.join(AREAS_RU if lang == 'ru' else AREAS_EN)}.</div>
-<div><b>{t['services']}</b><br>{svc_links}</div>
-<div><b>{t['contacts']}</b><br>📞 <a href="{TEL}">{PHONE}</a><br>💬 <a href="{wa_link(t)}">WhatsApp</a><br>✈️ <a href="https://t.me/{TELEGRAM}">@{TELEGRAM}</a></div></div>
-<div class="cred">{x['credits']}: {', '.join(sorted({a for _, a in PH.values()}))}.</div></div></footer>
-<a class="float" href="{wa_link(t)}" aria-label="WhatsApp">{WA_SVG}</a>
-<div class="mbar"><a class="w" href="{wa_link(t)}">💬 WhatsApp</a><a class="t" href="{TEL}">📞 {t['call']}</a></div>
-<script>document.addEventListener('click',e=>{{const a=e.target.closest('a[href^="https://wa.me"],a[href^="tel:"],a[href^="https://t.me"]');if(a&&window.gtag)gtag('event','generate_lead',{{method:a.href.split(':')[0]}})}});</script>
+<footer><div class="wrap"><div class="cols"><div><a class="logo" href="{url(lang)}">Sanur<span>Fix</span></a><p>{t['tagline']}.<br>{x['badge']}.</p>
+<p><a href="{wa_link(t)}">WhatsApp</a> · <a href="{TEL}">{PHONE}</a></p></div>
+<div><h4>{t['services']}</h4>{svc}</div><div><h4>{x['guides']}</h4>{hubs}</div>
+<div><h4>{t['contacts']}</h4><a href="{wa_link(t)}">WhatsApp</a><br><a href="{TEL}">{PHONE}</a><br><a href="{url(lang, sl['ar'])}">{t['areas']}</a><br><a href="{url(lang, sl['pr'])}">{t['prices']}</a></div></div>
+<div class="cred">{x['credits']}.</div></div></footer>
+<a class="float" href="{wa_link(t)}" aria-label="WhatsApp" style="color:#fff">{wa_i(28)}</a>
+<div class="mbar"><a class="w" href="{wa_link(t)}">{wa_i(18)} WhatsApp</a><a class="t" href="{TEL}">{ph_i(16)} {t['call']}</a></div>
+<script>document.addEventListener('click',e=>{{const a=e.target.closest('a[href^="https://wa.me"],a[href^="tel:"]');if(a&&window.gtag)gtag('event','generate_lead',{{method:a.href.split(':')[0]}})}});</script>
 </body></html>"""
 
 def biz_schema(lang):
     return {"@context": "https://schema.org", "@type": "Plumber", "name": BRAND, "url": DOMAIN + url(lang), "telephone": PHONE,
-            "image": img(PH["hero"][0], 1200), "areaServed": {"@type": "Place", "name": "Sanur, Denpasar Selatan, Bali"}, "sameAs": [GBP_URL] if GBP_URL else []}
+            "image": img(PH["hero"][0], 1200), "areaServed": {"@type": "Place", "name": "Sanur, Denpasar Selatan, Bali"},
+            "sameAs": [GBP_URL] if GBP_URL else []}
 
 pages = []
 def write(lang, slug, content):
-    p = ROOT / T[lang]["pre"] / slug / "index.html" if slug else ROOT / T[lang]["pre"] / "index.html"
+    base = ROOT / T[lang]["pre"] if T[lang]["pre"] else ROOT
+    p = base / slug / "index.html" if slug else base / "index.html"
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(content, encoding="utf-8")
     if slug != "404":
@@ -299,76 +349,165 @@ def write(lang, slug, content):
 
 MAP = '<iframe class="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Sanur,+Denpasar+Selatan,+Bali&z=14&output=embed" title="Sanur map"></iframe>'
 
+def load_articles():
+    """content/<lang>/A###.json → {lang: {id: data}}"""
+    res = {}
+    for lang in ("en", "ru"):
+        d = pathlib.Path(__file__).parent / "content" / lang
+        res[lang] = {}
+        for f in sorted(d.glob("A*.json")) if d.exists() else []:
+            a = json.loads(f.read_text(encoding="utf-8"))
+            a["slug"] = re.sub(r"[^a-z0-9-]+", "-", a["slug"].lower()).strip("-")
+            res[lang][a["id"]] = a
+    # уникальность слагов
+    for lang, arts in res.items():
+        seen = set()
+        for a in arts.values():
+            while a["slug"] in seen:
+                a["slug"] += "-" + a["id"].lower()
+            seen.add(a["slug"])
+    return res
+
+def art_photo(a):
+    pool = HUB_PHOTOS[a["hub"]]
+    p = pool[int(a["id"][1:]) % len(pool)]
+    CREDITS.add(p[1])
+    return p[0]
+
+import re
+
 def build():
     if ROOT.exists():
         shutil.rmtree(ROOT)
     ROOT.mkdir()
     (ROOT / "style.css").write_text(CSS, encoding="utf-8")
-    for lang in ("ru", "en"):
-        t, x = T[lang], X[lang]
-        ru = lang == "ru"
+    ARTS = load_articles()
+    for lang in ("en", "ru"):
+        t, x, sl, ru = T[lang], X[lang], SL[lang], lang == "ru"
+        osl = SL[t["other"]]
         slug_of = lambda s: s[1] if ru else s[2]
         name_of = lambda s: s[3] if ru else s[4]
-        sv, pr, ar, ct = ("uslugi", "ceny", "rajony", "kontakty") if ru else ("services", "prices", "areas", "contact")
-        osv, opr, oar, oct_ = ("services", "prices", "areas", "contact") if ru else ("uslugi", "ceny", "rajony", "kontakty")
-        cards = "".join(f'<a class="scard" href="{url(lang, slug_of(s))}"><img loading="lazy" src="{img(PH[s[0]][0], 600, 400)}" alt="{name_of(s)}">'
-                        f'<div><b>{ICON[s[0]]} {name_of(s)}</b><span>{(s[7] if ru else s[8])[0]} · {(s[7] if ru else s[8])[1].lower()}</span></div></a>' for s in S)
-        trust = '<div class="wrap trust">' + "".join(f"<div><b>{i}</b>{txt}</div>" for i, txt in x["trust"]) + "</div>"
+        areas_l = AREAS_RU if ru else AREAS_EN
+        arts = ARTS[lang]
+        other_arts = ARTS[t["other"]]
+        gpath = lambda a: sl["gd"] + "/" + HUB_EN[a["hub"]][0] + "/" + a["slug"]
+        def alt_art(a):
+            o = other_arts.get(a["id"])
+            return (osl["gd"] + "/" + HUB_EN[o["hub"]][0] + "/" + o["slug"]) if o else osl["gd"]
+
+        cards = "".join(f'<a class="card" href="{url(lang, slug_of(s))}"><div class="im"><img loading="lazy" src="{img(PH[s[0]][0], 700, 525)}" alt="{name_of(s)}"></div>'
+                        f'<h3>{name_of(s)}</h3><p>{(s[7] if ru else s[8])[0]} · {(s[7] if ru else s[8])[1].lower()}</p></a>' for s in S)
+        strip = '<div class="strip"><div class="wrap">' + "".join(f"<div>{CHECK_ICO}<span>{v}</span></div>" for v in x["trust"]) + "</div></div>"
         steps = '<ol class="steps">' + "".join(f"<li>{s}</li>" for s in t["steps"]) + "</ol>"
-        how = f'<section class="band"><div class="wrap"><h2>{t["how"]}</h2><p class="sub">{x["ready"]}</p>{steps}</div></section>'
-        chips = '<div class="areas"><span>📍 Sanur</span>' + "".join(f"<span>{a}</span>" for a in (AREAS_RU if ru else AREAS_EN)) + "</div>"
-        why = f'<section><div class="wrap"><h2>{x["why"]}</h2><div class="why">' + "".join(f"<div><b>{a}</b>{b}</div>" for a, b in x["why_items"]) + "</div></div></section>"
-        master = (f'<section><div class="wrap master"><div class="ph">📷<br>{x["master_ph"]}<br><small>{"(заменить на реальное фото)" if ru else "(replace with a real photo)"}</small></div>'
-                  f'<div><h2>{x["master_h"]}</h2><p class="sub">{x["master_txt"]}</p>{buttons(t)}</div></div></section>')
-        gal = (f'<section><div class="wrap"><h2>{x["gallery"]}</h2><p class="sub">{x["gallery_note"]}</p><div class="gal">'
-               + "".join(f'<img loading="lazy" src="{img(PH[k][0], 500, 500)}" alt="">' for k in ["srv-remont-bassejna", "srv-bojler", "srv-chistka-bassejna", "srv-zasor", "srv-oborudovanie-bassejna", "srv-melkij-remont"])
-               + "</div></div></section>")
-        where = f'<section><div class="wrap split"><div><h2>{x["map_h"]}</h2><p class="sub">{t["area_txt"]}</p>{chips}{buttons(t)}</div>{MAP}</div></section>'
-        cta = f'<div class="wrap"><div class="cta"><h2>{x["ready"]}</h2>{buttons(t)}</div></div>'
+        how = f'<section class="dark"><div class="wrap"><div class="shead"><div><div class="eyebrow">{t["how"]}</div><h2>{x["ready"]}</h2></div><p>{x["ready_sub"]}</p></div>{steps}</div></section>'
+        chips = '<div class="chips"><span>Sanur</span>' + "".join(f"<span>{a}</span>" for a in areas_l) + "</div>"
+        why = (f'<section><div class="wrap"><div class="shead"><h2>{x["why"]}</h2></div><div class="why">'
+               + "".join(f"<div><h3>{a}</h3><p>{b}</p></div>" for a, b in x["why_items"]) + "</div></div></section>")
+        master = (f'<section style="padding-top:0"><div class="wrap master"><div class="ph">{x["master_ph"]}<br>'
+                  f'{"(заменить на реальное фото)" if ru else "(replace with a real photo)"}</div>'
+                  f'<div><div class="eyebrow">{x["badge"]}</div><h2>{x["master_h"]}</h2><p>{x["master_txt"]}</p>{buttons(t)}</div></div></section>')
+        where = (f'<section><div class="wrap split"><div><div class="eyebrow">{t["areas"]}</div><h2>{x["map_h"]}</h2>'
+                 f'<p style="color:var(--muted)">{t["area_txt"]}</p>{chips}{buttons(t)}</div>{MAP}</div></section>')
+        cta = (f'<section style="padding-top:0"><div class="wrap"><div class="cta"><div><h2>{x["ready"]}</h2><p>{x["ready_sub"]}</p></div>'
+               f'<div class="btns"><a class="btn wa" href="{wa_link(t)}">{wa_i()} {t["wa"]}</a><a class="btn ghost" href="{TEL}">{ph_i()} {PHONE}</a></div></div></div></section>')
+        def acard(a):
+            return (f'<a class="card" href="{url(lang, gpath(a))}"><div class="im"><img loading="lazy" src="{img(art_photo(a), 700, 525)}" alt=""></div>'
+                    f'<h3>{html.escape(a["title"])}</h3><p>{html.escape(a["meta"][:120])}…</p><span class="more">{x["read"]} →</span></a>')
+        latest = list(arts.values())[:6]
+        guides_block = (f'<section style="padding-top:0"><div class="wrap"><div class="shead"><div><div class="eyebrow">{x["guides"]}</div><h2>{x["guides_h1"]}</h2></div>'
+                        f'<p><a href="{url(lang, sl["gd"])}">{x["all_guides"]} ({len(arts)}) →</a></p></div><div class="grid">{"".join(acard(a) for a in latest)}</div></div></section>') if latest else ""
 
-        hero = (f'<div class="hero"><img src="{img(PH["hero"][0], 1800, 1000)}" alt="Villa pool in Bali" fetchpriority="high"><div class="wrap">'
-                f'<span class="badge">🌺 {x["badge"]}</span><h1>{t["home_h1"]}</h1><p>{t["home_lead"]}</p>{buttons(t)}</div></div>')
-        body = (hero + trust + f'<section><div class="wrap"><h2>{t["services"]}</h2><p class="sub">{t["home_lead"]}</p><div class="grid">{cards}</div></div></section>'
-                + how + why + master + gal + where + cta)
+        # --- главная ---
+        h1 = t["home_h1"].replace("Sanur", "<em>Sanur</em>").replace("Сануре", "<em>Сануре</em>")
+        hero = (f'<div class="hero"><img src="{img(PH["hero"][0], 2000, 1200)}" alt="" fetchpriority="high"><div class="wrap">'
+                f'<div class="eyebrow">{x["eyebrow"]}</div><h1>{h1}</h1><p>{t["home_lead"]}</p>{buttons(t)}</div></div>')
+        body = (hero + strip + f'<section><div class="wrap"><div class="shead"><div><div class="eyebrow">{t["services"]}</div><h2>{t["tagline"]}</h2></div><p>{x["ready_sub"]}</p></div><div class="grid">{cards}</div></div></section>'
+                + how + why + master + guides_block + where + cta)
         write(lang, "", page(lang, "", f"{t['home_h1']} | {BRAND}", t["home_lead"][:155], body, "", schema=biz_schema(lang)))
-
-        write(lang, sv, page(lang, sv, f"{t['services']} — {t['tagline']}", t["home_lead"][:155],
-                             f'<section><div class="wrap"><div class="grid">{cards}</div></div></section>{how}{cta}', osv,
-                             [(t["services"], None)], head=(PH["sanur"][0], t["services"], t["home_lead"])))
+        # --- услуги ---
+        write(lang, sl["sv"], page(lang, sl["sv"], f"{t['services']} — {t['tagline']}", t["home_lead"][:155],
+                                   strip + f'<section><div class="wrap"><div class="grid">{cards}</div></div></section>{how}{cta}', osl["sv"],
+                                   [(t["services"], None)], head=(PH["sanur"][0], t["services"], t["home_lead"])))
         for s in S:
             n = name_of(s)
-            h1 = n if ("Sanur" in n or "Сануре" in n) else n + (" в Сануре" if ru else " in Sanur")
+            h1s = n if ("Sanur" in n or "Сануре" in n) else n + (" в Сануре" if ru else " in Sanur")
             intro, items, faq_l = (s[5], s[7], s[9]) if ru else (s[6], s[8], s[10])
             faq = "".join(f"<details><summary>{q}</summary><p>{a}</p></details>" for q, a in faq_l)
             price = PRICES.get(s[0], t["on_req"])
+            hub = next(h for h, v in HUB_SRV.items() if v == s[0]) if s[0] in HUB_SRV.values() else None
+            rel = [a for a in arts.values() if a["hub"] == hub][:3] if hub else []
             idx = S.index(s)
             near = [S[(idx + k) % len(S)] for k in (1, 2, 3)]
-            others = "".join(f'<a class="scard" href="{url(lang, slug_of(o))}"><img loading="lazy" src="{img(PH[o[0]][0], 600, 400)}" alt="{name_of(o)}"><div><b>{ICON[o[0]]} {name_of(o)}</b></div></a>' for o in near)
-            body = (trust + f'<section><div class="wrap split"><div><h2>{t["fix"]}</h2><ul class="check">' + "".join(f"<li>{i}</li>" for i in items)
-                    + f'</ul><p><b>{t["price"]}:</b> {price} · <a href="{url(lang, pr)}">{t["prices"]}</a></p></div>'
-                    f'<img loading="lazy" src="{img(PH[s[0]][0], 900, 675)}" alt="{h1}"></div></section>'
-                    + how + f'<section><div class="wrap"><h2>{t["faq"]}</h2>{faq}</div></section>' + where
-                    + f'<section><div class="wrap"><h2>{t["services"]}</h2><div class="grid">{others}</div></div></section>' + cta)
-            sch = [{"@context": "https://schema.org", "@type": "Service", "name": h1, "areaServed": "Sanur, Bali", "provider": {"@type": "Plumber", "name": BRAND, "telephone": PHONE}},
+            ncards = "".join(f'<a class="card" href="{url(lang, slug_of(o))}"><div class="im"><img loading="lazy" src="{img(PH[o[0]][0], 700, 525)}" alt="{name_of(o)}"></div><h3>{name_of(o)}</h3></a>' for o in near)
+            body = (strip + f'<section><div class="wrap split"><div><div class="eyebrow">{t["fix"]}</div><h2>{n}</h2><ul class="check">' + "".join(f"<li>{i}</li>" for i in items)
+                    + f'</ul><p style="margin-top:22px"><b>{t["price"]}:</b> {price} · <a href="{url(lang, sl["pr"])}">{t["prices"]}</a></p></div>'
+                    f'<img class="side" loading="lazy" src="{img(PH[s[0]][0], 900, 1125)}" alt="{h1s}"></div></section>'
+                    + how + f'<section><div class="wrap narrow"><div class="eyebrow">{x["faq_h"]}</div><h2 style="font-size:48px;margin:10px 0 20px">{t["faq"]}</h2>{faq}</div></section>'
+                    + (f'<section style="padding-top:0"><div class="wrap"><div class="shead"><h2>{x["related"]}</h2></div><div class="grid">{"".join(acard(a) for a in rel)}</div></div></section>' if rel else "")
+                    + where + f'<section style="padding-top:0"><div class="wrap"><div class="shead"><h2>{t["services"]}</h2></div><div class="grid">{ncards}</div></div></section>' + cta)
+            sch = [{"@context": "https://schema.org", "@type": "Service", "name": h1s, "areaServed": "Sanur, Bali", "provider": {"@type": "Plumber", "name": BRAND, "telephone": PHONE}},
                    {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq_l]}]
-            write(lang, slug_of(s), page(lang, slug_of(s), f"{h1} | {BRAND}", intro[:155], body, s[2] if ru else s[1],
-                                         [(t["services"], url(lang, sv)), (n, None)], schema=sch, head=(PH[s[0]][0], h1, intro)))
-        rows = "".join(f"<tr><td>{ICON[s[0]]} <a href='{url(lang, slug_of(s))}'>{name_of(s)}</a></td><td>{PRICES.get(s[0], t['on_req'])}</td></tr>" for s in S)
-        write(lang, pr, page(lang, pr, f"{t['prices_h1']} | {BRAND}", t["prices_note"][:155],
-                             f'<section><div class="wrap"><table><tr><th>{t["work"]}</th><th>{t["price"]}</th></tr>{rows}</table></div></section>{how}{cta}',
-                             opr, [(t["prices"], None)], head=(PH["srv-melkij-remont"][0], t["prices_h1"], t["prices_note"])))
-        write(lang, ar, page(lang, ar, f"{t['areas_h1']} | {BRAND}", t["area_txt"], where + f'<section><div class="wrap"><div class="grid">{cards}</div></div></section>' + cta,
-                             oar, [(t["areas"], None)], head=(PH["sanur2"][0], t["areas_h1"], t["area_txt"] + " " + ", ".join(AREAS_RU if ru else AREAS_EN))))
-        write(lang, ct, page(lang, ct, f"{t['contacts_h1']} | {BRAND}", t["contacts_lead"],
-                             f'<section><div class="wrap split"><div><h2>📞 {PHONE}</h2><p class="sub">WhatsApp · Telegram @{TELEGRAM}</p>{chips}</div>{MAP}</div></section>{cta}',
-                             oct_, [(t["contacts"], None)], schema=biz_schema(lang), head=(PH["sanur"][0], t["contacts_h1"], t["contacts_lead"])))
-    write("en", "404", page("en", "404", "404", "", f"<section><div class='wrap'><h1>404</h1><p>{T['en']['nf']} · <a href='{BASE}/'>Главная</a> · <a href='{BASE}/en/'>Home</a></p></div></section>", "404"))
-    shutil.move(str(ROOT / "en" / "404" / "index.html"), str(ROOT / "404.html"))
-    (ROOT / "en" / "404").rmdir()
+            write(lang, slug_of(s), page(lang, slug_of(s), f"{h1s} | {BRAND}", intro[:155], body, s[2] if ru else s[1],
+                                         [(t["services"], url(lang, sl["sv"])), (n, None)], schema=sch, head=(PH[s[0]][0], h1s, intro)))
+        # --- цены / район / контакты ---
+        rows = "".join(f"<tr><td><a href='{url(lang, slug_of(s))}'>{name_of(s)}</a></td><td>{PRICES.get(s[0], t['on_req'])}</td></tr>" for s in S)
+        write(lang, sl["pr"], page(lang, sl["pr"], f"{t['prices_h1']} | {BRAND}", t["prices_note"][:155],
+                                   f'<section><div class="wrap narrow"><table><tr><th>{t["work"]}</th><th>{t["price"]}</th></tr>{rows}</table></div></section>{how}{cta}',
+                                   osl["pr"], [(t["prices"], None)], head=(PH["srv-melkij-remont"][0], t["prices_h1"], t["prices_note"])))
+        write(lang, sl["ar"], page(lang, sl["ar"], f"{t['areas_h1']} | {BRAND}", t["area_txt"], where + f'<section style="padding-top:0"><div class="wrap"><div class="grid">{cards}</div></div></section>' + cta,
+                                   osl["ar"], [(t["areas"], None)], head=(PH["sanur2"][0], t["areas_h1"], t["area_txt"] + " " + ", ".join(areas_l) + ".")))
+        write(lang, sl["ct"], page(lang, sl["ct"], f"{t['contacts_h1']} | {BRAND}", t["contacts_lead"],
+                                   f'<section><div class="wrap split"><div><div class="eyebrow">WhatsApp · {t["call"]}</div><h2>{PHONE}</h2>{buttons(t)}{chips}</div>{MAP}</div></section>',
+                                   osl["ct"], [(t["contacts"], None)], schema=biz_schema(lang), head=(PH["sanur"][0], t["contacts_h1"], t["contacts_lead"])))
+        # --- статьи ---
+        def hubnav(on=None):
+            return '<div class="hubs">' + f'<a class="{"on" if on is None else ""}" href="{url(lang, sl["gd"])}">{x["all_guides"]}</a>' + "".join(
+                f'<a class="{"on" if on == h else ""}" href="{url(lang, sl["gd"] + "/" + HUB_EN[h][0])}">{HUB_EN[h][1] if not ru else HUB_RU[h]}</a>' for h in HUB_EN) + "</div>"
+        write(lang, sl["gd"], page(lang, sl["gd"], f"{x['guides_h1']} | {BRAND}", x["guides_lead"],
+                                   f'<section><div class="wrap">{hubnav()}<div class="grid">{"".join(acard(a) for a in arts.values())}</div></div></section>{cta}',
+                                   osl["gd"], [(x["guides"], None)], head=(PH["sanur"][0], x["guides_h1"], x["guides_lead"])))
+        for h, (hs, hn) in HUB_EN.items():
+            hname = HUB_RU[h] if ru else hn
+            ha = [a for a in arts.values() if a["hub"] == h]
+            write(lang, sl["gd"] + "/" + hs, page(lang, sl["gd"] + "/" + hs, f"{hname} — {x['guides']} | {BRAND}", x["guides_lead"],
+                  f'<section><div class="wrap">{hubnav(h)}<div class="grid">{"".join(acard(a) for a in ha)}</div></div></section>{cta}',
+                  osl["gd"] + "/" + hs, [(x["guides"], url(lang, sl["gd"])), (hname, None)], head=(HUB_PHOTOS[h][0][0], hname, x["guides_lead"])))
+        for a in arts.values():
+            srv = next(s for s in S if s[0] == HUB_SRV[a["hub"]])
+            secs = a["sections"]
+            toc = "".join(f'<a href="#s{i}">{html.escape(sc["h2"])}</a>' for i, sc in enumerate(secs, 1))
+            content = f'<p class="lead">{html.escape(a["intro"])}</p>'
+            for i, sc in enumerate(secs, 1):
+                content += f'<h2 id="s{i}">{html.escape(sc["h2"])}</h2>' + "".join(f"<p>{html.escape(p)}</p>" for p in sc.get("paragraphs", []))
+                if sc.get("bullets"):
+                    content += "<ul>" + "".join(f"<li>{html.escape(b)}</li>" for b in sc["bullets"]) + "</ul>"
+                if i == 2:
+                    content += (f'<div class="inline-cta"><div><b>{x["need_help"]}</b><br><span style="color:var(--muted)">{html.escape(a.get("cta") or x["ready_sub"])}</span></div>'
+                                f'<a class="btn wa" href="{wa_link(t, a["title"])}">{wa_i()} WhatsApp</a></div>')
+            if a.get("faq"):
+                content += f'<h2 id="faq">{x["faq_h"]}</h2>' + "".join(f'<details><summary>{html.escape(q["q"])}</summary><p>{html.escape(q["a"])}</p></details>' for q in a["faq"])
+            content += (f'<div class="inline-cta"><div><b>{name_of(srv)}</b><br><span style="color:var(--muted)">{x["ready_sub"]}</span></div>'
+                        f'<a class="btn ghost" href="{url(lang, slug_of(srv))}">{t["services"]} →</a></div>')
+            rel = [o for o in arts.values() if o["hub"] == a["hub"] and o is not a][:3]
+            body = (f'<div class="wrap art"><aside class="toc"><b>{x["toc"]}</b>{toc}</aside><article class="prose">{content}</article></div>'
+                    + (f'<section style="padding-top:24px"><div class="wrap"><div class="shead"><h2>{x["related"]}</h2></div><div class="grid">{"".join(acard(o) for o in rel)}</div></div></section>' if rel else "") + cta)
+            photo = art_photo(a)
+            hname = HUB_RU[a["hub"]] if ru else HUB_EN[a["hub"]][1]
+            sch = [{"@context": "https://schema.org", "@type": "Article", "headline": a["title"], "description": a["meta"], "image": img(photo, 1200),
+                    "author": {"@type": "Organization", "name": BRAND}, "publisher": {"@type": "Organization", "name": BRAND}}]
+            if a.get("faq"):
+                sch.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q["q"], "acceptedAnswer": {"@type": "Answer", "text": q["a"]}} for q in a["faq"]]})
+            write(lang, gpath(a), page(lang, gpath(a), f"{a['title']} | {BRAND}", a["meta"], body, alt_art(a),
+                                       [(x["guides"], url(lang, sl["gd"])), (hname, url(lang, sl["gd"] + "/" + HUB_EN[a["hub"]][0])), (a["title"][:40] + ("…" if len(a["title"]) > 40 else ""), None)],
+                                       schema=sch, head=(photo, html.escape(a["title"]), html.escape(a["intro"][:220])), og=photo))
+    # 404, robots, sitemap
+    write("en", "404", page("en", "404", "404", "", f"<section><div class='wrap'><h1>404</h1><p>{T['en']['nf']} · <a href='{BASE}/'>Home</a> · <a href='{BASE}/ru/'>Главная</a></p></div></section>", "404"))
+    shutil.move(str(ROOT / "404" / "index.html"), str(ROOT / "404.html"))
+    (ROOT / "404").rmdir()
     (ROOT / "robots.txt").write_text("User-agent: *\nDisallow: /\n" if PREVIEW else f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}{BASE}/sitemap.xml\n", encoding="utf-8")
     sm = "".join(f"<url><loc>{DOMAIN}{url(l, s)}</loc></url>" for l, s in pages)
     (ROOT / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>', encoding="utf-8")
-    print("pages:", len(pages))
+    print("pages:", len(pages), "| articles en/ru:", len(ARTS["en"]), len(ARTS["ru"]))
 
 if __name__ == "__main__":
     build()

@@ -1,0 +1,81 @@
+{
+ "title": "Toilet Keeps Running? How to Fix a Leaky Tank",
+ "slug": "fixing-running-toilet-tank",
+ "meta": "Your Sanur villa toilet keeps running and wasting stored water? Spot and fix a leaky fill valve, worn flush seal, or loose cistern chain in just minutes.",
+ "intro": "If your Sanur villa toilet has been quietly running since last night, you are not alone. Variable PDAM pressure and humid air wear rubber seals faster than they do back home. The good news: most tank leaks are a ten-minute fix with a screwdriver and one new washer.",
+ "sections": [
+  {
+   "h2": "How to Tell Water Is Slipping Into the Bowl",
+   "paragraphs": [
+    "Drop a few drops of food dye into the tank water and wait twenty minutes without flushing. If colour appears in the bowl, water is passing through the flush-valve seal instead of staying put. No colour but the tank overflows means the fill valve is set too high and spilling past the overflow pipe."
+   ],
+   "bullets": [
+    "Dye in the bowl → the flush seat or flapper is worn.",
+    "No dye, tank spills over → float sitting too high on the fill valve.",
+    "Tank never reaches the marked line → inlet diaphragm or stopcock issue."
+   ]
+  },
+  {
+   "h2": "The Fill Valve (Float Assembly)",
+   "paragraphs": [
+    "The fill valve controls how much water enters the tank after each flush. Older villas here often have a simple ball-cock float; newer units use a vertical cylinder with an adjustable height screw. If the float sits too high, water pours past the overflow tube and the toilet runs forever. If it sits too low, the tank underfills and every subsequent flush feels weak."
+   ],
+   "bullets": [
+    "Turn off the small tap at the base of the tank, lift the lid, and lower the float until the water level rests about two centimetres below the top of the overflow pipe.",
+    "Reopen the tap, let the tank fill, and confirm the water stops cleanly without trickling into the overflow.",
+    "A cracked or waterlogged float will not hold air – replace the whole assembly rather than trying to patch it."
+   ]
+  },
+  {
+   "h2": "The Flush Valve (Seat and Flapper)",
+   "paragraphs": [
+    "This is the most common cause of a running toilet in Sanur. The rubber flapper on the ceramic outlet wears rough over time due to PDAM minerals and salt-laden sea air, so the seal never fully closes. You may hear a faint hissing or notice the water level slowly dropping between flushes."
+   ],
+   "bullets": [
+    "Unhook the chain from the lever, pull the old flapper off its clips, wipe the seat with baking soda to lift limescale, then fit the new part with just enough chain slack for the flapper to drop flat.",
+    "If your tank uses a button-and-ring design instead of a hinged flapper, press the button down while the tank is full; any slow release means the ring needs replacing.",
+    "If the ceramic seat itself is chipped, no amount of new washers will help – that needs a plumber's resurfacing kit."
+   ]
+  },
+  {
+   "h2": "Buttons, Chains, and Concealed Cisterns",
+   "paragraphs": [
+    "Many newer villas in Sanur have wall-hung toilets with the cistern hidden behind a board. A loose or stretched chain (or plastic push-rod) between the dual-flush buttons and the internal valve can leave the seal partially lifted after every flush, causing a constant trickle you only notice when the bathroom is quiet."
+   ],
+   "bullets": [
+    "Remove the two chrome button caps with a small flathead screwdriver and adjust the link length so both half- and full-flush positions return the seal fully closed.",
+    "Check the internal rubber diaphragm for tears or warping; if damaged, replace it as a matched set rather than mixing old and new parts.",
+    "Do not force the buttons; a snapped spring inside a concealed unit costs far more to repair than a simple chain adjustment."
+   ]
+  },
+  {
+   "h2": "When to Call a Plumber",
+   "paragraphs": [
+    "You adjusted the float, swapped the flapper, checked the chain, yet the tank still runs or the bowl gurgles constantly. The issue may be a hairline crack in the ceramic, a blocked overflow pipe, or corroded pipework under the floor where PDAM water meets brass fittings – common in older Sanur villas and invisible from above."
+   ],
+   "bullets": [
+    "Send clear photos of the tank interior, flush seat, and fill valve on WhatsApp so the right parts are sourced before the visit.",
+    "Pricing depends on the specific fault and part availability; the technician will quote after reviewing your photos.",
+    "If you smell gas near the bathroom, switch off the supply and ventilate the room before touching anything electrical."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "My toilet fills slowly – is that the same problem?",
+   "a": "Not necessarily. A slow fill usually means a partially closed stopcock, a kinked supply hose, or mineral buildup inside the inlet valve. Check the tap first, then inspect the small mesh screen at the base of the fill valve. If flow is still weak, the inlet diaphragm likely needs replacing."
+  },
+  {
+   "q": "Can I use WD-40 or silicone spray on the rubber seals?",
+   "a": "Avoid petroleum-based products on natural-rubber flappers and diaphragms; they cause the material to swell and crack within weeks. A thin coat of food-grade silicone grease is safe if you need light lubrication, but for most Sanur villa tanks simply swapping the worn part is cheaper and more reliable than any spray."
+  },
+  {
+   "q": "How often should I replace the flapper in a Bali bathroom?",
+   "a": "There is no fixed schedule, but the combination of PDAM water minerals, high humidity, and salt air from the Indian Ocean accelerates wear. As a rule of thumb, if the seal feels hard, brittle, or discoloured when you lift it during your annual tank check, replace it before it starts leaking."
+  }
+ ],
+ "cta": "Snap a photo of your open tank and send it over WhatsApp – we will tell you exactly which part to swap and walk you through the fix step by step.",
+ "id": "A005",
+ "hub": "S",
+ "status": "draft-qwen"
+}

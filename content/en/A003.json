@@ -1,0 +1,77 @@
+{
+ "title": "How to Find a Hidden Water Leak in Your Villa",
+ "slug": "find-hidden-water-leak-villa",
+ "meta": "Find a hidden water leak in your Sanur villa: PDAM meter tests, wall-moisture signs, irrigation faults, and when to call a local technician.",
+ "intro": "You are not imagining it — if your PDAM bill crept up or you notice a faint damp patch on the bathroom wall, there may be a slow leak hiding behind plaster or under tile. In Sanur's humid air and older villa plumbing, small leaks grow quickly. Here is how to narrow down where the water is going before you call anyone out.",
+ "sections": [
+  {
+   "h2": "Signs of a Hidden Leak",
+   "paragraphs": [
+    "A hidden leak rarely announces itself with a dramatic drip. More often you will see subtle clues over a few days. The most common ones in Sanur villas are:",
+    ""
+   ],
+   "bullets": [
+    "The PDAM water meter dial keeps turning even though every tap, shower, and toilet is closed.",
+    "A soft, spongy spot appears on a floorboard or tile, especially near the kitchen sink or bathroom.",
+    "Plaster or paint on an interior wall feels cool and slightly damp to the touch, or shows a faint discolouration ring.",
+    "Your rooftop tank refills more often than usual, or the float valve stays open longer.",
+    "Mould smell builds up in one room faster than the rest of the house, even after cleaning.",
+    "During the dry season your garden looks greener than the neighbours' without extra watering."
+   ]
+  },
+  {
+   "h2": "Checking by Water Meter / PDAM Meter / Check with Taps Closed",
+   "paragraphs": [
+    "This is the fastest first test and takes about ten minutes. Walk through the villa and make sure every tap is fully shut, no washing machine is mid-cycle, no toilet is running, and the pool backwash pump is off. If you have a well-fed system, confirm the transfer pump is also stopped.",
+    "Go to the PDAM meter (usually outside the gate or in a small utility box). Note the position of the little red triangle or the lowest-digit wheel. Wait 15–20 minutes without using any water anywhere in the property. Come back and look again. If the wheel has moved at all — even a tiny fraction — water is leaving somewhere you cannot see.",
+    "If the meter does not move but you still suspect a leak, the problem may be on the supply side before the meter, which means contacting PDAM directly rather than calling a plumber."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Leaks in Walls and Under Floors",
+   "paragraphs": [
+    "Older Sanur villas often have copper or PEX pipes routed inside walls and under raised concrete floors. A slow pinhole or a joint that has worked loose will seep into the cavity long before you see anything on the surface. By the time you spot damp paint, the pipe may have been leaking for weeks.",
+    "Start by checking accessible points: open the kitchen cabinet under the sink, lift the toilet cistern lid, and inspect the connections behind the washing machine. Look for white mineral deposits or a faint sheen on fittings. Then run your hand along skirting boards near wet rooms; a cool, slightly soft section can point to a pipe running just behind it.",
+    "Important safety note: if the damp area is close to an electrical socket, light switch, or any wiring, do not touch it with wet hands and do not attempt to cut into the wall yourself. Switch off the circuit breaker for that room and call a professional who can isolate both water and power safely."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Leaks Outdoors and in Irrigation",
+   "paragraphs": [
+    "A surprising share of 'mystery' leaks in Sanur turn out to be outside. The sea air accelerates corrosion on exposed brass fittings, and the rainy season's heavy downpours can shift soil around buried supply lines, cracking them at joints.",
+    "Walk the perimeter of the villa after closing all interior taps. Check the hose-bib connections, the drip-irrigation manifold, and the line feeding the pool top-up valve. Listen carefully — even a thin hiss under the garden bed can give away a small crack. If you have a septic tank nearby, a slow leak into the soakaway field will make the ground above it noticeably softer than the rest of the yard.",
+    "If your irrigation uses a timer, run one cycle manually while standing near each emitter zone. A zone that stays wet long after the others dry is usually a sign of a broken lateral pipe or a stuck solenoid valve."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "How a Technician Finds the Leak",
+   "paragraphs": [
+    "When the meter test confirms water is moving but you cannot see where, a plumber will typically work through a short sequence: acoustic listening rods along the wall or floor to pinpoint the loudest drip, a thermal-imaging camera to spot the cool moisture trail behind plaster, and in stubborn cases a pressure test on an isolated section of pipe to confirm the exact joint or segment that fails.",
+    "For outdoor lines, they may use a gas-tracer (a harmless hydrogen-nitrogen mix pumped into the pipe) with a surface detector, which works well under concrete paths and garden beds without digging trial holes everywhere.",
+    "The cost depends entirely on what needs to be opened up — a single fitting swap is very different from chasing a pipe inside a load-bearing wall. A technician will quote from photos you send before any work starts, so you know the figure upfront."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "My PDAM meter spins slowly even when nothing is running. Is it definitely a leak?",
+   "a": "In most cases yes, especially if the movement is steady rather than a one-off tick from air in the line. Close every tap, wait 20 minutes, and check again. If the wheel still creeps forward, there is almost certainly a hidden leak somewhere between the meter and your last fixture. Send a short video of the meter turning to a local plumber for a quick second opinion before booking a full visit."
+  },
+  {
+   "q": "I found damp behind the bathroom wall but no visible pipe damage. What now?",
+   "a": "Do not keep using that section of wall or floor while it is wet, particularly near any electrical point. Switch off the power to that room at the breaker panel. The leak may be in a concealed riser, a shower tray seal, or even condensation on an uninsulated cold-water pipe in Sanur's humidity. A technician can use a thermal camera to separate real water ingress from surface moisture and then open only the small area that needs repair."
+  },
+  {
+   "q": "Can I fix a small irrigation-line leak myself?",
+   "a": "If it is a single emitter or a hose-bib washer, yes — shut the zone valve, replace the part, and re-test. But if the crack is in a buried lateral pipe under concrete or garden bed, you will need proper excavation tools and a pressure test afterward to make sure the rest of the line holds. That is where calling a plumber saves you from digging twice."
+  }
+ ],
+ "cta": "Snap a photo of your meter, the damp spot, or the suspicious fitting and send it over WhatsApp — a local Sanur technician will take a look and give you a straight answer before anyone lifts a tool.",
+ "id": "A003",
+ "hub": "S",
+ "status": "draft-qwen"
+}
