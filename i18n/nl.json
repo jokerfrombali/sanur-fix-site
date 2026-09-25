@@ -72,7 +72,67 @@
   "menu": "Menu",
   "language": "Taal",
   "photo_note": "(vervang door een echte foto)",
-  "guides_en": "Gidsen (Engels)"
+  "guides_en": "Gidsen (Engels)",
+  "only": "Alleen Sanur",
+  "call_or_wa": "Stuur een foto via WhatsApp of bel {phone} — ik vertel je wat er nodig is en wanneer ik kan komen.",
+  "local_eyebrow": "Lokale kennis",
+  "local_h": "Loodgieterswerk in Sanur is anders",
+  "local_intro": "De meeste meldingen in Sanur komen door dezelfde lokale omstandigheden. Die kennen is de helft van de diagnose — daarom werk ik alleen in één gebied.",
+  "local_items": [
+   [
+    "Villa's gebouwd 15–20 jaar geleden",
+    "Veel villa's in Sanur draaien nog op hun originele PVC-pijpleidingen en fittingen. Pijpen die in de zon liggen worden bros en naden beginnen te lekken. Vaak is het slimmer een stuk te vervangen dan opnieuw te repareren."
+   ],
+   [
+    "Zoutlucht bij het strand",
+    "In Sindhu, Semawang en Mertasari eet zeelucht kraantjes, douchekoppen, scharnieren en pompmotoren veel sneller aan dan verder van zee. De juiste materialen kiezen bespaart herstelbeurten."
+   ],
+   [
+    "Bronwater en PDAM",
+    "Veel villa's combineren PDAM-leidingen met een put. Dicht bij zee kan bronwater brak zijn — filters en patronen verstoppen sneller en boilers krijgen kalkaanslag."
+   ],
+   [
+    "Dakreservoirs en pompen",
+    "De waterdruk hangt af van het reservoir, de pomp en de drukschakelaar. De meeste meldingen over 'zwakke douche' of 'pomp schakelt steeds aan' beginnen hier, niet bij de kraan."
+   ],
+   [
+    "Voorzieningstanks en toiletpapier",
+    "Voorzieningstanks zijn klein en leidingen smal. Verstoppingen en geurtjes betekenen meestal papier of vet in het systeem, of een tank die te lang niet is opgepompt."
+   ],
+   [
+    "Regenseizoen",
+    "Ongeveer november tot maart test zware regen daken, goten, riolering, zwembaden en voorzieningstanks. Het beste moment voor controles is vóór de eerste grote stormen."
+   ]
+  ],
+  "hoods_h": "Elk deel van Sanur",
+  "hoods_txt": "Ik werk overal in Sanur: Sanur Kaja, Sanur Kauh, Sindhu, Semawang, Mertasari en Batujimbar — langs Jl. Danau Tamblingan, Jl. Danau Poso en de Bypass Ngurah Rai. Villa's, huizen, appartementen en kleine pensions.",
+  "all_services": "Alle diensten",
+  "pricing_h": "Zo werkt de prijsbepaling",
+  "pricing_items": [
+   [
+    "Prijs vóór aanvang",
+    "Stuur foto's of een video — je krijgt een prijs voordat ik kom, en we stemmen af voor de start van het werk."
+   ],
+   [
+    "Onderdelen met bonnetje",
+    "Onderdelen worden tegen kostprijs ingekocht en je krijgt de bon mee."
+   ],
+   [
+    "Fotoreportage",
+    "Na het werk krijg je voor-en-na-foto's via WhatsApp."
+   ]
+  ],
+  "reviews_h": "Wat klanten zeggen",
+  "reviews_more": "Alle reviews op Google",
+  "projects": "Werk",
+  "projects_h1": "Recent werk in Sanur",
+  "projects_lead": "Echte klussen in Sanur: wat er mis was en wat er is gedaan.",
+  "emergency": "Spoedmeldingen",
+  "about_h": "Over de monteur",
+  "years": "jaar ervaring",
+  "langs": "Talen",
+  "warranty": "Garantie",
+  "sample": "Voorbeelddata"
  },
  "services": {
   "srv-santehnik": {
