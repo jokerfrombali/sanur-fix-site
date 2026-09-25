@@ -72,7 +72,79 @@
   "menu": "Menu",
   "language": "Jazyk",
   "photo_note": "(nahraďte skutečnou fotkou)",
-  "guides_en": "Průvodci (anglicky)"
+  "guides_en": "Průvodci (anglicky)",
+  "only": "Jen Sanur",
+  "call_or_wa": "Pošlete fotku přes WhatsApp nebo zavolejte {phone} — řeknu, co je potřeba a kdy můžu přijet.",
+  "local_eyebrow": "Místní znalosti",
+  "local_h": "Instalatérství v Sanuru je jiné",
+  "local_intro": "Většina výjezdů v Sanuru má stejné místní příčiny. Znát je znamená mít půlku diagnózy — proto pracuji jen v jedné oblasti.",
+  "local_items": [
+   [
+    "Vily staré 15–20 let",
+    "Mnoho vil v Sanuru má stále původní PVC potrubí a armatury. Trubky na slunci křehnou a spoje začnou prosakovat. Často je rozumnější vyměnit úsek než ho znovu záplatovat."
+   ],
+   [
+    "Slaný vzduch u pláže",
+    "V Sindhu, Semawangu a Mertasari mořský vzduch ničí baterie, sprchové hlavice, panty a motory čerpadel mnohem rychleji než ve vnitrozemí. Správné materiály ušetří opakované opravy."
+   ],
+   [
+    "Studna a PDAM",
+    "Mnoho vil kombinuje vodovod PDAM se studnou. Blízko moře bývá voda ze studny brakická — filtry a vložky se ucpávají rychleji a v bojlerech se usazuje vodní kámen."
+   ],
+   [
+    "Nádrže na střeše a čerpadla",
+    "Tlak vody závisí na nádrži, čerpadle a tlakovém spínači. Většina hlášení „slabá sprcha“ a „čerpadlo pořád spíná“ začíná tady, ne v kohoutku."
+   ],
+   [
+    "Septiky a toaletní papír",
+    "Septiky jsou malé a trubky úzké. Ucpání a zápach obvykle znamenají papír nebo tuk v systému, případně septik, který měl být dávno vyvezen."
+   ],
+   [
+    "Období dešťů",
+    "Zhruba od listopadu do března prověří lijáky střechy, okapy, odpady, bazény i septiky. Nejlepší je kontrola ještě před prvními velkými bouřkami."
+   ]
+  ],
+  "hoods_h": "Celý Sanur",
+  "hoods_txt": "Pracuji v celém Sanuru: Sanur Kaja, Sanur Kauh, Sindhu, Semawang, Mertasari a Batujimbar — podél Jl. Danau Tamblingan, Jl. Danau Poso a Bypass Ngurah Rai. Vily, domy, apartmány i malé penziony.",
+  "all_services": "Všechny služby",
+  "pricing_h": "Jak počítám cenu",
+  "pricing_items": [
+   [
+    "Cena předem",
+    "Pošlete fotky nebo video — cenu znáte před výjezdem a domluvíme ji před začátkem práce."
+   ],
+   [
+    "Díly s účtenkou",
+    "Díly nakupuji za nákupní cenu a účtenku dostanete vy."
+   ],
+   [
+    "Fotoreport",
+    "Po práci dostanete na WhatsApp fotky „před“ a „po“."
+   ]
+  ],
+  "reviews_h": "Co říkají klienti",
+  "reviews_more": "Všechny recenze na Googlu",
+  "projects": "Práce",
+  "projects_h1": "Nedávné práce v Sanuru",
+  "projects_lead": "Skutečné zakázky v Sanuru: co bylo špatně a co se udělalo.",
+  "emergency": "Urgentní výjezdy",
+  "about_h": "O technikovi",
+  "years": "let praxe",
+  "langs": "Jazyky",
+  "warranty": "Záruka",
+  "sample": "Ukázková data",
+  "form_h": "Napište, co se děje",
+  "form_what": "Co se stalo?",
+  "form_when": "Kdy to potřebujete?",
+  "when_opts": [
+   "Dnes — spěchá",
+   "Tento týden",
+   "Jen cenová nabídka"
+  ],
+  "form_btn": "Poslat přes WhatsApp",
+  "form_note": "Otevře se WhatsApp s vaší zprávou. Přidejte tam fotku.",
+  "rated": "Hodnocení {r} · {n} recenzí",
+  "serving": "Hrdě sloužíme Sanuru"
  },
  "services": {
   "srv-santehnik": {

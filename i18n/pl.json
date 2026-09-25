@@ -72,7 +72,79 @@
   "menu": "Menu",
   "language": "Język",
   "photo_note": "(zamień na prawdziwe zdjęcie)",
-  "guides_en": "Poradniki (angielski)"
+  "guides_en": "Poradniki (angielski)",
+  "only": "Tylko Sanur",
+  "call_or_wa": "Wyślij zdjęcie na WhatsApp albo zadzwoń {phone} — powiem, co trzeba zrobić i kiedy mogę przyjechać.",
+  "local_eyebrow": "Lokalna wiedza",
+  "local_h": "Hydraulika w Sanur jest inna",
+  "local_intro": "Większość zgłoszeń w Sanur wynika z tych samych lokalnych warunków. Ich znajomość to połowa diagnozy — dlatego pracuję tylko w jednej okolicy.",
+  "local_items": [
+   [
+    "Wille sprzed 15–20 lat",
+    "Wiele willi w Sanur ma wciąż oryginalne rury i złączki PVC. Rury na słońcu kruszeją, a połączenia zaczynają przeciekać. Często lepiej wymienić odcinek, niż znowu go łatać."
+   ],
+   [
+    "Słone powietrze przy plaży",
+    "W Sindhu, Semawang i Mertasari morskie powietrze niszczy baterie, słuchawki prysznicowe, zawiasy i silniki pomp znacznie szybciej niż w głębi lądu. Dobre materiały oszczędzają powtórnych napraw."
+   ],
+   [
+    "Woda ze studni i PDAM",
+    "Wiele willi łączy wodociąg PDAM ze studnią. Blisko morza woda ze studni bywa słonawa — filtry i wkłady szybciej się zapychają, a w bojlerach osadza się kamień."
+   ],
+   [
+    "Zbiorniki na dachu i pompy",
+    "Ciśnienie wody zależy od zbiornika, pompy i presostatu. Większość zgłoszeń „słaby prysznic” i „pompa ciągle się włącza” zaczyna się tutaj, a nie w kranie."
+   ],
+   [
+    "Szamba i papier toaletowy",
+    "Szamba są małe, a rury wąskie. Zatory i zapach zwykle oznaczają papier lub tłuszcz w instalacji albo szambo, które dawno trzeba było opróżnić."
+   ],
+   [
+    "Pora deszczowa",
+    "Mniej więcej od listopada do marca ulewy sprawdzają dachy, rynny, odpływy, baseny i szamba. Najlepiej zrobić przegląd przed pierwszymi dużymi burzami."
+   ]
+  ],
+  "hoods_h": "Cały Sanur",
+  "hoods_txt": "Pracuję w całym Sanur: Sanur Kaja, Sanur Kauh, Sindhu, Semawang, Mertasari i Batujimbar — wzdłuż Jl. Danau Tamblingan, Jl. Danau Poso i Bypass Ngurah Rai. Wille, domy, apartamenty i małe pensjonaty.",
+  "all_services": "Wszystkie usługi",
+  "pricing_h": "Jak liczę cenę",
+  "pricing_items": [
+   [
+    "Cena przed pracą",
+    "Wyślij zdjęcia lub film — cenę poznasz przed przyjazdem i ustalamy ją przed rozpoczęciem pracy."
+   ],
+   [
+    "Części z paragonem",
+    "Części kupuję po cenie zakupu, a paragon dostajesz ty."
+   ],
+   [
+    "Raport ze zdjęciami",
+    "Po pracy dostajesz na WhatsApp zdjęcia „przed” i „po”."
+   ]
+  ],
+  "reviews_h": "Opinie klientów",
+  "reviews_more": "Wszystkie opinie w Google",
+  "projects": "Realizacje",
+  "projects_h1": "Ostatnie realizacje w Sanur",
+  "projects_lead": "Prawdziwe zlecenia w Sanur: co było zepsute i co zostało zrobione.",
+  "emergency": "Pilne wezwania",
+  "about_h": "O fachowcu",
+  "years": "lat doświadczenia",
+  "langs": "Języki",
+  "warranty": "Gwarancja",
+  "sample": "Dane przykładowe",
+  "form_h": "Napisz, co się stało",
+  "form_what": "Co się dzieje?",
+  "form_when": "Na kiedy?",
+  "when_opts": [
+   "Dziś — pilne",
+   "W tym tygodniu",
+   "Tylko wycena"
+  ],
+  "form_btn": "Wyślij na WhatsApp",
+  "form_note": "Otworzy się WhatsApp z twoją wiadomością. Dodaj tam zdjęcie.",
+  "rated": "Ocena {r} · {n} opinii",
+  "serving": "Z dumą obsługujemy Sanur"
  },
  "services": {
   "srv-santehnik": {
