@@ -304,6 +304,61 @@
      "Sim, podemos definir um calendário regular."
     ]
    ]
+  },
+  "srv-santehnik": {
+   "name": "Encanador",
+   "intro": "Encanador particular para vilas em Bali: eu mesmo vou até você, identifico o problema e resolvo. Torneiras, vasos sanitários, tubulações, bombas e água quente — em vilas, casas e apartamentos.",
+   "items": [
+    "Torneiras e misturadoras vazando",
+    "Cisterna do vaso correndo ou vazando",
+    "Pressão baixa da água",
+    "Substituição de misturadoras, sifões e mangueiras",
+    "Instalação de vaso sanitário e lavatório",
+    "Ligação de máquina de lavar roupa e lava-louças"
+   ],
+   "faq": [
+    [
+     "Quanto tempo até você chegar?",
+     "Depende da agenda do dia. Mande uma foto no WhatsApp que te digo quando consigo ir."
+    ],
+    [
+     "Quem compra as peças?",
+     "Como preferir. Eu posso comprar e te passar o recibo."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Bombas d'Água e Filtros",
+   "intro": "Bombas, pressostatos, tanques no telhado e filtros de água. Poços perto do mar podem ter água salobra e o Bukit depende de tanques — ajudo com filtragem e abastecimento.",
+   "items": [
+    "Bomba ligando e desligando sem parar",
+    "Sem água na casa",
+    "Tanque transbordando ou vazio",
+    "Instalação de filtro e cartuchos",
+    "Limpeza do tanque no telhado"
+   ],
+   "faq": [
+    [
+     "Com que frequência trocar os cartuchos?",
+     "Geralmente a cada 3–6 meses, dependendo da qualidade da água. Te mostro o que observar."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Reparo de Piscina",
+   "intro": "Vazamentos, azulejos soltos, rejunte, tubulações. Muitas piscinas em Bali têm 15–20 anos — ajudo a decidir o que consertar primeiro.",
+   "items": [
+    "Perda de água — detecção de vazamento",
+    "Azulejos e mosaico soltos",
+    "Troca de rejunte",
+    "Vazamento nas tubulações da piscina"
+   ],
+   "faq": [
+    [
+     "É evaporação ou vazamento?",
+     "Teste do balde: coloque um balde com água no degrau e compare os dois níveis após 24 horas."
+    ]
+   ]
   }
  },
  "hubs": {

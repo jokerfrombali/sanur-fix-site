@@ -108,7 +108,51 @@
   ],
   "form_btn": "Send via WhatsApp",
   "form_note": "Åpner WhatsApp med meldingen din. Legg gjerne til et bilde der.",
-  "rated": "Vurdert {r} · {n} anmeldelser"
+  "rated": "Vurdert {r} · {n} anmeldelser",
+  "tagline": "VVS-montør og bassengservice på Bali",
+  "wa_text": "Hei! Jeg trenger en tekniker på Bali: ",
+  "areas": "Områder",
+  "area_txt": "Jeg jobber i disse områdene på Bali:",
+  "home_h1": "VVS-montør og bassengservice på Bali",
+  "home_lead": "Privat tekniker for villaer: VVS, lekkasjer, varmtvannsberedere, pumper, rengjøring og reparasjon av basseng, småreparasjoner. Canggu, Ubud, Seminyak, Uluwatu, Sanur og flere. Send et bilde – jeg svarer på WhatsApp.",
+  "prices_h1": "Priser på Bali",
+  "areas_h1": "Områder jeg dekker på Bali",
+  "badge": "Bali · 10 områder",
+  "guides_h1": "Guider for villa og basseng på Bali",
+  "guides_lead": "Praktiske guider fra en tekniker på Bali: lekkasjer, varmtvann, pumper, bassenger, septiktanker og små reparasjoner.",
+  "trust": [
+   "Fotoreport på WhatsApp etter hvert oppdrag",
+   "Tilbud basert på dine bilder før jeg kommer",
+   "10 områder på Bali, én tekniker",
+   "Deler fakturert med kvittering"
+  ],
+  "why": "Hvorfor villaeiere i Bali ringer meg",
+  "why_items": [
+   [
+    "Jeg kommer selv",
+    "Ikke et kundesenter og ikke et team. Personen du skriver til er personen som gjør jobben."
+   ],
+   [
+    "Jeg kjenner hvert område",
+    "Grunnvann i Canggu, vanntanker i Uluwatu, fuktighet i Ubud, saltluft i Sanur – hvert område har sine egne typiske problemer."
+   ],
+   [
+    "Rapporter for eierne",
+    "Utenlands? Du får før- og etter-bilder og en kort liste over hva som ble gjort."
+   ]
+  ],
+  "map_h": "Der jeg jobber",
+  "only": "10 områder på Bali",
+  "local_eyebrow": "Lokalkunnskap",
+  "serving": "Tjener 10 områder på Bali",
+  "area_hub_h": "VVS- og bassengservice i {area}",
+  "area_local_h": "Slik er det i {area}",
+  "area_services_h": "Tjenester i {area}",
+  "area_subs_h": "Nabolag jeg dekker i {area}",
+  "other_areas": "Andre områder",
+  "choose_area": "Velg ditt område",
+  "in_area": "i {area}",
+  "areas_lead": "Hvert område på Bali har sine egne vannforhold, jordtype og bygestil. Velg ditt – hver side tar for seg lokale utfordringer og tjenester."
  },
  "services": {
   "srv-protechki": {
@@ -258,6 +302,61 @@
     [
      "Arbeider dere med villaforvaltere?",
      "Ja, vi kan sette opp en fast plan."
+    ]
+   ]
+  },
+  "srv-santehnik": {
+   "name": "Rørfører",
+   "intro": "En privat rørfører for villaer på Bali: Jeg kommer selv, finner årsaken og retter det. Haner, toaletter, rør, pumper og varmtvann – i villaer, hus og leiligheter.",
+   "items": [
+    "Dryppende haner og blandingsbatterier",
+    "Løpende eller lekkende toalettank",
+    "Lavt vanntrykk",
+    "Utskifting av blandingsbatterier, sifoner og slanger",
+    "Montering av toalett og vask",
+    "Tilkobling av vaskemaskin og oppvaskmaskin"
+   ],
+   "faq": [
+    [
+     "Hvor fort kan du komme?",
+     "Avhenger av dagens planlegging. Send et bilde på WhatsApp så forteller jeg deg når jeg kan være der."
+    ],
+    [
+     "Hvem kjøper delene?",
+     "Det er opp til deg. Jeg kan kjøpe dem og gi deg kvitteringen."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Vannpumper og filtre",
+   "intro": "Pumper, trykkskifter, taktanker og vannfiltre. Brønner nær havet kan være brakke, og Bukit-regionen er avhengig av tanklagring – jeg hjelper med filtrering og forsyning.",
+   "items": [
+    "Pumpen starter og stopper hele tiden",
+    "Ingen vann i huset",
+    "Tanken overflyter eller er tom",
+    "Montering av filtre og filterpatroner",
+    "Rensing av taktank"
+   ],
+   "faq": [
+    [
+     "Hvor ofte bør man bytte filterpatroner?",
+     "Vanligvis hvert 3.–6. måned avhengig av vannkvaliteten. Jeg viser deg hva du skal se etter."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Bassengservice",
+   "intro": "Lekkasjer, løse fliser, fuging, rørledninger. Mange bassenger på Bali er 15–20 år gamle – jeg hjelper deg med å bestemme hva som skal rettes først.",
+   "items": [
+    "Vannlekkasje – lekkasjesøk",
+    "Løse fliser og mosaikk",
+    "Ny fuging",
+    "Lekkasjer i bassengrør"
+   ],
+   "faq": [
+    [
+     "Fordamping eller lekkasje?",
+     "Sporettest: Sett en sprett med vann på trappen og sammenlign begge nivåene etter 24 timer."
     ]
    ]
   }

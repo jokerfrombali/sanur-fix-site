@@ -304,6 +304,61 @@
      "Sì, possiamo organizzare un piano di manutenzione regolare."
     ]
    ]
+  },
+  "srv-santehnik": {
+   "name": "Idraulico",
+   "intro": "Idraulico privato per ville a Bali: vengo io stesso, trovo la causa e risolvo il problema. Rubinetti, WC, tubature, pompe e acqua calda — in ville, case e appartamenti.",
+   "items": [
+    "Rubinetti e miscelatori che perdono",
+    "Cassetta del WC che perde o continua a scorrere",
+    "Pressione dell'acqua bassa",
+    "Sostituzione di miscelatori, sifoni e flessibili",
+    "Installazione di WC e lavandini",
+    "Collegamento di lavatrice e lavastoviglie"
+   ],
+   "faq": [
+    [
+     "Quanto presto puoi venire?",
+     "Dipende dal programma della giornata. Mandami una foto su WhatsApp e ti dico quando posso essere da te."
+    ],
+    [
+     "Chi compra i ricambi?",
+     "Come preferisci. Posso comprarli io e darti lo scontrino."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Pompe d'acqua e filtri",
+   "intro": "Pompe, pressostati, serbatoi sul tetto e filtri per l'acqua. I pozzi vicino al mare possono dare acqua salmastra e il Bukit dipende dai serbatoi — ti aiuto con filtrazione e approvvigionamento.",
+   "items": [
+    "La pompa si accende e spegne continuamente",
+    "Nessuna acqua in casa",
+    "Serbatoio che trabocca o vuoto",
+    "Installazione filtri e cartucce",
+    "Pulizia del serbatoio sul tetto"
+   ],
+   "faq": [
+    [
+     "Ogni quanto cambiare le cartucce?",
+     "Di solito ogni 3–6 mesi a seconda dell'acqua. Ti spiego cosa controllare."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Riparazione piscine",
+   "intro": "Perdite, piastrelle scollate, fughe, tubature. Molte piscine a Bali hanno 15–20 anni — ti aiuto a decidere cosa riparare per primo.",
+   "items": [
+    "Perdita d'acqua — ricerca guasti",
+    "Piastrelle e mosaici scollati",
+    "Rifacimento delle fughe",
+    "Perdite nelle tubature della piscina"
+   ],
+   "faq": [
+    [
+     "Evaporazione o perdita?",
+     "Test del secchio: metti un secchio pieno d'acqua sul gradino e confronta i due livelli dopo 24 ore."
+    ]
+   ]
   }
  },
  "hubs": {

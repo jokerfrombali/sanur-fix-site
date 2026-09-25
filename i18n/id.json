@@ -304,6 +304,61 @@
      "Ya, kami bisa mengatur jadwal rutin."
     ]
    ]
+  },
+  "srv-santehnik": {
+   "name": "Tukang Ledeng",
+   "intro": "Tukang ledeng pribadi untuk vila di Bali: saya sendiri yang datang, cari penyebabnya, lalu perbaiki. Kran, toilet, pipa, pompa, air panas — di vila, rumah, maupun apartemen.",
+   "items": [
+    "Kran dan mixer bocor",
+    "Toilet terus mengalir atau tangki bocor",
+    "Tekanan air lemah",
+    "Ganti mixer, trap, dan selang",
+    "Pemasangan toilet dan wastafel",
+    "Instalasi mesin cuci & mesin pencuci piring"
+   ],
+   "faq": [
+    [
+     "Berapa cepat bisa datang?",
+     "Tergantung jadwal hari itu. Kirim foto via WhatsApp, nanti saya kabari kapan bisa sampai."
+    ],
+    [
+     "Siapa yang beli spare part?",
+     "Bisa dua-duanya. Saya bisa belikan dan kasih struknya."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Pompa Air & Filter",
+   "intro": "Pompa air, pressure switch, tangki atap, dan filter air. Sumur dekat pantai bisa payau, area Bukit mengandalkan tangki — saya bantu soal filtrasi dan pasokan air.",
+   "items": [
+    "Pompa terus menyala-mati",
+    "Tidak ada air di rumah",
+    "Tangki meluap atau kosong",
+    "Instalasi filter & penggantian cartridge",
+    "Pembersihan tangki atap"
+   ],
+   "faq": [
+    [
+     "Seberapa sering ganti cartridge?",
+     "Biasanya tiap 3–6 bulan tergantung kualitas air. Saya tunjukkan apa yang perlu diperhatikan."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Perbaikan Kolam Renang",
+   "intro": "Kebocoran, keramik longgar, nat, pipa. Banyak kolam di Bali sudah berumur 15–20 tahun — saya bantu tentukan mana yang harus diperbaiki dulu.",
+   "items": [
+    "Air berkurang — deteksi kebocoran",
+    "Keramik & mozaik longgar",
+    "Pengisian ulang nat",
+    "Kebocoran pipa kolam"
+   ],
+   "faq": [
+    [
+     "Penguapan atau bocor?",
+     "Tes ember: taruh ember berisi air di tangga kolam, lalu bandingkan kedua levelnya setelah 24 jam."
+    ]
+   ]
   }
  },
  "hubs": {

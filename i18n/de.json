@@ -304,6 +304,61 @@
      "Ja, wir können einen festen Wartungsplan erstellen."
     ]
    ]
+  },
+  "srv-santehnik": {
+   "name": "Sanitärtechniker",
+   "intro": "Privater Installateur für Villen auf Bali: Ich komme selbst, finde die Ursache und behebe sie. Armaturen, Toiletten, Rohre, Pumpen und Warmwasser – in Villen, Häusern und Wohnungen.",
+   "items": [
+    "Undichte Wasserhähne und Mischbatterien",
+    "Durchlaufender oder undichter Spülkasten",
+    "Niedriger Wasserdruck",
+    "Austausch von Mischbatterien, Siphons und Schläuchen",
+    "Installation von Toilette und Waschtisch",
+    "Anschluss von Waschmaschine und Geschirrspüler"
+   ],
+   "faq": [
+    [
+     "Wie schnell können Sie kommen?",
+     "Kommt auf den Tagesplan an. Schicken Sie mir ein Foto per WhatsApp, dann sage ich Ihnen, wann ich da sein kann."
+    ],
+    [
+     "Wer kauft die Ersatzteile?",
+     "Beides ist möglich. Ich kann sie besorgen und Ihnen die Quittung geben."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Wasserpumpen & Filter",
+   "intro": "Pumpen, Druckschalter, Dachzisternen und Wasserfilter. Brunnen in Küstennähe können salzhaltig sein, und im Bukit wird auf Zisternen angewiesen – ich helfe bei Filtration und Wasserversorgung.",
+   "items": [
+    "Pumpe schaltet ständig ab",
+    "Kein Wasser im Haus",
+    "Zisterne überläuft oder ist leer",
+    "Filterinstallation und Kartuschen",
+    "Reinigung der Dachzisterne"
+   ],
+   "faq": [
+    [
+     "Wie oft müssen die Kartuschen gewechselt werden?",
+     "In der Regel alle 3–6 Monate, je nach Wasserqualität. Ich zeige Ihnen, worauf Sie achten sollten."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Poolreparatur",
+   "intro": "Undichtigkeiten, lose Fliesen, Fugen, Rohrleitungen. Viele Pools auf Bali sind 15–20 Jahre alt – ich helfe bei der Priorisierung der Reparaturen.",
+   "items": [
+    "Wasserverlust – Leckortung",
+    "Lockere Fliesen und Mosaik",
+    "Fugenausbesserung",
+    "Lecks an Pool-Rohrleitungen"
+   ],
+   "faq": [
+    [
+     "Verdunstung oder Leck?",
+     "Eimer-Test: Stellen Sie einen Eimer mit Wasser auf die Stufe und vergleichen Sie beide Wasserstände nach 24 Stunden."
+    ]
+   ]
   }
  },
  "hubs": {

@@ -304,6 +304,61 @@
      "Ja, vi kan sätta upp en regelbunden schemaläggning."
     ]
    ]
+  },
+  "srv-santehnik": {
+   "name": "VVS-montör",
+   "intro": "En privat VVS-montör för villor i Bali: Jag kommer själv, hittar felet och åtgärdar det. Kranar, toaletter, rör, pumpar och varmvatten – i villor, hus och lägenheter.",
+   "items": [
+    "Läckande kranar och blandare",
+    "Toalettspolning som inte stannar eller läcker",
+    "Lågt vattentryck",
+    "Byta blandare, siffron och slangar",
+    "Montering av toalett och handfat",
+    "Anslutning av tvättmaskin och diskmaskin"
+   ],
+   "faq": [
+    [
+     "Hur snabbt kan du komma?",
+     "Beror på dagens schema. Skicka en bild via WhatsApp så berättar jag när jag kan vara där."
+    ],
+    [
+     "Vem köper delarna?",
+     "Det går båda vägarna. Jag kan köpa dem och ge dig kvittot."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Vattenpumpar & filter",
+   "intro": "Pumpar, tryckväxlar, taktankar och vattenfilter. Brunnar nära havet kan vara saltvatten och Bukit förlitar sig på tankar – jag hjälper till med filtrering och försörjning.",
+   "items": [
+    "Pumpen cyklar hela tiden",
+    "Inget vatten i huset",
+    "Tanken överflödar eller är tom",
+    "Montering av filter och patroner",
+    "Rengöring av taktank"
+   ],
+   "faq": [
+    [
+     "Hur ofta ska man byta patroner?",
+     "Vanligtvis var 3–6 månader beroende på vattnet. Jag visar dig vad du ska titta efter."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Bassängreparation",
+   "intro": "Läckage, lösa plattor, fogmassa, rörledningar. Många bassänger i Bali är 15–20 år gamla – jag hjälper dig att avgöra vad som bör åtgärdas först.",
+   "items": [
+    "Vattenförlust – läckagedetektering",
+    "Lösa plattor och mosaik",
+    "Fogning",
+    "Rörläckage i bassängen"
+   ],
+   "faq": [
+    [
+     "Avdunstning eller läcka?",
+     "Hinktest: Ställ en hink med vatten på trappsteget och jämför båda nivåerna efter 24 timmar."
+    ]
+   ]
   }
  },
  "hubs": {

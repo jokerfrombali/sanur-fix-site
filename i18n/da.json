@@ -108,7 +108,51 @@
   ],
   "form_btn": "Send via WhatsApp",
   "form_note": "Åbner WhatsApp med din besked. Tilføj et billede dér.",
-  "rated": "Vurderet {r} · {n} anmeldelser"
+  "rated": "Vurderet {r} · {n} anmeldelser",
+  "tagline": "VVS-montør & poolservice på Bali",
+  "wa_text": "Hej! Jeg har brug for en tekniker på Bali: ",
+  "areas": "Områder",
+  "area_txt": "Jeg arbejder i disse områder af Bali:",
+  "home_h1": "VVS-montør & poolservice på Bali",
+  "home_lead": "Privat tekniker til villaer: VVS-arbejde, lækager, vandvarmere, pumper, poolrengøring og reparation samt småreparationer. Canggu, Ubud, Seminyak, Uluwatu, Sanur m.fl. Send et foto – så svarer jeg på WhatsApp.",
+  "prices_h1": "Priser i Bali",
+  "areas_h1": "Områder jeg kører til i Bali",
+  "badge": "Bali · 10 områder",
+  "guides_h1": "Vejledninger til villaer & pool i Bali",
+  "guides_lead": "Praktiske guides fra en bali-tekniker: lækager, varmt vand, pumper, pool, septictanke og småreparationer.",
+  "trust": [
+   "Fotoopfølgning på WhatsApp efter hver opgave",
+   "Tilbud ud fra dine fotos, før jeg kommer",
+   "10 områder i Bali, én tekniker",
+   "Dele faktureret med kvittering"
+  ],
+  "why": "Hvorfor villaejere på Bali ringer mig",
+  "why_items": [
+   [
+    "Jeg kommer selv",
+    "Ingen callcenter og ingen hold. Den, du skriver til, er den, der udfører arbejdet."
+   ],
+   [
+    "Jeg kender hvert område",
+    "Grundvand i Canggu, vandtanke i Uluwatu, fugtighed i Ubud, saltluft i Sanur – hvert område har sine egne typiske problemer."
+   ],
+   [
+    "Rapporter til ejere",
+    "Du er i udlandet? Du får før/efter-fotos og en kort oversigt over, hvad der blev gjort."
+   ]
+  ],
+  "map_h": "Hvor jeg arbejder",
+  "only": "10 områder på Bali",
+  "local_eyebrow": "Lokal viden",
+  "serving": "Betjener 10 områder på Bali",
+  "area_hub_h": "VVS-montør & poolservice i {area}",
+  "area_local_h": "Hvad der er anderledes i {area}",
+  "area_services_h": "Tjenester i {area}",
+  "area_subs_h": "Kvarterer jeg dækker i {area}",
+  "other_areas": "Andre områder",
+  "choose_area": "Vælg dit område",
+  "in_area": "i {area}",
+  "areas_lead": "Hvert område på Bali har sin egen vandkvalitet, jordbund og bygestil. Vælg dit – hver side dækker lokale udfordringer og ydelser."
  },
  "services": {
   "srv-protechki": {
@@ -258,6 +302,61 @@
     [
      "Arbejder I med ejendomsforvaltere?",
      "Ja, vi kan aftale en fast plan."
+    ]
+   ]
+  },
+  "srv-santehnik": {
+   "name": "VVS-montør",
+   "intro": "Privat VVS-montør til villaer i Bali: Jeg kommer selv, finder årsagen og løser problemet. Haner, toiletter, rør, pumper og varmt vand – i villaer, huse og lejligheder.",
+   "items": [
+    "Lækende haner og blandere",
+    "Kørende eller lækende toiletcisterne",
+    "Lavt vandtryk",
+    "Udskiftning af blandere, sifoner og slanger",
+    "Montering af toilet og vask",
+    "Tilslutning af vaskemaskine og opvaskemaskine"
+   ],
+   "faq": [
+    [
+     "Hvor hurtigt kan du komme?",
+     "Afhænger af min dagsplan. Send et foto på WhatsApp, så fortæller jeg dig, hvornår jeg kan være der."
+    ],
+    [
+     "Hvem køber reservedelene?",
+     "Det er op til dig. Jeg kan købe dem og give dig kvitteringen."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Vandpumper & filtre",
+   "intro": "Pumper, trykventiler, tagtanker og vandfiltre. Brønde tæt på havet kan være brakke, og Bukit kører på tanke – jeg hjælper med filtrering og forsyning.",
+   "items": [
+    "Pumpen starter hele tiden",
+    "Intet vand i huset",
+    "Tanke overfyldt eller tom",
+    "Filtremontering og patroner",
+    "Rensning af tagtanke"
+   ],
+   "faq": [
+    [
+     "Hvor ofte skal patronerne skiftes?",
+     "Normalt hvert 3.–6. måned afhængigt af vandkvaliteten. Jeg viser dig, hvad du skal holde øje med."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Bassinservice",
+   "intro": "Lækager, løse fliser, fuger og rør. Mange bassiner i Bali er 15–20 år gamle – jeg hjælper dig med at vurdere, hvad der skal repareres først.",
+   "items": [
+    "Vandtab – lækagesøgning",
+    "Løse fliser og mosaik",
+    "Ny fugning",
+    "Rørlækager i bassinet"
+   ],
+   "faq": [
+    [
+     "Fordampning eller lækage?",
+     "Spande-test: Sæt en spand vand på trinnet og sammenlign begge niveauer efter 24 timer."
     ]
    ]
   }

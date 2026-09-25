@@ -304,6 +304,61 @@
      "Oui, nous pouvons mettre en place un planning régulier."
     ]
    ]
+  },
+  "srv-santehnik": {
+   "name": "Plombier",
+   "intro": "Plombier indépendant pour les villas de Bali : je viens moi-même, j'identifie la cause et je répare. Robinets, toilettes, canalisations, pompes et eau chaude — dans les villas, maisons et appartements.",
+   "items": [
+    "Fuites de robinets et mélangeurs",
+    "Cuvette qui fuit ou ne s'arrête pas",
+    "Faible pression d'eau",
+    "Remplacement de mélangeurs, siphons et tuyaux",
+    "Installation de toilettes et lavabos",
+    "Branchement lave-linge et lave-vaisselle"
+   ],
+   "faq": [
+    [
+     "Quels sont vos délais ?",
+     "Ça dépend du planning du jour. Envoyez une photo sur WhatsApp et je vous dirai quand je peux passer."
+    ],
+    [
+     "Qui achète les pièces ?",
+     "Comme vous préférez. Je peux m'en charger et vous donner le reçu."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Pompes à eau & Filtres",
+   "intro": "Pompes, pressostats, citernes en toiture et filtres à eau. Les puits proches de la mer peuvent être saumâtres et le Bukit dépend des citernes — je vous aide pour la filtration et l'alimentation.",
+   "items": [
+    "La pompe tourne sans s'arrêter",
+    "Pas d'eau dans la maison",
+    "Citerne qui déborde ou reste vide",
+    "Installation de filtres et cartouches",
+    "Nettoyage de citerne en toiture"
+   ],
+   "faq": [
+    [
+     "À quelle fréquence changer les cartouches ?",
+     "Généralement tous les 3 à 6 mois selon la qualité de l'eau. Je vous montrerai sur quoi porter votre attention."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Réparation de piscine",
+   "intro": "Fuites, carreaux détachés, joints, plomberie. Beaucoup de piscines à Bali ont 15 à 20 ans — je vous aide à prioriser les réparations.",
+   "items": [
+    "Perte d'eau — recherche de fuite",
+    "Carreaux et mosaïque détachés",
+    "Renouvellement des joints",
+    "Fuites sur les canalisations de la piscine"
+   ],
+   "faq": [
+    [
+     "Évaporation ou fuite ?",
+     "Test du seau : placez un seau d'eau sur le marchepied et comparez les deux niveaux après 24 heures."
+    ]
+   ]
   }
  },
  "hubs": {

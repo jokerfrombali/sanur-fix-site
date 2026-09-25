@@ -304,6 +304,61 @@
      "Ja, we kunnen een vast schema inplannen."
     ]
    ]
+  },
+  "srv-santehnik": {
+   "name": "Loodgieter",
+   "intro": "Privé loodgieter voor villa's op Bali: ik kom zelf langs, vind de oorzaak en los het op. Kranen, toiletten, leidingen, pompen en warm water — in villa's, huizen en appartementen.",
+   "items": [
+    "Lekkende kranen en mengkranen",
+    "Doorlopend of lekkend toiletreservoir",
+    "Lage waterdruk",
+    "Vervangen van mengkranen, sifons en slangen",
+    "Installatie van toilet en wastafel",
+    "Aansluiten van wasmachine en vaatwasser"
+   ],
+   "faq": [
+    [
+     "Hoe snel kun je komen?",
+     "Dat hangt af van de planning van die dag. Stuur een foto via WhatsApp en ik laat je weten wanneer ik er kan zijn."
+    ],
+    [
+     "Wie koopt de onderdelen?",
+     "Beide opties. Ik kan ze kopen en geef je het bonnetje."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Waterpompen & filters",
+   "intro": "Pompen, drukschakelaars, dakruiers en waterfilters. Putten dicht bij zee kunnen brak water bevatten en op de Bukit draait alles op ruiers — ik help met filtratie en watervoorziening.",
+   "items": [
+    "Pomp schakelt continu aan/uit",
+    "Geen water in huis",
+    "Dakruier overloopt of is leeg",
+    "Filterinstallatie en patronenwisseling",
+    "Dakruier reinigen"
+   ],
+   "faq": [
+    [
+     "Hoe vaak moet je patronen wisselen?",
+     "Meestal elke 3–6 maanden, afhankelijk van het water. Ik laat je zien waar je op moet letten."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Zwembadherstel",
+   "intro": "Lekken, losse tegels, voegwerk, leidingwerk. Veel zwembaden op Bali zijn 15–20 jaar oud — ik help je bepalen wat eerst hersteld moet worden.",
+   "items": [
+    "Waterverlies — lekkage detecteren",
+    "Losse tegels en mozaïek",
+    "Voegen herstellen",
+    "Lekkages in zwembadleidingen"
+   ],
+   "faq": [
+    [
+     "Verdamping of een lek?",
+     "Emertest: zet een emmer met water op het trapje en vergelijk beide niveaus na 24 uur."
+    ]
+   ]
   }
  },
  "hubs": {

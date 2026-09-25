@@ -108,7 +108,51 @@
   ],
   "form_btn": "WhatsApp'a Gönder",
   "form_note": "Mesajınızla birlikte WhatsApp açılır. Fotoğraf da ekleyebilirsiniz.",
-  "rated": "{r} puan · {n} değerlendirme"
+  "rated": "{r} puan · {n} değerlendirme",
+  "tagline": "Bali'de Tesisatçı ve Havuz Hizmeti",
+  "wa_text": "Merhaba! Bali'de bir teknisyene ihtiyacım var: ",
+  "areas": "Bölgeler",
+  "area_txt": "Bali'nin şu bölgelerinde çalışıyorum:",
+  "home_h1": "Bali'de Tesisatçı ve Havuz Hizmeti",
+  "home_lead": "Villalara özel teknisyen: tesisat, sızıntı giderme, su ısıtıcısı, pompa, havuz temizliği ve onarımı, küçük tamiratlar. Canggu, Ubud, Seminyak, Uluwatu, Sanur ve çevresi. Fotoğraf gönderin — WhatsApp üzerinden hemen dönüş yapayım.",
+  "prices_h1": "Bali'de Fiyatlar",
+  "areas_h1": "Bali'de Hizmet Verdiğim Bölgeler",
+  "badge": "Bali · 10 bölge",
+  "guides_h1": "Bali için Villa & Havuz Rehberleri",
+  "guides_lead": "Bir Bali teknisyeninden pratik rehberler: sızıntılar, sıcak su, pompalar, havuzlar, septic tank ve küçük tamirler.",
+  "trust": [
+   "Her işten sonra WhatsApp üzerinden fotoğraf raporu",
+   "Fotoğraflarınızdan gelmeden önce fiyat teklifi",
+   "Bali'nin 10 bölgesi, tek teknisyen",
+   "Yedek parçalar fatura ile"
+  ],
+  "why": "Bali'deki villa sahiplerinin beni tercih etme nedeni",
+  "why_items": [
+   [
+    "Ben bizzat gelirim",
+    "Ne bir çağrı merkezi ne de bir ekip. Sizinle yazışan kişi, işi yapan kişidir."
+   ],
+   [
+    "Her bölgeyi iyi bilirim",
+    "Canggu'nun yeraltı suyu, Uluwatu'nun su depoları, Ubud'un nemi, Sanur'un tuzlu havası — her bölgenin kendine özgü tipik sorunları var."
+   ],
+   [
+    "Sahipler için raporlar",
+    "Yurt dışındasınız mı? Önce-sonra fotoğrafları ve yapılan işlerin kısa listesini alırsınız."
+   ]
+  ],
+  "map_h": "Çalışma alanım",
+  "only": "Bali'de 10 bölge",
+  "local_eyebrow": "Yerel bilgi",
+  "serving": "Bali'deki 10 bölgeye hizmet veriyorum",
+  "area_hub_h": "{area}'da Tesisat ve Havuz Hizmeti",
+  "area_local_h": "{area}'da Neler Farklı?",
+  "area_services_h": "{area}'daki Hizmetlerimiz",
+  "area_subs_h": "{area}'da Hizmet Verdiğim Mahalleler",
+  "other_areas": "Diğer Bölgeler",
+  "choose_area": "Bölgenizi Seçin",
+  "in_area": "{area} bölgesinde",
+  "areas_lead": "Bali'nin her köşesinin suyu, toprağı ve yapısı farklı. Bölgenizi seçin — her sayfada o bölgeye özel sorunlar ve hizmetler sizi bekliyor."
  },
  "services": {
   "srv-protechki": {
@@ -258,6 +302,61 @@
     [
      "Vila yöneticileriyle çalışıyor musunuz?",
      "Evet, düzenli bir program oluşturabiliriz."
+    ]
+   ]
+  },
+  "srv-santehnik": {
+   "name": "Tesisatçı",
+   "intro": "Bali villaları için özel tesisatçı: Kendim gelirim, sorunu tespit edip çözerim. Musluklar, tuvaletler, borular, pompalar ve sıcak su — villalarda, evlerde ve dairelerde.",
+   "items": [
+    "Kaçak musluklar ve karıştırıcılar",
+    "Akıtan veya sızdıran tuvalet rezervuarı",
+    "Düşük su basıncı",
+    "Karıştırıcı, sifon ve hortum değişimi",
+    "Tuvalet ve lavabo montajı",
+    "Çamaşır makinesi ve bulaşık makinesi bağlantısı"
+   ],
+   "faq": [
+    [
+     "Ne kadar sürede gelebilirsiniz?",
+     "Günün programına bağlı. WhatsApp'tan bir fotoğraf gönderin, ne zaman gelebileceğimi söyleyeyim."
+    ],
+    [
+     "Yedek parçaları kim alıyor?",
+     "İkisi de olur. Ben alıp fişini verebilirim."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Su Pompaları ve Filtreler",
+   "intro": "Pompalar, basınç şalterleri, çatı tankları ve su filtreleri. Denize yakın kuyular tuzlu olabilir, Bukit bölgesi tanklara bağımlı — filtrasyon ve besleme konusunda yardımcı oluyorum.",
+   "items": [
+    "Pompa sürekli açılıp kapanıyor",
+    "Evde su yok",
+    "Tank taşması veya boşalması",
+    "Filtre montajı ve kartuş değişimi",
+    "Çatı tankı temizliği"
+   ],
+   "faq": [
+    [
+     "Kartuşlar ne sıklıkla değiştirilmeli?",
+     "Suya bağlı olarak genellikle 3–6 ayda bir. Neye dikkat etmeniz gerektiğini göstereyim."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Havuz Tamiri",
+   "intro": "Kaçağı, gevşek fayanslar, derz, boru tesisatı. Bali'deki birçok havuz 15–20 yaşında — önce neyin tamir edileceğine karar vermenize yardımcı oluyorum.",
+   "items": [
+    "Su kaybı — kaçak tespiti",
+    "Gevşek fayans ve mozaik",
+    "Derz yenileme",
+    "Havuz boru kaçağı"
+   ],
+   "faq": [
+    [
+     "Buharlaşma mı, kaçak mı?",
+     "Kova testi: merdivene bir kova su koyun ve 24 saat sonra her iki seviyeyi karşılaştırın."
     ]
    ]
   }

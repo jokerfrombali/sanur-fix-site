@@ -108,7 +108,51 @@
   ],
   "form_btn": "Lähetä WhatsAppiin",
   "form_note": "Avaa WhatsAppin valmiilla viestillä. Lisää sinne myös kuva.",
-  "rated": "Arvosana {r} · {n} arvostelua"
+  "rated": "Arvosana {r} · {n} arvostelua",
+  "tagline": "Putkimies ja allashuolto Balilla",
+  "wa_text": "Hei! Tarvitsen asentajaa Balilla: ",
+  "areas": "Alueet",
+  "area_txt": "Toimin näillä alueilla Balilla:",
+  "home_h1": "Putkimies ja allashuolto Balilla",
+  "home_lead": "Yksityisasentaja villakohtaisesti: putkitustyöt, vuodot, vesilämmittimet, pumput, allaspuhdistus ja -korjaus, pienkorjaukset. Canggu, Ubud, Seminyak, Uluwatu, Sanur ja muut. Lähetä kuva – vastaan WhatsAppissa.",
+  "prices_h1": "Hinnat Balilla",
+  "areas_h1": "Palvelualueeni Balilla",
+  "badge": "Bali · 10 aluetta",
+  "guides_h1": "Villan ja uima-altaan ohjeet Balille",
+  "guides_lead": "Käytännönläheisiä ohjeita balilaiselta tekniikolta: vuodot, lämmin vesi, pumput, altaat, viemärökaivot ja pienkorjaukset.",
+  "trust": [
+   "Valokuvatarkastelu WhatsAppissa jokaisen työn jälkeen",
+   "Hintatarjous valokuviestasi ennen paikalle tuloa",
+   "Balin 10 aluetta – yksi tekniikko",
+   "Osat laskutetaan kuittilla"
+  ],
+  "why": "Miksi villanomistajat Balilla soittavat minulle",
+  "why_items": [
+   [
+    "Tulen itse paikalle",
+    "Ei puhelinkeskus eikä työryhmä. Henkilö, jolle viestit, on sama henkilö, joka tekee työn."
+   ],
+   [
+    "Tunnen jokaisen alueen",
+    "Cangun pohjavesi, Uluwatun vesisäiliöt, Ubudin kosteus, Sanurin suolainen meri-ilma — jokaisella alueella on omat tyypilliset ongelmansa."
+   ],
+   [
+    "Raportit omistajille",
+    "Olet ulkomailla? Saat ennen- ja jälkeen-kuvat sekä lyhyen listan tehdyistä töistä."
+   ]
+  ],
+  "map_h": "Missä työskentelen",
+  "only": "10 aluetta Balilla",
+  "local_eyebrow": "Paikallinen tuntemus",
+  "serving": "Palvelee 10 aluetta Balilla",
+  "area_hub_h": "Lövitys- ja allaspalvelut – {area}",
+  "area_local_h": "Mikä tekee {area}:sta erityisen?",
+  "area_services_h": "Palvelut – {area}",
+  "area_subs_h": "Naapurustot, joita palvele: {area}",
+  "other_areas": "Muut alueet",
+  "choose_area": "Valitse alueesi",
+  "in_area": "alueella {area}",
+  "areas_lead": "Balin jokaisella alueella on omat vesiolosuhteet, maaperä ja rakennustyylit. Valitse omasi – jokainen sivu kattaa paikalliset ongelmat ja palvelut."
  },
  "services": {
   "srv-protechki": {
@@ -258,6 +302,61 @@
     [
      "Teetkö yhteistyötä villanhallintojen kanssa?",
      "Kyllä, voimme sopia säännöllisestä aikataulusta."
+    ]
+   ]
+  },
+  "srv-santehnik": {
+   "name": "Putkimies",
+   "intro": "Yksityinen putkimies Balin villakodeille: tulen itse, löydän syyn ja korjaan sen. Hanat, wc:t, putket, pumpput ja lämminvesi — villakodeissa, taloissa ja asunnoissa.",
+   "items": [
+    "Tippaavat hanat ja sekoittimet",
+    "Juokseva tai vuotava wc-pesukastike",
+    "Matala vesipaine",
+    "Sekoitimien, sifonkien ja letkujen vaihto",
+    "Wc:n ja lavuaarin asennus",
+    "Pesukoneen ja astianpesukoneen liittäminen"
+   ],
+   "faq": [
+    [
+     "Kuinka nopeasti voit tulla?",
+     "Riippuu päivän aikataulusta. Lähetä valokuva WhatsAppiin ja kerroin, milloin ehdin paikalle."
+    ],
+    [
+     "Kuka ostaa osat?",
+     "Molemmat tapaiset toimivat. Voin ostaa ne ja antaa sinulle laskun."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Vesipumput ja suodattimet",
+   "intro": "Pumpput, paineanturakytkimet, katon vesiastiat ja veden suodattimet. Merelle lähellä olevat kaivot voivat olla suolaisia, ja Bukitissa luotetaan vesiastioihin — autan suodatuksessa ja vedensyötössä.",
+   "items": [
+    "Pumppu käynnistyy jatkuvasti",
+    "Ei vettä talossa",
+    "Vesiastia ylitäyttyy tai tyhjenee",
+    "Suodattimen asennus ja patruunat",
+    "Katon vesiastian puhdistus"
+   ],
+   "faq": [
+    [
+     "Kuinka usein vaihdetaan patruunoita?",
+     "Yleensä 3–6 kuukauden välein veden laadusta riippuen. Näytän, mitä kannattaa tarkistaa."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Uima-altaan korjaus",
+   "intro": "Vuodot, irtoavat laatat, laastit, putkisto. Monet Balin allas ovat 15–20 vuotta vanhoja — auttan päättämään, mikä kannattaa korjata ensin.",
+   "items": [
+    "Veden katoaminen — vuodon paikantaminen",
+    "Irtoavat laatat ja mosaiikki",
+    "Laastien uusiminen",
+    "Allasputkien vuodot"
+   ],
+   "faq": [
+    [
+     "Höyrytys vai vuoto?",
+     "Tynnyritesti: laita tynnyri vettä reunalle ja vertaa molempien pintoja 24 tunnin jälkeen."
     ]
    ]
   }

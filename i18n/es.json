@@ -304,6 +304,61 @@
      "Sí, podemos establecer un calendario fijo."
     ]
    ]
+  },
+  "srv-santehnik": {
+   "name": "Fontanero",
+   "intro": "Fontanero privado para villas en Bali: voy yo mismo, busco la causa y lo arreglo. Grifos, inodoros, tuberías, bombas y agua caliente — en villas, casas y apartamentos.",
+   "items": [
+    "Grifos y mezcladores que gotean",
+    "Cisterna del inodoro que no corta o gotea",
+    "Baja presión de agua",
+    "Sustitución de mezcladores, sifones y mangueras",
+    "Instalación de inodoros y lavabos",
+    "Conexión de lavadora y lavavajillas"
+   ],
+   "faq": [
+    [
+     "¿Cuándo puedes venir?",
+     "Depende de la agenda del día. Mándame una foto por WhatsApp y te digo cuándo puedo estar allí."
+    ],
+    [
+     "¿Quién compra las piezas?",
+     "Como prefieras. Puedo comprarlas yo y darte el recibo."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Bombas de agua y filtros",
+   "intro": "Bombas, presostatos, depósitos en azotea y filtros de agua. Los pozos cerca del mar pueden tener agua salobre y en Bukit se depende de depósitos — te ayudo con filtración y suministro.",
+   "items": [
+    "La bomba no para de arrancar",
+    "Sin agua en la casa",
+    "Depósito desbordado o vacío",
+    "Instalación de filtros y cartuchos",
+    "Limpieza de depósito en azotea"
+   ],
+   "faq": [
+    [
+     "¿Cada cuánto cambiar los cartuchos?",
+     "Normalmente cada 3–6 meses según el agua. Te enseño qué revisar."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Reparación de piscinas",
+   "intro": "Fugas, baldosas sueltas, juntas, tuberías. Muchas piscinas en Bali tienen 15–20 años — te ayudo a decidir qué arreglar primero.",
+   "items": [
+    "Pérdida de agua — detección de fugas",
+    "Baldosas y mosaico sueltos",
+    "Renovación de juntas",
+    "Fugas en tuberías de la piscina"
+   ],
+   "faq": [
+    [
+     "¿Evaporación o fuga?",
+     "Prueba del cubo: pon un cubo con agua en el escalón y compara ambos niveles tras 24 horas."
+    ]
+   ]
   }
  },
  "hubs": {

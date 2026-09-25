@@ -304,6 +304,61 @@
      "Tak, możemy ustalić stały harmonogram przeglądów."
     ]
    ]
+  },
+  "srv-santehnik": {
+   "name": "Hydraulik",
+   "intro": "Prywatny hydraulik dla willi na Bali: przyjeżdżam osobiście, znajduję przyczynę i naprawiam. Krany, toalety, rury, pompy i ciepła woda — w willach, domach i mieszkaniach.",
+   "items": [
+    "Ciekące kraniki i mieszacze",
+    "Spłuczka spuszczająca lub przeciekająca",
+    "Niskie ciśnienie wody",
+    "Wymiana mieszaczy, syfonów i węży",
+    "Montaż toalety i umywalki",
+    "Podłączenie pralki i zmywarki"
+   ],
+   "faq": [
+    [
+     "Jak szybko możesz przyjechać?",
+     "Zależy od grafiku na dany dzień. Wyślij zdjęcie na WhatsAppa, a powiem Ci, kiedy będę mógł być u Ciebie."
+    ],
+    [
+     "Kto kupuje części?",
+     "Jak wolisz. Mogę je kupić i dać Ci paragon."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Pompy i filtry wody",
+   "intro": "Pompy, przełączniki ciśnieniowe, zbiorniki na dachu i filtry wody. Studnie blisko morza mogą mieć słoną wodę, a Bukit opiera się na zbiornikach — pomogę z filtracją i zaopatrzeniem.",
+   "items": [
+    "Pompa często się włącza i wyłącza",
+    "Brak wody w domu",
+    "Zbiornik przelewa się lub jest pusty",
+    "Montaż filtra i wymiana wkładów",
+    "Czyszczenie zbiornika na dachu"
+   ],
+   "faq": [
+    [
+     "Jak często zmieniać wkłady?",
+     "Zwykle co 3–6 miesięcy, zależnie od jakości wody. Pokażę Ci, na co zwracać uwagę."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Naprawa basenu",
+   "intro": "Przecieki, luźne kafelki, fugi, instalacja wodna. Wiele basenów na Bali ma 15–20 lat — pomogę ustalić, co naprawić w pierwszej kolejności.",
+   "items": [
+    "Utrata wody — lokalizacja nieszczelności",
+    "Luźne kafelki i mozaika",
+    "Wymiana fug",
+    "Nieszczelności rur basenowych"
+   ],
+   "faq": [
+    [
+     "Parowanie czy przeciek?",
+     "Test wiadra: postaw wiadro z wodą na stopniu i porównaj oba poziomy po 24 godzinach."
+    ]
+   ]
   }
  },
  "hubs": {

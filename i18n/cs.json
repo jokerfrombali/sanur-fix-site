@@ -304,6 +304,61 @@
      "Ano, můžeme si domluvit pravidelný harmonogram."
     ]
    ]
+  },
+  "srv-santehnik": {
+   "name": "Instalatér",
+   "intro": "Soukromý instalatér pro vily na Balí: přijedu osobně, najdu příčinu a opravím ji. Baterie, záchody, potrubí, čerpadla i teplá voda – ve vilách, domech i bytech.",
+   "items": [
+    "Uzínající baterie a směšovače",
+    "Tékoucí nebo unikající splachovací nádržka",
+    "Nízký tlak vody",
+    "Výměna směšovačů, sifonů a hadic",
+    "Montáž WC a umyvadla",
+    "Připojení pračky a myčky"
+   ],
+   "faq": [
+    [
+     "Jak rychle můžete přijet?",
+     "Záleží na denním plánu. Pošlete fotku přes WhatsApp a řeknu vám, kdy tam budu moci být."
+    ],
+    [
+     "Kdo kupuje díly?",
+     "Jako chcete. Mohu je koupit já a předat vám účtenku."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Čerpadla a filtry",
+   "intro": "Čerpadla, tlakové spínače, střešní nádrže a vodní filtry. Studny u moře mohou mít slanou vodu a Bukit spoléhá na nádrže – pomůžu s filtrací i dodávkou vody.",
+   "items": [
+    "Čerpadlo se neustále zapíná a vypíná",
+    "Žádná voda v domě",
+    "Nádrž přetéká nebo je prázdná",
+    "Montáž filtrů a výměna patron",
+    "Vyčištění střešní nádrže"
+   ],
+   "faq": [
+    [
+     "Jak často měnit patrony?",
+     "Obvykle každých 3–6 měsíců podle kvality vody. Ukážu vám, na co si dát pozor."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Opravy bazénů",
+   "intro": "Úniky, uvolněné dlaždice, spárování, potrubí. Mnoho bazénů na Balí má 15–20 let – pomůžu rozhodnout, co opravit nejdřív.",
+   "items": [
+    "Ztráta vody – lokalizace úniku",
+    "Uvolněné dlaždice a mozaika",
+    "Nové spárování",
+    "Úniky v bazénovém potrubí"
+   ],
+   "faq": [
+    [
+     "Vypařování nebo únik?",
+     "Test s vědrem: postavte vedro s vodou na schodek a po 24 hodinách porovnejte hladiny."
+    ]
+   ]
   }
  },
  "hubs": {
