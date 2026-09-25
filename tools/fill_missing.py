@@ -11,6 +11,13 @@ for lang in LANGS:
     d = json.loads(f.read_text(encoding="utf-8"))
     miss = {k: v for k, v in en.items() if k not in d["ui"]}
     if miss:
-        d["ui"].update(tr(miss, lang))
+        try:
+            # по частям: большие пачки модель чаще ломает
+            ks = list(miss)
+            for i in range(0, len(ks), 6):
+                d["ui"].update(tr({k: miss[k] for k in ks[i:i + 6]}, lang))
+        except SystemExit as ex:
+            print(ex, flush=True)
+            continue
         f.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
         print(lang, "filled", len(miss), flush=True)

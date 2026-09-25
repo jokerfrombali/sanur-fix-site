@@ -72,7 +72,67 @@
   "menu": "Menu",
   "language": "Lingua",
   "photo_note": "(sostituisci con una foto reale)",
-  "guides_en": "Guide (Inglese)"
+  "guides_en": "Guide (Inglese)",
+  "only": "Solo Sanur",
+  "call_or_wa": "Invia una foto su WhatsApp o chiama al {phone} — ti dico cosa serve e quando posso passare.",
+  "local_eyebrow": "Conoscenza del territorio",
+  "local_h": "L'idraulica a Sanur è diversa",
+  "local_intro": "La maggior parte degli interventi a Sanur dipende dalle stesse condizioni locali. Conoscerle è metà della diagnosi — ecco perché lavoro solo in questa zona.",
+  "local_items": [
+   [
+    "Ville costruite 15–20 anni fa",
+    "Molte ville di Sanur funzionano ancora con l'impianto idraulico originale in PVC. Le tubature esposte al sole diventano fragili e i giunti iniziano a perdere. Spesso conviene sostituire un tratto piuttosto che rattopparlo di nuovo."
+   ],
+   [
+    "Aria salina vicino alla spiaggia",
+    "A Sindhu, Semawang e Mertasari l'aria marina corrode rubinetti, docce, cerniere e motori delle pompe molto più velocemente rispetto all'interno. Scegliere i materiali giusti evita riparazioni ripetute."
+   ],
+   [
+    "Acqua di pozzo e PDAM",
+    "Molte ville combinano la rete PDAM con un pozzo. Vicino al mare, l'acqua del pozzo può essere salmastra — filtri e cartucce si intasano più in fretta e gli scaldabagni accumulano calcare."
+   ],
+   [
+    "Serbatoi sul tetto e pompe",
+    "La pressione dell'acqua dipende dal serbatoio, dalla pompa e dal pressostato. La maggior parte delle chiamate per 'doccia debole' o 'pompa che si accende continuamente' ha origine qui, non nel rubinetto."
+   ],
+   [
+    "Fosse settiche e carta igienica",
+    "Le fosse settiche sono piccole e le tubature strette. Intasamenti e odori di solito indicano carta o grasso nell'impianto, oppure una fossa che va svuotata."
+   ],
+   [
+    "Stagione delle piogge",
+    "Circa da novembre a marzo le forti piogge mettono alla prova tetti, grondaie, scarichi, piscine e fosse settiche. Il momento migliore per i controlli è prima dei primi temporali importanti."
+   ]
+  ],
+  "hoods_h": "Tutta Sanur",
+  "hoods_txt": "Lavoro in tutta Sanur: Sanur Kaja, Sanur Kauh, Sindhu, Semawang, Mertasari e Batujimbar — lungo Jl. Danau Tamblingan, Jl. Danau Poso e il Bypass Ngurah Rai. Ville, case, appartamenti e piccole guesthouse.",
+  "all_services": "Tutti i servizi",
+  "pricing_h": "Come funziona la tariffa",
+  "pricing_items": [
+   [
+    "Prezzo prima dell'intervento",
+    "Invia foto o un video — ricevi un preventivo prima del mio arrivo e lo confermiamo insieme prima di iniziare."
+   ],
+   [
+    "Ricambi con scontrino",
+    "I ricambi vengono acquistati al costo e ricevi lo scontrino."
+   ],
+   [
+    "Report fotografico",
+    "Dopo l'intervento ricevi foto prima/dopo su WhatsApp."
+   ]
+  ],
+  "reviews_h": "Cosa dicono i clienti",
+  "reviews_more": "Tutte le recensioni su Google",
+  "projects": "Lavori",
+  "projects_h1": "Ultimi lavori a Sanur",
+  "projects_lead": "Interventi reali a Sanur: cosa non funzionava e cosa è stato fatto.",
+  "emergency": "Interventi urgenti",
+  "about_h": "Il tecnico",
+  "years": "anni di esperienza",
+  "langs": "Lingue",
+  "warranty": "Garanzia",
+  "sample": "Dati di esempio"
  },
  "services": {
   "srv-santehnik": {

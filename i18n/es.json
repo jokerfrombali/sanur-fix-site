@@ -72,7 +72,67 @@
   "menu": "Menú",
   "language": "Idioma",
   "photo_note": "(sustituir por una foto real)",
-  "guides_en": "Guías (Inglés)"
+  "guides_en": "Guías (Inglés)",
+  "only": "Solo en Sanur",
+  "call_or_wa": "Envía una foto por WhatsApp o llama al {phone}: te digo qué se necesita y cuándo puedo pasar.",
+  "local_eyebrow": "Conocimiento local",
+  "local_h": "La fontanería en Sanur es diferente",
+  "local_intro": "La mayoría de las averías en Sanur se deben a las mismas condiciones locales. Conocerlas es media el diagnóstico; por eso solo trabajo en una zona.",
+  "local_items": [
+   [
+    "Villas construidas hace 15–20 años",
+    "Muchas villas de Sanur aún funcionan con su tubería y conexiones originales de PVC. Las tuberías expuestas al sol se vuelven frágiles y las uniones empiezan a gotear. A menudo conviene sustituir un tramo en lugar de volver a parcharlo."
+   ],
+   [
+    "Salitre cerca de la playa",
+    "En Sindhu, Semawang y Mertasari el aire salino daña grifos, duchas, bisagras y motores de bomba mucho más rápido que en zonas interiores. Elegir los materiales adecuados evita reparaciones repetidas."
+   ],
+   [
+    "Agua de pozo y PDAM",
+    "Muchas villas combinan la red de PDAM con un pozo. Cerca del mar, el agua del pozo puede ser salobre: filtros y cartuchos se obstruyen antes y los calentadores acumulan sarro."
+   ],
+   [
+    "Depósitos en azotea y bombas",
+    "La presión del agua depende del depósito, la bomba y el presostato. La mayoría de las llamadas por «ducha débil» o «la bomba no deja de encenderse» empiezan aquí, no en el grifo."
+   ],
+   [
+    "Fosas sépticas y papel higiénico",
+    "Las fosas sépticas son pequeñas y las tuberías estrechas. Las obstrucciones y los malos olores suelen deberse a papel o grasa en el sistema, o a una fosa que necesita vaciado."
+   ],
+   [
+    "Temporada de lluvias",
+    "Aproximadamente de noviembre a marzo, las fuertes lluvias ponen a prueba techos, canalones, desagües, piscinas y fosas sépticas. El mejor momento para revisiones es antes de las primeras tormentas grandes."
+   ]
+  ],
+  "hoods_h": "Toda Sanur",
+  "hoods_txt": "Trabajo en toda Sanur: Sanur Kaja, Sanur Kauh, Sindhu, Semawang, Mertasari y Batujimbar — por Jl. Danau Tamblingan, Jl. Danau Poso y el Bypass Ngurah Rai. Villas, casas, apartamentos y pequeñas pensiones.",
+  "all_services": "Todos los servicios",
+  "pricing_h": "Cómo funciona la tarifa",
+  "pricing_items": [
+   [
+    "Precio antes de empezar",
+    "Envía fotos o un vídeo: recibirás un precio antes de que llegue y lo acordamos antes de comenzar."
+   ],
+   [
+    "Repuestos con factura",
+    "Los repuestos se compran al coste y te entrego la factura."
+   ],
+   [
+    "Informe fotográfico",
+    "Después del trabajo recibes fotos de antes y después por WhatsApp."
+   ]
+  ],
+  "reviews_h": "Lo que dicen los clientes",
+  "reviews_more": "Todas las reseñas en Google",
+  "projects": "Trabajos",
+  "projects_h1": "Trabajos recientes en Sanur",
+  "projects_lead": "Averías reales en Sanur: qué fallaba y qué se hizo.",
+  "emergency": "Servicio urgente",
+  "about_h": "Sobre el técnico",
+  "years": "años de experiencia",
+  "langs": "Idiomas",
+  "warranty": "Garantía",
+  "sample": "Datos de ejemplo"
  },
  "services": {
   "srv-santehnik": {

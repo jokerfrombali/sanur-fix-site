@@ -72,7 +72,67 @@
   "menu": "Menü",
   "language": "Sprache",
   "photo_note": "(durch echtes Foto ersetzen)",
-  "guides_en": "Ratgeber (Englisch)"
+  "guides_en": "Ratgeber (Englisch)",
+  "only": "Nur Sanur",
+  "call_or_wa": "Schicken Sie ein Foto per WhatsApp oder rufen Sie {phone} an – ich sage Ihnen, was nötig ist und wann ich vorbeikommen kann.",
+  "local_eyebrow": "Lokales Wissen",
+  "local_h": "Sanitärtechnik in Sanur ist anders",
+  "local_intro": "Die meisten Einsätze in Sanur haben dieselben lokalen Ursachen im Hintergrund. Wer sie kennt, hat die Diagnose schon zur Hälfte gelöst – deshalb arbeite ich nur in einem Gebiet.",
+  "local_items": [
+   [
+    "Villen aus den letzten 15–20 Jahren",
+    "Viele Villen in Sanur laufen noch auf dem ursprünglichen PVC-Rohrsystem mit Original-Armaturen. Rohre, die in der Sonne liegen, werden spröde und Fugen beginnen zu tropfen. Oft ist es klüger, ein Stück komplett zu ersetzen, als es erneut zu flicken."
+   ],
+   [
+    "Salzige Luft am Strand",
+    "In Sindhu, Semawang und Mertasari greift die Meeresluft Armaturen, Duschköpfe, Scharniere und Pumpenmotoren deutlich schneller an als im Landesinneren. Die richtige Materialwahl spart Folge-Reparaturen."
+   ],
+   [
+    "Brunnenwasser und PDAM",
+    "Viele Villen kombinieren das PDAM-Hauptnetz mit einem Brunnen. In Küstennähe kann Brunnenwasser salzhaltig sein – Filter und Kartuschen verstopfen schneller und Heizungen verkalken stärker."
+   ],
+   [
+    "Dachbehälter und Pumpen",
+    "Der Wasserdruck hängt vom Tank, der Pumpe und dem Druckschalter ab. Die meisten Anrufe wegen ‚schwacher Dusche' oder ‚Pumpe schaltet ständig ein' haben hier ihren Ursprung – nicht am Hahn."
+   ],
+   [
+    "Klärschächte und Toilettenpapier",
+    "Klärschächte sind klein und die Rohre eng. Verstopfungen und Gerüche bedeuten meist Papier oder Fett im System – oder ein Schacht, der fällig für die Leerung ist."
+   ],
+   [
+    "Regenzeit",
+    "Etwa von November bis März setzen starke Regenfälle Dächer, Fallrohre, Entwässerungen, Pools und Klärschächte zu. Der beste Zeitpunkt für Kontrollen ist vor den ersten großen Stürmen."
+   ]
+  ],
+  "hoods_h": "Jeder Winkel von Sanur",
+  "hoods_txt": "Ich arbeite in ganz Sanur: Sanur Kaja, Sanur Kauh, Sindhu, Semawang, Mertasari und Batujimbar – entlang der Jl. Danau Tamblingan, Jl. Danau Poso und des Bypass Ngurah Rai. Villen, Häuser, Apartments und kleine Gästehäuser.",
+  "all_services": "Alle Leistungen",
+  "pricing_h": "So funktioniert die Abrechnung",
+  "pricing_items": [
+   [
+    "Preis vor Arbeitsbeginn",
+    "Schicken Sie Fotos oder ein Video – Sie erhalten einen Preis, bevor ich komme, und wir einigen uns darauf, bevor es losgeht."
+   ],
+   [
+    "Material mit Quittung",
+    "Ersatzteile werden zum Einkaufspreis bezogen und Sie erhalten die Quittung."
+   ],
+   [
+    "FotobERICHT",
+    "Nach dem Einsatz erhalten Sie Vorher-Nachher-Fotos per WhatsApp."
+   ]
+  ],
+  "reviews_h": "Was Kunden sagen",
+  "reviews_more": "Alle Bewertungen auf Google",
+  "projects": "Projekte",
+  "projects_h1": "Aktuelle Einsätze in Sanur",
+  "projects_lead": "Echte Einsätze in Sanur: Was das Problem war und was gemacht wurde.",
+  "emergency": "Dringende Einsätze",
+  "about_h": "Über den Techniker",
+  "years": "Jahre Erfahrung",
+  "langs": "Sprachen",
+  "warranty": "Garantie",
+  "sample": "Beispieldaten"
  },
  "services": {
   "srv-santehnik": {

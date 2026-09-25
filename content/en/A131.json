@@ -1,0 +1,77 @@
+{
+ "title": "Why Your Air Conditioner Is Dripping Water – Sanur Fix Guide",
+ "slug": "ac-leaking-water-drain-fix",
+ "meta": "Your AC is dripping on the floor? Learn why condensation drains clog in Bali's humid air and what you can fix before calling a Sanur technician.",
+ "intro": "A small drip under your split-unit indoor head turns into a puddle fast in Sanur's year-round humidity. Most of the time it is not a broken compressor — it is a blocked or poorly sloped drain line collecting algae, dust, and biofilm. Here is how to diagnose the source and what you can safely do yourself before booking a service visit.",
+ "sections": [
+  {
+   "h2": "Why Your AC Drips – The Usual Causes",
+   "paragraphs": [
+    "In Sanur the air sits at 75–85 % relative humidity most of the year, especially from November through April. That means your evaporator coil produces far more condensate than it would in a dry climate. If the drain path is even slightly restricted, water backs up into the shallow pan underneath the coil and spills onto the floor within an hour or two of running.",
+    "The second common cause is low refrigerant charge. When the gas level drops, the coil temperature falls below freezing, frost builds up, and then melts all at once when the unit cycles off. You will see a sudden gush rather than a steady trickle, and the cooling feels weak. This one needs a technician with gauges — do not try to top up gas yourself.",
+    "Older Sanur villas were sometimes wired with a drain tube that simply hangs out the back wall with no slope toward the outside. Gravity does the work; if the tube sags or kinks behind a false ceiling, condensation has nowhere to go but down."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "The Drain Tube – How It Actually Works",
+   "paragraphs": [
+    "Every split-unit indoor head has a small plastic tray (the condensate pan) beneath the evaporator. A 16 mm flexible tube runs from the pan's lowest corner, through the wall sleeve, and ideally ends in a small open loop outside or feeds into a floor drain. The whole run must fall away from the unit — even a 5-degree upward section will trap water.",
+    "In many pre-2010 Sanur villas the original installer routed the tube through a long horizontal stretch inside the ceiling void before dropping it out. That horizontal run is where algae and dust settle first. Over two or three wet seasons a slimy biofilm narrows the bore until flow stops completely.",
+    "Check whether your tube exits visibly on the exterior wall. If you cannot find an outlet, the line may terminate in a sealed box or a blocked internal channel, which explains why nothing drains at all."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Clogged Drain Line – What to Look For",
+   "paragraphs": [
+    "The classic sign of a blocked drain is water appearing on the front face of the indoor unit, usually along the bottom edge, after 30–60 minutes of cooling. You may also notice a faint musty smell when the AC starts, because stagnant water in the pan breeds mould in Bali's warmth.",
+    "If the drip is steady and clear, the blockage is partial. If it gushes only after the unit has been off for a while (thaw cycle), suspect a frozen coil from low refrigerant rather than a clog. The distinction matters because one needs a flush and the other needs a gas leak test.",
+    "Salt-laden sea air accelerates corrosion on any metal fittings near the drain exit. A corroded clamp can let the tube pull free by a few millimetres — enough to leak onto your teak floorboards."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "What You Can Clean Yourself (Safely)",
+   "paragraphs": [
+    "Switch the AC off at the wall isolator or breaker before touching anything. Water and live electrics are a bad combination; if you see exposed wiring inside the panel, stop and call an electrician first.",
+    "Locate the drain outlet outside. Disconnect the tube end from its loop or floor-drain connection. Using a wet-and-dry vacuum set to suction, attach the hose over the open tube end and run it for 30 seconds. This often pulls out the algae plug without disassembling the indoor head.",
+    "If suction does not clear it, gently push a flexible drain snake or a long coat-hanger wire through the tube from the outside in. Follow with a slow pour of plain warm water (a litre or two) to wash debris toward the outside opening. Do NOT use chlorine bleach or strong acid — they degrade the plastic tubing and release fumes in enclosed ceiling spaces.",
+    "While the unit is off, remove the front filter grille and rinse the mesh under tap water. A heavily dusted filter restricts airflow, makes the coil colder, and increases condensate volume beyond what the pan can handle."
+   ],
+   "bullets": [
+    "Turn off power at the breaker before any work near the unit",
+    "Suction the drain tube from the outside end with a wet/dry vac",
+    "Flush with plain warm water only – no bleach, no vinegar concentrate",
+    "Rinse and refit the air filter while you are there"
+   ]
+  },
+  {
+   "h2": "When You Should Call a Technician",
+   "paragraphs": [
+    "Book a professional visit if the drip returns within a week of your cleaning, if the cooling output has noticeably dropped, if you hear a hissing sound from the indoor head (possible refrigerant leak), or if the drain tube itself is cracked, crushed, or missing its wall sleeve entirely.",
+    "A technician will pressure-test the gas circuit, inspect the evaporator for corrosion, re-slope or replace the drain run, and check the fan motor bearings — all things that need proper tools and cannot be judged from a phone photo alone.",
+    "The cost depends on which parts are involved and how accessible the ceiling void is. Send clear photos of the drip point, the indoor unit model plate, and the exterior drain exit on WhatsApp; we will tell you what to check first and give you a quote before anyone climbs a ladder."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is it normal for my AC to drip a few drops in Sanur's humidity?",
+   "a": "One or two drops during an especially muggy day, right after the unit cycles off, can happen as residual condensate drains out. A steady stream, a growing puddle, or water running down the front panel means the drain path is restricted and needs attention."
+  },
+  {
+   "q": "Can I pour white vinegar down the drain line to dissolve the clog?",
+   "a": "A small amount of diluted white vinegar (about one part to four parts water) can help loosen mineral and organic buildup if poured slowly into the outside end while the tube is disconnected. Avoid concentrated acid, chlorine bleach, or any product that fumes — they damage the plastic tubing and are hazardous inside a sealed ceiling cavity."
+  },
+  {
+   "q": "How often should the condensation drain be flushed in Bali?",
+   "a": "Given the constant warmth, high humidity, and dust from nearby construction, every three to six months is sensible. If your villa sits close to a road under renovation or near the beach where salt spray is heavier, lean toward the three-month mark. A quick suction-and-flush routine takes ten minutes and prevents most drip complaints."
+  }
+ ],
+ "cta": "Send a clear photo of the drip point and the indoor unit's model plate on WhatsApp — we will tell you exactly what to check before anyone climbs a ladder.",
+ "id": "A131",
+ "hub": "R",
+ "status": "draft-qwen"
+}

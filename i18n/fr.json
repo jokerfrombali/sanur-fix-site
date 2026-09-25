@@ -72,7 +72,67 @@
   "menu": "Menu",
   "language": "Langue",
   "photo_note": "(à remplacer par une vraie photo)",
-  "guides_en": "Guides (anglais)"
+  "guides_en": "Guides (anglais)",
+  "only": "Uniquement à Sanur",
+  "call_or_wa": "Envoyez une photo sur WhatsApp ou appelez le {phone} — je vous dirai ce qu'il faut et quand je peux passer.",
+  "local_eyebrow": "Connaissance du terrain",
+  "local_h": "La plomberie à Sanur est différente",
+  "local_intro": "La plupart des interventions à Sanur sont liées aux mêmes conditions locales. Les connaître, c'est déjà la moitié du diagnostic — c'est pourquoi je ne travaille que dans cette zone.",
+  "local_items": [
+   [
+    "Villas construites il y a 15 à 20 ans",
+    "Beaucoup de villas à Sanur fonctionnent encore avec leurs canalisations et raccords PVC d'origine. Les tuyaux exposés au soleil deviennent cassants et les joints commencent à suinter. Souvent, il vaut mieux remplacer un tronçon plutôt que de le réparer une énième fois."
+   ],
+   [
+    "Air salin près de la plage",
+    "À Sindhu, Semawang et Mertasari, l'air marin corrode robinets, pommeaux de douche, charnières et moteurs de pompe bien plus vite qu'à l'intérieur des terres. Bien choisir ses matériaux évite les réparations répétées."
+   ],
+   [
+    "Eau de puits et PDAM",
+    "De nombreuses villas combinent le réseau PDAM avec un puits. Près de la mer, l'eau du puits peut être saumâtre — filtres et cartouches se colmatent plus vite et les chauffe-eau encrassent."
+   ],
+   [
+    "Citernes sur toit et pompes",
+    "La pression d'eau dépend de la citerne, de la pompe et du pressostat. La plupart des appels pour « douche faible » ou « pompe qui redémarre en boucle » partent d'ici, pas du robinet."
+   ],
+   [
+    "Fosses septiques et papier toilette",
+    "Les fosses septiques sont petites et les canalisations étroites. Les bouchons et les odeurs signalent généralement du papier ou du gras dans le système, ou une fosse à vidanger depuis longtemps."
+   ],
+   [
+    "Saison des pluies",
+    "De novembre à mars environ, les fortes pluies mettent à l'épreuve toits, gouttières, évacuations, piscines et fosses septiques. Le meilleur moment pour un contrôle est avant les premières grosses averses."
+   ]
+  ],
+  "hoods_h": "Tous les quartiers de Sanur",
+  "hoods_txt": "Je travaille dans tout Sanur : Sanur Kaja, Sanur Kauh, Sindhu, Semawang, Mertasari et Batujimbar — le long de Jl. Danau Tamblingan, Jl. Danau Poso et du Bypass Ngurah Rai. Villas, maisons, appartements et petits hôtels.",
+  "all_services": "Toutes les prestations",
+  "pricing_h": "Comment se calcule le tarif",
+  "pricing_items": [
+   [
+    "Devis avant intervention",
+    "Envoyez des photos ou une vidéo — vous avez un prix avant mon passage, et nous le validons ensemble avant de commencer."
+   ],
+   [
+    "Pièces avec facture",
+    "Les pièces sont achetées au prix coûtant et vous recevez la facture."
+   ],
+   [
+    "Rapport photo",
+    "Après l'intervention, vous recevez des photos avant/après sur WhatsApp."
+   ]
+  ],
+  "reviews_h": "Ce que disent mes clients",
+  "reviews_more": "Tous les avis sur Google",
+  "projects": "Travaux",
+  "projects_h1": "Réalisations récentes à Sanur",
+  "projects_lead": "Des interventions réelles à Sanur : ce qui était en panne et ce qui a été fait.",
+  "emergency": "Interventions d'urgence",
+  "about_h": "À propos du technicien",
+  "years": "ans d'expérience",
+  "langs": "Langues",
+  "warranty": "Garantie",
+  "sample": "Données d'exemple"
  },
  "services": {
   "srv-santehnik": {
