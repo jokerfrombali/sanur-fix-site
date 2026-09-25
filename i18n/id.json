@@ -72,7 +72,67 @@
   "menu": "Menu",
   "language": "Bahasa",
   "photo_note": "(ganti dengan foto asli)",
-  "guides_en": "Panduan (Inggris)"
+  "guides_en": "Panduan (Inggris)",
+  "only": "Khusus Sanur",
+  "call_or_wa": "Kirim foto via WhatsApp atau telepon {phone} — saya akan jelaskan apa yang dibutuhkan dan kapan bisa datang.",
+  "local_eyebrow": "Pemahaman lokal",
+  "local_h": "Instalasi air di Sanur berbeda",
+  "local_intro": "Sebagian besar panggilan servis di Sanur disebabkan oleh kondisi lokal yang sama. Memahaminya adalah separuh dari diagnosis — itulah mengapa saya hanya bekerja di satu area saja.",
+  "local_items": [
+   [
+    "Villa dibangun 15–20 tahun lalu",
+    "Banyak villa di Sanur masih menggunakan pipa dan fitting PVC asli. Pipa yang terpapar matahari menjadi rapuh, dan sambungan mulai rembes. Seringkali lebih baik mengganti sebagian daripada menambal lagi."
+   ],
+   [
+    "Udara asin dekat pantai",
+    "Di Sindhu, Semawang, dan Mertasari, udara laut mengikis keran, kepala shower, engsel, dan motor pompa jauh lebih cepat dibanding daerah pedalaman. Memilih material yang tepat mencegah perbaikan berulang."
+   ],
+   [
+    "Air sumur dan PDAM",
+    "Banyak villa menggabungkan jaringan PDAM dengan sumur. Dekat laut, air sumur bisa payau — filter dan cartridge cepat tersumbat, pemanas membentuk kerak."
+   ],
+   [
+    "Tangki atap dan pompa",
+    "Tekanan air bergantung pada tangki, pompa, dan saklar tekanan. Sebagian besar keluhan 'shower lemah' atau 'pompa terus menyala-mati' bermula di sini, bukan di keran."
+   ],
+   [
+    "Septictank dan kertas toilet",
+    "Septictank kecil dan pipa sempit. Penyumbatan dan bau biasanya berarti ada kertas atau lemak dalam sistem, atau septictank sudah waktunya dipompa."
+   ],
+   [
+    "Musim hujan",
+    "Kira-kira November hingga Maret, hujan deras menguji atap, talang, saluran drainase, kolam renang, dan septictank. Waktu terbaik untuk pengecekan adalah sebelum badai pertama."
+   ]
+  ],
+  "hoods_h": "Seluruh area Sanur",
+  "hoods_txt": "Saya bekerja di seluruh Sanur: Sanur Kaja, Sanur Kauh, Sindhu, Semawang, Mertasari, dan Batujimbar — sepanjang Jl. Danau Tamblingan, Jl. Danau Poso, dan Bypass Ngurah Rai. Villa, rumah, apartemen, dan guesthouse kecil.",
+  "all_services": "Semua layanan",
+  "pricing_h": "Cara penentuan harga",
+  "pricing_items": [
+   [
+    "Harga sebelum kerja",
+    "Kirim foto atau video — Anda mendapat harga sebelum saya datang, dan kami sepakati bersama sebelum pekerjaan dimulai."
+   ],
+   [
+    "Sparepart dengan nota",
+    "Sparepart dibeli sesuai harga pasar dan Anda menerima notanya."
+   ],
+   [
+    "Laporan foto",
+    "Setelah selesai, Anda mendapat foto sebelum-dan-setelah via WhatsApp."
+   ]
+  ],
+  "reviews_h": "Apa kata klien",
+  "reviews_more": "Semua ulasan di Google",
+  "projects": "Proyek",
+  "projects_h1": "Proyek terbaru di Sanur",
+  "projects_lead": "Pekerjaan nyata di Sanur: apa yang rusak dan apa yang diperbaiki.",
+  "emergency": "Pemanggilan darurat",
+  "about_h": "Tentang teknisi",
+  "years": "tahun pengalaman",
+  "langs": "Bahasa",
+  "warranty": "Garansi",
+  "sample": "Data contoh"
  },
  "services": {
   "srv-santehnik": {

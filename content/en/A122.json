@@ -1,0 +1,70 @@
+{
+ "title": "How to Hang a TV, Shelves & Curtain Rails in Your Sanur Villa",
+ "slug": "hang-tv-shelves-curtain-rails",
+ "meta": "Learn how to safely mount a TV, shelves, or curtain rails on Bali villa walls. Wall types, right fixings, load limits, wiring risks, and when to call a pro.",
+ "intro": "You want to hang your flat-screen TV above the sofa, add floating shelves for books, or finally put up those curtain rails you have been meaning to install since moving into the villa. In Sanur, old plaster-over-brick walls and hollow-block builds make this trickier than it looks. Here is what actually matters before you pick up a drill.",
+ "sections": [
+  {
+   "h2": "Walls in Bali: What You Are Really Drilling Into",
+   "paragraphs": [
+    "Most older villas along Sanur's streets were built with laterite brick or fired clay blocks, then covered in a thick layer of cement-sand plaster. Some even have bamboo lath under the plaster. Newer builds use hollow concrete blocks, which are lighter but much less forgiving when you drive an anchor into them. The sea air keeps relative humidity high year-round, and during the rainy season (roughly November to March) moisture wicks through porous plaster. Over time that weakens the bond between plaster and block, so a wall that looked solid five years ago may now crumble around a screw.",
+    "You can usually tell by tapping the surface. A dull thud means solid masonry behind the plaster; a higher-pitched knock suggests a hollow cavity. If you see exposed block edges at corners or where tiles meet the wall, that confirms hollow construction. When in doubt, treat the wall as hollow and plan your fixings accordingly."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Choosing the Right Fixing for the Job",
+   "paragraphs": [
+    "For a lightweight curtain rail on a solid-plaster wall, a standard plastic dowel and wood screw will do fine. For anything heavier – a 55-inch TV on a bracket, a shelf loaded with books, a long rail holding heavy linen drapes – you need a chemical anchor or a metal sleeve anchor rated for the specific substrate. Plastic rawlplugs in hollow block often pull out under load because there is no solid material gripping the threads."
+   ],
+   "bullets": [
+    "TV brackets: use the manufacturer's recommended fixing; if the wall is hollow block, go one size up in anchor diameter",
+    "Floating shelves: spread the load across two or three anchors rather than relying on a single point",
+    "Curtain rails: even though they are light, use at least four fixings along the length to prevent sagging",
+    "Never reuse old holes; drill fresh ones so the anchor seats cleanly"
+   ]
+  },
+  {
+   "h2": "Load Limits: What Can Your Wall Actually Hold?",
+   "paragraphs": [
+    "A 50-inch LED TV weighs roughly 15–20 kg including the bracket. A full bookshelf can easily reach 40 kg. Add the weight of curtain fabric and rod, and a 'light' rail job becomes a structural question. The general rule: check the load rating printed on the anchor packaging and stay well below it. If your plaster feels soft or crumbly when you press a thumbnail into it, reduce the expected load or add extra fixing points.",
+    "In Sanur's humidity, plaster that was poured twenty years ago may have lost some of its original strength. That does not mean the wall will fail, but it means the margin between 'holds fine' and 'slowly pulls out over six months' is narrower than you think. When mounting anything above 10 kg, I would always recommend having a second person double-check the level and tightness after 48 hours."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Wiring Behind the Wall – Check Before You Drill",
+   "paragraphs": [
+    "Older Balinese villas were often wired with surface-mounted cables running in shallow chases, or with conduit tucked just under the plaster near switches and outlets. In newer builds, wiring runs inside the block cavities. Before you drill anywhere other than dead-centre of a large blank wall, look for tell-tale signs: small rectangular patches of slightly different plaster colour, a faint line running horizontally at switch height, or a slight ridge where conduit sits behind the surface.",
+    "If your drill bit hits metal, sparks fly, or you smell burning plastic – stop immediately, unplug the tool, and do not try to finish the hole. Call an electrician before proceeding. Drilling into a live cable can trip breakers, damage appliances, or cause a short that is far more expensive to fix than the shelf you were installing."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "When It Is Worth Calling a Technician",
+   "paragraphs": [
+    "A local technician will come with the right core-drill bits for hollow block, chemical anchor kits, a proper spirit level, and the patience to find solid masonry if the first spot turns out to be weak. They will mark the drilling points, confirm there is no wiring in the path using a cable detector, drill clean holes, set the anchors, mount the bracket or rail, check it is perfectly level, and wipe up the dust.",
+    "Because every villa is built differently, pricing depends on the specific job – wall type, number of fixings, whether you need a new bracket supplied, access height, and so on. The simplest way to get a quote is to send a clear photo of the wall area and what you want mounted, along with the item's weight, over WhatsApp. You will get a straightforward answer and a price before anyone picks up a drill."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I hang a TV on a hollow-block wall?",
+   "a": "Yes, but not with standard plastic dowels. Use a chemical anchor or a metal sleeve anchor sized for hollow concrete block, and make sure the bracket's screw length matches the anchor depth. If the TV is 65 inches or larger, spread the load across four fixing points minimum."
+  },
+  {
+   "q": "How do I tell if my Sanur villa wall is solid or hollow?",
+   "a": "Tap it with your knuckle. A dull, flat thud means solid brick or block behind plaster. A higher-pitched, echoing knock means there is an air cavity. You can also check at exposed edges – corners, door frames, or where tiles end – to see the actual block material."
+  },
+  {
+   "q": "Should I wait until after the rainy season to install shelves?",
+   "a": "Not necessarily, but avoid drilling into walls that are visibly damp or showing tide marks from recent rain. Moisture in fresh plaster or around new anchors can weaken the bond in the first few days. If the wall is dry to the touch and has been for a couple of weeks, you are fine to proceed."
+  }
+ ],
+ "cta": "Send me a photo of the wall and what you want to hang on WhatsApp, and I will let you know the right fixings and give you a quote before any work starts.",
+ "id": "A122",
+ "hub": "R",
+ "status": "draft-qwen"
+}
