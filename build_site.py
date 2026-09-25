@@ -9,7 +9,7 @@ from urllib.parse import quote
 DOMAIN = "https://jokerfrombali.github.io"  # домен сайта (без слэша в конце)
 BASE = "/sanur-fix-site"                # подпапка; для своего домена — ""
 PREVIEW = True                          # True = закрыт от индексации (просмотр на GitHub Pages)
-BRAND = "Sanur Fix"                     # название (рабочее)
+BRAND = "Bali Fix"                      # название
 WHATSAPP = "6280000000000"              # номер WhatsApp без +
 PHONE = "+62 800-0000-0000"
 GBP_URL = ""   # ссылка на карточку в Google Картах, когда появится
@@ -179,9 +179,9 @@ def page(lang, slug, title, descr, body, alts, crumbs=None, schema=None, head=No
 {'<meta name="robots" content="noindex,nofollow">' if PREVIEW else ''}<link rel="canonical" href="{DOMAIN}{url(lang, slug)}">{hl}
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(descr)}"><meta property="og:image" content="{img(og or (head[0] if head else PH['hero']), 1200, 630)}"><meta property="og:locale" content="{lang}">
 <link rel="preconnect" href="https://images.unsplash.com"><link rel="stylesheet" href="{BASE}/style.css?v={CSS_V}">{ld}</head><body>
-<header><div class="wrap"><a class="logo" href="{url(lang)}">{LOGO}Sanur<span>Fix</span></a>{nav}{tools_}</div></header>{mnav}
+<header><div class="wrap"><a class="logo" href="{url(lang)}">{LOGO}Bali<span>Fix</span></a>{nav}{tools_}</div></header>{mnav}
 <main>{top}{body}</main>
-<footer><div class="wrap"><div class="cols"><div><a class="logo" href="{url(lang)}">{LOGO}Sanur<span>Fix</span></a><p>{u['tagline']}.<br>{u['badge']}.</p>
+<footer><div class="wrap"><div class="cols"><div><a class="logo" href="{url(lang)}">{LOGO}Bali<span>Fix</span></a><p>{u['tagline']}.<br>{u['badge']}.</p>
 <p><a href="{wa_link(u)}">WhatsApp</a> · <a href="{TEL}">{PHONE}</a></p></div>
 <div><h4>{u['services']}</h4>{svc}</div><div><h4>{u['areas']}</h4>{ars}</div>
 <div><h4>{u['contacts']}</h4><a href="{wa_link(u)}">WhatsApp</a><br><a href="{TEL}">{PHONE}</a><br><a href="{url(gl, sec(gl, 'gd'))}">{u['guides']}</a><br><a href="{url(lang, sec(lang, 'pr'))}">{u['prices']}</a></div></div>
