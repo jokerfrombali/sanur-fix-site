@@ -22,6 +22,36 @@ REVIEWS = []
 # Работы «было/стало». [{"slug": "pool-leak-sindhu", "area": "Sindhu", "title": {"en": "...", "ru": "..."},
 #   "text": {"en": "...", "ru": "..."}, "before": "URL", "after": "URL", "service": "srv-remont-bassejna"}]
 PROJECTS = []
+# DEMO = True: подставляются примерные мастер/отзывы/работы/срочный вызов с пометкой «Пример» на каждом блоке.
+# Перед запуском: заполнить MASTER/REVIEWS/PROJECTS реальными данными и поставить DEMO = False.
+DEMO = True
+if DEMO:
+    EMERGENCY = True
+    MASTER = {"name": "Made", "photo": "https://images.unsplash.com/photo-1749532125405-70950966b0e5?auto=format&fit=crop&w=900&h=1125&q=70",
+              "years": "12", "languages": "English, Bahasa", "warranty": {"en": "3 months on work", "ru": "3 месяца на работу"}}
+    REVIEWS = [
+        {"name": "Sample — Anna, Sindhu", "stars": 5, "text": "Sample review: our pool pump stopped the day before guests arrived. Sent a photo on WhatsApp, got a price in ten minutes, fixed the same afternoon."},
+        {"name": "Sample — Mark, Semawang", "stars": 5, "text": "Sample review: found a hidden leak under the kitchen that two other people missed. Sent before-and-after photos, very clear pricing."},
+        {"name": "Sample — Olga, Sanur Kaja", "stars": 5, "text": "Sample review: regular pool service while we are in Europe. Report with photos after every visit — exactly what we needed."},
+    ]
+    _u = lambda p: f"https://images.unsplash.com/{p}?auto=format&fit=crop&w=700&h=900&q=70"
+    PROJECTS = [
+        {"slug": "sample-pool-leak-sindhu", "area": "Sindhu", "service": "srv-remont-bassejna",
+         "title": {"en": "Sample: pool losing 3 cm a day", "ru": "Пример: бассейн терял 3 см в день"},
+         "text": {"en": "Sample project. Bucket test confirmed a leak, pressure test found a cracked return line. Section replaced, pool refilled, level stable after a week.",
+                  "ru": "Пример работы. Тест с ведром подтвердил протечку, опрессовка нашла треснувшую трубу возврата. Участок заменён, бассейн долит, уровень стабилен через неделю."},
+         "before": _u("photo-1724660583299-2356fe880e54"), "after": _u("photo-1509600110300-21b9d5fedeb7")},
+        {"slug": "sample-water-heater-semawang", "area": "Semawang", "service": "srv-bojler",
+         "title": {"en": "Sample: no hot water in a 3-bedroom villa", "ru": "Пример: нет горячей воды на вилле с 3 спальнями"},
+         "text": {"en": "Sample project. Heating element burnt out from scale (brackish well water). Element and anode replaced, filter added before the heater.",
+                  "ru": "Пример работы. ТЭН сгорел из-за накипи (солоноватая вода из скважины). Заменены ТЭН и анод, перед бойлером поставлен фильтр."},
+         "before": _u("photo-1676210134190-3f2c0d5cf58d"), "after": _u("photo-1595514535431-1243b02c3b70")},
+        {"slug": "sample-green-pool-mertasari", "area": "Mertasari", "service": "srv-chistka-bassejna",
+         "title": {"en": "Sample: green pool back to clear in 3 days", "ru": "Пример: зелёный бассейн чистый за 3 дня"},
+         "text": {"en": "Sample project. Shock treatment, brushing, filter backwash twice a day, water balanced. Weekly service set up afterwards.",
+                  "ru": "Пример работы. Шоковое хлорирование, щётка, промывка фильтра дважды в день, баланс воды. После — еженедельное обслуживание."},
+         "before": _u("photo-1614667288602-9ac6e37318a7"), "after": _u("photo-1596178067639-5c6e68aea6dc")},
+    ]
 # ===========================================
 
 HERE = pathlib.Path(__file__).parent
@@ -114,7 +144,7 @@ def page(lang, slug, title, descr, body, alts, crumbs=None, schema=None, head=No
             + f'<a class="big" href="{TEL}">{PHONE}</a><h4>{u["services"]}</h4><div class="ll">{srv_links}</div>'
             + f'<h4>{u.get("language", "Language")}</h4><div class="ll">{ll}</div></div>')
     topbar = (f'<div class="topbar"><div class="wrap"><span>{u["tagline"]} · <b>{u["only"]}</b>'
-              + (f' · <b class="urg">{u["emergency"]}</b>' if EMERGENCY else "")
+              + (f' · <b class="urg">{u["emergency"]}{" · " + u["sample"] if DEMO else ""}</b>' if EMERGENCY else "")
               + f'</span><span><a href="{wa_link(u)}">WhatsApp</a> · <a href="{TEL}">{PHONE}</a></span></div></div>')
     top = ""
     if head:
@@ -203,6 +233,7 @@ def build():
         chips = '<div class="chips"><span>Sanur</span>' + "".join(f"<span>{a}</span>" for a in areas_l) + "</div>"
         why = (f'<section><div class="wrap"><div class="shead"><h2>{u["why"]}</h2></div><div class="why">'
                + "".join(f"<div><h3>{a}</h3><p>{b}</p></div>" for a, b in u["why_items"]) + "</div></div></section>")
+        demo = f'<span class="demo">{u["sample"]}</span>' if DEMO else ""
         # (1) блок доверия: реальные данные мастера; пустые поля не выводятся
         mphoto = (f'<img class="mimg" src="{MASTER["photo"] if MASTER["photo"].startswith("http") else BASE + MASTER["photo"]}" alt="{e(MASTER["name"])}">'
                   if MASTER["photo"] else f'<div class="ph">{u["master_ph"]}<br>{u.get("photo_note", "")}</div>')
@@ -210,7 +241,7 @@ def build():
         facts_html = "".join(f'<div><b>{v}</b><span>{k}</span></div>' for k, v in facts if v)
         promises = "".join(f"<li>{t}</li>" for t in u["trust"])
         master = (f'<section style="padding-top:0"><div class="wrap master">{mphoto}'
-                  f'<div><div class="eyebrow">{u["about_h"]}</div><h2>{MASTER["name"] or u["master_h"]}</h2>'
+                  f'<div><div class="eyebrow">{u["about_h"]} {demo}</div><h2>{MASTER["name"] or u["master_h"]}</h2>'
                   + (f'<div class="facts">{facts_html}</div>' if facts_html else f'<p>{u["master_txt"]}</p>')
                   + f'<ul class="check">{promises}</ul><div style="margin-top:26px">{buttons(u)}</div></div></div></section>')
         # (10) телефон/WhatsApp прямо в тексте
@@ -228,7 +259,7 @@ def build():
                  f'<p class="big">{u["hoods_txt"]}</p>{chips}{inline()}</div></section>') if has(lang, "hoods_txt") else ""
         # (4) отзывы — только настоящие
         stars = lambda n: "★" * int(n) + "☆" * (5 - int(n))
-        reviews = (f'<section class="alt"><div class="wrap"><div class="shead"><h2>{u["reviews_h"]}</h2>'
+        reviews = (f'<section class="alt"><div class="wrap"><div class="shead"><h2>{u["reviews_h"]} {demo}</h2>'
                    + (f'<p><a href="{GBP_URL}">{u["reviews_more"]} →</a></p>' if GBP_URL else "") + '</div><div class="revs">'
                    + "".join(f'<figure><div class="st">{stars(r.get("stars", 5))}</div><blockquote>{e(r["text"])}</blockquote><figcaption>{e(r["name"])}</figcaption></figure>' for r in REVIEWS[:6])
                    + "</div></div></section>") if REVIEWS else ""
@@ -236,7 +267,7 @@ def build():
         def pcard(p):
             return (f'<a class="card" href="{url(lang, "work/" + p["slug"])}"><div class="im ba"><img loading="lazy" src="{p["before"]}" alt=""><img loading="lazy" src="{p["after"]}" alt=""></div>'
                     f'<h3>{e(tx(lang, p["title"]))}</h3><p>{e(p["area"])}</p></a>')
-        projects = (f'<section><div class="wrap"><div class="shead"><div><div class="eyebrow">{u["projects"]}</div><h2>{u["projects_h1"]}</h2></div>'
+        projects = (f'<section><div class="wrap"><div class="shead"><div><div class="eyebrow">{u["projects"]} {demo}</div><h2>{u["projects_h1"]}</h2></div>'
                     f'<p><a href="{url(lang, "work")}">{u["projects_lead"]} →</a></p></div><div class="grid">{"".join(pcard(p) for p in PROJECTS[:3])}</div></div></section>') if PROJECTS else ""
         where = (f'<section><div class="wrap split"><div><div class="eyebrow">{u["areas"]}</div><h2>{u["map_h"]}</h2>'
                  f'<p style="color:var(--muted)">{u["area_txt"]}</p>{chips}{buttons(u)}</div>{MAP}</div></section>')
@@ -297,11 +328,11 @@ def build():
         # (5) страницы работ
         if PROJECTS:
             P("work", f"{u['projects_h1']} | {BRAND}", u["projects_lead"], f'<section><div class="wrap"><div class="grid">{"".join(pcard(p) for p in PROJECTS)}</div></div></section>{cta}',
-              all_alts(lambda c: "work"), crumbs=[(u["projects"], None)], head=(PH["sanur"], u["projects_h1"], u["projects_lead"]))
+              all_alts(lambda c: "work"), crumbs=[(u["projects"], None)], head=(PH["sanur"], u["projects_h1"], u["projects_lead"] + " " + demo))
             for p in PROJECTS:
                 ps = p.get("service", "srv-santehnik")
                 P("work/" + p["slug"], f"{tx(lang, p['title'])} — {p['area']}, Sanur | {BRAND}", tx(lang, p["text"])[:155],
-                  f'<section><div class="wrap split"><div><div class="eyebrow">{e(p["area"])}, Sanur</div><h2>{e(tx(lang, p["title"]))}</h2><p class="big">{e(tx(lang, p["text"]))}</p>'
+                  f'<section><div class="wrap split"><div><div class="eyebrow">{e(p["area"])}, Sanur {demo}</div><h2>{e(tx(lang, p["title"]))}</h2><p class="big">{e(tx(lang, p["text"]))}</p>'
                   f'<p><a href="{url(lang, sslug(lang, ps))}">{SV[ps]["name"]} →</a></p>{inline()}</div><div class="ba2"><img src="{p["before"]}" alt="before"><img src="{p["after"]}" alt="after"></div></div></section>{cta}',
                   all_alts(lambda c: "work/" + p["slug"]), crumbs=[(u["projects"], url(lang, "work")), (e(tx(lang, p["title"])), None)], head=(PH["sanur"], e(tx(lang, p["title"])), e(p["area"]) + ", Sanur"))
         P(sec(lang, "ar"), f"{u['areas_h1']} | {BRAND}", u["area_txt"], hoods + local(False) + where + f'<section style="padding-top:0"><div class="wrap"><div class="grid">{cards}</div></div></section>' + cta,

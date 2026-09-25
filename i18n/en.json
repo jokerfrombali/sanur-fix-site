@@ -131,7 +131,8 @@
   "about_h": "About the technician",
   "years": "years of experience",
   "langs": "Languages",
-  "warranty": "Warranty"
+  "warranty": "Warranty",
+  "sample": "Sample data"
  },
  "services": {
   "srv-santehnik": {

@@ -129,3 +129,4 @@ p.inl a{color:var(--green2);font-weight:600}.dark p.inl,.phead p.inl{background:
 .revs figure{margin:0;background:var(--bg);border:1px solid var(--line);border-radius:var(--r);padding:26px}.st{color:var(--brass);letter-spacing:2px}
 .revs blockquote{margin:12px 0;font-size:16px}.revs figcaption{color:var(--muted);font-size:14px}
 .im.ba{display:grid;grid-template-columns:1fr 1fr;gap:3px}.ba2{display:grid;grid-template-columns:1fr 1fr;gap:8px}.ba2 img{border-radius:14px;aspect-ratio:3/4;object-fit:cover}
+.demo{display:inline-block;vertical-align:middle;font:600 11px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#8a3b2e;background:#f6e3dc;border:1px dashed #c98f7d;border-radius:999px;padding:3px 10px;margin-left:8px}

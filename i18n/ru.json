@@ -131,7 +131,8 @@
   "about_h": "О мастере",
   "years": "лет опыта",
   "langs": "Языки",
-  "warranty": "Гарантия"
+  "warranty": "Гарантия",
+  "sample": "Пример данных"
  },
  "services": {
   "srv-santehnik": {
