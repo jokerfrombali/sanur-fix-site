@@ -103,6 +103,8 @@ PH = {"hero": "photo-1720161263981-84281892ee4b", "sanur": "photo-1733281120655-
       "srv-obsluzhivanie-bassejna": "photo-1742353980377-b8e42932c590", "srv-oborudovanie-bassejna": "photo-1614667288602-9ac6e37318a7",
       "srv-remont-bassejna": "photo-1724660583299-2356fe880e54", "srv-septik": "photo-1606340671662-27ee685dd111", "srv-melkij-remont": "photo-1615974679600-665fb9468c4f",
       "srv-obsluzhivanie-villy": "photo-1634671651144-adbeca8623cb"}
+LOGO = '''<svg width="38" height="38" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="9" fill="#0b2545"/><path d="M5 14h15a6 6 0 0 1 6 6v15" stroke="#fff" stroke-width="6" fill="none"/><rect x="15.5" y="9" width="4" height="10" rx="1" fill="#d62828"/><rect x="21" y="23.5" width="10" height="4" rx="1" fill="#d62828"/><path d="M27.5 9.5l3 3 5.5-6.5" stroke="#d62828" stroke-width="2.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>'''
+FAVICON = "data:image/svg+xml," + quote(LOGO.replace('width="38" height="38" ', ''))
 HUB_PHOTOS = json.loads((HERE / "tools" / "photos.json").read_text(encoding="utf-8"))
 HUB_SRV = {"S": "srv-santehnik", "W": "srv-voda", "PC": "srv-chistka-bassejna", "PE": "srv-oborudovanie-bassejna",
            "PR": "srv-remont-bassejna", "K": "srv-septik", "R": "srv-melkij-remont", "V": "srv-obsluzhivanie-villy"}
@@ -160,13 +162,13 @@ def page(lang, slug, title, descr, body, alts, crumbs=None, schema=None, head=No
     svc = "".join(f'<a href="{url(lang, sslug(lang, s))}">{L[lang]["services"][s]["name"]}</a><br>' for s in SRV[:6])
     hubs = "".join(f'<a href="{url(gl, sec(gl, "gd") + "/" + HUB_EN[h][0])}">{L[gl]["hubs"][h]}</a><br>' for h in HUB_EN)
     return f"""<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{e(title)}</title><meta name="description" content="{e(descr)}"><meta name="theme-color" content="#1f3b35">
+<title>{e(title)}</title><meta name="description" content="{e(descr)}"><meta name="theme-color" content="#0b2545"><link rel="icon" href="{FAVICON}">
 {'<meta name="robots" content="noindex,nofollow">' if PREVIEW else ''}<link rel="canonical" href="{DOMAIN}{url(lang, slug)}">{hl}
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(descr)}"><meta property="og:image" content="{img(og or (head[0] if head else PH['hero']), 1200, 630)}"><meta property="og:locale" content="{lang}">
 <link rel="preconnect" href="https://images.unsplash.com"><link rel="stylesheet" href="{BASE}/style.css">{ld}</head><body>
-{topbar}<header><div class="wrap"><a class="logo" href="{url(lang)}">Sanur<span>Fix</span></a><nav>{nav}</nav></div></header>{mnav}
+{topbar}<header><div class="wrap"><a class="logo" href="{url(lang)}">{LOGO}Sanur<span>Fix</span></a><nav>{nav}</nav></div></header>{mnav}
 <main>{top}{body}</main>
-<footer><div class="wrap"><div class="cols"><div><a class="logo" href="{url(lang)}">Sanur<span>Fix</span></a><p>{u['tagline']}.<br>{u['badge']}.</p>
+<footer><div class="wrap"><div class="cols"><div><a class="logo" href="{url(lang)}">{LOGO}Sanur<span>Fix</span></a><p>{u['tagline']}.<br>{u['badge']}.</p>
 <p><a href="{wa_link(u)}">WhatsApp</a> · <a href="{TEL}">{PHONE}</a></p></div>
 <div><h4>{u['services']}</h4>{svc}</div><div><h4>{u['guides']}</h4>{hubs}</div>
 <div><h4>{u['contacts']}</h4><a href="{wa_link(u)}">WhatsApp</a><br><a href="{TEL}">{PHONE}</a><br><a href="{url(lang, sec(lang, 'ar'))}">{u['areas']}</a><br><a href="{url(lang, sec(lang, 'pr'))}">{u['prices']}</a></div></div>

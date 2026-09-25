@@ -1,0 +1,305 @@
+{
+ "lang": "de",
+ "ui": {
+  "tagline": "Klempner & Poolservice in Sanur",
+  "wa": "Schreib mir",
+  "call": "Anrufen",
+  "wa_text": "Hallo! Ich brauche einen Techniker in Sanur: ",
+  "services": "Leistungen",
+  "prices": "Preise",
+  "areas": "Einsatzgebiet",
+  "contacts": "Kontakt",
+  "fix": "Was ich repariere",
+  "how": "So funktioniert's",
+  "faq": "FAQ",
+  "on_req": "auf Anfrage",
+  "work": "Auftrag",
+  "price": "Preis",
+  "steps": [
+   "Schick ein Foto oder kurzes Video per WhatsApp",
+   "Erhalte Preis und einen passenden Termin",
+   "Ich repariere und schicke dir das Ergebnis"
+  ],
+  "area_txt": "Ich arbeite nur in Sanur – das gesamte Gebiet:",
+  "home_h1": "Klempner & Poolservice in Sanur, Bali",
+  "home_lead": "Privater Techniker: Klempnerei, Lecks, Warmwasserbereiter, Pumpen, Poolreinigung und -reparatur, kleine Villenreparaturen in Sanur. Schick ein Foto – ich antworte auf WhatsApp.",
+  "prices_h1": "Preise in Sanur",
+  "prices_note": "Der Preis hängt vom Auftrag ab. Ich mache ein Angebot anhand deiner Fotos vor dem Besuch. Ersatzteile werden separat mit Rechnung berechnet.",
+  "areas_h1": "Nur Sanur",
+  "contacts_h1": "Kontakt",
+  "contacts_lead": "Am schnellsten: WhatsApp mit einem Foto des Problems und deinem Bereich.",
+  "nf": "Seite nicht gefunden",
+  "home": "Startseite",
+  "badge": "Nur Sanur · Bali",
+  "guides": "Ratgeber",
+  "guides_h1": "Villen- & Pool-Ratgeber für Sanur",
+  "guides_lead": "Praktische Ratgeber von einem Techniker, der nur in Sanur arbeitet: Lecks, Warmwasser, Pumpen, Pools, Abwassertanks und kleine Reparaturen.",
+  "toc": "In diesem Ratgeber",
+  "related": "Passende Ratgeber",
+  "read": "Ratgeber lesen",
+  "all_guides": "Alle Ratgeber",
+  "need_help": "Etwas zu reparieren?",
+  "faq_h": "Fragen",
+  "trust": [
+   "Fotobericht per WhatsApp nach jedem Auftrag",
+   "Angebot anhand deiner Fotos vor dem Besuch",
+   "Nur Sanur – ich lebe und arbeite hier",
+   "Ersatzteile mit Rechnung"
+  ],
+  "why": "Warum Villenbesitzer in Sanur mich anrufen",
+  "why_items": [
+   [
+    "Ich komme selbst",
+    "Kein Callcenter und kein Team. Die Person, die du anschreibst, ist die, die die Arbeit macht."
+   ],
+   [
+    "Nur ein Gebiet",
+    "Ich fahre nicht über die ganze Insel. Ich kenne die Villen in Sanur: alte Pools, Brackwasserbrunnen am Strand, Dachzisternen."
+   ],
+   [
+    "Berichte für Eigentümer",
+    "Im Ausland? Du bekommst Vorher-Nachher-Fotos und eine kurze Liste der erledigten Arbeiten."
+   ]
+  ],
+  "master_h": "Dein Techniker",
+  "master_txt": "Hier kommen ein Foto und einige Worte zum Techniker: Name, Erfahrungsjahre, Sprachen. In Bali wählt man eine Person, keine Firma.",
+  "master_ph": "Foto des Technikers",
+  "map_h": "Wo ich arbeite",
+  "ready": "Etwas kaputt? Schick ein Foto per WhatsApp.",
+  "ready_sub": "Ich antworte mit dem, was nötig ist, einem Preis und wann ich vorbeikommen kann.",
+  "credits": "Fotos: Unsplash",
+  "eyebrow": "Klempnerei · Pools · Reparaturen",
+  "menu": "Menü",
+  "language": "Sprache",
+  "photo_note": "(durch echtes Foto ersetzen)",
+  "guides_en": "Ratgeber (Englisch)"
+ },
+ "services": {
+  "srv-santehnik": {
+   "name": "Klempner in Sanur",
+   "intro": "Ein privater Klempner in Sanur: Ich komme selbst, finde die Ursache und behebe sie. Wasserhähne, Toiletten, Rohre, Pumpen und Warmwasser – in Villen, Häusern und Wohnungen.",
+   "items": [
+    "Undichte Wasserhähne und Mischbatterien",
+    "Spülkasten läuft durch oder ist undicht",
+    "Niedriger Wasserdruck",
+    "Austausch von Mischbatterien, Siphons und Schläuchen",
+    "Installation von Toilette und Waschbecken",
+    "Anschluss von Waschmaschine und Geschirrspüler"
+   ],
+   "faq": [
+    [
+     "Wie schnell können Sie kommen?",
+     "Kommt auf den Tagesplan an. Schicken Sie mir ein Foto per WhatsApp, dann sage ich Ihnen, wann ich da sein kann."
+    ],
+    [
+     "Wer kauft die Ersatzteile?",
+     "Beides geht. Ich kann sie kaufen und Ihnen die Quittung geben."
+    ]
+   ]
+  },
+  "srv-protechki": {
+   "name": "Leckagen finden & reparieren",
+   "intro": "Leckagen finden und beheben: unter Spülen, in Wänden, Duschen und Gartenleitungen. Eine versteckte Leckage zeigt sich oft am PDAM-Zähler oder einer Pumpe, die nicht abschaltet.",
+   "items": [
+    "Undichte Stellen unter der Spüle",
+    "Undichte Duschen und Bodentrichter",
+    "Versteckte Leckagen über den Zähler erkannt",
+    "Geplatzte PVC-/PPR-Rohre",
+    "Leckagen in der Gartenbewässerung"
+   ],
+   "faq": [
+    [
+     "Was soll ich tun, bis Sie da sind?",
+     "Hauptventil schließen und – falls Wasser in der Nähe von Steckdosen ist – den Strom abstellen."
+    ]
+   ]
+  },
+  "srv-zasor": {
+   "name": "Verstopfte Abflüsse & Toiletten",
+   "intro": "Beseitigung von Verstopfungen in Toiletten, Spülen, Duschen und Abflussleitungen mit der Rohrreinigungsspirale – ohne aggressive Chemikalien, die Rohre und Klärgruben beschädigen.",
+   "items": [
+    "Verstopfte Toilette",
+    "Langsame Dusche oder Spüle",
+    "Verstopfte Kanalleitung",
+    "Geruch aus den Abflüssen"
+   ],
+   "faq": [
+    [
+     "Warum kein Klopapier in der Toilette auf Bali?",
+     "Schmale Rohre und kleine Klärgruben – Papier verstopft das System schnell."
+    ]
+   ]
+  },
+  "srv-bojler": {
+   "name": "Wassererhitzer-Reparatur & Installation",
+   "intro": "Kein Warmwasser? Ich finde heraus warum – Elektroerhitzer, Gaserhitzer oder Solaranlage auf dem Dach. Heizstäbe, Thermostate, Anoden und Neuinstallationen.",
+   "items": [
+    "Erhitzer heizt nicht",
+    "Erhitzer löst die Sicherung aus",
+    "Undichter Erhitzer",
+    "Solarerhitzer nur lauwarm",
+    "Neue Erhitzer-Installation"
+   ],
+   "faq": [
+    [
+     "Reparieren oder ersetzen?",
+     "Ein undichtes Tank bedeutet ersetzen. Ein defekter Heizstab oder Thermostat lohnt sich in der Regel zur Reparatur."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Wasserpumpen & Filter",
+   "intro": "Pumpen, Druckschalter, Dachzisternen und Wasserfilter. In der Nähe des Strandes in Sanur kann Brunnenwasser salzhaltig sein – ich helfe bei der Filtration oder dem Umstieg auf PDAM.",
+   "items": [
+    "Pumpe schaltet ständig an/aus",
+    "Kein Wasser im Haus",
+    "Zisterne überläuft oder ist leer",
+    "Filterinstallation und Kartuschen",
+    "Dachzisterne reinigen"
+   ],
+   "faq": [
+    [
+     "Wie oft muss man die Kartuschen wechseln?",
+     "In der Regel alle 3–6 Monate, je nach Wasserqualität. Ich zeige Ihnen, worauf Sie achten sollten."
+    ]
+   ]
+  },
+  "srv-chistka-bassejna": {
+   "name": "Poolreinigung",
+   "intro": "Einmalige Poolreinigung: Skimming, Bürsten, Saugen, Filterrückspülung und Wasserbalance. Auch für grüne Pools.",
+   "items": [
+    "Reinigung vor Gästeankunft",
+    "Grünes oder trübes Wasser",
+    "Fliesen an der Wasserkante reinigen",
+    "Filterrückspülung"
+   ],
+   "faq": [
+    [
+     "Wie lange dauert es, einen grünen Pool zu retten?",
+     "In der Regel 2–4 Tage, je nach Wasserstand und Filter."
+    ]
+   ]
+  },
+  "srv-obsluzhivanie-bassejna": {
+   "name": "Regelmäßiger Poolservice",
+   "intro": "Planmäßiger Poolservice. Nach jedem Besuch erhalten Sie einen WhatsApp-Bericht: Fotos, Wasserwerte, erledigte Arbeiten. Ideal, wenn Sie nicht ganzjährig auf Bali leben.",
+   "items": [
+    "Feste Besuche",
+    "Wasseranalyse und Einstellung",
+    "Saugen, Bürsten, Skimming",
+    "Prüfung von Pumpe und Filter",
+    "Bericht nach jedem Besuch"
+   ],
+   "faq": [
+    [
+     "Sind Chemikalien im Preis enthalten?",
+     "Das klären wir vorher: entweder inklusive oder separat mit Quittung."
+    ]
+   ]
+  },
+  "srv-oborudovanie-bassejna": {
+   "name": "Pooltechnik",
+   "intro": "Installation und Reparatur von Pumpen, Sand- und Kartuschenfiltern, Chlorgeneratoren, Beleuchtung und Auto-Füllsystem.",
+   "items": [
+    "Pumpe nimmt kein Wasser auf oder ist laut",
+    "Sandwechsel im Filter",
+    "Mehrwegventil",
+    "Salz-Chlorgenerator",
+    "Poolbeleuchtung"
+   ],
+   "faq": [
+    [
+     "Kann ich Ihnen ein Foto des Technikraums schicken?",
+     "Ja – das ist der beste Weg, damit ich weiß, was ich mitbringen muss."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Poolreparatur",
+   "intro": "Lecks, lose Fliesen, Fugen, Rohrleitungen. Viele Pools in Sanur sind 15–20 Jahre alt – ich helfe Ihnen zu entscheiden, was zuerst repariert werden muss.",
+   "items": [
+    "Wasserverlust – Leckortung",
+    "Lockere Fliesen und Mosaik",
+    "Fugenausbesserung",
+    "Rohrlecks im Pool"
+   ],
+   "faq": [
+    [
+     "Verdunstung oder Leck?",
+     "Eimer-Test: Stellen Sie einen Eimer mit Wasser auf die Stufe und vergleichen Sie beide Wasserstände nach 24 Stunden."
+    ]
+   ]
+  },
+  "srv-septik": {
+   "name": "Klärgrube & Abwasser",
+   "intro": "Gerüche, langsame Abläufe, volle Klärgrube. Ich finde das Problem, organisiere die Leerung und beseitige Verstopfungen.",
+   "items": [
+    "Abwassergeruch",
+    "Volle Klärgrube",
+    "Verstopfte Abwasserleitung",
+    "Fettabscheider"
+   ],
+   "faq": [
+    [
+     "Wie oft muss eine Klärgrube geleert werden?",
+     "Hängt von Größe und Bewohnerzahl ab – in der Regel alle 1–3 Jahre."
+    ]
+   ]
+  },
+  "srv-melkij-remont": {
+   "name": "Kleinreparaturen",
+   "intro": "Kleine Hausreparaturen in einem Termin: Türen, Schlösser, Moskitonetze, Silikon, Regale, Möbel.",
+   "items": [
+    "Klemmende Türen und Scharniere",
+    "Schlösser und Griffe",
+    "Moskitonetze",
+    "Silikon im Bad erneuern",
+    "Regale, Gardinenstangen, TV-Montage",
+    "Möbelmontage"
+   ],
+   "faq": [
+    [
+     "Kann ich mehrere Arbeiten für einen Termin aufzählen?",
+     "Ja, das ist der beste Preis. Schicken Sie mir die Liste mit Fotos."
+    ]
+   ]
+  },
+  "srv-obsluzhivanie-villy": {
+   "name": "Villawartung",
+   "intro": "Regelmäßige Villa-Checks: Sanitär, Pool, Pumpen, Warmwasserbereiter, Dach vor der Regenzeit. Für Eigentümer und Verwalter.",
+   "items": [
+    "Inspektion nach Checkliste",
+    "Vorbereitung auf die Regenzeit",
+    "Prüfung vor Anreise",
+    "Berichte für Eigentümer"
+   ],
+   "faq": [
+    [
+     "Arbeiten Sie mit Villaverwaltern zusammen?",
+     "Ja, wir können einen festen Wartungsplan erstellen."
+    ]
+   ]
+  }
+ },
+ "hubs": {
+  "S": "Sanitär",
+  "W": "Wasser & Pumpen",
+  "PC": "Poolpflege",
+  "PE": "Poolausrüstung",
+  "PR": "Poolreparatur",
+  "K": "Abwasser & Entwässerung",
+  "R": "Hausreparaturen",
+  "V": "Villapflege"
+ },
+ "areas": [
+  "Sanur Kaja",
+  "Sanur Kauh",
+  "Sindhu",
+  "Semawang",
+  "Mertasari",
+  "Batujimbar",
+  "Jl. Danau Tamblingan",
+  "Jl. Danau Poso",
+  "Jl. Bypass Ngurah Rai"
+ ]
+}

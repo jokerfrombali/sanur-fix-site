@@ -1,0 +1,79 @@
+{
+ "title": "How to Store Pool Chemicals Safely in Bali's Heat",
+ "slug": "pool-chemical-storage-bali-heat",
+ "meta": "Store chlorine tablets and pool chemicals safely in Sanur's humid heat. Learn what to keep apart, where to store them, and how to protect kids and pets.",
+ "intro": "Sanur's heat and humidity turn a simple box of chlorine tablets into a real hazard if stored carelessly. Here is what actually matters: keep your chemicals cool, dry, sealed, and far away from anything they react with. A few minutes of proper storage today saves you a nasty gas exposure or a ruined garage shelf tomorrow.",
+ "sections": [
+  {
+   "h2": "Why the Heat Makes It Riskier",
+   "paragraphs": [
+    "Chlorine tablets, liquid shock, stabiliser (CYA), and algaecide all degrade faster above roughly 30 °C. In Sanur the ambient temperature sits in that range for most of the year, and a closed garage can push well past 45 °C on an afternoon. The chemical does not just lose potency; it off-gasses slowly, filling any enclosed space with a sharp, stinging vapour.",
+    "Humidity compounds the problem. Tablets clump, powder cakes together, and plastic containers sweat. Add the salty sea air that drifts up the beach road and you get mild corrosion on metal lids and labels peeling off bottles within a season. During the rainy months (November to April) an open patio or uncovered carport becomes a soaking spot overnight.",
+    "Older villas around Sanur often have a single open-sided garage or a covered area behind the kitchen as the default 'storage' zone. That is exactly where heat, moisture, and curious children converge."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Where to Actually Keep Them",
+   "paragraphs": [
+    "The ideal spot is a small, ventilated room or a latched cabinet inside the villa—away from direct sun, away from the PDAM water inlet pipe, and at least a metre above the floor so condensation does not pool underneath. A dedicated shelf in the laundry cupboard works well if the door closes properly.",
+    "Keep every product in its original container with the lid screwed tight. Do not transfer tablets into a jar 'for convenience'; the original packaging is rated for the chemical's vapour pressure. Store solids and liquids on separate shelves if space allows, so a leaking bottle cannot soak a stack of chlorine pucks.",
+    "Avoid storing chemicals directly under a rooftop tank overflow line or near the well pump housing. A slow drip onto a chlorine container over weeks will eat through the plastic and create a concentrated puddle on your garage floor."
+   ],
+   "bullets": [
+    "Cool, dry, ventilated; never a sealed carport in full sun",
+    "Off the ground, lids tight, original containers only",
+    "At least 1 m from any water pipe, tank overflow, or electrical junction box",
+    "Check labels monthly; discard anything that has changed colour or smells strongly"
+   ]
+  },
+  {
+   "h2": "What You Must Never Mix",
+   "paragraphs": [
+    "The single most important rule: chlorine (in any form) must never come into contact with acids such as pH-down / muriatic acid, nor with ammonia-based cleaners. The reaction releases chlorine gas instantly. If you ever see white fumes rising where two products have touched, or smell a sharp 'bleach-and-acid' sting, stop what you are doing, open every window and door, get everyone out of the room, and call a professional before re-entering to clean up.",
+    "Keep oxidisers (chlorine, bromine, shock) physically separated from reducers and from any product containing quaternary ammonium compounds. Even a small spill of one onto the other can generate heat and toxic vapour in an enclosed garage."
+   ],
+   "bullets": [
+    "Chlorine + acid = chlorine gas — do not store on the same shelf",
+    "Chlorine + ammonia products = chloramine vapour — keep far apart",
+    "If you see fumes or smell a strong chemical sting: ventilate, evacuate, call for help"
+   ]
+  },
+  {
+   "h2": "Kids, Cats, and Curious Guests",
+   "paragraphs": [
+    "Sanur villas often host visiting children who treat every cupboard as a treasure chest. A box of blue or green tablets looks like candy. Store all pool chemicals in a latched cabinet at adult height, or behind a simple child-proof lock if the villa is rented long-term with kids staying over.",
+    "Cats and dogs that roam the compound will chew through soft plastic bags left on the pool deck. Keep tablets in rigid containers only, and never leave an open bag 'just for five minutes' while you brush the filter. Wipe up any spilled granules immediately; they are caustic to paws and skin.",
+    "Label your storage area clearly—'POOL CHEMICALS – DO NOT OPEN' in both English and Bahasa Indonesia helps if a helper or guest does not read English."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Getting Rid of Old or Damaged Chemicals",
+   "paragraphs": [
+    "Do not pour leftover liquid chlorine or acid into your septic tank, garden soil, or storm drain. The concentration can kill beneficial bacteria in the tank or burn plant roots, and it is simply not safe for the people who maintain those systems later.",
+    "For small quantities (a half-empty bottle, a few clumped tablets), the safest route is to ask your villa manager or the local waste-collection service how to hand them off as hazardous household waste. Many compounds around Sanur collect this monthly. For larger volumes, a licensed disposal contractor handles it; the cost depends on volume and product type, and the technician will quote from photos you send on WhatsApp.",
+    "Empty rigid containers: rinse with plenty of water, then dispose of the plastic with general rubbish. Never burn any pool chemical, even an empty bag that still smells of chlorine."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I store chlorine tablets in the same garage as my car battery?",
+   "a": "Avoid it if you can. Chlorine vapour accelerates corrosion on battery terminals and wiring, and a hot engine bay next to a sealed tablet box creates exactly the enclosed, warm environment where gas builds up. A separate latched cupboard inside the villa is far safer."
+  },
+  {
+   "q": "My tablets have turned white-powdery and crumbly. Are they still usable?",
+   "a": "They have absorbed moisture and are partially degraded. The available chlorine level is lower than printed on the label, so you would need more per dose, and the dust is harder to control. If the container was also exposed to heat for weeks, discard them through your local hazardous-waste collection rather than guessing at strength."
+  },
+  {
+   "q": "Is it safe to keep a small bottle of pH-down next to my chlorine shock in the same cabinet?",
+   "a": "No. Even with both lids tight, a leak or a knocked-over bottle will mix acid with oxidiser and release chlorine gas in an enclosed space. Put acids on one shelf (or in a different room) and oxidisers on another, with at least 30 cm between them."
+  }
+ ],
+ "cta": "If you are not sure whether your current storage setup is safe—or you want a second pair of eyes before the rainy season hits—snap a photo of your chemical area and send it over on WhatsApp; I will take a look and point out anything that needs moving.",
+ "id": "A064",
+ "hub": "PC",
+ "status": "draft-qwen"
+}
