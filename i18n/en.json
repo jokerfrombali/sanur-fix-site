@@ -1,0 +1,305 @@
+{
+ "lang": "en",
+ "ui": {
+  "tagline": "Plumber & Pool Service in Sanur",
+  "wa": "WhatsApp me",
+  "call": "Call",
+  "wa_text": "Hi! I need a technician in Sanur: ",
+  "services": "Services",
+  "prices": "Prices",
+  "areas": "Service Area",
+  "contacts": "Contact",
+  "fix": "What I fix",
+  "how": "How it works",
+  "faq": "FAQ",
+  "on_req": "on request",
+  "work": "Job",
+  "price": "Price",
+  "steps": [
+   "Send a photo or short video on WhatsApp",
+   "Get a price and a time that suits you",
+   "I fix it and send you the result"
+  ],
+  "area_txt": "I work only in Sanur — the whole area:",
+  "home_h1": "Plumber & Pool Service in Sanur, Bali",
+  "home_lead": "Private technician: plumbing, leaks, water heaters, pumps, pool cleaning and repair, small villa repairs in Sanur. Send a photo — I'll reply on WhatsApp.",
+  "prices_h1": "Prices in Sanur",
+  "prices_note": "Price depends on the job. I'll quote from photos before coming. Parts are charged separately with receipts.",
+  "areas_h1": "Sanur Only",
+  "contacts_h1": "Contact",
+  "contacts_lead": "Fastest way: WhatsApp with a photo of the problem and your area.",
+  "nf": "Page not found",
+  "home": "Home",
+  "badge": "Sanur only · Bali",
+  "guides": "Guides",
+  "guides_h1": "Villa & Pool Guides for Sanur",
+  "guides_lead": "Practical guides from a technician who works only in Sanur: leaks, hot water, pumps, pools, septic tanks and small repairs.",
+  "toc": "In this guide",
+  "related": "Related guides",
+  "read": "Read guide",
+  "all_guides": "All guides",
+  "need_help": "Need it fixed?",
+  "faq_h": "Questions",
+  "trust": [
+   "Photo report on WhatsApp after every job",
+   "Quote from your photos before I come",
+   "Sanur only — I live and work here",
+   "Parts charged with receipts"
+  ],
+  "why": "Why Sanur villa owners call me",
+  "why_items": [
+   [
+    "I come myself",
+    "Not a call centre and not a crew. The person you message is the person who does the job."
+   ],
+   [
+    "One area only",
+    "I don't cross the island. I know Sanur villas: old pools, brackish wells near the beach, rooftop tanks."
+   ],
+   [
+    "Reports for owners",
+    "Abroad? You get before-and-after photos and a short list of what was done."
+   ]
+  ],
+  "master_h": "Your technician",
+  "master_txt": "A photo and a few words about the technician go here: name, years of experience, languages. In Bali people choose a person, not a company.",
+  "master_ph": "Technician photo",
+  "map_h": "Where I work",
+  "ready": "Something broken? Send a photo on WhatsApp.",
+  "ready_sub": "I'll reply with what's needed, a price and when I can come.",
+  "credits": "Photos: Unsplash",
+  "eyebrow": "Plumbing · Pools · Repairs",
+  "menu": "Menu",
+  "language": "Language",
+  "photo_note": "(replace with a real photo)",
+  "guides_en": "Guides (English)"
+ },
+ "services": {
+  "srv-santehnik": {
+   "name": "Plumber in Sanur",
+   "intro": "A private plumber in Sanur: I come myself, find the cause and fix it. Taps, toilets, pipes, pumps and hot water — in villas, houses and apartments.",
+   "items": [
+    "Leaking taps and mixers",
+    "Running or leaking toilet cistern",
+    "Low water pressure",
+    "Replacing mixers, traps and hoses",
+    "Toilet and basin installation",
+    "Washing machine and dishwasher hook-up"
+   ],
+   "faq": [
+    [
+     "How fast can you come?",
+     "Depends on the day's schedule. Send a photo on WhatsApp and I'll tell you when I can be there."
+    ],
+    [
+     "Who buys the parts?",
+     "Either way. I can buy them and give you the receipt."
+    ]
+   ]
+  },
+  "srv-protechki": {
+   "name": "Water Leak Repair",
+   "intro": "Finding and fixing leaks: under sinks, in walls, showers and garden lines. A hidden leak often shows up on the PDAM meter or a pump that keeps running.",
+   "items": [
+    "Leaks under sinks",
+    "Leaking showers and floor drains",
+    "Hidden leaks found via the meter",
+    "Burst PVC/PPR pipes",
+    "Garden irrigation leaks"
+   ],
+   "faq": [
+    [
+     "What should I do before you arrive?",
+     "Close the main valve and, if water is near sockets, switch off the power."
+    ]
+   ]
+  },
+  "srv-zasor": {
+   "name": "Blocked Drains & Toilets",
+   "intro": "Clearing blocked toilets, sinks, showers and drain lines with a drain snake, without harsh chemicals that damage pipes and septic tanks.",
+   "items": [
+    "Blocked toilet",
+    "Slow shower or sink drain",
+    "Blocked sewer line",
+    "Smell from drains"
+   ],
+   "faq": [
+    [
+     "Why no toilet paper in the toilet in Bali?",
+     "Narrow pipes and small septic tanks — paper clogs the system quickly."
+    ]
+   ]
+  },
+  "srv-bojler": {
+   "name": "Water Heater Repair & Installation",
+   "intro": "No hot water? I'll find out why — electric heater, gas heater or rooftop solar. Heating elements, thermostats, anodes and new installations.",
+   "items": [
+    "Heater not heating",
+    "Heater trips the breaker",
+    "Leaking heater",
+    "Lukewarm solar heater",
+    "New heater installation"
+   ],
+   "faq": [
+    [
+     "Repair or replace?",
+     "A leaking tank means replace. A failed element or thermostat is usually worth repairing."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Water Pumps & Filters",
+   "intro": "Pumps, pressure switches, rooftop tanks and water filters. Near the beach in Sanur, well water can be brackish — I'll help with filtration or switching to PDAM.",
+   "items": [
+    "Pump keeps cycling",
+    "No water in the house",
+    "Tank overflowing or empty",
+    "Filter installation and cartridges",
+    "Rooftop tank cleaning"
+   ],
+   "faq": [
+    [
+     "How often to change cartridges?",
+     "Usually every 3–6 months depending on the water. I'll show you what to look for."
+    ]
+   ]
+  },
+  "srv-chistka-bassejna": {
+   "name": "Pool Cleaning",
+   "intro": "One-off pool cleaning: skimming, brushing, vacuuming, filter backwash and water balance. Green pool recovery.",
+   "items": [
+    "Cleaning before guests arrive",
+    "Green or cloudy water",
+    "Waterline tile cleaning",
+    "Filter backwash"
+   ],
+   "faq": [
+    [
+     "How long to fix a green pool?",
+     "Usually 2–4 days, depending on the water and the filter."
+    ]
+   ]
+  },
+  "srv-obsluzhivanie-bassejna": {
+   "name": "Regular Pool Service",
+   "intro": "Scheduled pool service. After every visit you get a WhatsApp report: photos, water readings, work done. Ideal if you don't live in Bali full-time.",
+   "items": [
+    "Scheduled visits",
+    "Water testing and balancing",
+    "Vacuum, brush, skimmer",
+    "Pump and filter check",
+    "Report after each visit"
+   ],
+   "faq": [
+    [
+     "Are chemicals included?",
+     "Agreed upfront: either included or charged separately with receipts."
+    ]
+   ]
+  },
+  "srv-oborudovanie-bassejna": {
+   "name": "Pool Equipment",
+   "intro": "Installation and repair of pumps, sand and cartridge filters, chlorinators, lights and auto-fill.",
+   "items": [
+    "Pump not priming or noisy",
+    "Filter sand replacement",
+    "Multiport valve",
+    "Salt chlorinator",
+    "Pool lights"
+   ],
+   "faq": [
+    [
+     "Can I send a photo of the pump room?",
+     "Yes — that's the best way for me to know what to bring."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Pool Repair",
+   "intro": "Leaks, loose tiles, grout, pipework. Many pools in Sanur are 15–20 years old — I'll help decide what to fix first.",
+   "items": [
+    "Losing water — leak detection",
+    "Loose tiles and mosaic",
+    "Re-grouting",
+    "Pool pipe leaks"
+   ],
+   "faq": [
+    [
+     "Evaporation or a leak?",
+     "Bucket test: put a bucket of water on the step and compare both levels after 24 hours."
+    ]
+   ]
+  },
+  "srv-septik": {
+   "name": "Septic & Sewer",
+   "intro": "Smells, slow drains, full septic tank. I'll find the problem, arrange pumping and clear the lines.",
+   "items": [
+    "Sewer smell",
+    "Full septic tank",
+    "Blocked sewer line",
+    "Grease trap"
+   ],
+   "faq": [
+    [
+     "How often to pump a septic tank?",
+     "Depends on size and occupants — typically every 1–3 years."
+    ]
+   ]
+  },
+  "srv-melkij-remont": {
+   "name": "Handyman",
+   "intro": "Small home repairs in one visit: doors, locks, mosquito screens, silicone, shelves, furniture.",
+   "items": [
+    "Sticking doors and hinges",
+    "Locks and handles",
+    "Mosquito screens",
+    "Bathroom re-siliconing",
+    "Shelves, curtain rails, TV mounting",
+    "Furniture assembly"
+   ],
+   "faq": [
+    [
+     "Can I list several jobs for one visit?",
+     "Yes, that's the best value. Send the list with photos."
+    ]
+   ]
+  },
+  "srv-obsluzhivanie-villy": {
+   "name": "Villa Maintenance",
+   "intro": "Regular villa check-ups: plumbing, pool, pumps, water heaters, roof before the rainy season. For owners and managers.",
+   "items": [
+    "Checklist inspections",
+    "Rainy-season preparation",
+    "Pre-arrival checks",
+    "Owner reports"
+   ],
+   "faq": [
+    [
+     "Do you work with villa managers?",
+     "Yes, we can set up a regular schedule."
+    ]
+   ]
+  }
+ },
+ "hubs": {
+  "S": "Plumbing",
+  "W": "Water & Pumps",
+  "PC": "Pool Care",
+  "PE": "Pool Equipment",
+  "PR": "Pool Repair",
+  "K": "Septic & Drains",
+  "R": "Home Repair",
+  "V": "Villa Care"
+ },
+ "areas": [
+  "Sanur Kaja",
+  "Sanur Kauh",
+  "Sindhu",
+  "Semawang",
+  "Mertasari",
+  "Batujimbar",
+  "Jl. Danau Tamblingan",
+  "Jl. Danau Poso",
+  "Jl. Bypass Ngurah Rai"
+ ]
+}

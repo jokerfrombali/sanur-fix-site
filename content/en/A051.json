@@ -1,0 +1,77 @@
+{
+ "title": "Pool Water Level Dropping? Evaporation or Leak?",
+ "slug": "pool-water-loss-evaporation-leak",
+ "meta": "Is your Sanur pool losing water faster than expected? Learn how to distinguish normal tropical evaporation from a genuine leak with a simple test.",
+ "intro": "If you've noticed your pool level creeping down over a few days, don't panic just yet. In Sanur's dry-season heat, losing a centimetre or two of water per day is completely normal. But if the drop is sudden, uneven, or keeps happening even when the weather cools off, there may be a real leak worth investigating before it damages the villa structure around the basin.",
+ "sections": [
+  {
+   "h2": "Evaporation in Bali Is Not Trivial",
+   "paragraphs": [
+    "Sanur sits on the east coast, so during the dry season (roughly May to September) you get long stretches of direct sun, low humidity, and a steady sea breeze coming off the Indian Ocean. All three accelerate evaporation. A typical above-ground or semi-inground villa pool can lose one to two centimetres of water per day under those conditions without any fault at all.",
+    "The rainy season flips this picture. Overcast skies, higher humidity, and regular rainfall actually add water to the pool, which is why many owners only notice a slow drain once the wet months end and the heat returns. If your loss tracks with the calendar, it is almost certainly evaporation."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Run the Bucket Test Before You Worry",
+   "paragraphs": [
+    "This is the single most useful check you can do yourself, and it takes about ten minutes to set up. Fill a clean plastic bucket with tap water from the same source that fills your pool (PDAM mains or your rooftop tank). Place the bucket on the first step inside the pool so the water level in the bucket matches the pool surface exactly. Mark both levels with a piece of tape or a permanent marker.",
+    "Leave the bucket undisturbed for 24 hours. After a full day, compare how much water dropped in the bucket versus how much dropped in the pool. The bucket represents pure evaporation plus any rain. If the pool lost roughly the same amount as the bucket, you are fine. If the pool lost noticeably more—say double or triple—the difference points to a leak somewhere in the basin or its plumbing.",
+    "Repeat the test over two or three days if the result looks borderline. Wind direction changes day to day in Sanur, and a strong afternoon breeze off the sea can push evaporation higher than the previous morning's reading."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Where a Pool Actually Leaks",
+   "paragraphs": [
+    "Most leaks in older Sanur villas are not dramatic pipe bursts. They are small, slow seeps that show up as a persistent drop in level. Here is where to look first:",
+    "Tile joints and grout lines around the skimmer box and return jets are the most common weak spots, especially in pools built before 2010 when installation standards were looser. A hairline crack behind a single tile can lose several litres per hour without visible wetness on the surface.",
+    "The plumbing connections under the deck—where the suction line meets the pump, where the pressure side returns into the wall—are prone to weeping at the threaded fittings. Check these after the pump has been running for an hour; any damp patch on the concrete pad is a clue.",
+    "In villas with a plastered or shotcrete basin (common in older properties), micro-cracks develop over years of thermal cycling. These rarely flood; they just trickle. If you see a faint white mineral ring forming below the waterline on the exterior wall, that is your leak telling you where it is."
+   ],
+   "bullets": [
+    "Skimmer box gasket and lid seal",
+    "Return jet collars and their mounting bolts",
+    "Suction and pressure pipe joints under the equipment pad",
+    "Cracked tiles or grout anywhere along the waterline",
+    "Underground supply or drain pipe running from the pool to the septic area"
+   ]
+  },
+  {
+   "h2": "Auto-Fill, PDAM Water, and Your Rooftop Tank",
+   "paragraphs": [
+    "Many Sanur villas have a float-valve auto-fill connected either to the PDAM mains or to a gravity-fed rooftop tank. If that valve sticks open even slightly, it will top up the pool continuously and mask a slow leak—so the level looks stable while water quietly runs into the drainage channel behind the villa.",
+    "If you draw from a well, keep an eye on the pump runtime. A pool leaking two litres per hour may not seem like much, but over a month that is roughly 1,400 litres of treated well water going down a drain instead of sitting in your basin. The numbers add up fast when you are also filling the garden irrigation and household taps from the same source.",
+    "A practical habit: shut off the auto-fill for 48 hours during the dry season and simply note the level each morning. You get a clean reading without the fill system interfering."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "What to Do Next",
+   "paragraphs": [
+    "If the bucket test confirms extra loss beyond evaporation, start with the visual checks above. Tighten any loose jet collars, replace a cracked skimmer gasket if you can see one, and wipe down pipe joints after a pump cycle to spot weeping.",
+    "If you cannot find the source, or if the drop continues past three days despite a normal weather pattern, it is time to call someone who has worked on Sanur pools before. An experienced technician will pressure-test the suction and return lines, dye-trace the basin interior, and check the underground run toward the septic field where old clay pipes are a known weak point.",
+    "Before anyone starts cutting into tile or concrete, make sure the pool pump power is isolated at the breaker box. Working around live electrics near standing water is not something to improvise—stop and call a qualified electrician if you are unsure about the wiring in your equipment pad."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "How much water should my Sanur pool lose per day in the dry season?",
+   "a": "One to two centimetres of level drop per day is typical during hot, breezy months. If you are consistently losing more than that and the bucket test confirms extra loss, investigate for a leak rather than just topping up."
+  },
+  {
+   "q": "Can a leaking pool damage the villa foundation?",
+   "a": "Yes, over time. Persistent seepage softens the soil under the deck, can erode the mortar bed beneath tiles, and in older villas may reach the septic tank area and cause ground saturation. Catching a slow leak early saves far more trouble than dealing with a sunken slab later."
+  },
+  {
+   "q": "Should I mix chlorine tablets with other chemicals to speed up evaporation control?",
+   "a": "No. Never combine chlorine-based products with acids or ammonia-containing cleaners; the reaction can release toxic gas. Dose one product at a time, follow the label order, and if you smell strong fumes near the pool equipment, step away from the area and call a professional before doing anything else."
+  }
+ ],
+ "cta": "If your pool level has been dropping and you'd like a second pair of eyes on it, send a clear photo of the waterline and any visible damp spots on WhatsApp and we'll take a look.",
+ "id": "A051",
+ "hub": "PC",
+ "status": "draft-qwen"
+}

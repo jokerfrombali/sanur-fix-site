@@ -1,0 +1,76 @@
+{
+ "title": "How to Maintain Your Pool During Bali's Rainy Season",
+ "slug": "pool-maintenance-rainy-season-sanur",
+ "meta": "Practical tips for keeping your Sanur villa pool clean and balanced through Bali's wet season – water level, chemistry, leaves, and overflow drains.",
+ "intro": "Bali's rainy season can turn a crystal-clear pool into a leaf-strewn, slightly green mess within a single afternoon downpour. The good news is that most of those problems are manageable in under an hour if you know what to check and in what order. Below is a practical checklist written specifically for Sanur villa owners and long-term tenants who want their pool back to swimmable without calling a technician after every storm.",
+ "sections": [
+  {
+   "h2": "What Rain Does to Your Pool Water",
+   "paragraphs": [
+    "Every heavy shower dilutes the chlorine and stabiliser already in the tank, so the residual protection drops noticeably within a few hours. At the same time, rain carries tannins from overhanging frangipani or banyan branches, fine silt from the roof, and a small amount of organic matter that feeds algae. In Sanur, sea spray settles on the deck and surrounding walls; when it rains, all of that salt film washes straight into the skimmer.",
+    "If your villa uses a rooftop collection tank for top-up or backwash lines, double-check where that water actually goes. Some older properties route a portion of collected rainwater near the pool plumbing, which can introduce extra organics at exactly the moment your chemistry is already weakened."
+   ],
+   "bullets": [
+    "Expect free chlorine to drop by half or more after a 30-minute downpour.",
+    "pH usually falls slightly because of dissolved CO₂ and organic acids in the rain.",
+    "Tannin staining (yellow-brown tint) appears first on the shallow end and tile lines."
+   ]
+  },
+  {
+   "h2": "Water Level After Heavy Rain",
+   "paragraphs": [
+    "Check the skimmer well before you do anything else. If the water has risen above the lower edge of the skimmer opening, the pump will pull air instead of water, circulation stalls, and the filter does nothing useful. In many older Sanur villas there is no automatic fill valve, so the level simply creeps up over several rainy days until someone notices.",
+    "Do not just open a drain and dump a metre of water. Test the chemistry first, shock if needed, and only then adjust the level. When topping back up later, PDAM tap water tends to be alkaline while well water varies from property to property; a small pH test after refilling saves a second round of adjustment."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Rebalancing Chemistry After a Downpour",
+   "paragraphs": [
+    "Wait roughly two hours after the rain stops so floating debris settles and readings stabilise. Then test pH, free chlorine, and total alkalinity in that order. Bring pH into the 7.2–7.6 range with a mild acid or buffer before adding any chlorine, because chlorine works far less efficiently outside that window.",
+    "For a pool that looks noticeably green or cloudy, a full shock dose is usually appropriate. Follow the product's dilution instructions carefully. Never pour undiluted chlorine directly onto acid, and never mix different chemical products in the same bucket – the reaction can release toxic gas. If you smell strong fumes or feel your eyes sting, step away from the pool area immediately and ventilate; call a professional rather than guessing at the next step.",
+    "After shocking, keep the pump running for at least six to eight hours and re-test before anyone swims. In the wet season I would also check cyanuric (stabiliser) level monthly, because repeated dilution cycles slowly drag it down while UV exposure keeps it high on sunny days."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Dealing with Dirt, Leaves, and Insects",
+   "paragraphs": [
+    "Sanur villas are rarely bare concrete; most have coconut palms, frangipani, or banyan trees within a few metres of the water line. During the rainy season those trees drop leaves continuously, and the humidity brings out mosquitoes, small beetles, and even the occasional dragonfly that lands in still water. A skimmer basket left unattended for two days will overflow and dump everything back into the pool.",
+    "Empty the skimmer basket daily during November–March. Run a manual vacuum over the floor once or twice a week, directing debris to waste rather than through the filter so you do not clog the sand bed or cartridge. After a particularly heavy leaf fall, take the filter apart, rinse the media, and inspect the laterals for trapped material. If the pump strainer basket is full of silt, clean it before restarting circulation."
+   ],
+   "bullets": [
+    "Daily: empty skimmer basket, skim surface with a net.",
+    "Weekly (wet season): vacuum floor, check pump strainer.",
+    "After major leaf fall: deep-clean filter media, inspect return jets for blockage."
+   ]
+  },
+  {
+   "h2": "Overflow Drains and Perimeter Channels",
+   "paragraphs": [
+    "Many older Sanur villas were built with a shallow channel running around the pool deck, feeding an overflow weir at one end. These channels are designed to carry away rainwater from the surrounding garden and terrace. Over time they fill with fine silt, crushed leaves, and insect carcasses until water simply pools on the deck instead of draining.",
+    "A blocked perimeter channel creates three problems at once: standing water breeds mosquitoes, the wet concrete becomes a slip hazard, and excess moisture wicks into nearby tile joints causing grout failure. In some properties the overflow connects directly to the septic tank or a storm drain; in that case avoid pouring any oil-based cleaners or large volumes of chemical solution down the channel, as it can upset the treatment system downstream.",
+    "If you notice the deck staying wet long after the rain stops, or water pooling in one corner of the pool area, the channel is likely restricted. Clearing a heavily silted channel or repairing a cracked weir is best left to someone with the right tools and access – I can assess it from photos and let you know whether it is a simple flush-out job or needs a small repair."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "How long should I wait after heavy rain before testing and treating the pool?",
+   "a": "Give it about two hours so surface debris settles and readings stabilise. Test pH first, then free chlorine and alkalinity. If the pool looks green or cloudy, shock-treat only after pH is back in the 7.2–7.6 range, and keep the pump running for at least six hours before swimming."
+  },
+  {
+   "q": "Can I just add extra chlorine if the pool turns slightly green after a storm?",
+   "a": "A little extra chlorine helps, but it will not fix tannin staining or a pH that has shifted out of range. Always correct pH and alkalinity first, then apply a proper shock dose. Adding chlorine on top of already-unbalanced water wastes product and can leave a persistent yellow tint that requires a separate treatment."
+  },
+  {
+   "q": "What do I do if my overflow channel around the pool deck is completely blocked?",
+   "a": "Stop using the deck while it stays wet to avoid slips. Do not pour large volumes of acid or chemical solution down the channel, especially if it feeds your septic system. Take a photo of the affected section and send it over – I can tell you whether it needs a pressure flush, a small excavation, or a weir repair, and quote from what I see."
+  }
+ ],
+ "cta": "If your pool looks off after a storm, snap a quick photo of the water surface and the skimmer area and send it over WhatsApp – I'll take a look and let you know exactly what needs doing before it gets worse.",
+ "id": "A050",
+ "hub": "PC",
+ "status": "draft-qwen"
+}
