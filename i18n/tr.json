@@ -1,0 +1,305 @@
+{
+ "lang": "tr",
+ "ui": {
+  "tagline": "Sanur'da Tesisat ve Havuz Servisi",
+  "wa": "WhatsApp'tan Yazın",
+  "call": "Ara",
+  "wa_text": "Merhaba! Sanur'da bir teknisyene ihtiyacım var: ",
+  "services": "Hizmetler",
+  "prices": "Fiyatlar",
+  "areas": "Çalışma Alanı",
+  "contacts": "İletişim",
+  "fix": "Ne Tamir Ediyorum",
+  "how": "Nasıl Çalışıyor",
+  "faq": "SSS",
+  "on_req": "talep üzerine",
+  "work": "İş",
+  "price": "Fiyat",
+  "steps": [
+   "WhatsApp'tan fotoğraf veya kısa video gönderin",
+   "Size uygun fiyat ve zaman alın",
+   "Ben tamir edip sonucu size gönderiyorum"
+  ],
+  "area_txt": "Yalnızca Sanur'da çalışıyorum — tüm bölge:",
+  "home_h1": "Sanur, Bali'de Tesisat ve Havuz Servisi",
+  "home_lead": "Özel teknisyen: tesisat, sızıntı, su ısıtıcıları, pompalar, havuz temizliği ve tamiri, Sanur'daki küçük villa onarımları. Fotoğraf gönderin — WhatsApp'tan yanıt veririm.",
+  "prices_h1": "Sanur Fiyatları",
+  "prices_note": "Fiyat işe göre değişir. Gelmeden önce fotoğraflardan teklif veririm. Parçalar ayrıca faturalandırılır.",
+  "areas_h1": "Sadece Sanur",
+  "contacts_h1": "İletişim",
+  "contacts_lead": "En hızlı yol: Sorunun fotoğrafını ve bölgenizi WhatsApp'tan gönderin.",
+  "nf": "Sayfa bulunamadı",
+  "home": "Ana Sayfa",
+  "badge": "Sadece Sanur · Bali",
+  "guides": "Rehberler",
+  "guides_h1": "Sanur için Villa ve Havuz Rehberleri",
+  "guides_lead": "Yalnızca Sanur'da çalışan bir teknisyenden pratik rehberler: sızıntılar, sıcak su, pompalar, havuzlar, septik tank ve küçük onarımlar.",
+  "toc": "Bu rehberde",
+  "related": "İlgili rehberler",
+  "read": "Rehberi oku",
+  "all_guides": "Tüm rehberler",
+  "need_help": "Tamir mi lazım?",
+  "faq_h": "Sorular",
+  "trust": [
+   "Her işten sonra WhatsApp'tan fotoğraf raporu",
+   "Gelmeden önce fotoğraflarınızdan teklif",
+   "Sadece Sanur — burada yaşıyor ve çalışıyorum",
+   "Parçalar faturalı olarak ücretlendirilir"
+  ],
+  "why": "Sanur villa sahipleri neden beni arıyor",
+  "why_items": [
+   [
+    "Benim kendim geliyorum",
+    "Ne bir çağrı merkezi ne de bir ekip. Mesajlaştığınız kişi, işi yapan kişidir."
+   ],
+   [
+    "Tek bölge",
+    "Adanın öbür tarafına geçmiyorum. Sanur villalarını biliyorum: eski havuzlar, sahile yakın tuzlu kuyular, çatı tankları."
+   ],
+   [
+    "Sahipler için rapor",
+    "Yurt dışındasınız mı? Önce-sonra fotoğraflarını ve yapılanların kısa listesini alırsınız."
+   ]
+  ],
+  "master_h": "Teknisyeniniz",
+  "master_txt": "Buraya teknisyenin fotoğrafı ve birkaç cümle gelecek: isim, deneyim yılı, diller. Bali'de insanlar bir şirketi değil, kişiyi seçer.",
+  "master_ph": "Teknisyen fotoğrafı",
+  "map_h": "Nerede Çalışıyorum",
+  "ready": "Bir şey mi bozuldu? WhatsApp'tan fotoğraf gönderin.",
+  "ready_sub": "Ne gerektiğini, fiyatı ve ne zaman gelebileceğimi yazarak yanıt veririm.",
+  "credits": "Fotoğraflar: Unsplash",
+  "eyebrow": "Tesisat · Havuzlar · Onarımlar",
+  "menu": "Menü",
+  "language": "Dil",
+  "photo_note": "(gerçek bir fotoğrafla değiştirin)",
+  "guides_en": "Rehberler (İngilizce)"
+ },
+ "services": {
+  "srv-santehnik": {
+   "name": "Sanur'da Tesisatçı",
+   "intro": "Sanur'da özel tesisatçı: Bizzat gelirim, sorunun kaynağını bulup çözerim. Musluklar, klozetler, borular, pompalar ve sıcak su — villalarda, evlerde ve dairelerde.",
+   "items": [
+    "Kaçağı olan musluklar ve karıştırıcılar",
+    "Akıtan veya kaçırık klozet sifonu",
+    "Düşük su basıncı",
+    "Karıştırıcı, sifon ve hortum değişimi",
+    "Klozet ve lavabo montajı",
+    "Çamaşır makinesi ve bulaşık makinesi bağlantısı"
+   ],
+   "faq": [
+    [
+     "Ne kadar sürede gelebilirsiniz?",
+     "Günün programına bağlı. WhatsApp'tan fotoğraf gönderin, ne zaman gelebileceğimi söyleyeyim."
+    ],
+    [
+     "Yedek parçaları kim alıyor?",
+     "İkisi de olur. Ben alıp fişini size verebilirim."
+    ]
+   ]
+  },
+  "srv-protechki": {
+   "name": "Su Kaçağı Onarımı",
+   "intro": "Kaçağı bulup onarıyorum: lavaboların altında, duvarlarda, duşlarda ve bahçe hatlarında. Gizli bir kaçak genellikle PDAM sayacında ya da sürekli çalışan pompada kendini belli eder.",
+   "items": [
+    "Lavabo altı sızıntıları",
+    "Sızdıran duşlar ve zemin giderleri",
+    "Sayaçtan tespit edilen gizli kaçaklar",
+    "Patlamış PVC/PPR borular",
+    "Bahçe sulama hattı kaçakları"
+   ],
+   "faq": [
+    [
+     "Siz gelmeden önce ne yapmalıyım?",
+     "Ana vanayı kapatın; su prizlere yakınsa elektriği kesin."
+    ]
+   ]
+  },
+  "srv-zasor": {
+   "name": "Tıkanan Giderler ve Klozetler",
+   "intro": "Klozet, lavabo, duş ve gider hatlarını gider açma makinesiyle temizliyorum; boruları ve septik tankları yıpratan sert kimyasallar kullanmıyorum.",
+   "items": [
+    "Tıkanmış klozet",
+    "Yavaş akan duş veya lavabo gideri",
+    "Tıkanmış kanalizasyon hattı",
+    "Giderlerden gelen koku"
+   ],
+   "faq": [
+    [
+     "Bali'de tuvalete neden kağıt atılmaz?",
+     "Dar borular ve küçük septik tanklar — kağıt sistemi hızla tıkıyor."
+    ]
+   ]
+  },
+  "srv-bojler": {
+   "name": "Su Isıtıcısı Onarımı ve Montajı",
+   "intro": "Sıcak su yok mu? Nedenini bulurum — elektrikli ısıtıcı, gazlı ısıtıcı ya da çatı güneş enerjisi. Isıtıcı elemanları, termostatlar, anotlar ve yeni montaj.",
+   "items": [
+    "Isıtıcı ısıtmıyor",
+    "Isıtıcı sigortayı atıyor",
+    "Kaçağı olan ısıtıcı",
+    "Ilık kalan güneş ısıtıcısı",
+    "Yeni ısıtıcı montajı"
+   ],
+   "faq": [
+    [
+     "Onarım mı, değişim mi?",
+     "Tank sızıntısı varsa değişim gerekir. Arızalı eleman veya termostat genellikle onarılmaya değer."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Su Pompaları ve Filtreler",
+   "intro": "Pompalar, basınç şalterleri, çatı tankları ve su filtreleri. Sanur'da plaja yakın kuyu suları tuzlu olabilir — filtrasyon veya PDAM'a geçiş konusunda yardımcı olurum.",
+   "items": [
+    "Pompa sürekli devrede kalıyor",
+    "Evde su yok",
+    "Tank taşıyor ya da boş",
+    "Filtre montajı ve kartuşlar",
+    "Çatı tankı temizliği"
+   ],
+   "faq": [
+    [
+     "Kartuşlar ne sıklıkla değiştirilmeli?",
+     "Genellikle suya bağlı olarak 3–6 ayda bir. Neye dikkat etmeniz gerektiğini gösteririm."
+    ]
+   ]
+  },
+  "srv-chistka-bassejna": {
+   "name": "Havuz Temizliği",
+   "intro": "Tek seferlik havuz temizliği: yüzey temizliği, fırçalama, vakumlama, filtre ters yıkama ve su dengesi. Yeşil havuz kurtarma.",
+   "items": [
+    "Misafirler gelmeden önce temizlik",
+    "Yeşil veya bulanık su",
+    "Su seviyesi karolarının temizliği",
+    "Filtre ters yıkama"
+   ],
+   "faq": [
+    [
+     "Yeşil havuzu düzeltmek ne kadar sürer?",
+     "Genellikle suya ve filtreye bağlı olarak 2–4 gün."
+    ]
+   ]
+  },
+  "srv-obsluzhivanie-bassejna": {
+   "name": "Düzenli Havuz Bakımı",
+   "intro": "Planlı havuz bakımı. Her ziyaretten sonra bir WhatsApp raporu alırsınız: fotoğraflar, su ölçümleri, yapılan işler. Bali'de tam zamanlı yaşamıyorsanız idealdir.",
+   "items": [
+    "Planlı ziyaretler",
+    "Su testi ve dengeleme",
+    "Vakumlama, fırçalama, yüzey temizliği",
+    "Pompa ve filtre kontrolü",
+    "Her ziyaret sonrası rapor"
+   ],
+   "faq": [
+    [
+     "Kimyasallar dahil mi?",
+     "Önceden anlaşılır: ya dahildir ya da fişle ayrı faturalandırılır."
+    ]
+   ]
+  },
+  "srv-oborudovanie-bassejna": {
+   "name": "Havuz Ekipmanları",
+   "intro": "Pompaların, kum ve kartuş filtrelerin, klorinatörlerin, aydınlatmaların ve otomatik dolgu sistemlerinin montajı ve tamiri.",
+   "items": [
+    "Pompa basmıyor veya gürültülü çalışıyor",
+    "Filtre kumu değişimi",
+    "Çok portlu vana",
+    "Tuz klorinatörü",
+    "Havuz aydınlatması"
+   ],
+   "faq": [
+    [
+     "Pompa odasının fotoğrafını gönderebilir miyim?",
+     "Evet — ne getirmem gerektiğini bilmemin en iyi yolu bu."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Havuz Onarımı",
+   "intro": "Kaçaklar, gevşek fayanslar, derz, boru hatları. Sanur'daki birçok havuz 15–20 yaşında — önce neyin tamir edileceğine birlikte karar verelim.",
+   "items": [
+    "Su kaybı — sızıntı tespiti",
+    "Gevşek fayans ve mozaik",
+    "Derz yenileme",
+    "Havuz boru kaçakları"
+   ],
+   "faq": [
+    [
+     "Buharlaşma mı, sızıntı mı?",
+     "Kova testi: merdivene bir kova su koyun ve 24 saat sonra her iki seviyeyi karşılaştırın."
+    ]
+   ]
+  },
+  "srv-septik": {
+   "name": "Septik Çukur & Kanalizasyon",
+   "intro": "Koku, yavaş akan giderler, dolu çukur. Sorunu bulur, boşaltımı ayarlar ve hatları açarım.",
+   "items": [
+    "Kanalizasyon kokusu",
+    "Dolu septik çukur",
+    "Tıkanmış kanalizasyon hattı",
+    "Yağ tutucu"
+   ],
+   "faq": [
+    [
+     "Septik çukur ne sıklıkla boşaltılmalı?",
+     "Büyüklüğüne ve kişi sayısına bağlıdır — genellikle her 1–3 yılda bir."
+    ]
+   ]
+  },
+  "srv-melkij-remont": {
+   "name": "Usta Hizmeti",
+   "intro": "Tek ziyarette küçük ev tamirleri: kapılar, kilitler, sineklik, silikon, raflar, mobilya.",
+   "items": [
+    "Takılan kapılar ve menteşeler",
+    "Kilitler ve kolplar",
+    "Sineklik",
+    "Banyo silikon yenileme",
+    "Raflar, perde rayları, TV montajı",
+    "Mobilya montajı"
+   ],
+   "faq": [
+    [
+     "Bir ziyaret için birden fazla iş listeleyebilir miyim?",
+     "Evet, en uygun fiyat bu şekilde. Listeyi fotoğraflarla birlikte gönderin."
+    ]
+   ]
+  },
+  "srv-obsluzhivanie-villy": {
+   "name": "Vila Bakımı",
+   "intro": "Düzenli vila kontrolleri: tesisat, havuz, pompalar, su ısıtıcıları, yağmurlu sezon öncesi çatı. Sahipler ve yöneticiler için.",
+   "items": [
+    "Kontrol listesi denetimleri",
+    "Yağmurlu sezon hazırlığı",
+    "Geliş öncesi kontroller",
+    "Sahip raporları"
+   ],
+   "faq": [
+    [
+     "Vila yöneticileriyle çalışıyor musunuz?",
+     "Evet, düzenli bir program oluşturabiliriz."
+    ]
+   ]
+  }
+ },
+ "hubs": {
+  "S": "Tesisat",
+  "W": "Su ve Pompalar",
+  "PC": "Havuz Bakımı",
+  "PE": "Havuz Ekipmanları",
+  "PR": "Havuz Onarımı",
+  "K": "Septik ve Drenaj",
+  "R": "Ev Tamiri",
+  "V": "Villa Bakımı"
+ },
+ "areas": [
+  "Sanur Kaja",
+  "Sanur Kauh",
+  "Sindhu",
+  "Semawang",
+  "Mertasari",
+  "Batujimbar",
+  "Jl. Danau Tamblingan",
+  "Jl. Danau Poso",
+  "Jl. Bypass Ngurah Rai"
+ ]
+}
