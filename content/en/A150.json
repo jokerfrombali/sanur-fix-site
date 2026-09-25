@@ -1,0 +1,92 @@
+{
+ "title": "Sanur Villa Maintenance: A Yearly Prevention Plan",
+ "slug": "sanur-villa-prevention-plan",
+ "meta": "A practical monthly-to-yearly maintenance checklist for your Sanur villa—pool, plumbing, septic tank, rooftop tanks, and seasonal prep before the rains.",
+ "intro": "Most villa breakdowns in Sanur are not sudden—they build up quietly over weeks of salt air, hard PDAM water, and monsoon moisture. A simple prevention routine catches small leaks, slow drains, and corroded fittings long before they become a 2 a.m. emergency. This is the yearly plan I recommend to every owner and tenant I work with here.",
+ "sections": [
+  {
+   "h2": "Monthly: Your Five-Minute Walk-Around",
+   "paragraphs": [
+    "You do not need tools—just eyes and a phone camera. Walk the pool area first: skim the surface, empty the skimmer basket, and glance at the chlorine reading on your test strips. If the water looks cloudy or the pump sounds different, note it down.",
+    "Then check under the kitchen sink, the bathroom vanity, and around the toilet base for dampness or mineral crust. In older Sanur villas, connections behind the wall often weep slowly before they drip openly, so a faint tide mark is your early warning."
+   ],
+   "bullets": [
+    "Empty pool skimmer basket; check filter pressure gauge",
+    "Look for damp patches under sinks, around toilets, near the water heater",
+    "Check rooftop tank level and clear debris from the inlet screen",
+    "Note any sewage smell coming from floor drains"
+   ]
+  },
+  {
+   "h2": "Quarterly: Go One Step Deeper",
+   "paragraphs": [
+    "Every three months you tackle the items that monthly checks miss. Backwash the sand filter or swap the cartridge, then clean the pump strainer. Flush the PDAM supply line if flow has dropped—mineral buildup in hard water narrows the pipe over time.",
+    "Open the septic inspection hatch and read the liquid level. If it sits close to the outlet pipe, schedule a pump-out soon rather than waiting for a backup. Finally, walk the roofline with binoculars: salt air from the Indian Ocean eats through paint and thin metal fasteners, and loose tiles become leaks the moment the rains start."
+   ],
+   "bullets": [
+    "Backwash or replace pool filter; clean pump strainer",
+    "Flush cold-water lines at an outdoor tap to dislodge sediment",
+    "Inspect septic tank level and mark the date on your log",
+    "Check gutter joints and downpipes for corrosion or blockages"
+   ]
+  },
+  {
+   "h2": "Once a Year: Book a Full Service Visit",
+   "paragraphs": [
+    "This is not about fixing something broken—it is about measuring what is still healthy so you have a baseline for next year. A technician can pressure-test the internal pipework, inspect pool pump seals and impeller clearance, and open every junction box near wet areas to check for moisture ingress.",
+    "If you smell gas anywhere near the kitchen or water heater, stop using the appliance immediately and call a professional. Do not flip switches or light matches while investigating. For villas running off a well instead of PDAM, this is also the time to test water quality and fully flush the storage tank—old concrete tanks in Sanur often develop hairline cracks that let algae in during the dry season."
+   ],
+   "bullets": [
+    "Pressure-test supply pipes; flag any section showing scale or soft spots",
+    "Service pool pump: seals, bearings, impeller clearance",
+    "Have all electrical junction boxes near the pool opened and inspected",
+    "Test well water if applicable; clean and disinfect rooftop tank",
+    "Inspect gas line and regulator; replace hose if it feels brittle"
+   ]
+  },
+  {
+   "h2": "Seasonal: Adjusting to Rainy and Dry Months",
+   "paragraphs": [
+    "Sanur has two real seasons, and your villa behaves differently in each. The rainy months (roughly November to March) bring standing water, saturated ground around septic fields, and constant humidity inside walls. The dry months are calmer but bring relentless salt-laden wind from the sea.",
+    "Before the first heavy rains, clear every gutter and downpipe, confirm the yard slopes away from the foundation, and test any sump pump in a lower level. During the wet season, keep an eye on low-lying stretches near Jl. Danau Poso—flash flooding can push debris into open drain grates and back up through floor drains.",
+    "In the dry season, focus on corrosion. Wipe down exposed metal fittings, re-paint rust spots on railings or gate hardware, and check that pool coping stones have not shifted with thermal expansion."
+   ],
+   "bullets": [
+    "Pre-rainy: clear gutters, test sump pumps, confirm yard grading",
+    "Wet season: watch for sewage odour after storms; avoid large appliance runs if drainage is slow",
+    "Dry season: inspect and repaint corroded metal; check pool tile joints"
+   ]
+  },
+  {
+   "h2": "Document Everything: Your Simple Log",
+   "paragraphs": [
+    "The single most useful habit is a simple log—a notebook on the kitchen counter or a notes app. Write the date, what you checked, and anything unusual. Take a photo of the septic gauge, the filter pressure reading, or a small leak before it gets worse.",
+    "When you do call a technician, those photos and dates save everyone time. You can send them over WhatsApp so the right parts are brought to the job first. If a PDAM bill looks high compared to previous months, your log will show whether usage actually changed or whether there is a silent leak somewhere in the line."
+   ],
+   "bullets": [
+    "Log every maintenance action with a date and a short note",
+    "Photograph meter readings (PDAM, well pump hours) each quarter",
+    "Keep a list of key contacts: plumber/pool tech, electrician, septic service",
+    "Store the villa's original plumbing layout drawing if one exists"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "How often should I have my Sanur villa's septic tank pumped?",
+   "a": "There is no fixed interval—it depends on how many people use the villa and how much water goes through the system. Check the liquid level quarterly; when it approaches the outlet pipe, schedule a pump-out. In busy rainy season, ground saturation slows absorption, so you may need an extra visit."
+  },
+  {
+   "q": "Can I just fix things when they break instead of doing a routine?",
+   "a": "You can, but small issues compound fast in this climate. A pinhole leak behind a wall becomes mould within two weeks of humidity. A slightly off chlorine level turns into algae bloom in three days of sun. Prevention costs far less than emergency repair, especially when parts for older villa fittings are hard to source locally."
+  },
+  {
+   "q": "What should I do if I notice a gas smell near the kitchen or pool heater?",
+   "a": "Stop using the appliance, open windows, leave the area, and call your technician or a licensed gas fitter from outside the building. Do not operate light switches or electrical equipment while the smell is present. If the odour persists after ventilation, keep the space closed until a professional inspects the line and regulator."
+  }
+ ],
+ "cta": "If something looks off—a damp patch, a slow drain, cloudy pool water—snap a photo and send it over on WhatsApp; I will take a look and let you know whether it needs attention now or can wait for your next scheduled check.",
+ "id": "A150",
+ "hub": "V",
+ "status": "draft-qwen"
+}

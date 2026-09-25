@@ -1,0 +1,78 @@
+{
+ "title": "Villa Rental in Sanur: What to Check Before You Move In",
+ "slug": "sanur-villa-move-in-checklist",
+ "meta": "Check plumbing, hot water, pool, septic tank and more before signing a long-term villa lease in Sanur. A practical pre-move-in guide for expats.",
+ "intro": "Before you sign a long-term villa lease in Sanur, spend one full day testing every tap, heater, pump and drain. Most issues are fixable, but catching them before move-in means you negotiate repairs into the contract instead of paying out of pocket later.",
+ "sections": [
+  {
+   "h2": "Plumbing, Pressure and Water Supply",
+   "paragraphs": [
+    "In most Sanur villas the water comes from PDAM mains into a rooftop tank, then gravity feeds your taps. That setup works fine on a good day, but pressure can drop sharply during peak hours or when a neighbour runs their irrigation. Turn on every tap—kitchen, bathroom, outdoor shower—and run each for at least two minutes. You want a steady stream, not a sputtering trickle.",
+    "Walk the pipework while you are there. The salt-laden sea air accelerates corrosion on exposed copper and PVC joints, especially on older villas built before 2010. Look for greenish staining, weeping fittings, or a damp patch under the sink. If the property is fed by a well rather than PDAM, ask who services the submersible pump and when it was last checked."
+   ],
+   "bullets": [
+    "Run every tap and flush every toilet twice; note any that lose pressure quickly.",
+    "Check the rooftop tank lid seals and float valve so it does not overflow in the rainy season.",
+    "Look under sinks and behind the water heater for mineral scale or rust streaks."
+   ],
+   "bullets_note": ""
+  },
+  {
+   "h2": "Hot Water: Gas Heaters and Electric Systems",
+   "paragraphs": [
+    "Many Sanur villas use LPG instant heaters because they are cheaper to run than electric. Light the heater, let it reach temperature, then open the hot tap in the furthest bathroom. Wait thirty seconds. If the water takes more than a minute to warm up, the pipe runs are long or the flow is restricted—worth flagging before you commit.",
+    "If you smell gas at any point while testing, stop immediately. Do not switch anything on or off, do not light a match. Step outside, ventilate if safe, and call a licensed technician. LPG cylinders stored near the kitchen or pool equipment shed should have clear ventilation and be away from direct sun.",
+    "For electric storage systems, check whether an anode rod is fitted inside the tank. Hard PDAM water eats unprotected steel tanks within a couple of years. Ask the landlord when the last descale was done; a white crusty residue around the outlet flange tells you enough."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Pool, Pump Room and Chemical Storage",
+   "paragraphs": [
+    "Ask the caretaker or previous tenant to show you the pump room. The pump should start without grinding, the filter pressure gauge should read in the green band, and there should be no persistent wet patch under the motor. In Sanur's humid air, electrical connections corrode faster, so look for pitted terminals or frayed cable insulation. If you see exposed wiring near standing water, do not touch it—call an electrician before doing anything else.",
+    "Test the skimmer basket, clean the filter, and check that the return jets push evenly. During the rainy season (roughly November to March) heavy downpours can push the water level above the tile line; make sure the overflow channel drains freely into the garden soakaway rather than pooling on the patio.",
+    "A word on chemicals: never mix chlorine tablets with acid-based products such as muriatic acid or algaecide concentrates. The reaction releases toxic gas. Keep all pool chemicals in their original labelled containers, stored off the ground and away from children."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Septic Tank, Drains and Odour",
+   "paragraphs": [
+    "Most older villas in Sanur sit on a basic septic system: a primary tank plus a leach field in the garden. They work well when maintained but are unforgiving of neglect. Walk the perimeter after a rainstorm if possible. A sweet, sewage-like smell rising from the lawn is a sign the tank needs pumping or the vent pipe is blocked.",
+    "Flush every toilet, run the kitchen sink and outdoor shower simultaneously, then watch the lowest drain point—usually near the garage or garden gate—for slow drainage or backflow. If standing water lingers more than an hour after use, the soakaway may be saturated or the connecting pipe has collapsed."
+   ],
+   "bullets": [
+    "Ask when the septic was last pumped; a two-to-three-year interval is typical for a family villa.",
+    "Check that no one has poured cooking oil, paint or large amounts of bleach down the drains.",
+    "Note any foul smell near the bathroom floor drain or the garden; photograph it as evidence."
+   ],
+   "bullets_note": ""
+  },
+  {
+   "h2": "What to Write Into Your Lease Agreement",
+   "paragraphs": [
+    "Before you hand over your deposit, walk through the property with the landlord or agent and document everything. Take dated photos and a short video of each tap, heater, pool pump, septic area and any existing stain or crack. Attach these to the contract as an annex so there is no dispute later about what was already worn.",
+    "Agree in writing who handles routine maintenance (filter cleaning, chlorine top-up, tank descaling) versus major repairs (pump replacement, septic rebuild, roof leak). Clarify how requests are communicated—most landlords in Sanur prefer WhatsApp—and set a reasonable expectation for non-emergency call-outs. If the cost of a repair is unclear, a technician can usually quote from clear photos sent on WhatsApp before any work begins."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "How often should I have the septic tank pumped?",
+   "a": "For a villa occupied by two to four people, every two to three years keeps the sludge layer under control. In the rainy season the leach field saturates faster, so if you notice slow drainage after heavy rain, it may be time sooner."
+  },
+  {
+   "q": "Is PDAM water safe to drink straight from the tap?",
+   "a": "PDAM water is treated at source, but long pipe runs and rooftop tanks can introduce sediment. A simple inline filter on the kitchen tap handles most of it. Boil or use bottled water if you have a sensitive stomach, especially during the first few days when old pipes flush out."
+  },
+  {
+   "q": "What do I do if the pool pump smells burnt?",
+   "a": "Switch the pump off at the breaker immediately. Do not open the motor housing yourself—there is a risk of electric shock and the bearings are likely seized. Call a qualified technician who can assess whether it needs rewinding or replacement."
+  }
+ ],
+ "cta": "If something looks off during your walk-through, snap a photo in good light and send it over on WhatsApp for a quick professional read before you sign anything.",
+ "id": "A146",
+ "hub": "V",
+ "status": "draft-qwen"
+}

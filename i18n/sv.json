@@ -72,7 +72,67 @@
   "menu": "Meny",
   "language": "Språk",
   "photo_note": "(ersätt med ett riktigt foto)",
-  "guides_en": "Guider (engelska)"
+  "guides_en": "Guider (engelska)",
+  "only": "Endast Sanur",
+  "call_or_wa": "Skicka en foto på WhatsApp eller ring {phone} — jag berättar vad som behövs och när jag kan komma.",
+  "local_eyebrow": "Lokal kunskap",
+  "local_h": "Vattenservice i Sanur är annorlunda",
+  "local_intro": "De flesta åkningar i Sanur handlar om samma lokala förhållanden. Att känna till dem är halva diagnosen — därför arbetar jag bara inom ett område.",
+  "local_items": [
+   [
+    "Villor byggda för 15–20 år sedan",
+    "Många av Sanurs villor har fortfarande sina ursprungliga PVC-rör och kopplingar. Rör som ligger i solen blir spröda och fogarna börjar läcka. Ofta är det smartare att byta ut en sektion än att laga igen."
+   ],
+   [
+    "Salthaltig luft nära stranden",
+    "I Sindhu, Semawang och Mertasari äter havsluften upp kranar, duschhuvuden, gångjärn och pumpmotorer mycket snabbare än inland. Att välja rätt material sparar på upprepade reparationer."
+   ],
+   [
+    "Brunnsvatten och PDAM",
+    "Många villor kombinerar PDAM:s ledningsnät med en brunn. Nära havet kan brunnsvattnet vara känt — filter och patroner täpps till snabbare och värmare får kalkavlagring."
+   ],
+   [
+    "Takcisterner och pumpar",
+    "Vattentrycket beror på cisternen, pumpen och tryckswitchen. De flesta anrop om 'svag dusch' eller 'pumpen slår på hela tiden' börjar här, inte i kranen."
+   ],
+   [
+    "Slamrännor och toalettpapper",
+    "Slamrännorna är små och rören smala. Tillstoppningar och lukter betyder oftast papper eller fett i systemet, eller en ränna som behöver tömmas."
+   ],
+   [
+    "Regnperioden",
+    "Cirka november till mars testar kraftiga regn tak, stuprör, avlopp, pooler och slamrännor. Bästa tidpunkten för kontroller är innan de första stora stormarna."
+   ]
+  ],
+  "hoods_h": "Hela Sanur",
+  "hoods_txt": "Jag arbetar i hela Sanur: Sanur Kaja, Sanur Kauh, Sindhu, Semawang, Mertasari och Batujimbar – längs Jl. Danau Tamblingan, Jl. Danau Poso och Bypass Ngurah Rai. Villor, hus, lägenheter och små gästhus.",
+  "all_services": "Alla tjänster",
+  "pricing_h": "Så fungerar priserna",
+  "pricing_items": [
+   [
+    "Pris innan arbete",
+    "Skicka foton eller en video – du får ett pris innan jag kommer, och vi är överens innan arbetet börjar."
+   ],
+   [
+    "Delar med kvitto",
+    "Reservdelar köps till inköpspris och du får kvittot."
+   ],
+   [
+    "Fotoreportage",
+    "Efter jobbet får du före-efter-foton via WhatsApp."
+   ]
+  ],
+  "reviews_h": "Vad kunderna säger",
+  "reviews_more": "Alla recensioner på Google",
+  "projects": "Arbete",
+  "projects_h1": "Senaste arbetena i Sanur",
+  "projects_lead": "Verkliga jobb i Sanur: vad som var fel och vad som gjordes.",
+  "emergency": "Akut service",
+  "about_h": "Om teknikern",
+  "years": "års erfarenhet",
+  "langs": "Språk",
+  "warranty": "Garanti",
+  "sample": "Exempeldata"
  },
  "services": {
   "srv-santehnik": {

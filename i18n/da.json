@@ -72,7 +72,67 @@
   "menu": "Menu",
   "language": "Sprog",
   "photo_note": "(udskift med et rigtigt foto)",
-  "guides_en": "Guider (Engelsk)"
+  "guides_en": "Guider (Engelsk)",
+  "only": "Kun Sanur",
+  "call_or_wa": "Send et foto på WhatsApp eller ring {phone} — jeg fortæller dig, hvad der skal til, og hvornår jeg kan komme forbi.",
+  "local_eyebrow": "Lokal viden",
+  "local_h": "VVS i Sanur er anderledes",
+  "local_intro": "De fleste henvendelser i Sanur handler om de samme lokale forhold. At kende dem er halvdelen af diagnosen — derfor arbejder jeg kun i ét område.",
+  "local_items": [
+   [
+    "Villaer bygget for 15–20 år siden",
+    "Mange villaer i Sanur kører stadig på deres oprindelige PVC-rør og tilslutninger. Rør der ligger i solen bliver sprøde, og samlinger begynder at dryppe. Ofte er det smartere at udskifte et stykke end at lappe igen."
+   ],
+   [
+    "Saltholdig luft ved stranden",
+    "I Sindhu, Semawang og Mertasari æder havluften sig ind i haner, bruserhoveder, hængsler og pumpe-motorer langt hurtigere end inde i landet. De rette materialer sparer gentagne reparationer."
+   ],
+   [
+    "Borvand og PDAM",
+    "Mange villaer kombinerer PDAM-hovedledninger med en brønd. Tæt på havet kan borvandet være brakke — filtre og patroner tilstopper hurtigere, og varmere får kalkaflejringer."
+   ],
+   [
+    "Tagcisterner og pumper",
+    "Vandtrykket afhænger af cisterne, pumpe og trykswitch. De fleste 'svag bruser'- og 'pumpen slår konstant til'-tilfælde starter her, ikke ved hanen."
+   ],
+   [
+    "Spildevandstanke og toiletpapir",
+    "Spildevandstankene er små, og rørerne er smalle. Tilstopninger og lugt skyldes som regel papir eller fedt i systemet, eller en tanke der er for sent til at blive tømt."
+   ],
+   [
+    "Regntiden",
+    "Ca. november til marts tester den kraftige regn tag, render, afløb, pooler og spildevandstanke. Det bedste tidspunkt for tjek er før de første store storme."
+   ]
+  ],
+  "hoods_h": "Hele Sanur",
+  "hoods_txt": "Jeg arbejder i hele Sanur: Sanur Kaja, Sanur Kauh, Sindhu, Semawang, Mertasari og Batujimbar — langs Jl. Danau Tamblingan, Jl. Danau Poso og Bypass Ngurah Rai. Villaer, huse, lejligheder og små gæstehuse.",
+  "all_services": "Alle ydelser",
+  "pricing_h": "Sådan fastsættes priserne",
+  "pricing_items": [
+   [
+    "Pris før arbejde",
+    "Send fotos eller en video — du får et tilbud, inden jeg kommer, og vi aftaler det, før arbejdet starter."
+   ],
+   [
+    "Dele med kvittering",
+    "Dele købes til indkøbspris, og du får kvitteringen."
+   ],
+   [
+    "Foto-rapport",
+    "Når arbejdet er færdigt, får du før-efter-fotos på WhatsApp."
+   ]
+  ],
+  "reviews_h": "Hvad kunderne siger",
+  "reviews_more": "Alle anmeldelser på Google",
+  "projects": "Arbejde",
+  "projects_h1": "Seneste arbejde i Sanur",
+  "projects_lead": "Rigtige opgaver i Sanur: hvad der var galt og hvad der blev gjort.",
+  "emergency": "Akutte udkald",
+  "about_h": "Om teknikeren",
+  "years": "års erfaring",
+  "langs": "Sprog",
+  "warranty": "Garanti",
+  "sample": "Eksempeldata"
  },
  "services": {
   "srv-santehnik": {
