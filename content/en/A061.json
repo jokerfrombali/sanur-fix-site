@@ -1,0 +1,80 @@
+{
+ "title": "Your Pool After a Holiday: Restart Guide for Sanur Villas",
+ "slug": "sanur-pool-restart-guide",
+ "meta": "How to prepare your Sanur villa pool before travelling, what to expect while you're away, and how to restart the water safely on your return.",
+ "intro": "Leaving your Sanur villa for a week or two is easy – but the pool doesn't take a holiday. A little prep before you go, plus knowing exactly what to do when you get back, keeps the water clear and the pump happy. Here's a straightforward checklist that works whether you're heading to Jakarta for three days or abroad for a month.",
+ "sections": [
+  {
+   "h2": "Before You Leave",
+   "paragraphs": [
+    "Give yourself an hour the evening before departure. Test the pH (aim for 7.2–7.6) and free chlorine (1–3 ppm). If either is off, correct it now so the water starts its rest in a stable state. In Sanur's dry season the sun bakes the surface all day, so unbalanced water can shift fast within 48 hours of no one watching.",
+    "Clean the skimmer basket and the filter cartridge or sand bed. Run the pump for at least 30 minutes after cleaning so any loose debris gets pulled through. Top up the water level if it has dropped below the midpoint of the skimmer opening – low water lets air into the pump and can damage seals on older villa systems.",
+    "If your pool has a timer, set it to run the pump twice daily for about two hours each. That keeps water circulating without wasting electricity while you're gone."
+   ],
+   "bullets": [
+    "pH between 7.2 and 7.6; free chlorine 1–3 ppm before you lock up",
+    "Skimmer basket emptied, filter cleaned, pump cycled once",
+    "Water level at mid-skimmer height",
+    "Pump timer set for two runs per day if available"
+   ]
+  },
+  {
+   "h2": "While You're Away",
+   "paragraphs": [
+    "In the dry months (May to October) evaporation is the main enemy. Expect to lose a few centimetres of depth over ten days in Sanur's heat. In the rainy season (November to April), heavy downpours dilute your chlorine and wash leaves straight into the basin. Either way, the water chemistry drifts.",
+    "If you have a staff member or neighbour checking the villa, ask them simply: run the pump, glance at the water colour, and send you a photo on WhatsApp every second or third day. They don't need to be chemists – they just need to flag anything that looks cloudy, green, or low.",
+    "Avoid adding large doses of chlorine while no one is home. A small top-up (a handful of granules dissolved in a bucket first) is fine, but mixing concentrated chemicals with other products can release irritating fumes in an unventilated pool area."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "After You Return",
+   "paragraphs": [
+    "Walk around the pool before touching the water. Look for salt-crystal residue on the coping stones and equipment – Sanur's sea air does this quietly over a week or two. Wipe it off with a damp cloth; left alone it eats gaskets and motor housings on older installations.",
+    "Test the water again. pH will likely have crept up; chlorine will have dropped. Adjust both, then brush the walls and floor where algae loves to start its foothold. Empty the skimmer basket – after a rainy stretch it may be full of leaves and sand from the PDAM backwash runoff nearby.",
+    "Run the filter for four to six hours straight so the system recirculates everything you've just dosed. Check the pump strainer pot for debris that was sucked in during your absence. If the pump makes a new grinding noise, switch it off immediately and call a technician rather than forcing it through another cycle."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "If the Water Has Turned Green",
+   "paragraphs": [
+    "Don't panic – green water is almost always fixable at home and doesn't mean the pool is ruined. It means algae got ahead of your chlorine, usually because of rain dilution or a few days without circulation.",
+    "Vacuum the bottom (to waste if you can), brush every wall and step thoroughly, then super-chlorinate: dissolve a generous dose of granular chlorine in a bucket of water and pour it around the perimeter while the pump runs. Let it circulate for 8–12 hours before swimming again. Re-test the next morning; repeat once if the tint persists.",
+    "Important safety note: never mix chlorine with acid-based products or any other chemical in the same container. The reaction can release toxic gas. If you're unsure which product to use, stop and ask a professional before adding anything else."
+   ],
+   "bullets": [
+    "Vacuum → brush walls → super-chlorinate → run pump 8-12 hrs → retest",
+    "Never combine chlorine with acids or other chemicals in one vessel",
+    "Two rounds of shock treatment may be needed after heavy-rain weeks"
+   ]
+  },
+  {
+   "h2": "Remote Monitoring",
+   "paragraphs": [
+    "You don't need an expensive smart system. A simple arrangement works well in Sanur: your staff member tests the water with basic strips (pH and chlorine) twice a week, snaps a photo of the pool surface, and sends both to you on WhatsApp. You reply with a quick 'looks good' or 'add a bit more chlorine.' That's it.",
+    "If your villa has a rooftop tank that feeds the pool top-up line, make sure the float valve isn't stuck open – a slow leak over two weeks can waste hundreds of litres of PDAM or well water. A five-second check by whoever visits the house catches this early.",
+    "For longer absences beyond three weeks, consider asking a local technician for a single mid-stay visit to balance the chemistry and clear the filter. The cost depends on the job; most technicians will quote from a couple of photos you send ahead of time."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "How long can I leave my Sanur pool completely untouched?",
+   "a": "In dry-season heat, expect noticeable algae growth after about seven to ten days without any circulation or chemical top-up. In the rainy season, heavy rain can dilute chlorine below protective levels within three or four days. If you're gone less than a week, the pre-departure balancing usually holds. Beyond that, even one pump run per day makes a big difference."
+  },
+  {
+   "q": "Should I drain the pool before leaving for a month?",
+   "a": "Generally no. Draining exposes the plaster or tile to salt air and UV, which accelerates surface damage in Sanur's climate. It also wastes water and stresses the plumbing seals on older villas. Keeping it full, balanced, and circulating (even once daily) is almost always better than draining."
+  },
+  {
+   "q": "What if it rains heavily while I'm away and the water looks brown?",
+   "a": "Brown tint after a storm is usually tannin from leaves plus suspended sediment stirred up by the downpour. Let the water settle for 24 hours, vacuum the bottom, clean the filter, then do a light shock treatment. If the colour doesn't clear after two cycles of filtration, send a photo to a technician – they'll tell you whether a coagulant dose is needed or if there's an underlying issue with the well-water iron content."
+  }
+ ],
+ "cta": "If your pool looks off when you get back, snap a quick photo and send it on WhatsApp – we'll look at it and tell you exactly what to do next.",
+ "id": "A061",
+ "hub": "PC",
+ "status": "draft-qwen"
+}

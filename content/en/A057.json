@@ -1,0 +1,90 @@
+{
+ "title": "Pool Maintenance Schedule & Checklist for Your Sanur Villa",
+ "slug": "pool-maintenance-checklist-sanur",
+ "meta": "Daily, weekly, monthly and yearly pool care steps for Sanur villa owners. A practical checklist to keep your pool clear through Bali's rainy season.",
+ "intro": "Keeping a pool clean in Sanur is not rocket science, but the salt air, monsoon dust and hard PDAM or well water mean you do need a rhythm. Here is a simple schedule that covers everything from skimming leaves to checking your pump seal before the wet season hits.",
+ "sections": [
+  {
+   "h2": "Every Day",
+   "paragraphs": [
+    "Walk past the pool once a day – two minutes is enough. Skim the surface with a net to catch leaves, insects and the fine sand that blows in off the beach road. Give the water a quick look: if it looks cloudy, greenish or has an oily film on top, note it down so you can adjust chemicals at your next test. Also glance at the water level; after a dry spell or heavy rain it will have shifted, and the skimmer should sit mid-way between the low and high marks."
+   ],
+   "bullets": [
+    "Skim the surface with a leaf net",
+    "Check water level against the skimmer window",
+    "Look for unusual colour, cloudiness or oil film",
+    "Make sure the return jets are flowing evenly"
+   ]
+  },
+  {
+   "h2": "Twice a Week",
+   "paragraphs": [
+    "Brush the walls and floor twice a week. In Sanur the combination of sea spray and mineral-rich fill water – whether from PDAM or a borehole – means calcium deposits and algae start forming faster than in a city pool. A soft-bristle brush works well on tile; use a stiffer one on concrete. While you are at the equipment area, empty the pump basket and clear out any debris. Test your chlorine and pH with strips: aim for free chlorine around 1–3 ppm and pH between 7.2 and 7.6. If you run a salt chlorinator, wipe the cell to make sure scale is not building up."
+   ],
+   "bullets": [
+    "Brush all walls, steps and the floor",
+    "Empty the pump strainer basket",
+    "Test free chlorine and pH; dose as needed",
+    "Inspect the filter pressure gauge; backwash if it reads high",
+    "Wipe down the skimmer throat to remove slime"
+   ]
+  },
+  {
+   "h2": "Once a Month",
+   "paragraphs": [
+    "Set aside an hour once a month for a deeper pass. Remove the skimmer assembly and scrub the throat thoroughly – that narrow channel collects gunk a quick skim never reaches. Check the grout lines and tiles for early signs of cracking or lifting; older Sanur villas sometimes have pools built before modern waterproofing standards, so small cracks can quietly become leaks. Inspect the pump seal and motor housing for weeping. Top up your chemical store and confirm everything is stored in a cool, dry spot away from direct sun – Bali heat will degrade tablets and liquid chlorine fast if they sit on a hot shelf."
+   ],
+   "bullets": [
+    "Remove and deep-clean the skimmer assembly",
+    "Inspect tile grout and pool coping for cracks",
+    "Check pump O-ring and mechanical seal for drips",
+    "Review chemical storage conditions",
+    "Clean the return jet nozzles"
+   ]
+  },
+  {
+   "h2": "Once a Year",
+   "paragraphs": [
+    "Before the rainy season (roughly November to March) or right after it ends, do a full service. This is the time to drain the pool partially or fully and give the shell a proper acid wash to strip off the mineral build-up that a year of hard water leaves behind. Have the pump motor, filter and any automation controller inspected by a technician. If your villa tops up with well water, check iron and manganese levels – they can stain the floor brown over time. Also clear the overflow channel and trace the connection to your septic or drainage line; clogged drains are a common headache in older Sanur properties."
+   ],
+   "bullets": [
+    "Partial or full drain with an acid wash of the shell",
+    "Service the pump motor, impeller and gaskets",
+    "Test well-water minerals if you use borehole supply",
+    "Clear the overflow channel and drain line",
+    "Re-check all plumbing joints for slow leaks"
+   ]
+  },
+  {
+   "h2": "Your Pool Care Checklist Template",
+   "paragraphs": [
+    "Copy this into your phone notes or print and laminate it near the equipment box so whoever looks after the pool follows the same order every time. Ticking items off gives you a simple paper trail that makes it easy to spot when something has been missed."
+   ],
+   "bullets": [
+    "☐ Daily – skim surface, level check, visual scan",
+    "☐ 2×/week – brush walls & floor, test chemicals, clean pump basket",
+    "☐ Monthly – deep-clean skimmer, inspect tiles & grout, check pump seal",
+    "☐ Yearly – acid wash, service pump & filter, clear drains, water-quality test",
+    "☐ As needed – backwash filter, top up chlorine / pH adjuster, call technician"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "How often should I change my pool water in Bali?",
+   "a": "You do not need to drain and refill every few months if you keep up with brushing, chemical balancing and an annual acid wash. In Sanur the main issue is mineral build-up from hard PDAM or well water, which a yearly acid wash handles. If the water tastes metallic or the floor looks permanently stained despite regular cleaning, a partial drain may be worth discussing with your technician."
+  },
+  {
+   "q": "Can I mix different pool chemicals to save time?",
+   "a": "No. Never pour one chemical directly into another, especially anything containing chlorine combined with acids or other oxidisers – the reaction can release toxic gas. Add each product separately to running water, let it circulate, then test before dosing the next one. If you ever smell a sharp, irritating fume while adding chemicals, stop immediately, ventilate the area and call a professional."
+  },
+  {
+   "q": "What should I do right after a heavy monsoon downpour?",
+   "a": "Wait until the rain stops, then skim out leaves and debris before they sink and start decomposing. Check the water level – it will have risen – and adjust as needed. Test pH and chlorine within 24 hours because rainwater is slightly acidic and dilutes your existing levels. If the pool picked up a muddy tint from runoff, run the filter longer than usual and give the walls an extra brush-down."
+  }
+ ],
+ "cta": "If something in your pool looks off – cloudy water, a strange smell, a pump that will not prime – snap a photo and send it over on WhatsApp; we will take a look and let you know what the job involves.",
+ "id": "A057",
+ "hub": "PC",
+ "status": "draft-qwen"
+}

@@ -1,0 +1,305 @@
+{
+ "lang": "id",
+ "ui": {
+  "tagline": "Teknisi Plambing & Kolam di Sanur",
+  "wa": "Chat WhatsApp",
+  "call": "Telepon",
+  "wa_text": "Halo! Saya butuh teknisi di Sanur: ",
+  "services": "Layanan",
+  "prices": "Harga",
+  "areas": "Area Layanan",
+  "contacts": "Kontak",
+  "fix": "Yang Bisa Saya Perbaiki",
+  "how": "Cara Kerja",
+  "faq": "FAQ",
+  "on_req": "sesuai permintaan",
+  "work": "Pekerjaan",
+  "price": "Harga",
+  "steps": [
+   "Kirim foto atau video singkat via WhatsApp",
+   "Dapatkan harga dan waktu yang sesuai",
+   "Saya perbaiki lalu kirim hasilnya ke Anda"
+  ],
+  "area_txt": "Saya hanya bekerja di Sanur — seluruh area:",
+  "home_h1": "Teknisi Plambing & Kolam di Sanur, Bali",
+  "home_lead": "Teknisi pribadi: plambing, kebocoran, pemanas air, pompa, pembersihan & perbaikan kolam, perbaikan kecil vila di Sanur. Kirim foto — saya balas via WhatsApp.",
+  "prices_h1": "Harga di Sanur",
+  "prices_note": "Harga tergantung pekerjaan. Saya akan kasih estimasi dari foto sebelum datang. Suku cadangan ditagih terpisah dengan nota.",
+  "areas_h1": "Hanya Sanur",
+  "contacts_h1": "Kontak",
+  "contacts_lead": "Cara tercepat: kirim WhatsApp dengan foto masalah dan lokasi Anda.",
+  "nf": "Halaman tidak ditemukan",
+  "home": "Beranda",
+  "badge": "Hanya Sanur · Bali",
+  "guides": "Panduan",
+  "guides_h1": "Panduan Vila & Kolam untuk Sanur",
+  "guides_lead": "Panduan praktis dari teknisi yang hanya bekerja di Sanur: kebocoran, air panas, pompa, kolam, septik tank, dan perbaikan kecil.",
+  "toc": "Dalam panduan ini",
+  "related": "Panduan terkait",
+  "read": "Baca panduan",
+  "all_guides": "Semua panduan",
+  "need_help": "Butuh diperbaiki?",
+  "faq_h": "Pertanyaan",
+  "trust": [
+   "Laporan foto via WhatsApp setelah setiap pekerjaan",
+   "Estimasi harga dari foto Anda sebelum saya datang",
+   "Hanya Sanur — saya tinggal dan kerja di sini",
+   "Suku cadangan ditagih dengan nota"
+  ],
+  "why": "Kenapa pemilik vila di Sanur menghubungi saya",
+  "why_items": [
+   [
+    "Saya yang datang sendiri",
+    "Bukan call center, bukan tim. Orang yang Anda chat adalah orang yang mengerjakan."
+   ],
+   [
+    "Satu area saja",
+    "Saya tidak keliling pulau. Saya kenal vila-vila di Sanur: kolam lama, sumur payau dekat pantai, tangki atap."
+   ],
+   [
+    "Laporan untuk pemilik",
+    "Di luar negeri? Anda dapat foto sebelum-sesudah dan ringkasan singkat apa yang dikerjakan."
+   ]
+  ],
+  "master_h": "Teknisi Anda",
+  "master_txt": "Foto dan beberapa kalimat tentang teknisi di sini: nama, pengalaman, bahasa. Di Bali orang memilih orang, bukan perusahaan.",
+  "master_ph": "Foto teknisi",
+  "map_h": "Area kerja saya",
+  "ready": "Ada yang rusak? Kirim foto via WhatsApp.",
+  "ready_sub": "Saya balas dengan kebutuhan, harga, dan kapan bisa datang.",
+  "credits": "Foto: Unsplash",
+  "eyebrow": "Plambing · Kolam · Perbaikan",
+  "menu": "Menu",
+  "language": "Bahasa",
+  "photo_note": "(ganti dengan foto asli)",
+  "guides_en": "Panduan (Inggris)"
+ },
+ "services": {
+  "srv-santehnik": {
+   "name": "Tukang Ledeng di Sanur",
+   "intro": "Tukang ledeng pribadi di Sanur: saya sendiri yang datang, cari penyebabnya, lalu perbaiki. Kran, kloset, pipa, pompa, dan air panas — untuk vila, rumah, dan apartemen.",
+   "items": [
+    "Kran dan mixer bocor",
+    "Tangki kloset terus mengalir atau bocor",
+    "Tekanan air lemah",
+    "Ganti mixer, sifon, dan selang",
+    "Pasang kloset dan wastafel",
+    "Sambungan mesin cuci dan mesin pencuci piring"
+   ],
+   "faq": [
+    [
+     "Berapa cepat bisa datang?",
+     "Tergantung jadwal hari itu. Kirim foto via WhatsApp, nanti saya kabari kapan bisa sampai."
+    ],
+    [
+     "Siapa yang beli spare part?",
+     "Bisa dua-duanya. Saya bisa belikan dan berikan struknya."
+    ]
+   ]
+  },
+  "srv-protechki": {
+   "name": "Penanganan Kebocoran Air",
+   "intro": "Mencari dan memperbaiki kebocoran: di bawah wastafel, di dalam dinding, shower, dan saluran taman. Bocor tersembunyi biasanya terlihat dari meteran PDAM atau pompa yang terus menyala.",
+   "items": [
+    "Bocor di bawah wastafel",
+    "Shower dan selokan lantai bocor",
+    "Bocor tersembunyi (terdeteksi lewat meteran)",
+    "Pipa PVC/PPR pecah",
+    "Bocor pada irigasi taman"
+   ],
+   "faq": [
+    [
+     "Apa yang harus saya lakukan sebelum Anda datang?",
+     "Tutup katup utama, dan jika air dekat stop kontak, matikan listriknya."
+    ]
+   ]
+  },
+  "srv-zasor": {
+   "name": "Saluran & Kloset Mampet",
+   "intro": "Membersihkan kloset, wastafel, shower, dan saluran pembuangan yang mampet menggunakan kawat pembersih saluran — tanpa bahan kimia keras yang merusak pipa dan tangki septik.",
+   "items": [
+    "Kloset mampet",
+    "Aliran shower atau wastafel lambat",
+    "Saluran pembuangan tersumbat",
+    "Bau dari saluran pembuangan"
+   ],
+   "faq": [
+    [
+     "Kenapa di Bali tidak boleh buang tisu ke kloset?",
+     "Pipanya sempit dan tangki septiknya kecil — kertas cepat menyumbat sistemnya."
+    ]
+   ]
+  },
+  "srv-bojler": {
+   "name": "Servis & Pasang Water Heater",
+   "intro": "Tidak ada air panas? Saya akan cari penyebabnya — water heater listrik, gas, atau panel surya di atap. Elemen pemanas, termostat, anoda, hingga pemasangan baru.",
+   "items": [
+    "Water heater tidak panas",
+    "Water heater sering trip MCB",
+    "Water heater bocor",
+    "Air dari panel surya kurang panas",
+    "Pemasangan water heater baru"
+   ],
+   "faq": [
+    [
+     "Diperbaiki atau diganti?",
+     "Tangki yang bocor sebaiknya diganti. Kalau elemen pemanas atau termostat rusak, biasanya masih layak diperbaiki."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Pompa Air & Filter",
+   "intro": "Pompa, sakelar tekanan, tangki atap, dan filter air. Di dekat pantai Sanur, air sumur bisa payau — saya bantu pasang filtrasi atau beralih ke PDAM.",
+   "items": [
+    "Pompa terus-menerus menyala-mati",
+    "Tidak ada air di rumah",
+    "Tangki meluap atau kosong",
+    "Instalasi filter dan kartrid",
+    "Pembersihan tangki atap"
+   ],
+   "faq": [
+    [
+     "Seberapa sering ganti kartrid?",
+     "Biasanya tiap 3–6 bulan tergantung kualitas air. Saya tunjukkan apa yang perlu diperhatikan."
+    ]
+   ]
+  },
+  "srv-chistka-bassejna": {
+   "name": "Pembersihan Kolam Renang",
+   "intro": "Servis kolam sekali jalan: skimming, sikat, vakum, backwash filter, dan penyesuaian kimia air. Termasuk pemulihan kolam hijau.",
+   "items": [
+    "Bersih sebelum tamu datang",
+    "Air hijau atau keruh",
+    "Pembersihan ubin garis air",
+    "Backwash filter"
+   ],
+   "faq": [
+    [
+     "Berapa lama memulihkan kolam hijau?",
+     "Biasanya 2–4 hari, tergantung kondisi air dan filter."
+    ]
+   ]
+  },
+  "srv-obsluzhivanie-bassejna": {
+   "name": "Layanan Rutin Kolam Renang",
+   "intro": "Jadwal servis kolam rutin. Setiap kunjungan Anda dapat laporan via WhatsApp: foto, hasil uji air, pekerjaan yang dilakukan. Cocok jika Anda tidak tinggal penuh di Bali.",
+   "items": [
+    "Kunjungan terjadwal",
+    "Uji dan penyesuaian kimia air",
+    "Vakum, sikat, skimmer",
+    "Cek pompa dan filter",
+    "Laporan setelah setiap kunjungan"
+   ],
+   "faq": [
+    [
+     "Apakah bahan kimia sudah termasuk?",
+     "Disebutkan di awal: bisa termasuk atau ditagih terpisah dengan bukti pembayaran."
+    ]
+   ]
+  },
+  "srv-oborudovanie-bassejna": {
+   "name": "Perangkat Kolam Renang",
+   "intro": "Instalasi dan perbaikan pompa, filter pasir & kartrid, klorinator, lampu, dan pengisi otomatis.",
+   "items": [
+    "Pompa tidak prime atau berisik",
+    "Ganti pasir filter",
+    "Keran multiport",
+    "Klorinator garam",
+    "Lampu kolam"
+   ],
+   "faq": [
+    [
+     "Bisa kirim foto ruang pompa?",
+     "Bisa — itu cara terbaik supaya saya tahu harus bawa apa."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Perbaikan Kolam Renang",
+   "intro": "Kebocoran, ubin longgar, nat, perpipaan. Banyak kolam di Sanur sudah berumur 15–20 tahun — saya bantu tentukan mana yang perlu diperbaiki dulu.",
+   "items": [
+    "Kolam kehilangan air — deteksi kebocoran",
+    "Ubin dan mozaik longgar",
+    "Pengerjaan ulang nat",
+    "Kebocoran pipa kolam"
+   ],
+   "faq": [
+    [
+     "Penguapan atau bocor?",
+     "Tes ember: letakkan ember berisi air di tangga kolam, lalu bandingkan kedua levelnya setelah 24 jam."
+    ]
+   ]
+  },
+  "srv-septik": {
+   "name": "Septik & Saluran Pembuangan",
+   "intro": "Bau, saluran lambat, tangki septik penuh. Saya cari masalahnya, atur penyedotan, dan bersihkan saluran.",
+   "items": [
+    "Bau saluran pembuangan",
+    "Tangki septik penuh",
+    "Saluran pembuangan tersumbat",
+    "Perangkap lemak (grease trap)"
+   ],
+   "faq": [
+    [
+     "Seberapa sering tangki septik harus disedot?",
+     "Tergantung ukuran dan jumlah penghuni — biasanya setiap 1–3 tahun."
+    ]
+   ]
+  },
+  "srv-melkij-remont": {
+   "name": "Jasa Perbaikan Rumah",
+   "intro": "Perbaikan kecil rumah dalam satu kunjungan: pintu, kunci, kawat nyamuk, silikon, rak, furnitur.",
+   "items": [
+    "Pintu macet dan engsel",
+    "Kunci dan gagang",
+    "Kawat nyamuk",
+    "Pengaplikasian ulang silikon kamar mandi",
+    "Rak, rel gorden, pemasangan TV",
+    "Perakitan furnitur"
+   ],
+   "faq": [
+    [
+     "Bisakah minta beberapa pekerjaan sekaligus dalam satu kunjungan?",
+     "Tentu, itu yang paling hemat. Kirimkan daftarnya beserta foto."
+    ]
+   ]
+  },
+  "srv-obsluzhivanie-villy": {
+   "name": "Pemeliharaan Vila",
+   "intro": "Pemeriksaan rutin vila: instalasi air, kolam, pompa, pemanas air, atap sebelum musim hujan. Untuk pemilik dan pengelola.",
+   "items": [
+    "Inspeksi checklist",
+    "Persiapan musim hujan",
+    "Pemeriksaan sebelum tamu tiba",
+    "Laporan untuk pemilik"
+   ],
+   "faq": [
+    [
+     "Apakah Anda bekerja sama dengan pengelola vila?",
+     "Ya, kami bisa mengatur jadwal rutin."
+    ]
+   ]
+  }
+ },
+ "hubs": {
+  "S": "Perpipaan",
+  "W": "Air & Pompa",
+  "PC": "Perawatan Kolam",
+  "PE": "Peralatan Kolam",
+  "PR": "Perbaikan Kolam",
+  "K": "Septik & Drainase",
+  "R": "Perbaikan Rumah",
+  "V": "Perawatan Vila"
+ },
+ "areas": [
+  "Sanur Kaja",
+  "Sanur Kauh",
+  "Sindhu",
+  "Semawang",
+  "Mertasari",
+  "Batujimbar",
+  "Jl. Danau Tamblingan",
+  "Jl. Danau Poso",
+  "Jl. Bypass Ngurah Rai"
+ ]
+}

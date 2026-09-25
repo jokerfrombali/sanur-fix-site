@@ -1,0 +1,81 @@
+{
+ "title": "Saltwater Pool in Bali: Pros, Cons & Daily Care",
+ "slug": "saltwater-pool-bali-care",
+ "meta": "How saltwater pools work, their real pros and cons, weekly maintenance steps, and what to do when switching from chlorine in your Sanur villa pool.",
+ "intro": "A saltwater pool uses a small electrolysis cell to turn dissolved pool-grade salt into hypochlorous acid — essentially a milder form of chlorine. For Sanur villa owners dealing with year-round humidity, sea-spray corrosion, and variable PDAM or well-water minerals, that gentler chemistry means softer skin and fewer harsh fumes. It is not, however, chemical-free, and the generator needs regular attention. Here is how the system works, what you gain, what you trade off, and how to keep it running through Bali's wet months.",
+ "sections": [
+  {
+   "h2": "How a Saltwater Pool Actually Works",
+   "paragraphs": [
+    "Your pump pushes water through a titanium-coated cell. Inside, a low-voltage current splits the sodium chloride already dissolved in the water, producing hypochlorous acid on the fly. That acid sanitises the pool just like traditional chlorine does, but at lower concentrations and without the sharp smell most people associate with a chlorinated pool.",
+    "The target salinity sits around 3,000–4,000 ppm — roughly one-tenth the taste of seawater. You add pool-grade anhydrous sodium chloride (no iodine, no anti-caking agents) once at setup, then top up as needed. The cell runs whenever the pump cycles, so sanitisation is continuous rather than a daily dose of liquid bleach."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "The Advantages of Going Salty",
+   "paragraphs": [
+    "Skin and eyes feel noticeably less irritated, which matters if children swim daily or guests are sensitive to strong chlorine. There is also no need to store heavy jerrycans of liquid bleach in a hot, humid equipment shed — a real comfort in Sanur's tropical climate where temperatures rarely drop below 25 °C even at night."
+   ],
+   "bullets": [
+    "Softer water for swimmers; fewer complaints of red eyes or itchy skin",
+    "No daily chemical dosing; the cell handles sanitisation automatically",
+    "Lower free-chlorine levels mean less 'pool smell' drifting across the villa",
+    "Consistent protection even on days you forget to add a morning dose"
+   ]
+  },
+  {
+   "h2": "Honest Downsides to Know Before You Switch",
+   "paragraphs": [
+    "The electrolysis cell is a wear item. Calcium and scale build up on its plates over time, especially with hard PDAM water or mineral-heavy well water common in older Sanur villas. Eventually the cell loses efficiency and must be replaced — factor that into your long-term ownership costs.",
+    "You still test pH, alkalinity, and salinity regularly. If the pump fails or the cell trips a fault, you lose your primary sanitiser until it is repaired. And during the November-to-April rainy season, heavy downpours dilute the salt level and wash organic debris into the pool, so testing frequency should increase noticeably."
+   ],
+   "bullets": [
+    "Higher upfront cost for the generator compared with a simple chlorine setup",
+    "Cell replacement is an ongoing expense; plan for it in your budget",
+    "Rainy-season dilution means more frequent salinity checks",
+    "Sea-air corrosion can affect exposed metal fittings, particularly closer to the coast"
+   ]
+  },
+  {
+   "h2": "Weekly Care Routine for Your Salt Pool",
+   "paragraphs": [
+    "Test free chlorine, pH (aim 7.2–7.6), total alkalinity, and salinity at least twice a week, and every day after heavy rain. Brush the walls and tile line weekly to stop biofilm forming before the cell has to work harder than designed.",
+    "Rinse the cell plates monthly with a mild descaling solution recommended by the manufacturer. Inspect the pump basket and filter each cycle. Keep the equipment area dry — in Sanur's humidity, moisture around electrical connections is a genuine shock hazard. If you ever smell gas, see sparks, or notice water pooling near the panel, switch off power at the breaker and call a qualified technician before touching anything."
+   ],
+   "bullets": [
+    "Top up pool-grade salt when salinity drops below roughly 3,000 ppm",
+    "Backwash or clean the sand/DE filter on schedule",
+    "Check the cell for white calcium deposits; descale if coverage exceeds a thin film",
+    "After the rainy season, re-test all parameters before resuming normal use",
+    "Never mix liquid bleach or other oxidisers into a running salt system without professional guidance"
+   ]
+  },
+  {
+   "h2": "Switching From Chlorine to Salt: Step by Step",
+   "paragraphs": [
+    "You do not need to drain the pool. First, flush the system thoroughly to remove residual stabiliser (cyanuric acid) if it was used previously. Then add pool-grade salt until your test kit reads within the target range. Install or activate the generator cell, run the pump for 24–48 hours, and let the cell build its chlorine level naturally.",
+    "During those first two days, check free chlorine every few hours. It will climb slowly as the cell produces hypochlorous acid. Once readings are stable, you can retire the bleach jerrycans. If the transition feels uneven — chlorine stays low or pH swings wildly — send photos of your test strips and equipment setup so a technician can advise remotely before you over-correct with extra chemicals."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I just pour in regular table salt?",
+   "a": "No. Table salt contains iodine and anti-caking agents that coat the cell plates and shorten their life considerably. Use only anhydrous sodium chloride sold specifically for pools; it is available at most hardware stores around Sanur and costs very little more than kitchen salt."
+  },
+  {
+   "q": "Is a saltwater pool really chlorine-free?",
+   "a": "Not quite. The cell still generates a small amount of hypochlorous acid, which is chemically related to chlorine. The difference is concentration and the absence of stabiliser, so the water feels gentler on skin and does not carry that sharp 'chlorinated' odour you get from a heavily dosed traditional pool."
+  },
+  {
+   "q": "What should I do when Bali's rainy season hits?",
+   "a": "Expect salinity to drop after several days of heavy rain. Test and top up salt, increase brushing frequency because leaves and organic matter wash in, and run the pump longer each day to keep circulation strong. If the pool turns green within 48 hours of a storm, contact a technician rather than dumping extra chemicals blindly — over-correction is harder to fix than under-treatment."
+  }
+ ],
+ "cta": "If your pool looks off, the generator is throwing error codes, or you are weighing whether a salt system suits your villa's setup, snap a photo of the equipment area and send it on WhatsApp — we will talk through the next steps with you.",
+ "id": "A062",
+ "hub": "PC",
+ "status": "draft-qwen"
+}

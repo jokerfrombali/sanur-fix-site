@@ -72,7 +72,66 @@
   "menu": "Menu",
   "language": "Language",
   "photo_note": "(replace with a real photo)",
-  "guides_en": "Guides (English)"
+  "guides_en": "Guides (English)",
+  "only": "Sanur only",
+  "call_or_wa": "Send a photo on WhatsApp or call {phone} — I'll tell you what's needed and when I can come.",
+  "local_eyebrow": "Local knowledge",
+  "local_h": "Plumbing in Sanur is different",
+  "local_intro": "Most call-outs in Sanur come down to the same local conditions. Knowing them is half the diagnosis — that's why I work in one area only.",
+  "local_items": [
+   [
+    "Villas built 15–20 years ago",
+    "A lot of Sanur villas still run on their original PVC pipework and fittings. Pipes that sit in the sun turn brittle, and joints start to weep. Often it's smarter to replace a section than to patch it again."
+   ],
+   [
+    "Salt air near the beach",
+    "In Sindhu, Semawang and Mertasari the sea air eats into taps, shower heads, hinges and pump motors much faster than inland. Choosing the right materials saves repeat repairs."
+   ],
+   [
+    "Well water and PDAM",
+    "Many villas combine PDAM mains with a well. Close to the sea, well water can be brackish — filters and cartridges clog faster and heaters build scale."
+   ],
+   [
+    "Rooftop tanks and pumps",
+    "Water pressure depends on the tank, the pump and the pressure switch. Most 'weak shower' and 'pump keeps switching on' calls start here, not in the tap."
+   ],
+   [
+    "Septic tanks and toilet paper",
+    "Septic tanks are small and pipes are narrow. Blockages and smells usually mean paper or grease in the system, or a tank that is overdue for pumping."
+   ],
+   [
+    "Rainy season",
+    "Roughly November to March heavy rain tests roofs, gutters, drains, pools and septic tanks. The best time for checks is before the first big storms."
+   ]
+  ],
+  "hoods_h": "Every part of Sanur",
+  "hoods_txt": "I work across all of Sanur: Sanur Kaja, Sanur Kauh, Sindhu, Semawang, Mertasari and Batujimbar — along Jl. Danau Tamblingan, Jl. Danau Poso and the Bypass Ngurah Rai. Villas, houses, apartments and small guesthouses.",
+  "all_services": "All services",
+  "pricing_h": "How pricing works",
+  "pricing_items": [
+   [
+    "Price before work",
+    "Send photos or a video — you get a price before I come, and we agree it before work starts."
+   ],
+   [
+    "Parts with receipts",
+    "Parts are bought at cost and you get the receipt."
+   ],
+   [
+    "Photo report",
+    "After the job you get before-and-after photos on WhatsApp."
+   ]
+  ],
+  "reviews_h": "What clients say",
+  "reviews_more": "All reviews on Google",
+  "projects": "Work",
+  "projects_h1": "Recent work in Sanur",
+  "projects_lead": "Real jobs in Sanur: what was wrong and what was done.",
+  "emergency": "Urgent call-outs",
+  "about_h": "About the technician",
+  "years": "years of experience",
+  "langs": "Languages",
+  "warranty": "Warranty"
  },
  "services": {
   "srv-santehnik": {

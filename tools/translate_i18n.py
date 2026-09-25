@@ -25,16 +25,17 @@ def tr(obj, lang):
         print(lang, "retry", flush=True)
     raise SystemExit(f"{lang}: translation failed")
 
-src = json.loads((ROOT / "i18n" / "en.json").read_text(encoding="utf-8"))
-for lang in (sys.argv[1:] or LANGS):
-    f = ROOT / "i18n" / f"{lang}.json"
-    if f.exists():
-        continue
-    ui = tr(src["ui"], lang)
-    svc = {}
-    items = list(src["services"].items())
-    for i in range(0, len(items), 4):
-        svc.update(tr(dict(items[i:i + 4]), lang))
-    hubs = tr(src["hubs"], lang)
-    f.write_text(json.dumps({"lang": lang, "ui": ui, "services": svc, "hubs": hubs, "areas": src["areas"]}, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(lang, "ok", flush=True)
+if __name__ == "__main__":
+  src = json.loads((ROOT / "i18n" / "en.json").read_text(encoding="utf-8"))
+  for lang in (sys.argv[1:] or LANGS):
+      f = ROOT / "i18n" / f"{lang}.json"
+      if f.exists():
+          continue
+      ui = tr(src["ui"], lang)
+      svc = {}
+      items = list(src["services"].items())
+      for i in range(0, len(items), 4):
+          svc.update(tr(dict(items[i:i + 4]), lang))
+      hubs = tr(src["hubs"], lang)
+      f.write_text(json.dumps({"lang": lang, "ui": ui, "services": svc, "hubs": hubs, "areas": src["areas"]}, ensure_ascii=False, indent=1), encoding="utf-8")
+      print(lang, "ok", flush=True)

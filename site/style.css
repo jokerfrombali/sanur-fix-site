@@ -106,3 +106,26 @@ footer h4{font:400 13px Inter;letter-spacing:.14em;text-transform:uppercase;colo
 /* на мобильном WhatsApp только в шапке */
 @media(max-width:760px){main .btn.wa,.inline-cta .btn.wa,.cta .btn.wa{display:none}}
 html[lang=zh] body,html[lang=ja] body,html[lang=ko] body{font-family:Inter,"Noto Sans SC","Noto Sans JP","Noto Sans KR",system-ui,sans-serif}
+/* v2 */
+.topbar{background:var(--green);color:#cfd9d5;font-size:13px}.topbar .wrap{display:flex;justify-content:space-between;gap:16px;height:36px;align-items:center}
+.topbar a{color:#fff;text-decoration:none;font-weight:600}.topbar b{color:#e9d6b3;font-weight:600}.topbar .urg{color:#fff;background:#8a3b2e;border-radius:999px;padding:2px 10px}
+@media(max-width:900px){.topbar{display:none}}
+.dd{position:relative}.ddm{position:absolute;left:-16px;top:100%;padding-top:14px;display:none;z-index:60}
+.dd:hover .ddm,.dd:focus-within .ddm{display:grid}
+.ddm{grid-template-columns:1fr 1fr;gap:2px;min-width:480px}.ddm:before{content:"";position:absolute;inset:14px 0 0;background:var(--paper);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);z-index:-1}
+.ddm a{padding:9px 16px;font-size:14.5px;color:var(--ink)!important;text-decoration:none;border-radius:10px;margin:0 6px}.ddm a:first-child,.ddm a:nth-child(2){margin-top:8px}
+.ddm a:hover{background:var(--bg)}.ddm a.all{grid-column:1/-1;color:var(--brass)!important;font-weight:600;margin-bottom:8px}
+@media(max-width:900px){.dd{display:none}}
+.alt{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.local{display:grid;grid-template-columns:repeat(3,1fr);gap:40px 36px}@media(max-width:860px){.local{grid-template-columns:1fr}}
+.local h3{font-size:28px;margin-bottom:8px;padding-top:18px;border-top:1px solid var(--line)}.local p{color:var(--muted);margin:0}
+.more{color:var(--brass);font-weight:600;text-decoration:none}
+.h2s{font-size:clamp(36px,4.4vw,54px);margin:10px 0 16px}p.big{font-size:19px;line-height:1.7}
+p.inl{margin:22px 0 0;padding:16px 20px;border-left:3px solid var(--brass);background:var(--paper);border-radius:0 12px 12px 0;font-size:15.5px}
+p.inl a{color:var(--green2);font-weight:600}.dark p.inl,.phead p.inl{background:transparent}
+.facts{display:flex;gap:32px;flex-wrap:wrap;margin:6px 0 20px}.facts div{display:flex;flex-direction:column}.facts b{font:400 40px "Instrument Serif",serif}.facts span{color:var(--muted);font-size:13.5px}
+.mimg{border-radius:var(--r);aspect-ratio:4/5;object-fit:cover;width:100%}
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}@media(max-width:860px){.revs{grid-template-columns:1fr}}
+.revs figure{margin:0;background:var(--bg);border:1px solid var(--line);border-radius:var(--r);padding:26px}.st{color:var(--brass);letter-spacing:2px}
+.revs blockquote{margin:12px 0;font-size:16px}.revs figcaption{color:var(--muted);font-size:14px}
+.im.ba{display:grid;grid-template-columns:1fr 1fr;gap:3px}.ba2{display:grid;grid-template-columns:1fr 1fr;gap:8px}.ba2 img{border-radius:14px;aspect-ratio:3/4;object-fit:cover}

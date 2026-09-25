@@ -1,0 +1,79 @@
+{
+ "title": "Pool Service for Your Rental Villa in Sanur",
+ "slug": "pool-service-rental-villa-sanur",
+ "meta": "Practical pool maintenance tips for villa owners renting in Sanur, Bali. Schedules between stays, owner reporting, liability, and contract essentials.",
+ "intro": "If you rent out a villa in Sanur, the pool is often the first thing guests notice—and the last thing they want to find cloudy or reeking of chlorine. A short-term rental pool needs a different rhythm than a private family pool: tighter turnaround between bookings, consistent chemistry, and clear documentation so you always know its condition. Here is how I handle it when servicing pools across Sanur.",
+ "sections": [
+  {
+   "h2": "What Guests Expect Before They Even Dip In",
+   "paragraphs": [
+    "Guests do not read your water-chemistry log. What they see matters: clear blue water, steps that are not slippery with algae, a pump hum that sounds normal, and no sharp chemical sting at the surface. If any of those are off, the review will say 'the pool was gross' before anyone mentions the kitchen.",
+    "Sanur's sea air accelerates evaporation, especially from November through March when trade winds pick up. You may lose several centimetres of level in a week during dry spells, which concentrates chemicals and makes the water feel harsh. During the rainy season (roughly October to April), leaf litter and dust blow straight onto open pools, so debris load spikes right when guest turnover is highest."
+   ],
+   "bullets": [
+    "Water should be visibly clear to the bottom tile within two minutes of arrival.",
+    "No strong chlorine or algaecide smell at the coping edge.",
+    "Pump and filter running quietly; no unusual vibration or dripping.",
+    "Steps, ladders, and handrails free of slime or rust spots.",
+    "Skimmer basket empty; no standing leaves or insect carcasses."
+   ]
+  },
+  {
+   "h2": "The Schedule Between Bookings",
+   "paragraphs": [
+    "A private family pool might get a service call once every ten days. A rental villa that turns over every three to five nights needs a check after every checkout, even if the next guest arrives in four days. Here is the sequence I follow on-site:",
+    "First, I test free chlorine, combined chlorine, pH, total alkalinity, and calcium hardness with a fresh reagent kit—never just a strip left in the sun for an hour. If any value is out of range, I dose and retest before leaving. Second, I backwash or rinse the sand/DE filter, clean the skimmer and main drain baskets, and wipe the waterline tiles where salt and mineral deposits build up fastest near the sea air.",
+    "Third, I inspect the pump seal, union fittings, and return jets for slow leaks that are easy to miss when the system is under pressure. In older Sanur villas the plumbing was often laid in the 1990s with PVC joints that have now dried out, so a small seep at a coupling can waste hundreds of litres overnight. Finally, I top up the level using PDAM mains water from your rooftop tank rather than a well, because well water here tends to carry iron and manganese that stain tile grout yellow within a month."
+   ],
+   "bullets": [
+    "Chemistry test and correction: within 24 hours after checkout.",
+    "Filter service (backwash/rinse) and basket cleaning: every visit.",
+    "Pump, pipe, and valve inspection: weekly minimum during high season.",
+    "Water-level top-up from PDAM / rooftop tank as needed.",
+    "Deep brush of walls and floor: once per fortnight or after heavy rain."
+   ]
+  },
+  {
+   "h2": "Reporting Back to You",
+   "paragraphs": [
+    "You will not be on-site between bookings, so you need a simple record. After each visit I send a short WhatsApp message with two or three photos—waterline, pump area, and the chemistry reading on my test kit—plus one line noting anything I adjusted. If a part is wearing out (a cracked skimmer lid, a weeping union, a tired impeller seal), I flag it in plain language and suggest whether it can wait until the next booking cycle or needs attention before the next guest arrives.",
+    "Keeping these messages in a dedicated chat thread means you have a running log without maintaining a spreadsheet. When a dispute arises about pool condition at check-in, that thread is your evidence."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Who Is Responsible for What?",
+   "paragraphs": [
+    "The owner is responsible for the structure: the shell, the plumbing, the electrical supply to the pump, and any tile or coping damage. The guest is responsible for not introducing foreign objects, not adding their own chemicals, and reporting leaks immediately. The technician—I am speaking from experience here—is responsible for correct dosing, safe equipment handling, and telling you honestly when something is beyond routine service.",
+    "Two safety rules are non-negotiable. Never mix chlorine tablets with algaecide or acid in the same bucket; the reaction can release toxic gas. And if you smell gas near the pool area, see water pooling around an electrical junction box, or notice the pump casing getting hot enough to burn your hand, stop using the pool, cut power at the breaker, and call a professional before anyone touches anything else."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Getting It in Writing",
+   "paragraphs": [
+    "Even if you have used the same hands for years, put the arrangement on paper. A one-page agreement covering scope (what is included per visit), frequency, what triggers an extra charge (a cracked liner, a new pump motor, structural crack injection), response expectations during a booking window, and how disputes over condition are resolved will save everyone headaches later.",
+    "Pricing depends entirely on the size of the pool, its current state, and whether parts or additional chemicals are needed. I do not work off a fixed rate card. Send me photos on WhatsApp, tell me the approximate dimensions and what has been done recently, and I will quote from there—no obligation until you say yes."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "How often should a rental villa pool be serviced in Sanur?",
+   "a": "At minimum once after every guest checkout, plus a mid-week check if the gap between bookings exceeds five days. During peak season with back-to-back stays, twice a week keeps chemistry stable despite higher bather load and faster evaporation from sea air."
+  },
+  {
+   "q": "A guest messages me saying the water looks green. What do I do first?",
+   "a": "Ask them to send two photos: one wide shot of the whole pool and one close-up of the waterline tile. Do not let them add their own products. If it is a light algae bloom, a shock dose and filter run usually clears it within a day. If the water is heavily discoloured or the pump is not circulating, that needs an on-site visit before the next guest checks in."
+  },
+  {
+   "q": "Can I top up my pool with well water instead of PDAM mains?",
+   "a": "You can, but most wells in the Sanur area carry elevated iron and manganese. Over a few months this stains grout, tile, and the white interior yellow-brown, and the cost of re-tile or acid-wash far exceeds the price difference in PDAM water. If your villa has no reliable PDAM connection, ask me to test the well sample before you commit to using it for the pool."
+  }
+ ],
+ "cta": "Send me a couple of photos of your pool on WhatsApp—wide angle plus the pump area—and I will tell you exactly what it needs before your next booking.",
+ "id": "A060",
+ "hub": "PC",
+ "status": "draft-qwen"
+}

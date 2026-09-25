@@ -1,0 +1,305 @@
+{
+ "lang": "nl",
+ "ui": {
+  "tagline": "Loodgieter & Zwembadservice in Sanur",
+  "wa": "Stuur me een WhatsApp",
+  "call": "Bel",
+  "wa_text": "Hoi! Ik heb een monteur nodig in Sanur: ",
+  "services": "Diensten",
+  "prices": "Prijzen",
+  "areas": "Werkgebied",
+  "contacts": "Contact",
+  "fix": "Wat ik repareer",
+  "how": "Zo werkt het",
+  "faq": "FAQ",
+  "on_req": "op aanvraag",
+  "work": "Werk",
+  "price": "Prijs",
+  "steps": [
+   "Stuur een foto of kort filmpje via WhatsApp",
+   "Ontvang een prijs en een tijdstip dat jou schikt",
+   "Ik repareer het en stuur je het resultaat"
+  ],
+  "area_txt": "Ik werk alleen in Sanur — het hele gebied:",
+  "home_h1": "Loodgieter & Zwembadservice in Sanur, Bali",
+  "home_lead": "Privé-monteur: loodwerk, lekkages, waterverwarmers, pompen, zwembadreiniging en -reparatie, kleine villa-reparaties in Sanur. Stuur een foto — ik reageer op WhatsApp.",
+  "prices_h1": "Prijzen in Sanur",
+  "prices_note": "De prijs hangt af van het werk. Ik maak een offerte op basis van foto's voordat ik kom. Onderdelen worden apart in rekening gebracht met bonnetjes.",
+  "areas_h1": "Alleen Sanur",
+  "contacts_h1": "Contact",
+  "contacts_lead": "Snelste manier: stuur een WhatsApp met een foto van het probleem en je buurt.",
+  "nf": "Pagina niet gevonden",
+  "home": "Home",
+  "badge": "Alleen Sanur · Bali",
+  "guides": "Gidsen",
+  "guides_h1": "Villa- & Zwembadgidsen voor Sanur",
+  "guides_lead": "Praktische gidsen van een monteur die alleen in Sanur werkt: lekkages, warm water, pompen, zwembaden, septische putten en kleine reparaties.",
+  "toc": "In deze gids",
+  "related": "Gerelateerde gidsen",
+  "read": "Lees de gids",
+  "all_guides": "Alle gidsen",
+  "need_help": "Moet het gerepareerd worden?",
+  "faq_h": "Vragen",
+  "trust": [
+   "Fotoreportage via WhatsApp na elk werk",
+   "Offerte op basis van jouw foto's voordat ik kom",
+   "Alleen Sanur — ik woon en werk hier",
+   "Onderdelen in rekening gebracht met bonnetjes"
+  ],
+  "why": "Waarom villa-eigenaars in Sanur mij bellen",
+  "why_items": [
+   [
+    "Ik kom zelf",
+    "Geen callcenter en geen team. De persoon die je bericht, is de persoon die het werk doet."
+   ],
+   [
+    "Eén gebied alleen",
+    "Ik ga niet over het hele eiland. Ik ken de villa's in Sanur: oude zwembaden, brakke putten bij het strand, dakreservoirs."
+   ],
+   [
+    "Rapporten voor eigenaars",
+    "Buitenland? Je krijgt voor- en na-foto's en een korte lijst van wat er gedaan is."
+   ]
+  ],
+  "master_h": "Jouw monteur",
+  "master_txt": "Hier komt een foto en enkele woorden over de monteur: naam, jaren ervaring, talen. In Bali kies je een persoon, geen bedrijf.",
+  "master_ph": "Foto monteur",
+  "map_h": "Waar ik werk",
+  "ready": "Iets kapot? Stuur een foto via WhatsApp.",
+  "ready_sub": "Ik reageer met wat er nodig is, een prijs en wanneer ik kan komen.",
+  "credits": "Foto's: Unsplash",
+  "eyebrow": "Loodwerk · Zwembaden · Reparaties",
+  "menu": "Menu",
+  "language": "Taal",
+  "photo_note": "(vervang door een echte foto)",
+  "guides_en": "Gidsen (Engels)"
+ },
+ "services": {
+  "srv-santehnik": {
+   "name": "Loodgieter in Sanur",
+   "intro": "Een particuliere loodgieter in Sanur: ik kom zelf langs, vind de oorzaak en los het op. Kranen, toiletten, leidingen, pompen en warm water — in villa's, huizen en appartementen.",
+   "items": [
+    "Lekkende kranen en mengkranen",
+    "Doorlopende of lekkende toiletcisterne",
+    "Lage waterdruk",
+    "Vervangen van mengkranen, sifons en slangen",
+    "Installatie van toilet en wastafel",
+    "Aansluiten van wasmachine en vaatwasser"
+   ],
+   "faq": [
+    [
+     "Hoe snel kunt u komen?",
+     "Dat hangt af van mijn planning die dag. Stuur een foto via WhatsApp dan laat ik weten wanneer ik er kan zijn."
+    ],
+    [
+     "Wie koopt de onderdelen?",
+     "Beide opties. Ik kan ze voor je kopen en geef ik de bon door."
+    ]
+   ]
+  },
+  "srv-protechki": {
+   "name": "Herstel van leidinglekken",
+   "intro": "Lekken opsporen en verhelpen: onder keukens, in muren, douches en tuingleidingen. Een verborgen lek komt vaak naar voren aan de PDAM-meter of een pomp die blijft draaien.",
+   "items": [
+    "Lekken onder keukens",
+    "Lekkende douches en vloerafvoeren",
+    "Verborgen lekken gevonden via de meter",
+    "Gescheurde PVC/PPR-leidingen",
+    "Lekken in de tuinbesproeiing"
+   ],
+   "faq": [
+    [
+     "Wat moet ik doen voordat u er bent?",
+     "Sluit het hoofdkraan af en schakel de stroom uit als water in de buurt van stopcontacten staat."
+    ]
+   ]
+  },
+  "srv-zasor": {
+   "name": "Verstopte afvoer en toiletten",
+   "intro": "Verstopte toiletten, keukens, douches en afvoerleidingen verwijderen met een afvoerspiraal — zonder agressieve chemicaliën die leidingen en septische tank beschadigen.",
+   "items": [
+    "Verstopt toilet",
+    "Trage afvoer douche of keuken",
+    "Verstopt riool",
+    "Geur uit de afvoer"
+   ],
+   "faq": [
+    [
+     "Waarom geen toiletpapier in het toilet op Bali?",
+     "Smalle leidingen en kleine septische tanken — papier verstopt het systeem snel."
+    ]
+   ]
+  },
+  "srv-bojler": {
+   "name": "Warmwaterboiler reparatie & installatie",
+   "intro": "Geen warm water? Ik zoek de oorzaak — elektrische boiler, gasboiler of zonneboiler op het dak. Verwarmings-elementen, thermostaten, anoden en nieuwe installaties.",
+   "items": [
+    "Boiler verwarmt niet",
+    "Boiler schakelt de zekering uit",
+    "Lekkende boiler",
+    "Laauwe zonneboiler",
+    "Installatie van een nieuwe boiler"
+   ],
+   "faq": [
+    [
+     "Repareren of vervangen?",
+     "Een lekkende tank betekent vervangen. Een defect element of thermostaat is meestal de moeite waard om te repareren."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Waterpompen & Filters",
+   "intro": "Pompen, drukschakelaars, dakruiers en waterfilters. In de buurt van het strand in Sanur kan bronwater brak zijn — ik help met filtratie of overstappen op PDAM.",
+   "items": [
+    "Pomp blijft aan/uit schakelen",
+    "Geen water in het huis",
+    "Dakruier overloopt of is leeg",
+    "Filterinstallatie en patronen",
+    "Dakruier reinigen"
+   ],
+   "faq": [
+    [
+     "Hoe vaak moet je patronen vervangen?",
+     "Meestal elke 3–6 maanden, afhankelijk van het water. Ik laat je zien waar je op moet letten."
+    ]
+   ]
+  },
+  "srv-chistka-bassejna": {
+   "name": "Zwembadreiniging",
+   "intro": "Eenmalige zwembadreiniging: oppervlaktezuigen, borstelen, vacuümzuigen, filterbackwash en waterbalans. Groene zwembaden herstellen.",
+   "items": [
+    "Reiniging vóór aankomst van gasten",
+    "Groen of troebel water",
+    "Randtegels reinigen",
+    "Filterbackwash"
+   ],
+   "faq": [
+    [
+     "Hoe lang duurt het om een groen zwembad te herstellen?",
+     "Meestal 2–4 dagen, afhankelijk van het water en het filter."
+    ]
+   ]
+  },
+  "srv-obsluzhivanie-bassejna": {
+   "name": "Periodieke zwembadservice",
+   "intro": "Geregende zwembadservice. Na elk bezoek krijg je een WhatsApp-rapport: foto's, watermetingen, uitgevoerde werkzaamheden. Ideaal als je niet fulltime op Bali woont.",
+   "items": [
+    "Geregelde bezoeken",
+    "Watertoetsing en balanceren",
+    "Vacuümzuigen, borstelen, oppervlaktezuigen",
+    "Controle pomp en filter",
+    "Rapport na elk bezoek"
+   ],
+   "faq": [
+    [
+     "Zijn chemicaliën inbegrepen?",
+     "Vooraf afgesproken: of inbegrepen of apart in rekening gebracht met bonnetjes."
+    ]
+   ]
+  },
+  "srv-oborudovanie-bassejna": {
+   "name": "Zwembadapparatuur",
+   "intro": "Installatie en reparatie van pompen, zand- en patronenfilters, chloreerders, verlichting en automatische watertoevoer.",
+   "items": [
+    "Pomp loopt niet vol of maakt lawaai",
+    "Filterzand vervangen",
+    "Meervoudige klep",
+    "Zoutchloreerder",
+    "Zwembadverlichting"
+   ],
+   "faq": [
+    [
+     "Kan ik een foto van de pompkamer sturen?",
+     "Ja — dat is de beste manier voor mij om te weten wat ik moet meenemen."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Zwembadherstel",
+   "intro": "Lekken, losse tegels, voegwerk, leidingen. Veel zwembaden in Sanur zijn 15–20 jaar oud — ik help je te bepalen wat het eerst moet worden hersteld.",
+   "items": [
+    "Waterverlies — lekkagedetectie",
+    "Losse tegels en mozaïek",
+    "Voegen herstellen",
+    "Leidinglekken in het zwembad"
+   ],
+   "faq": [
+    [
+     "Verdamping of een lek?",
+     "Emertest: zet een emmer met water op de trap en vergelijk beide niveaus na 24 uur."
+    ]
+   ]
+  },
+  "srv-septik": {
+   "name": "Scheidingsput & riolering",
+   "intro": "Geur, trage afvoer, volle scheidingsput. Ik vind het probleem, regel het legen en maak de leidingen vrij.",
+   "items": [
+    "Rioolgeur",
+    "Volle scheidingsput",
+    "Gestopte rioolleiding",
+    "Vetvang"
+   ],
+   "faq": [
+    [
+     "Hoe vaak moet je een scheidingsput laten legen?",
+     "Hangt af van de grootte en het aantal bewoners — meestal elke 1–3 jaar."
+    ]
+   ]
+  },
+  "srv-melkij-remont": {
+   "name": "Klussen & kleine reparaties",
+   "intro": "Kleine huishoudelijke reparaties in één bezoek: deuren, sloten, muggengaas, siliconen, planken, meubels.",
+   "items": [
+    "Klemmende deuren en scharnieren",
+    "Sloten en handgrepen",
+    "Muggengazen",
+    "Siliconeren badkamer",
+    "Planken, gordijnrails, tv-bevestiging",
+    "Meubelopbouw"
+   ],
+   "faq": [
+    [
+     "Kan ik meerdere klussen voor één bezoek opgeven?",
+     "Ja, dat is het voordeligst. Stuur de lijst met foto's mee."
+    ]
+   ]
+  },
+  "srv-obsluzhivanie-villy": {
+   "name": "Villabehoud & onderhoud",
+   "intro": "Periodieke villa-checks: leidingen, zwembad, pompen, boilers, dak vóór het regenseizoen. Voor eigenaren en beheerders.",
+   "items": [
+    "Inspecties met checklist",
+    "Voorbereiding regenseizoen",
+    "Controles vóór aankomst",
+    "Rapportages voor eigenaren"
+   ],
+   "faq": [
+    [
+     "Werk je samen met villa-beheerders?",
+     "Ja, we kunnen een vast schema inplannen."
+    ]
+   ]
+  }
+ },
+ "hubs": {
+  "S": "Loodgieterij",
+  "W": "Water & Pompen",
+  "PC": "Zwembadzorg",
+  "PE": "Zwembadapparatuur",
+  "PR": "Zwembadreparatie",
+  "K": "Scheidingsputten & Afvoer",
+  "R": "Woningreparaties",
+  "V": "Villazorg"
+ },
+ "areas": [
+  "Sanur Kaja",
+  "Sanur Kauh",
+  "Sindhu",
+  "Semawang",
+  "Mertasari",
+  "Batujimbar",
+  "Jl. Danau Tamblingan",
+  "Jl. Danau Poso",
+  "Jl. Bypass Ngurah Rai"
+ ]
+}
