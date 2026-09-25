@@ -56,7 +56,7 @@ if DEMO:
 
 HERE = pathlib.Path(__file__).parent
 ROOT = HERE / "site"
-THEME = "classic"  # classic — основной сайт; pro — вариант по мотивам plumbingpro.com в /pro/
+THEME = "pro"  # pro — основной дизайн (синий + белый + зелёный WhatsApp); classic — прежний вариант в цветах Five Star
 sys.path.insert(0, str(HERE / "tools"))
 from articles_plan import HUB_EN
 
@@ -420,7 +420,4 @@ def build():
     print("pages:", len(pages), "| langs:", ",".join(ACTIVE), "| articles:", {k: len(v) for k, v in ARTS.items() if v})
 
 if __name__ == "__main__":
-    build()
-    # вариант дизайна «pro» — отдельной копией в /pro/ для сравнения
-    THEME, BASE, ROOT, pages = "pro", BASE + "/pro", ROOT / "pro", []
     build()
