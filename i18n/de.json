@@ -108,7 +108,51 @@
   ],
   "form_btn": "Per WhatsApp senden",
   "form_note": "Öffnet WhatsApp mit Ihrer Nachricht. Fügen Sie dort gerne ein Foto hinzu.",
-  "rated": "Bewertung {r} · {n} Bewertungen"
+  "rated": "Bewertung {r} · {n} Bewertungen",
+  "tagline": "Klempner & Poolservice auf Bali",
+  "wa_text": "Hallo! Ich brauche einen Techniker auf Bali: ",
+  "areas": "Einsatzgebiete",
+  "area_txt": "Ich bin in folgenden Gebieten auf Bali im Einsatz:",
+  "home_h1": "Klempner & Poolservice auf Bali",
+  "home_lead": "Privater Techniker für Villen: Sanitärinstallation, Lecks, Warmwasserbereiter, Pumpen, Poolreinigung und -reparatur, Kleinreparaturen. Canggu, Ubud, Seminyak, Uluwatu, Sanur und mehr. Schicken Sie mir ein Foto – ich antworte per WhatsApp.",
+  "prices_h1": "Preise auf Bali",
+  "areas_h1": "Meine Einsatzgebiete auf Bali",
+  "badge": "Bali · 10 Gebiete",
+  "guides_h1": "Villen- & Pool-Ratgeber für Bali",
+  "guides_lead": "Praktische Ratgeber von einem Techniker aus Bali: Lecks, Warmwasser, Pumpen, Pools, Klärgruben und Kleinreparaturen.",
+  "trust": [
+   "FotobERICHT per WhatsApp nach jedem Einsatz",
+   "Kostenvoranschlag aus Ihren Fotos – noch bevor ich komme",
+   "10 Gebiete auf Bali, ein Techniker",
+   "Ersatzteile immer mit Rechnung"
+  ],
+  "why": "Warum Villenbesitzer auf Bali mich anrufen",
+  "why_items": [
+   [
+    "Ich komme persönlich",
+    "Kein Callcenter, kein Team. Wer dir schreibt, ist auch der, der die Arbeit macht."
+   ],
+   [
+    "Ich kenne jede Region",
+    "Grundwasser in Canggu, Wassertanks in Uluwatu, Luftfeuchtigkeit in Ubud, Salzluft in Sanur – jede Region hat ihre typischen Probleme."
+   ],
+   [
+    "Berichte für Eigentümer",
+    "Im Ausland? Du bekommst Vorher-Nachher-Fotos und eine kurze Liste, was erledigt wurde."
+   ]
+  ],
+  "map_h": "Wo ich arbeite",
+  "only": "10 Regionen auf Bali",
+  "local_eyebrow": "Lokales Wissen",
+  "serving": "In 10 Regionen auf Bali im Einsatz",
+  "area_hub_h": "Klempner- & Poolservice in {area}",
+  "area_local_h": "Was {area} besonders macht",
+  "area_services_h": "Leistungen in {area}",
+  "area_subs_h": "Stadtteile, die ich in {area} betreue",
+  "other_areas": "Weitere Gebiete",
+  "choose_area": "Ihre Region wählen",
+  "in_area": "in {area}",
+  "areas_lead": "Jede Region Balis hat ihre eigene Wasser-, Boden- und Bausituation. Wähle deine aus – jede Seite deckt lokale Probleme und passende Leistungen ab."
  },
  "services": {
   "srv-protechki": {

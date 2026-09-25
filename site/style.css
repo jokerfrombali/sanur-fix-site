@@ -254,3 +254,8 @@ p.subs{margin-top:32px;color:var(--muted)}
 .chips a{border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:8px 16px;font-size:14.5px;text-decoration:none;color:var(--ink)}.chips a:hover{border-color:var(--green2);color:var(--green2)}
 .phead h1{font-size:clamp(36px,4.6vw,64px)}
 details.langsel{padding:0;border:0;margin:0}details.langsel>summary{display:block}
+.langbar{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);z-index:80;display:flex;align-items:center;gap:14px;background:#0b1f3a;color:#fff;padding:12px 14px 12px 20px;border-radius:14px;box-shadow:0 16px 40px rgba(0,0,0,.3);font-size:15px;max-width:calc(100% - 24px);animation:lb .35s ease}
+.langbar a.lb-yes{background:var(--wa);color:#fff;text-decoration:none;font-weight:700;padding:9px 16px;border-radius:10px;white-space:nowrap}
+.langbar .lb-no{background:none;border:0;color:#9fb0c8;cursor:pointer;font:inherit;white-space:nowrap}
+@keyframes lb{from{opacity:0;transform:translate(-50%,20px)}to{opacity:1;transform:translate(-50%,0)}}
+@media(max-width:600px){.langbar{left:10px;right:10px;bottom:10px;transform:none;flex-wrap:wrap;max-width:none;animation:none}.langbar span{flex:1 0 100%}}

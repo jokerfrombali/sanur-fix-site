@@ -108,7 +108,51 @@
   ],
   "form_btn": "Skicka via WhatsApp",
   "form_note": "Öppnar WhatsApp med ditt meddelande. Lägg till en bild där.",
-  "rated": "Betyg {r} · {n} omdömen"
+  "rated": "Betyg {r} · {n} omdömen",
+  "tagline": "VVS-tekniker & poolservice i Bali",
+  "wa_text": "Hej! Jag behöver en tekniker i Bali: ",
+  "areas": "Områden",
+  "area_txt": "Jag arbetar i dessa områden av Bali:",
+  "home_h1": "VVS-tekniker & poolservice i Bali",
+  "home_lead": "Privat tekniker för villor: VVS, läckage, vattenberedare, pumpar, poolrengöring och reparation, småreparationer. Canggu, Ubud, Seminyak, Uluwatu, Sanur m.fl. Skicka ett foto – jag svarar på WhatsApp.",
+  "prices_h1": "Priser på Bali",
+  "areas_h1": "Områden jag täcker på Bali",
+  "badge": "Bali · 10 områden",
+  "guides_h1": "Guider för villor och pooler på Bali",
+  "guides_lead": "Praktiska guider från en tekniker på Bali: läckage, varmvatten, pumpar, pooler, septiktankar och mindre reparationer.",
+  "trust": [
+   "Fotoreport via WhatsApp efter varje jobb",
+   "Offert utifrån dina foton innan jag kommer",
+   "10 områden på Bali, en tekniker",
+   "Delar faktureras med kvitto"
+  ],
+  "why": "Varför villaägare på Bali ringer mig",
+  "why_items": [
+   [
+    "Jag kommer själv",
+    "Inget kundcenter och inget team. Personen du meddelar är den som utför arbetet."
+   ],
+   [
+    "Jag känner varje område",
+    "Grundvatten i Canggu, vattentankar i Uluwatu, fuktighet i Ubud, saltrik luft i Sanur – varje område har sina egna typiska problem."
+   ],
+   [
+    "Rapporter för ägare",
+    "Utanlands? Du får före-efter-foton och en kort lista över vad som gjorts."
+   ]
+  ],
+  "map_h": "Där jag arbetar",
+  "only": "10 områden på Bali",
+  "local_eyebrow": "Lokal kunskap",
+  "serving": "Verksam i 10 områden på Bali",
+  "area_hub_h": "VVS & bassängservice i {area}",
+  "area_local_h": "Vad som skiljer sig i {area}",
+  "area_services_h": "Tjänster i {area}",
+  "area_subs_h": "Närområden jag täcker i {area}",
+  "other_areas": "Andra områden",
+  "choose_area": "Välj ditt område",
+  "in_area": "i {area}",
+  "areas_lead": "Alla områden på Bali har sina egna förutsättningar vad gäller vatten, mark och byggstil. Välj ditt – varje sida tar upp lokala problem och tjänster."
  },
  "services": {
   "srv-protechki": {

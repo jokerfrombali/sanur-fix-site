@@ -108,7 +108,51 @@
   ],
   "form_btn": "Enviar no WhatsApp",
   "form_note": "Abre o WhatsApp com sua mensagem. Adicione uma foto por lá.",
-  "rated": "Nota {r} · {n} avaliações"
+  "rated": "Nota {r} · {n} avaliações",
+  "tagline": "Encanador e Manutenção de Piscina em Bali",
+  "wa_text": "Olá! Preciso de um técnico em Bali: ",
+  "areas": "Áreas",
+  "area_txt": "Atuo nestas áreas de Bali:",
+  "home_h1": "Encanador e Manutenção de Piscina em Bali",
+  "home_lead": "Técnico particular para vilas: encanamento, vazamentos, aquecedores de água, bombas, limpeza e reparo de piscina, pequenos reparos. Canggu, Ubud, Seminyak, Uluwatu, Sanur e mais. Envie uma foto — respondo no WhatsApp.",
+  "prices_h1": "Preços em Bali",
+  "areas_h1": "Áreas que atendo em Bali",
+  "badge": "Bali · 10 áreas",
+  "guides_h1": "Guias para Villas e Piscinas em Bali",
+  "guides_lead": "Guias práticos de um técnico em Bali: vazamentos, água quente, bombas, piscinas, fossas sépticas e pequenos reparos.",
+  "trust": [
+   "Relatório com fotos no WhatsApp após cada serviço",
+   "Orçamento pelas suas fotos antes da visita",
+   "10 áreas de Bali, um único técnico",
+   "Peças cobradas com recibo"
+  ],
+  "why": "Por que donos de vilas em Bali me chamam",
+  "why_items": [
+   [
+    "Eu mesmo vou até você",
+    "Não é central de atendimento nem equipe. Quem conversa com você é quem faz o serviço."
+   ],
+   [
+    "Conheço cada região",
+    "Água subterrânea em Canggu, reservatórios em Uluwatu, umidade em Ubud, ar salino em Sanur — cada área tem seus problemas típicos."
+   ],
+   [
+    "Relatórios para proprietários",
+    "Fora do país? Você recebe fotos antes e depois e uma lista curta do que foi feito."
+   ]
+  ],
+  "map_h": "Onde eu atuo",
+  "only": "10 áreas da Bali",
+  "local_eyebrow": "Conhecimento local",
+  "serving": "Atendo 10 áreas da Bali",
+  "area_hub_h": "Encanador e Serviço de Piscina em {area}",
+  "area_local_h": "O que muda em {area}",
+  "area_services_h": "Serviços em {area}",
+  "area_subs_h": "Bairros atendidos em {area}",
+  "other_areas": "Outras áreas",
+  "choose_area": "Escolha sua área",
+  "in_area": "em {area}",
+  "areas_lead": "Cada região de Bali tem seu próprio perfil de água, solo e construção. Escolha a sua — cada página apresenta os desafios locais e os serviços disponíveis."
  },
  "services": {
   "srv-protechki": {

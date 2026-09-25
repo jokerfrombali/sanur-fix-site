@@ -108,7 +108,51 @@
   ],
   "form_btn": "Kirim via WhatsApp",
   "form_note": "Membuka WhatsApp dengan pesan Anda. Sertakan foto di sana.",
-  "rated": "Peringkat {r} · {n} ulasan"
+  "rated": "Peringkat {r} · {n} ulasan",
+  "tagline": "Jasa Ledeng & Perawatan Kolam di Bali",
+  "wa_text": "Halo! Saya butuh teknisi di Bali: ",
+  "areas": "Area Layanan",
+  "area_txt": "Saya melayani area berikut di Bali:",
+  "home_h1": "Jasa Ledeng & Perawatan Kolam di Bali",
+  "home_lead": "Teknisi khusus untuk vila: instalasi pipa, kebocoran, pemanas air, pompa, pembersihan & perbaikan kolam renang, serta perbaikan ringan. Melayani Canggu, Ubud, Seminyak, Uluwatu, Sanur dan sekitarnya. Kirimkan fotonya — saya langsung balas di WhatsApp.",
+  "prices_h1": "Harga di Bali",
+  "areas_h1": "Area Layanan di Bali",
+  "badge": "Bali · 10 Area",
+  "guides_h1": "Panduan Villa & Kolam di Bali",
+  "guides_lead": "Panduan praktis dari teknisi Bali: kebocoran, air panas, pompa, kolam, septic tank, dan perbaikan ringan.",
+  "trust": [
+   "Laporan foto via WhatsApp setelah setiap pengerjaan",
+   "Estimasi harga dari foto Anda sebelum saya datang",
+   "10 area di Bali, satu teknisi",
+   "Spare part disertai nota"
+  ],
+  "why": "Kenapa pemilik vila di Bali menghubungi saya",
+  "why_items": [
+   [
+    "Saya yang datang langsung",
+    "Bukan call center, bukan tim. Orang yang Anda chat adalah orang yang turun tangan mengerjakan."
+   ],
+   [
+    "Saya paham tiap area",
+    "Air tanah Canggu, tandon air Uluwatu, kelembapan Ubud, udara asin Sanur — setiap area punya masalah khasnya sendiri."
+   ],
+   [
+    "Laporan untuk pemilik",
+    "Di luar negeri? Anda tetap dapat foto sebelum-sesudah dan ringkasan singkat pekerjaan yang sudah dilakukan."
+   ]
+  ],
+  "map_h": "Area kerja saya",
+  "only": "10 area di Bali",
+  "local_eyebrow": "Pemahaman lokal",
+  "serving": "Melayani 10 area di Bali",
+  "area_hub_h": "Jasa Tukang Ledeng & Kolam Renang di {area}",
+  "area_local_h": "Yang beda di {area}",
+  "area_services_h": "Layanan di {area}",
+  "area_subs_h": "Lingkungan yang saya layani di {area}",
+  "other_areas": "Wilayah lainnya",
+  "choose_area": "Pilih wilayah Anda",
+  "in_area": "di {area}",
+  "areas_lead": "Setiap wilayah di Bali punya karakter air, tanah, dan bangunan yang berbeda. Pilih daerahmu — setiap halaman membahas masalah setempat dan layanan yang tersedia."
  },
  "services": {
   "srv-protechki": {

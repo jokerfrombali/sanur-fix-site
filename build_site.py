@@ -175,7 +175,7 @@ def page(lang, slug, title, descr, body, alts, crumbs=None, schema=None, head=No
     svc = "".join(f'<a href="{url(lang, sslug(lang, s))}">{L[lang]["services"][s]["name"]}</a><br>' for s in SRV[:8])
     ars = "".join(f'<a href="{url(al, a["slug"])}">{aname(al, a)}</a><br>' for a in AREAS)
     return f"""<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{e(title)}</title><meta name="description" content="{e(descr)}"><meta name="theme-color" content="#0b1f3a"><link rel="icon" href="{FAVICON}">
+<title>{e(title)}</title><meta name="description" content="{e(descr)}"><meta name="theme-color" content="#0b1f3a"><meta name="google" content="notranslate"><link rel="icon" href="{FAVICON}">
 {'<meta name="robots" content="noindex,nofollow">' if PREVIEW else ''}<link rel="canonical" href="{DOMAIN}{url(lang, slug)}">{hl}
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(descr)}"><meta property="og:image" content="{img(og or (head[0] if head else PH['hero']), 1200, 630)}"><meta property="og:locale" content="{lang}">
 <link rel="preconnect" href="https://images.unsplash.com"><link rel="stylesheet" href="{BASE}/style.css?v={CSS_V}">{ld}</head><body>
@@ -187,6 +187,7 @@ def page(lang, slug, title, descr, body, alts, crumbs=None, schema=None, head=No
 <div><h4>{u['contacts']}</h4><a href="{wa_link(u)}">WhatsApp</a><br><a href="{TEL}">{PHONE}</a><br><a href="{url(gl, sec(gl, 'gd'))}">{u['guides']}</a><br><a href="{url(lang, sec(lang, 'pr'))}">{u['prices']}</a></div></div>
 <div class="cred">{u['credits']}.</div></div></footer>
 <script>document.addEventListener('click',e=>{{const a=e.target.closest('a[href^="https://wa.me"],a[href^="tel:"]');if(a&&window.gtag)gtag('event','generate_lead',{{method:a.href.split(':')[0]}});if(e.target.closest('.mnav a'))document.body.classList.remove('menu-open')}});</script>
+<script src="{BASE}/lang.js?v={CSS_V}" defer></script>
 </body></html>"""
 
 def biz_schema(lang, area=None):
@@ -242,6 +243,7 @@ def build():
                                    + (HERE / "tools" / "style.css").read_text(encoding="utf-8")
                                    + ((HERE / "tools" / "theme_pro.css").read_text(encoding="utf-8") if THEME == "pro" else "")), encoding="utf-8")
     CSS_V = hashlib.md5((ROOT / "style.css").read_bytes()).hexdigest()[:8]
+    (ROOT / "lang.js").write_text((HERE / "tools" / "langsuggest.js").read_text(encoding="utf-8"), encoding="utf-8")
     ARTS = load_articles()
     gpath = lambda lang, a: sec(lang, "gd") + "/" + HUB_EN[a["hub"]][0] + "/" + a["slug"]
     area_alts = lambda fn: {c: fn(c) for c in AREA_LANGS if c in ACTIVE}

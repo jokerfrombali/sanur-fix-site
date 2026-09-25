@@ -108,7 +108,51 @@
   ],
   "form_btn": "Versturen via WhatsApp",
   "form_note": "Opent WhatsApp met je bericht. Voeg daar een foto toe.",
-  "rated": "Beoordeling {r} · {n} reviews"
+  "rated": "Beoordeling {r} · {n} reviews",
+  "tagline": "Loodgieter & Zwembadservice op Bali",
+  "wa_text": "Hoi! Ik heb een monteur nodig op Bali: ",
+  "areas": "Werkgebieden",
+  "area_txt": "Ik werk in deze gebieden van Bali:",
+  "home_h1": "Loodgieter & Zwembadservice op Bali",
+  "home_lead": "Privé-monteur voor villa's: loodgieterswerk, lekkages, waterverwarmers, pompen, zwembadonderhoud en -reparatie, kleine reparaties. Canggu, Ubud, Seminyak, Uluwatu, Sanur en meer. Stuur een foto — ik reageer via WhatsApp.",
+  "prices_h1": "Prijzen op Bali",
+  "areas_h1": "Mijn werkgebied op Bali",
+  "badge": "Bali · 10 gebieden",
+  "guides_h1": "Gidsen voor villa's en zwembaden op Bali",
+  "guides_lead": "Praktische gidsen van een technicus op Bali: lekkages, warm water, pompen, zwembaden, septische putten en kleine reparaties.",
+  "trust": [
+   "Fotoreportage via WhatsApp na elke klus",
+   "Offerte op basis van uw foto's vóór ik langs kom",
+   "10 gebieden op Bali, één technicus",
+   "Onderdelen met bon"
+  ],
+  "why": "Waarom villabewoners op Bali mij bellen",
+  "why_items": [
+   [
+    "Ik kom zelf",
+    "Geen callcenter, geen ploeg. Wie je bericht, komt het werk doen."
+   ],
+   [
+    "Ik ken elk gebied",
+    "Grondwater in Canggu, watertanks in Uluwatu, vochtigheid in Ubud, zoutlucht in Sanur — elk gebied heeft zijn eigen typische problemen."
+   ],
+   [
+    "Rapportage voor eigenaren",
+    "Verblijf je in het buitenland? Je ontvangt foto's vóór en na plus een korte opsomming van de uitgevoerde werkzaamheden."
+   ]
+  ],
+  "map_h": "Waar ik werk",
+  "only": "10 gebieden op Bali",
+  "local_eyebrow": "Lokale kennis",
+  "serving": "Actief in 10 gebieden op Bali",
+  "area_hub_h": "Loodgieter & Zwembadsservice in {area}",
+  "area_local_h": "Het verschil in {area}",
+  "area_services_h": "Diensten in {area}",
+  "area_subs_h": "Wijken die ik bedien in {area}",
+  "other_areas": "Andere gebieden",
+  "choose_area": "Kies uw regio",
+  "in_area": "in {area}",
+  "areas_lead": "Elke streek op Bali heeft zijn eigen water, grond en bouwstijl. Kies de jouwe — elke pagina gaat in op lokale problemen en diensten."
  },
  "services": {
   "srv-protechki": {

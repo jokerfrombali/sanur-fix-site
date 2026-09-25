@@ -108,7 +108,51 @@
   ],
   "form_btn": "Poslat přes WhatsApp",
   "form_note": "Otevře se WhatsApp s vaší zprávou. Přidejte tam fotku.",
-  "rated": "Hodnocení {r} · {n} recenzí"
+  "rated": "Hodnocení {r} · {n} recenzí",
+  "tagline": "Vodař a servis bazénů na Balí",
+  "wa_text": "Dobrý den! Potřebuji technika na Balí: ",
+  "areas": "Oblasti",
+  "area_txt": "Působím v těchto oblastech Balí:",
+  "home_h1": "Vodař a servis bazénů na Balí",
+  "home_lead": "Soukromý technik pro vily: vodoinstalace, úniky vody, ohřívače vody, čerpadla, čištění a oprava bazénu, drobné opravy. Canggu, Ubud, Seminyak, Uluwatu, Sanur a další. Pošlete fotku – odpovím přes WhatsApp.",
+  "prices_h1": "Ceník na Balí",
+  "areas_h1": "Oblasti, kde pracuji na Balí",
+  "badge": "Balí · 10 oblastí",
+  "guides_h1": "Průvodce pro vily a bazény – Balí",
+  "guides_lead": "Praktické návody od technika z Bali: úniky, teplá voda, čerpadla, bazény, septiky a drobné opravy.",
+  "trust": [
+   "Fotoreport přes WhatsApp po každé práci",
+   "Nabídka cen podle vašich fotek ještě před návštěvou",
+   "10 oblastí Bali, jeden technik",
+   "Díly vždy s fakturou"
+  ],
+  "why": "Proč mě volají majitelé vil v Balí",
+  "why_items": [
+   [
+    "Přijedu osobně",
+    "Žádné call centrum, žádný tým. Kdo vám píše, ten i práci odvede."
+   ],
+   [
+    "Znám každý region",
+    "Podzemní vody v Canggu, nádrže v Uluwatu, vlhkost v Ubudu, slaný vzduch v Sanuru – každý region má své specifické problémy."
+   ],
+   [
+    "Zprávy pro majitele",
+    "Jste v zahraničí? Dostanete fotky před a po a stručný přehled provedených pracích."
+   ]
+  ],
+  "map_h": "Kde působím",
+  "only": "10 oblastí Balí",
+  "local_eyebrow": "Místní znalosti",
+  "serving": "Působím ve 10 oblastech Balí",
+  "area_hub_h": "Instalatér a servis bazénů v {area}",
+  "area_local_h": "Co je specifické pro {area}",
+  "area_services_h": "Služby v {area}",
+  "area_subs_h": "Čtvrti, které pokrývám v {area}",
+  "other_areas": "Další oblasti",
+  "choose_area": "Vyberte svou oblast",
+  "in_area": "v {area}",
+  "areas_lead": "Každá část Balí má specifický vodní režim, typ půdy i stavební styl. Vyberte si svou oblast — na každé stránce najdete řešení lokálních problémů a nabídku služeb."
  },
  "services": {
   "srv-protechki": {

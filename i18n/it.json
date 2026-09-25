@@ -108,7 +108,51 @@
   ],
   "form_btn": "Invia su WhatsApp",
   "form_note": "Si apre WhatsApp con il tuo messaggio. Aggiungi una foto lì.",
-  "rated": "Valutazione {r} · {n} recensioni"
+  "rated": "Valutazione {r} · {n} recensioni",
+  "tagline": "Idraulico & Servizio Piscine a Bali",
+  "wa_text": "Ciao! Ho bisogno di un tecnico a Bali: ",
+  "areas": "Zone",
+  "area_txt": "Lavoro in queste zone di Bali:",
+  "home_h1": "Idraulico & Servizio Piscine a Bali",
+  "home_lead": "Tecnico privato per ville: idraulica, perdite d'acqua, scaldacqua, pompe, pulizia e riparazione piscine, piccoli interventi. Canggu, Ubud, Seminyak, Uluwatu, Sanur e dintorni. Invia una foto — ti rispondo su WhatsApp.",
+  "prices_h1": "Prezzi a Bali",
+  "areas_h1": "Zone servite a Bali",
+  "badge": "Bali · 10 zone",
+  "guides_h1": "Guide per ville e piscine a Bali",
+  "guides_lead": "Guide pratiche da un tecnico di Bali: perdite, acqua calda, pompe, piscine, pozzi neri e piccole riparazioni.",
+  "trust": [
+   "Report fotografico su WhatsApp dopo ogni intervento",
+   "Preventivo dalle tue foto prima del sopralluogo",
+   "10 zone di Bali, un solo tecnico",
+   "Ricambi fatturati con ricevuta"
+  ],
+  "why": "Perché i proprietari di ville a Bali mi chiamano",
+  "why_items": [
+   [
+    "Vengo io stesso",
+    "Nessun call center, nessuna squadra. Chi ti scrive è chi fa il lavoro."
+   ],
+   [
+    "Conosco ogni zona",
+    "Le falde acquifere di Canggu, le cisterne di Uluwatu, l'umidità di Ubud, l'aria salmastra di Sanur — ogni zona ha i suoi problemi tipici."
+   ],
+   [
+    "Report per i proprietari",
+    "Sei all'estero? Ricevi foto prima/dopo e un breve riepilogo dei lavori effettuati."
+   ]
+  ],
+  "map_h": "Dove lavoro",
+  "only": "10 zone di Bali",
+  "local_eyebrow": "Conoscenza del territorio",
+  "serving": "Al servizio di 10 zone di Bali",
+  "area_hub_h": "Idraulica e Manutenzione Piscine a {area}",
+  "area_local_h": "Cosa cambia a {area}",
+  "area_services_h": "Servizi a {area}",
+  "area_subs_h": "Quartieri serviti a {area}",
+  "other_areas": "Altre zone",
+  "choose_area": "Scegli la tua zona",
+  "in_area": "in {area}",
+  "areas_lead": "Ogni zona di Bali ha le proprie caratteristiche in termini di acqua, terreno e edilizia. Scegli la tua — ogni pagina affronta i problemi specifici del territorio e i relativi servizi."
  },
  "services": {
   "srv-protechki": {

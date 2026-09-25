@@ -108,7 +108,51 @@
   ],
   "form_btn": "Wyślij na WhatsApp",
   "form_note": "Otworzy się WhatsApp z twoją wiadomością. Dodaj tam zdjęcie.",
-  "rated": "Ocena {r} · {n} opinii"
+  "rated": "Ocena {r} · {n} opinii",
+  "tagline": "Hydraulik i serwis basenów na Bali",
+  "wa_text": "Cześć! Potrzebuję technika na Bali: ",
+  "areas": "Rejony",
+  "area_txt": "Pracuję w tych rejonach Bali:",
+  "home_h1": "Hydraulik i serwis basenów na Bali",
+  "home_lead": "Prywatny technik dla willi: hydraulika, nieszczelności, podgrzewacze wody, pompy, czyszczenie i naprawa basenu, drobne naprawy. Canggu, Ubud, Seminyak, Uluwatu, Sanur i inne. Wyślij zdjęcie – odpowiem na WhatsAppie.",
+  "prices_h1": "Cennik na Bali",
+  "areas_h1": "Obszary mojej pracy na Bali",
+  "badge": "Bali · 10 obszarów",
+  "guides_h1": "Poradniki: willa i basen na Bali",
+  "guides_lead": "Praktyczne poradniki od technika z Bali: wycieki, ciepła woda, pompy, baseny, szamba i drobne naprawy.",
+  "trust": [
+   "Raport ze zdjęciami na WhatsApp po każdym zleceniu",
+   "Wycena na podstawie Twoich zdjęć – zanim przyjadę",
+   "10 obszarów Bali, jeden technik",
+   "Części zawsze z paragonem"
+  ],
+  "why": "Dlaczego właściciele willi na Bali dzwonią do mnie",
+  "why_items": [
+   [
+    "Przychodzę osobiście",
+    "To nie jest centrum obsługi ani ekipa. Osoba, z którą się skontaktujesz, to ta sama, która wykona pracę."
+   ],
+   [
+    "Znam każdy rejon",
+    "Woda gruntowa w Canggu, zbiorniki wodne w Uluwatu, wilgotność w Ubud, słone powietrze w Sanur — każdy rejon ma swoje typowe problemy."
+   ],
+   [
+    "Raporty dla właścicieli",
+    "Jesteś za granicą? Otrzymujesz zdjęcia przed i po oraz krótką listę wykonanych prac."
+   ]
+  ],
+  "map_h": "Gdzie działam",
+  "only": "10 rejonów Bali",
+  "local_eyebrow": "Lokalna wiedza",
+  "serving": "Obsługuję 10 rejonów Bali",
+  "area_hub_h": "Hydraulik i serwis basenowy w {area}",
+  "area_local_h": "Czym wyróżnia się {area}",
+  "area_services_h": "Usługi w {area}",
+  "area_subs_h": "Osiedla, które obsługuję w {area}",
+  "other_areas": "Inne okolice",
+  "choose_area": "Wybierz swoją okolicę",
+  "in_area": "w {area}",
+  "areas_lead": "Każdy rejon Bali ma swoją specyfikę wody, gleby i stylu zabudowy. Wybierz swój — każda strona omawia lokalne problemy i usługi."
  },
  "services": {
   "srv-protechki": {
