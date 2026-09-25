@@ -132,7 +132,19 @@
   "years": "年の実績",
   "langs": "対応言語",
   "warranty": "保証",
-  "sample": "サンプルデータ"
+  "sample": "サンプルデータ",
+  "form_h": "不具合の内容を教えてください",
+  "form_what": "どのような症状ですか？",
+  "form_when": "ご対応はいつ頃ですか？",
+  "when_opts": [
+   "今日（至急）",
+   "今週中",
+   "見積もりだけ"
+  ],
+  "form_btn": "WhatsAppで送信",
+  "form_note": "メッセージ付きでWhatsAppが開きます。そちらに写真もお送りください。",
+  "rated": "評価 {r} · レビュー {n}件",
+  "serving": "サヌール地域を誠心誠意サポート"
  },
  "services": {
   "srv-santehnik": {

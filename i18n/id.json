@@ -132,7 +132,19 @@
   "years": "tahun pengalaman",
   "langs": "Bahasa",
   "warranty": "Garansi",
-  "sample": "Data contoh"
+  "sample": "Data contoh",
+  "form_h": "Ceritakan masalahnya",
+  "form_what": "Apa yang terjadi?",
+  "form_when": "Kapan dibutuhkan?",
+  "when_opts": [
+   "Hari ini — darurat",
+   "Minggu ini",
+   "Cukup estimasi"
+  ],
+  "form_btn": "Kirim via WhatsApp",
+  "form_note": "Membuka WhatsApp dengan pesan Anda. Sertakan foto di sana.",
+  "rated": "Peringkat {r} · {n} ulasan",
+  "serving": "Bangga melayani Sanur"
  },
  "services": {
   "srv-santehnik": {

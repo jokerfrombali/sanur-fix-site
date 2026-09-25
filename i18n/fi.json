@@ -132,7 +132,19 @@
   "years": "vuotta kokemusta",
   "langs": "Kielet",
   "warranty": "Takuu",
-  "sample": "Esimerkkidata"
+  "sample": "Esimerkkidata",
+  "form_h": "Kerro, mikä on vialla",
+  "form_what": "Mikä on tilanne?",
+  "form_when": "Milloin tarvitset apua?",
+  "when_opts": [
+   "Tänään — kiireellistä",
+   "Tällä viikolla",
+   "Vain tarjous"
+  ],
+  "form_btn": "Lähetä WhatsAppiin",
+  "form_note": "Avaa WhatsAppin valmiilla viestillä. Lisää sinne myös kuva.",
+  "rated": "Arvosana {r} · {n} arvostelua",
+  "serving": "Palvelemme ylpeänä Sanur"
  },
  "services": {
   "srv-santehnik": {

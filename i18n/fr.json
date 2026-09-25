@@ -132,7 +132,19 @@
   "years": "ans d'expérience",
   "langs": "Langues",
   "warranty": "Garantie",
-  "sample": "Données d'exemple"
+  "sample": "Données d'exemple",
+  "form_h": "Dites-moi ce qui ne va pas",
+  "form_what": "Quel est le problème ?",
+  "form_when": "Pour quand ?",
+  "when_opts": [
+   "Aujourd'hui — c'est urgent",
+   "Cette semaine",
+   "Un simple devis"
+  ],
+  "form_btn": "Envoyer sur WhatsApp",
+  "form_note": "WhatsApp s'ouvrira avec votre message. Pensez à joindre une photo.",
+  "rated": "Noté {r} · {n} avis",
+  "serving": "Fiers de servir Sanur"
  },
  "services": {
   "srv-santehnik": {

@@ -132,7 +132,19 @@
   "years": "Jahre Erfahrung",
   "langs": "Sprachen",
   "warranty": "Garantie",
-  "sample": "Beispieldaten"
+  "sample": "Beispieldaten",
+  "form_h": "Beschreiben Sie Ihr Problem",
+  "form_what": "Was ist los?",
+  "form_when": "Wann brauchen Sie Hilfe?",
+  "when_opts": [
+   "Heute – es brennt!",
+   "Diese Woche",
+   "Nur ein Angebot"
+  ],
+  "form_btn": "Per WhatsApp senden",
+  "form_note": "Öffnet WhatsApp mit Ihrer Nachricht. Fügen Sie dort gerne ein Foto hinzu.",
+  "rated": "Bewertung {r} · {n} Bewertungen",
+  "serving": "Stolz im Einsatz in Sanur"
  },
  "services": {
   "srv-santehnik": {

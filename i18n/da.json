@@ -132,7 +132,19 @@
   "years": "års erfaring",
   "langs": "Sprog",
   "warranty": "Garanti",
-  "sample": "Eksempeldata"
+  "sample": "Eksempeldata",
+  "form_h": "Fortæl mig hvad der fejler",
+  "form_what": "Hvad sker der?",
+  "form_when": "Hvornår har du brug for det?",
+  "when_opts": [
+   "I dag — det er akut",
+   "Denne uge",
+   "Kun et tilbud"
+  ],
+  "form_btn": "Send via WhatsApp",
+  "form_note": "Åbner WhatsApp med din besked. Tilføj et billede dér.",
+  "rated": "Vurderet {r} · {n} anmeldelser",
+  "serving": "Stolte over at betjene Sanur"
  },
  "services": {
   "srv-santehnik": {

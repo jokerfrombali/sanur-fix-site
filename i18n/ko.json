@@ -132,7 +132,19 @@
   "years": "년 경력",
   "langs": "언어",
   "warranty": "보증",
-  "sample": "예시 데이터"
+  "sample": "예시 데이터",
+  "form_h": "어떤 문제가 있으신가요?",
+  "form_what": "무슨 일이 발생했나요?",
+  "form_when": "언제 필요하신가요?",
+  "when_opts": [
+   "오늘 — 긴급",
+   "이번 주",
+   "견적만"
+  ],
+  "form_btn": "WhatsApp으로 보내기",
+  "form_note": "메시지가 담긴 WhatsApp이 열립니다. 사진도 함께 첨부해 주세요.",
+  "rated": "평점 {r} · 리뷰 {n}개",
+  "serving": "Sanur 지역을 위해 최선을 다합니다"
  },
  "services": {
   "srv-santehnik": {

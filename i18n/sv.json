@@ -132,7 +132,19 @@
   "years": "års erfarenhet",
   "langs": "Språk",
   "warranty": "Garanti",
-  "sample": "Exempeldata"
+  "sample": "Exempeldata",
+  "form_h": "Berätta vad som är fel",
+  "form_what": "Vad är det för problem?",
+  "form_when": "Når behöver du hjälp?",
+  "when_opts": [
+   "Idag — det är akut",
+   "Den här veckan",
+   "Bara ett prisförslag"
+  ],
+  "form_btn": "Skicka via WhatsApp",
+  "form_note": "Öppnar WhatsApp med ditt meddelande. Lägg till en bild där.",
+  "rated": "Betyg {r} · {n} omdömen",
+  "serving": "Stolt service i Sanur"
  },
  "services": {
   "srv-santehnik": {

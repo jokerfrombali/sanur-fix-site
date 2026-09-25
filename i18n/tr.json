@@ -132,7 +132,19 @@
   "years": "Yıl Deneyim",
   "langs": "Diller",
   "warranty": "Garanti",
-  "sample": "Örnek Veri"
+  "sample": "Örnek Veri",
+  "form_h": "Sorununuz ne?",
+  "form_what": "Ne oluyor?",
+  "form_when": "Ne zaman gerekiyor?",
+  "when_opts": [
+   "Bugün — acil",
+   "Bu hafta",
+   "Sadece fiyat teklifi"
+  ],
+  "form_btn": "WhatsApp'a Gönder",
+  "form_note": "Mesajınızla birlikte WhatsApp açılır. Fotoğraf da ekleyebilirsiniz.",
+  "rated": "{r} puan · {n} değerlendirme",
+  "serving": "Sanur'a gururla hizmet veriyoruz"
  },
  "services": {
   "srv-santehnik": {

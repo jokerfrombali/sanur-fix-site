@@ -132,7 +132,19 @@
   "years": "jaar ervaring",
   "langs": "Talen",
   "warranty": "Garantie",
-  "sample": "Voorbeelddata"
+  "sample": "Voorbeelddata",
+  "form_h": "Vertel me wat er mis is",
+  "form_what": "Wat is er aan de hand?",
+  "form_when": "Wanneer heb je hulp nodig?",
+  "when_opts": [
+   "Vandaag — het is dringend",
+   "Deze week",
+   "Alleen een offerte"
+  ],
+  "form_btn": "Versturen via WhatsApp",
+  "form_note": "Opent WhatsApp met je bericht. Voeg daar een foto toe.",
+  "rated": "Beoordeling {r} · {n} reviews",
+  "serving": "Met trots van dienst in Sanur"
  },
  "services": {
   "srv-santehnik": {

@@ -132,7 +132,19 @@
   "years": "anos de experiência",
   "langs": "Idiomas",
   "warranty": "Garantia",
-  "sample": "Dados de exemplo"
+  "sample": "Dados de exemplo",
+  "form_h": "Me conta o problema",
+  "form_what": "O que está acontecendo?",
+  "form_when": "Quando precisa?",
+  "when_opts": [
+   "Hoje — é urgente",
+   "Esta semana",
+   "Só um orçamento"
+  ],
+  "form_btn": "Enviar no WhatsApp",
+  "form_note": "Abre o WhatsApp com sua mensagem. Adicione uma foto por lá.",
+  "rated": "Nota {r} · {n} avaliações",
+  "serving": "Atendemos com orgulho em Sanur"
  },
  "services": {
   "srv-santehnik": {
