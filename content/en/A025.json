@@ -1,0 +1,78 @@
+{
+ "title": "Washing Machine & Dishwasher Connection Guide – Sanur",
+ "slug": "washing-machine-dishwasher-connection-sanur",
+ "meta": "Step-by-step guide to connecting your washing machine or dishwasher in a Sanur villa: water supply, drain routing, siphon setup, leak checks, and safe grounding.",
+ "intro": "Most Sanur villas were plumbed for one bathroom tap, not a dedicated laundry circuit. Before you plug in that new washing machine or dishwasher, you need a proper connection point, a reliable drain path, and correct electrical grounding. Get these five things right and you avoid the drips, flooded floors, and tripped breakers we see most often here.",
+ "sections": [
+  {
+   "h2": "Where to Connect",
+   "paragraphs": [
+    "In older Sanur villas the cold-water line usually comes from PDAM or a bore well up to a rooftop tank, then drops down through the kitchen or utility area. Your first job is to trace where that line runs and whether there is an existing angle valve or tee fitting near your intended spot.",
+    "If you are installing in a bedroom ensuite or a far corner of the garden, think twice – every extra metre of pipe adds pressure loss and another potential leak point. For dishwashers, stay within two metres of a floor drain or the kitchen sink waste so the drain hose does not have to climb too high. Check that the floor can handle the weight; a loaded front-loader plus water is roughly 90 kg."
+   ],
+   "bullets": [
+    "Mark the position on the wall and confirm there is no live cable behind it before drilling.",
+    "Prefer a location where a small drip tray can sit flat without blocking foot traffic."
+   ]
+  },
+  {
+   "h2": "Tap and Hoses",
+   "paragraphs": [
+    "Fit a dedicated quarter-turn ball valve (an 'angle stop') rather than threading a hose directly onto the main line. This gives you a fast shut-off when something drips mid-cycle.",
+    "Use a braided-steel inlet hose, not plain rubber. The salt-laden sea air around Sanur eats through rubber gaskets within a season, especially on machines left running during the rainy months. Most European machines take a standard 3/8-inch BSP connection, but some older models use M22 – check before you buy the hose. Tighten by hand first, then give a quarter turn with pliers wrapped in cloth. If your well water is hard, expect mineral scale inside the inlet filter screen; pull it out and rinse every six months."
+   ],
+   "bullets": [
+    "Replace any rubber washer at the tap with PTFE tape to prevent slow seepage.",
+    "Keep a shallow plastic tub under the machine for the first two cycles after installation."
+   ]
+  },
+  {
+   "h2": "Drain and Siphon",
+   "paragraphs": [
+    "The drain hose must loop up to at least 60 cm above the floor before dropping into the waste point. That air break stops the machine from siphoning water out of its own drum while idle overnight.",
+    "In many Bali villas the nearest waste is either the kitchen sink trap or a dedicated floor drain near the laundry area. Do not connect the drain directly into a septic-tank inlet without a proper P-trap – anaerobic gases will find their way back through the hose. During the wet season (roughly November to March) make sure your floor drain is not backing up from the septic field; if it is, the washing machine will flood the room. A simple inline anti-siphon valve costs little and saves a lot of heartache."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Leaks After Connection",
+   "paragraphs": [
+    "Run one full wash cycle with the door open and watch every joint: the inlet connection, the drain-hose clip, the door gasket, and the pump housing at the bottom rear. The most common drip in Sanur homes is a slow weep at the braided-hose-to-tap thread, caused by cross-threading on a slightly worn BSP fitting.",
+    "If you see a steady bead of water forming over ten minutes, shut off the angle valve, dry the area, re-seat the hose, and re-test. If the leak comes from inside the machine – around the drum seal or the pressure switch – stop using it and call a technician. Continuing to run a leaking unit soaks the subfloor, which in older villas is often just concrete over sand and will wick moisture into the bedroom above."
+   ],
+   "bullets": [
+    "Keep a small towel and bucket beside the machine for the first week.",
+    "If you smell damp plaster or see tide marks on the wall behind the unit, unplug it and let the area dry before investigating further."
+   ]
+  },
+  {
+   "h2": "Electrical and Grounding",
+   "paragraphs": [
+    "A washing machine and a dishwasher both draw 1–2 kW and should sit on their own circuit with a 16 A breaker and an RCD (residual-current device) rated at 30 mA. In many pre-2000 Sanur villas the wiring was never designed for two high-draw appliances in one room, and the earth connection may be missing entirely.",
+    "This matters more here than in a European flat because well water carries dissolved minerals that make any fault current more conductive. Never bypass the RCD or use a three-to-two-pin adapter 'just this once.' If the outlet feels warm, trips intermittently, or you get a tingling sensation when touching the metal casing while the machine runs, stop immediately and have a licensed electrician check the grounding. Water and electricity near a pool deck or open-air laundry are not a combination to gamble with."
+   ],
+   "bullets": [
+    "Test the RCD button monthly – press it and the supply must cut out within a second.",
+    "Keep the power cord away from the drain hose; a dripping hose can create a conductive path along the floor."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I just clip my washing-machine hose onto the kitchen tap?",
+   "a": "You technically can, but without a dedicated angle valve you lose your only shut-off point, and the extra pipe run increases pressure loss. A proper tee fitting with its own ball valve takes ten minutes to install and saves you a flooded kitchen if the hose splits mid-cycle."
+  },
+  {
+   "q": "My drain hose keeps pulling water out of the drum overnight. What is wrong?",
+   "a": "That is siphoning. The hose is dropping straight into the waste without an air break. Re-route it so it loops up at least 60 cm before descending, or fit an inline anti-siphon valve. If the problem persists after fixing the loop, the internal pump seal may be weeping and a technician should take a look."
+  },
+  {
+   "q": "Do I need a separate circuit for the dishwasher, or will it share one with the washing machine?",
+   "a": "Ideally each appliance gets its own 16 A circuit with RCD protection. Sharing one breaker means running both simultaneously can trip the supply, and a fault on one unit leaves the other unprotected. In older villas where rewiring is impractical, at minimum make sure the shared circuit has a 30 mA RCD and the total load stays under the breaker rating."
+  }
+ ],
+ "cta": "If any of this sounds like your villa's current setup – or you just want a second pair of eyes before you start – send a photo of the area on WhatsApp and I'll tell you exactly what needs fitting and quote from there.",
+ "id": "A025",
+ "hub": "S",
+ "status": "draft-qwen"
+}

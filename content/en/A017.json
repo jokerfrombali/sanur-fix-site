@@ -1,0 +1,81 @@
+{
+ "title": "Knocking and Banging in Pipes: Water Hammer & Air",
+ "slug": "knocking-banging-pipes-water-hammer-air",
+ "meta": "Hear knocking or humming in your Sanur villa's pipes? Learn how to spot air locks, water hammer, and pump cycling — and what to do before it breaks.",
+ "intro": "A sharp knock or low hum coming from your villa's pipes is almost always one of two things: trapped air or water hammer (a sudden pressure spike when flowing water stops abruptly). Both are very common in Sanur, especially after PDAM maintenance windows or when a rooftop tank runs dry. The good news is that most cases can be sorted quickly at the tap level before a joint, fitting, or pump seal gives way.",
+ "sections": [
+  {
+   "h2": "Where Does the Noise Actually Come From?",
+   "paragraphs": [
+    "Water hammer happens when a column of moving water hits a closed valve or a fast-closing solenoid and slams against the pipe wall. You hear it as a single loud bang or a series of rapid knocks, usually near the kitchen sink, the washing-machine inlet, or the pool backwash valve.",
+    "Air pockets sound different. A trapped bubble compresses and expands with each pressure change, producing a rhythmic ticking, gurgling, or low-frequency hum that travels through copper or PEX lines. In older Sanur villas built on concrete slab foundations, those vibrations carry surprisingly far, so you may hear the noise under the floor even though the source is up in the roof space."
+   ],
+   "bullets": [
+    "Single loud bang → classic water hammer (fast valve closure).",
+    "Rhythmic tick-tick-tick or bubbling → air pocket in the line.",
+    "Constant low hum that changes pitch with flow → pump short-cycling or a loose pressure-tank bladder."
+   ]
+  },
+  {
+   "h2": "Air After a PDAM Shut-Off or Rainy-Season Drop",
+   "paragraphs": [
+    "PDAM does scheduled maintenance along Jalan Danau Poso and the main trunk lines several times a year. When supply stops for even twenty minutes, air enters every open tap and drain. Once flow resumes, that air gets pushed into your rooftop tank and then down through the distribution pipes.",
+    "During the rainy season (roughly November to March) the well-water backup kicks in more often because PDAM pressure drops. Switching between two sources at different pressures shakes small bubbles loose from the tank walls, which is why the humming tends to get worse in December and January.",
+    "To bleed the system: close the main isolation valve under the kitchen sink. Open the highest tap on the top floor first, then work your way down, opening each tap fully for about ten seconds until the stream runs clear and steady. Close them again in reverse order. If you have a pool, run the filter pump for five minutes on recirculate so any air in the skimmer line escapes through the return jets."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "The Pump Keeps Cycling On and Off",
+   "paragraphs": [
+    "Many Sanur villas use a submersible or jet pump fed by a borehole well, with a 50–100 L pressure tank on the roof. When the rubber bladder inside that tank loses its pre-charge (usually after a few years of hot, salty air), the pump starts short-cycling: it kicks on, builds a little pressure, trips off, then restarts within a few seconds. Each start-up creates a mini water-hammer pulse, and the repeated jolting wears out the seal and bearings fast.",
+    "You can check the pre-charge yourself if there is an air Schrader valve on the tank. With the pump off and the system depressurised, a gauge should read roughly 1–2 bar below the cut-in pressure. If it reads near zero, the bladder has likely ruptured and the tank needs replacing — do not just keep topping up air, because free water in the tank will corrode the shell from the inside.",
+    "If you smell gas or notice any electrical scorching around the pump controller, stop using the system immediately and call a licensed electrician before anyone touches the wiring. Water and electricity near a pool deck are a genuine shock hazard."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "How to Fix It (and What to Leave to a Technician)",
+   "paragraphs": [
+    "Start with the simplest fix: bleed every tap as described above, then open the washing-machine inlet slowly rather than fully. A slow-open valve lets the water column settle instead of slamming shut.",
+    "Check that no flexible hose between the tap and the appliance has kinked or collapsed; a pinched hose acts like a sudden closure and triggers hammer on every cycle.",
+    "If the noise persists after bleeding, look for a missing or broken expansion (water-hammer arrestor) bottle on the line feeding the kitchen or laundry. These small vertical cylinders absorb the pressure spike. On older villas they were often never fitted, so adding one at the nearest accessible junction is a straightforward job.",
+    "What you should NOT do yourself: cutting into copper mains under pressure, replacing a submersible well pump, or working on the pool's variable-speed drive board. Those involve pressurised lines, heavy equipment in a wet pit, or high-voltage electronics — all best left to someone who carries the right tools and insurance."
+   ],
+   "bullets": [
+    "Bleed taps top-to-bottom after any PDAM outage.",
+    "Open appliance inlet valves slowly.",
+    "Inspect flexible hoses for kinks or bulges.",
+    "Add or replace an expansion bottle if none is present.",
+    "Call a technician for pump, tank, or electrical work."
+   ]
+  },
+  {
+   "h2": "What Can Actually Break If You Ignore It",
+   "paragraphs": [
+    "Repeated water hammer puts cyclic stress on every solder joint, compression fitting, and push-fit connection in the run. In a villa that has been standing since the 1990s with original copper pipework, those joints have already lost some of their margin. A single hard bang can crack a thin-walled section near a corner elbow, and because Sanur's sea air accelerates corrosion at exposed fittings, the leak may not show until it is under a ceiling tile or behind a garden wall.",
+    "On the pool side, uncontrolled pressure spikes travel through the skimmer line into the filter housing gasket and the backwash valve seat. Over time you get weeping at the multiport, cloudy water after cleaning cycles, or a cracked union that sprays when you switch to winterisation mode.",
+    "The cost of a small repair now is almost always far less than replacing a corroded pipe run, a flooded ceiling, or a new pressure tank. If the knocking continues more than two or three times a week, it is worth getting eyes on the system before the next PDAM maintenance window."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "My pipes knock only when I turn off the kitchen tap. Is that normal?",
+   "a": "A single soft tick is usually harmless — just the last bit of momentum in the line settling. But if it is a loud bang that rattles nearby cabinets or happens every time, you likely need an expansion bottle or a slower-closing aerator on that tap. It will get worse with each cycle if left alone."
+  },
+  {
+   "q": "Can salt air from Sanur's beachfront really affect my plumbing?",
+   "a": "Yes. The constant marine aerosol accelerates oxidation on copper, brass, and steel fittings, especially those exposed under eaves or near open pool decks. Corroded joints lose their seal gradually, so what starts as a faint hum can become a visible drip within a season. Regular visual checks of exterior fittings are cheap insurance."
+  },
+  {
+   "q": "I hear a low hum from the pool area even when the pump is off. What could it be?",
+   "a": "That is often trapped air in the skimmer-to-filter line resonating in the empty pipe, or a loose union letting a small amount of water trickle past the multiport valve. Bleed the return jets, tighten the multiport bolts by hand (not with a wrench), and listen again. If the hum continues, send a short video to your technician for a remote look before booking a visit."
+  }
+ ],
+ "cta": "If you are hearing knocking, humming, or rapid pump cycling in your Sanur villa, snap a quick photo or ten-second video of the noisy section and send it over WhatsApp — I will take a look and let you know whether it is something you can sort at the tap or if a visit is needed.",
+ "id": "A017",
+ "hub": "S",
+ "status": "draft-qwen"
+}

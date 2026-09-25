@@ -1,0 +1,74 @@
+{
+ "title": "Is Tap Water Safe to Drink in Bali? Sanur Villa Guide",
+ "slug": "is-tap-water-safe-bali-sanur",
+ "meta": "Your Sanur villa water comes from PDAM mains or a well, stored in rooftop tanks. Here's why you shouldn't drink it raw and what to do instead.",
+ "intro": "Short answer: no, don't drink straight from the tap in your Sanur villa. The water is usually safe for washing and cooking, but bacterial load, sediment, and old storage tanks make it unreliable for drinking. Below I'll walk through where the water actually comes from, what the real risks are, and the practical options most expats end up using.",
+ "sections": [
+  {
+   "h2": "Where Does Your Villa Water Come From?",
+   "paragraphs": [
+    "In Sanur most villas are fed by one of two sources: the PDAM (Perumda Air Minuman) municipal network or a private borehole drilled under the property. Older villas on Jalan Danau Poso or the smaller lanes often have both running side by side, with a manual valve switch at the pump room.",
+    "Whichever source feeds the house, the water is pumped up into a polyethylene tank on the roof — typically a 1,000-litre drum or an IBC tote. Gravity then pushes it back down through copper or PVC pipes to every tap and shower head."
+   ],
+   "bullets": [
+    "Dry season (April–September): PDAM pressure drops, so many households run the well pump more. Coastal wells can taste faintly brackish because of saltwater intrusion.",
+    "Rainy season (October–March): open or poorly sealed rooftop tanks collect algae, mosquito larvae, and leaf debris within a few weeks.",
+    "Older villas with galvanized steel piping will shed rust particles, especially after a long period of non-use during a holiday trip."
+   ]
+  },
+  {
+   "h2": "What Are the Actual Risks?",
+   "paragraphs": [
+    "This isn't about poison or heavy-metal emergencies in most cases. The realistic concern for a healthy adult is gastrointestinal upset: E. coli, coliform bacteria, and general biofilm that builds up inside stagnant tanks and corroded pipe joints.",
+    "Well water adds another layer. Depending on where your borehole sits relative to nearby septic tanks or agricultural runoff, you may see elevated nitrates, iron staining, or a sulphur smell. None of these are immediately dangerous at low levels, but they signal that the water needs treatment before you drink it.",
+    "If you notice a strong chlorine odour mixed with any other chemical smell, stop using that tap and call a professional. Mixing residual chlorine with cleaning agents near water fittings can produce irritating fumes — don't try to 'flush it out' yourself."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Gallon Bottles: The Default in Sanur",
+   "paragraphs": [
+    "Walk into any warung or minimarket along Jalan Kusuma or the beachfront strip and you'll see stacks of 19-litre gallon bottles. For most expats this is simply the path of least resistance: no plumbing work, no filter maintenance, and the vendor drops them off when you run low.",
+    "The downsides are small but real. A plastic bottle left in a hot garage or under direct sun for weeks will leach trace compounds and taste flat. Caps that aren't properly sealed after opening invite dust and insects, especially during the wet months when humidity sits above 85 %.",
+    "Practical tips: store opened gallons in shade, finish one within two to three weeks, and rinse the dispenser spout with boiled water every few days if you're sharing the bottle with kids."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Filters Worth Installing",
+   "paragraphs": [
+    "If you'd rather drink from the kitchen tap than haul gallons up stairs, a basic inline setup works well. Start with a 5-micron sediment cartridge followed by an activated-carbon block. That removes rust flakes, sand, and chlorine taste. If your source is a well, add a UV steriliser downstream so any surviving bacteria get neutralised before they reach your glass.",
+    "A whole-house sediment pre-filter (10–20 micron) on the main inlet protects your geyser, washing machine, and dishwasher from the grit that Sanur's sandy soil loves to throw around. It also means fewer clogged aerators at the shower heads.",
+    "Because of the salty sea air here, carbon cartridges degrade faster than the label suggests. I'd check them every six to eight months rather than waiting a full year. If you send me a photo of your current plumbing layout on WhatsApp, I can tell you exactly which stage you're missing and quote the job from there — no fixed price list, it depends on what's already installed."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "What Do Water Tests Actually Show?",
+   "paragraphs": [
+    "PDAM water at the treatment plant meets national standards, but those standards are designed for immediate consumption in a city network. Once the water sits in a rooftop tank for days or weeks, bacterial counts climb. A simple TDS pen plus a bacterial swab kit gives you a rough baseline without spending much.",
+    "Well water is more variable block by block. Two villas 50 metres apart can have very different iron and nitrate levels. If your water looks yellowish, tastes metallic, or leaves a brown film on the kettle, get a full panel done before anyone drinks it. The cost depends on how many parameters you want tested; I can advise which ones matter most based on whether you're on PDAM or a well.",
+    "A good rule of thumb: test once a year, and again after any major plumbing work, a long vacancy, or if neighbours report discoloured water during a dry-season pressure drop."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I brush my teeth with tap water in Sanur?",
+   "a": "For a short trip it's usually fine to spit out, but if you tend to swallow a little while brushing, use bottled or filtered water instead. Newcomers are more sensitive to local bacteria than residents who've built up tolerance over months."
+  },
+  {
+   "q": "How often should I clean my rooftop tank?",
+   "a": "At minimum once a year, and ideally at the start of the rainy season (around October) so you don't trap algae inside for three wet months. If the tank has been untouched for two years or more, have it professionally cleaned and inspected for cracks before refilling."
+  },
+  {
+   "q": "Is well water worse than PDAM water in Sanur?",
+   "a": "Not automatically. A properly maintained borehole with a UV stage can give cleaner water than a PDAM line that runs through old galvanized pipes. The key variable is how recently the well was tested and whether your septic system is sealed away from the recharge zone."
+  }
+ ],
+ "cta": "If you're not sure what's feeding your villa's taps, snap a photo of the pump room and rooftop tank and send it over on WhatsApp — I'll take a look and let you know what makes sense for your setup.",
+ "id": "A026",
+ "hub": "W",
+ "status": "draft-qwen"
+}
