@@ -1,0 +1,70 @@
+{
+ "title": "Water Heater Repair in Sanur: Element, Thermostat & Anode",
+ "slug": "water-heater-repair-sanur-bali",
+ "meta": "Diagnose your Sanur villa water heater: limescale on the element, tripping breakers, thermostat faults, and when to swap the magnesium anode.",
+ "intro": "Your Sanur villa's water heater is probably working harder than you think, fighting hard PDAM or well water that leaves thick limescale on every metal part inside. Most 'dead' heaters are actually fixable — a burnt-out element, a stuck thermostat, or a corroded anode accounts for the vast majority of calls we get from expat owners along the coast. Here is how to tell which one it is before you spend money on parts.",
+ "sections": [
+  {
+   "h2": "Diagnosing the Problem Before You Open Anything",
+   "paragraphs": [
+    "Before you unscrew anything, switch off the breaker for the heater at your main panel. In older Sanur villas the wiring can be dated, and touching live terminals near a wet tank is genuinely dangerous — if you smell burning plastic or see scorch marks, stop and call a licensed electrician first. Once power is safely cut, run cold water into the unit and feel the outlet after two minutes. If there is no heat at all, the problem is likely the element or the thermostat. If the water runs hot then suddenly cuts out mid-shower, suspect the thermostat tripping. If the heater trips the circuit breaker within seconds of switching on, that points to a shorted element or an internal leak."
+   ],
+   "bullets": [
+    "No heat at all → check element continuity with a multimeter",
+    "Water too hot or shuts off randomly → thermostat issue",
+    "Breaker trips immediately → possible short; do not keep resetting it",
+    "Rusty or discoloured water from the tap → anode is gone"
+   ]
+  },
+  {
+   "h2": "Heating Element (TEN) and Limescale Buildup",
+   "paragraphs": [
+    "The heating element is the part that actually boils the water, and in Bali it is the number-one failure point. PDAM mains water here carries a high mineral load, and well water varies villa by villa but often has its own calcium and iron content. Over months that builds a chalky white or brown crust directly on the coil. The scale acts as insulation: the element works harder, draws more current, overheats, and eventually cracks or burns through. You will notice the shower takes longer to warm up, the heater hums louder, or the breaker starts tripping under load.",
+    "Replacing the element is straightforward if you have basic tools — drain the tank, unscrew the old coil, wipe the new one clean, and refit. But if the scale layer is thick enough to hide the metal underneath, clean the whole inner wall first, otherwise the new element will fail within weeks."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Thermostat Faults and Sticking Contacts",
+   "paragraphs": [
+    "The thermostat sits right next to the element and controls when it switches on and off. In the humid Sanur air, the small bimetallic strip inside can corrode or stick, so the heater either never kicks in or runs continuously at full power. A stuck-on thermostat is also why some owners report their breaker blowing every afternoon during the dry season when everyone is showering at once.",
+    "Testing is simple with a multimeter set to continuity: at room temperature the contacts should be closed; heat the sensor gently (a hair-dryer works) and they should open. If they do not change state, replace the thermostat. It is a cheap part, but make sure the replacement matches your unit's wattage rating — mixing ratings removes any safety margin the original design had."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Magnesium Anode: The Part Nobody Thinks About",
+   "paragraphs": [
+    "This sacrificial rod is bolted into the tank and attracts corrosion away from the steel walls. In hard water it consumes faster than in soft-water countries, and salt-laden sea air around Sanur accelerates external corrosion of nearby fittings. When the anode is fully eaten through, the tank itself starts rusting from the inside, and you will see reddish-brown tinges in your bathwater.",
+    "Replacing the anode takes twenty minutes with a wrench and a new rod of the correct length. We recommend checking it every eighteen months if you are on PDAM supply, or annually on well water where mineral content can be higher. A spent anode left in place for a year or more can turn a fixable situation into a full tank replacement."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "When Repair Is Not Worth It",
+   "paragraphs": [
+    "Honest advice: if the tank wall has visible rust pitting, if water leaks from the body (not just the connections), or if the unit is over ten years old and has already needed two or three element replacements, the maths usually favour a new heater. A corroded tank cannot be patched safely — pressure plus hot water plus a thinning steel shell is a recipe for a burst pipe flooding your bathroom.",
+    "The price of any repair depends entirely on what we find once the unit is opened up; send clear photos of the model plate, the damage, and the breaker panel on WhatsApp and we will quote before anyone touches a tool. No obligation, no surprise invoices."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "My water heater trips the breaker every time I take a shower. What should I check first?",
+   "a": "Switch off the breaker, let the unit cool, then inspect the heating element for cracks or heavy scale buildup. A shorted element pulls excess current and trips the protection. Do not keep resetting the breaker while the fault is present — that stresses the wiring. If you are not comfortable opening the unit near live terminals, call us and we will handle it."
+  },
+  {
+   "q": "How often should I replace the magnesium anode in Sanur?",
+   "a": "With PDAM mains water we suggest checking every eighteen months; well water varies so annual checks are safer. If your bathwater ever looks faintly rusty or smells metallic, the anode has likely been spent. Replacing it early saves the tank itself."
+  },
+  {
+   "q": "Can I just buy a new element online and fit it myself?",
+   "a": "If you have basic tools and confidence with plumbing, yes — drain the tank, disconnect power at the breaker, swap the coil, refit. But if the limescale layer is thick or the gasket is perished, a DIY job can leak within days. When in doubt, send photos on WhatsApp and we will tell you honestly whether it is a ten-minute fix or better left to a technician."
+  }
+ ],
+ "cta": "Send a clear photo of your heater's model plate and any visible damage on WhatsApp, and we will come back with a straight answer and a quote before anyone lifts a wrench.",
+ "id": "A009",
+ "hub": "S",
+ "status": "draft-qwen"
+}

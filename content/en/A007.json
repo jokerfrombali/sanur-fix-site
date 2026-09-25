@@ -1,0 +1,74 @@
+{
+ "title": "Weak Water Pressure in Your Sanur Villa: Causes & Fixes",
+ "slug": "weak-water-pressure-villa-fixes",
+ "meta": "Why does your Sanur villa shower feel like a trickle? Check aerators, pump relay, rooftop tank height and PDAM supply before you call for help.",
+ "intro": "Low water pressure in a Sanur villa usually comes down to three things: a partially blocked filter or aerator, a tired pump struggling against the tank height, or a PDAM supply that simply is not delivering enough flow. Most of these are quick fixes once you know where to look. Below is a practical checklist you can work through yourself before deciding whether a technician visit is needed.",
+ "sections": [
+  {
+   "h2": "Where Pressure Is Lost",
+   "paragraphs": [
+    "The path your water travels matters. In most Sanur villas the sequence is: PDAM main or well → inlet valve → filter → pump (if fitted) → rooftop storage tank → gravity feed back down to taps and showers. Every joint, every elbow, every old galvanized pipe adds a small resistance. Older villas built in the 1990s sometimes still have narrow iron pipes that corrode from the inside because of the salty sea air, and that corrosion narrows the bore over time.",
+    "Start at the source: open the main tap on the ground floor with nothing else running. If the flow is strong there but weak upstairs, the problem sits between the tank and the fixture. If it is weak everywhere, the issue is upstream – the pump, the filter, or the supply itself."
+   ],
+   "bullets": [
+    "Check the isolation valve under each sink – a half-closed quarter-turn valve mimics a system-wide fault.",
+    "Look for visible scale or rust flakes in the drain after you run the tap; that points to internal pipe corrosion.",
+    "Note whether the low pressure affects hot water only, cold only, or both – that tells you if the heater or the whole line is involved."
+   ]
+  },
+  {
+   "h2": "The Pump and Its Pressure Switch",
+   "paragraphs": [
+    "Many Sanur properties rely on a submersible or inline booster pump to push water into the rooftop tank. The pressure switch sits next to the pump and cycles it on and off. When the diaphragm inside the switch wears out, the pump either short-cycles – turning on and off every few seconds – or fails to start at all. You will hear a faint click and then silence while the shower sputters.",
+    "A common sign of trouble is the pump running continuously without stopping; that means the system cannot build enough pressure to trip the switch. A leaking check valve letting water drain back into the well or PDAM line produces the same symptom.",
+    "Safety note: if you smell gas near the pump area, see frayed cables, or notice water pooling around electrical connections, stop using the pump immediately and call a qualified electrician before touching anything. Do not open the pressure switch yourself – it contains springs and small contacts that are easy to misalign."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Clogged Aerators and Showerheads",
+   "paragraphs": [
+    "This is the most common and cheapest fix. PDAM water in Bali carries dissolved minerals, and over months those minerals deposit as a fine white crust inside aerator screens and showerhead nozzles. Add the salt-laden air that settles on outdoor fixtures, and even a brand-new head can lose half its flow within a year.",
+    "To check, unscrew the aerator from the tap (a small flat-head screwdriver usually does the job) and hold it up to the light. If you see a mesh screen caked with limescale, soak it in white vinegar for thirty minutes, scrub gently with an old toothbrush, rinse, and refit. For showerheads, remove the faceplate, soak the internal disc, and clear each nozzle with a pin. If the whole family notices a difference after one cleaning session, your problem was never the pump."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Rooftop Tank Height and Capacity",
+   "paragraphs": [
+    "Gravity is doing a lot of work in a Sanur villa. The tank sits on the roof or a mezzanine, and the vertical distance between the water level in that tank and your bathroom tap determines the static pressure – roughly 0.1 bar per metre of height. A tank only two metres above the first-floor shower will give you noticeably less push than one four metres up.",
+    "In the rainy season, when PDAM supply drops or the well level falls, the tank may not fill completely, so the effective head shrinks further. Check whether the float valve inside the tank is sticking; if it stays open past the full mark, the tank overflows into the ceiling below and the usable water level stays low. Also look at the outlet pipe diameter: some older builds used 25 mm (one-inch) pipes to the tank inlet, which chokes flow even when the pump is healthy."
+   ],
+   "bullets": [
+    "Measure the vertical drop from the tank's normal water line to your highest showerhead; under three metres means limited gravity assist.",
+    "Lift the tank lid once a month during dry months to check for sediment build-up and a free-moving float arm."
+   ]
+  },
+  {
+   "h2": "How the Technician Diagnoses Low Pressure",
+   "paragraphs": [
+    "When you are not sure where the loss is happening, a technician visit saves time. A typical diagnostic run covers: checking inlet pressure at the main valve, inspecting the filter housing for debris, testing the pump start/stop cycle and listening for bearing noise, measuring the tank fill rate, and finally running each tap and shower while noting exactly where the flow drops.",
+    "The technician will usually ask you to send a few short photos on WhatsApp beforehand – the pump model plate, the pressure switch, the aerator you removed, and the tank float mechanism. From those images they can often narrow down the likely cause and quote a fair price for parts and labour before arriving. You do not need to have diagnosed the fault yourself; just describe what you hear and see, and include the villa address in Sanur so the right parts can be brought along."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "My shower is fine but the kitchen tap has almost no water. Is it the same problem?",
+   "a": "Not necessarily. If only one fixture is weak, the issue is local – a blocked aerator, a partially closed isolation valve under the sink, or a kinked flexible hose. Start with the aerator and the small quarter-turn valve behind the cabinet before assuming the whole system is at fault."
+  },
+  {
+   "q": "The pump runs all night and I still get low pressure in the morning. What does that mean?",
+   "a": "Continuous running means the system cannot reach the cut-off pressure set on the relay. Common causes are a leaking check valve letting water drain back into the well or PDAM line, a worn diaphragm in the pressure switch, or an air lock in the pipe run. This needs a hands-on inspection rather than a DIY fix."
+  },
+  {
+   "q": "Should I flush the rooftop tank every rainy season?",
+   "a": "It is good practice. Sediment from PDAM pipes and dust blown in through the vent stack settle at the bottom of the tank over time. Draining and rinsing the tank once or twice a year keeps the float mechanism clean and prevents a slow build-up that reduces usable capacity and can clog outlet filters."
+  }
+ ],
+ "cta": "If you have checked the aerators and the pump still feels off, send a quick photo of your setup on WhatsApp and we will tell you whether it is a five-minute fix or something that needs a proper visit.",
+ "id": "A007",
+ "hub": "S",
+ "status": "draft-qwen"
+}

@@ -1,0 +1,81 @@
+{
+ "title": "No Hot Water in Your Sanur Villa: Quick Fixes & Causes",
+ "slug": "no-hot-water-sanur-villa-fixes",
+ "meta": "Hot water gone in your Sanur villa? Diagnose electric boilers, gas heaters, and solar systems yourself before calling a local technician.",
+ "intro": "No hot water is one of the most common complaints from villa owners here in Sanur — especially after a storm or during the rainy months. Before you panic, take two minutes to identify which type of heater you have and run through the checks below. In many cases the fix is simple; in others it needs a hands-on visit.",
+ "sections": [
+  {
+   "h2": "What Heater Do You Actually Have?",
+   "paragraphs": [
+    "Walk to where the water heats up and look at the unit itself. An electric boiler (often called a 'water heater' locally) is a white or stainless tank, usually 50 to 200 litres, mounted on an exterior wall or under a sink. A gas instant heater is a smaller box-shaped unit with a flexible gas hose and no storage tank. A solar system has flat panels or vacuum tubes on the roof feeding into a rooftop tank."
+   ],
+   "bullets": [
+    "Electric tank: check whether the pilot light or digital display is lit.",
+    "Gas unit: listen for the burner igniting when you open the hot tap.",
+    "Solar: glance at the rooftop tank gauge; if it reads low, the panels simply have not collected enough heat today."
+   ]
+  },
+  {
+   "h2": "Electric Boiler: Common Reasons It Stops Heating",
+   "paragraphs": [
+    "The most frequent issue I see in older Sanur villas is limescale. PDAM water here carries minerals that build up inside the heating element over time, so the element burns out even though the thermostat still clicks. Second, the thermal cut-off — a small red button on the side of the tank — trips whenever the element overheats, often after a power surge during a storm. Third, the inlet filter gets clogged with sand from well water, restricting flow so the safety sensor shuts the heater down entirely."
+   ],
+   "bullets": [
+    "Press the thermal cut-off button firmly until it clicks. Wait ten minutes before testing again.",
+    "Check the main breaker panel: the boiler circuit may have tripped separately from the rest of the house.",
+    "If the tank is more than three years old and the water comes out lukewarm no matter what, the element likely needs replacing."
+   ]
+  },
+  {
+   "h2": "Gas Instant Water Heater: Common Problems",
+   "paragraphs": [
+    "Gas heaters are popular in newer Sanur builds because they use less electricity. The usual culprits: the gas supply valve under the unit has been accidentally closed, the ionisation probe is dirty with carbon deposits, or the pressure switch does not detect enough water flow to fire the burner. In humid coastal air like ours, corrosion on the ignition electrode is also common."
+   ],
+   "bullets": [
+    "Confirm the gas cylinder or pipeline valve is fully open.",
+    "Open the hot tap for thirty seconds; some units need minimum flow to ignite.",
+    "Switch off the unit first, then wipe the small metal probe near the burner with a dry cloth if it looks blackened."
+   ],
+   "safety_note": "If you smell gas at any point while investigating, close the main gas valve immediately, open windows, do not touch light switches or appliances, and step outside. Call your gas supplier or a licensed technician. Do not try to relight the unit yourself."
+  },
+  {
+   "h2": "Solar Heaters During Bali's Rainy Season",
+   "paragraphs": [
+    "From roughly November to March, Sanur gets long stretches of overcast sky. A solar system that worked perfectly in August may simply not produce enough heat on a grey day — this is normal, not a fault. Check whether the backup electric element inside the rooftop tank is switched on; many installations have a toggle labelled 'auxiliary' or 'boost.' If the tank gauge shows the water level has dropped, there may be a leak in the piping between panels and tank, which the salt-laden sea air accelerates."
+   ],
+   "bullets": [
+    "Look up at the roof: are the collector tubes cracked or discoloured?",
+    "Feel the pipe coming down from the tank; if it is cold while the sun is out, circulation has stopped.",
+    "In heavy rain, check that the overflow pipe is clear so the tank does not pressurise."
+   ]
+  },
+  {
+   "h2": "What to Check Before Calling a Technician",
+   "paragraphs": [
+    "Before you send a WhatsApp message, gather three things: a clear photo of the unit's label (brand, model, serial number), a short video of what happens when you turn the tap on, and note any unusual smells, sounds, or error codes displayed. This saves everyone time and helps me give you an honest quote before I even pick up my tools."
+   ],
+   "bullets": [
+    "If the problem involves wiring near the wet area under a sink, do not open panels yourself.",
+    "Send me what you can see and I will come over with the right parts and test everything before leaving."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "My electric boiler heats for two minutes then stops. Is that normal?",
+   "a": "No — that usually means the thermal cut-off is tripping because the element is encrusted with scale or the water flow is too low. Reset the button once; if it trips again within a day, the element needs cleaning or replacement."
+  },
+  {
+   "q": "The solar system worked in dry season but now gives only warm water. Should I be worried?",
+   "a": "Not necessarily. In Sanur's rainy months the collectors simply receive less sun. Make sure the auxiliary heater switch is on and the tank level is full. If output drops even on bright days, the circulation pump may need attention."
+  },
+  {
+   "q": "Can I just buy a new heating element online and fit it myself?",
+   "a": "You can source the part, but fitting it safely requires draining the tank, isolating the power at the breaker, and checking the gasket seal. One wrong step and you flood the kitchen. A technician can swap it in about an hour and test the whole circuit before leaving."
+  }
+ ],
+ "cta": "Send me a photo of your unit and a short video of what is happening on WhatsApp, and I will tell you exactly what to try next or book a visit.",
+ "id": "A008",
+ "hub": "S",
+ "status": "draft-qwen"
+}

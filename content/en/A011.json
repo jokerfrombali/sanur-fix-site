@@ -1,0 +1,99 @@
+{
+ "title": "Solar Water Heater Maintenance & Repair in Sanur",
+ "slug": "solar-water-heater-maintenance-sanur",
+ "meta": "Solar water heater not heating in Sanur? Learn how to diagnose weak output, tank leaks, electric boost faults, and schedule proper maintenance.",
+ "intro": "Most solar water heaters on Bali villas are simple evacuated-tube systems that should run for years with minimal fuss. But salt-laden sea air, months of overcast rain, and hard PDAM or well water will quietly degrade panels, tanks, and wiring if you ignore them. Here is what actually goes wrong, how to spot it early, and when to call a technician before a small fix becomes a full replacement.",
+ "sections": [
+  {
+   "h2": "How a Solar Water Heater Works",
+   "paragraphs": [
+    "Your rooftop unit (often a Solahart-style panel or similar) has two main parts: the collector array of glass tubes and an insulated storage tank, usually mounted beside it. A small circulation pump pushes glycol-based fluid through the tubes; the sun heats the fluid, which transfers heat into the tank's inner coil. Cold water from your PDAM line or rooftop tank enters the bottom of the tank, gets warmed by the coil, and exits at the top to your showers and taps.",
+    "In Sanur the system sits exposed to constant humidity and salt spray. That means every metal joint, the pump motor housing, and the electrical connections are working harder than they would inland. Understanding this layout helps you point out exactly where the problem is when you talk to a technician."
+   ],
+   "bullets": [
+    "Collector tubes: absorb sunlight, transfer heat to glycol loop",
+    "Storage tank: holds 150–300 L of heated water",
+    "Circulation pump: moves glycol between tubes and tank coil",
+    "Electric boost element: kicks in on cloudy days or for extra hot water",
+    "Pressure-relief valve: protects the closed system from overpressure"
+   ]
+  },
+  {
+   "h2": "Why Your Water Is Only Lukewarm",
+   "paragraphs": [
+    "If the shower gives you barely-warm water even after sitting under it for ten minutes, the issue is almost never the tank itself. Start with the obvious: during the May-to-October rainy season, Sanur can go days without direct sun. The panels simply cannot reach their design temperature, so lukewarm output is normal and not a fault.",
+    "When the sky is clear but the water still disappoints, check these in order: Are the glass tubes cracked or heavily coated with dust and mineral film? Is the circulation pump actually running (you should hear a low hum)? Has the glycol level dropped, leaving air pockets that block flow? A quick visual inspection from the roof or a ladder will tell you most of this.",
+    "If the pump is silent, do not keep switching it on repeatedly. A seized motor or a tripped thermal fuse needs a proper reset or replacement, and forcing current through corroded wiring near a wet rooftop is a shock risk. Stop and call a technician."
+   ],
+   "bullets": [
+    "Cloudy/rainy season = reduced output; expect 30–50 °C instead of 60+ °C",
+    "Dust, bird droppings, and salt film on tubes cut efficiency by up to half",
+    "Silent pump → check breaker, then suspect seized bearing or burnt winding",
+    "Low glycol level → air locks; top up only with correct type and concentration"
+   ]
+  },
+  {
+   "h2": "Tank and Pipe Leaks",
+   "paragraphs": [
+    "The most common leak I see in Sanur villas is at the tank's lower flange or at the copper/brass joints where supply and return pipes meet the coil. Years of salt-air corrosion eat through gaskets and thread seals long before the visible metal looks bad. You may notice a damp patch on the wall below the unit, a slow drip onto the terrace, or a sudden drop in water pressure when two taps run at once.",
+    "A leaking pressure-relief valve is another frequent culprit. The small brass valve on top of the tank should tick occasionally as the system breathes. If it drips steadily, the internal spring has corroded and the whole assembly needs replacing—do not just tighten it, because over-tightening can crack the fitting.",
+    "If you smell burning insulation or see discoloured wiring near the tank (the boost element leads are often routed along the same bracket), switch off the circuit breaker immediately and keep hands away from the unit until a professional inspects it."
+   ],
+   "bullets": [
+    "Check under-tank area weekly for rust streaks or mineral deposits",
+    "Replace rubber gaskets every 3–4 years even if no drip yet visible",
+    "Pressure-relief valve: replace, never re-seat with force",
+    "Any electrical smell or scorch mark → cut power, call a technician"
+   ]
+  },
+  {
+   "h2": "The Electric Boost Element",
+   "paragraphs": [
+    "On grey days or when the family needs a long hot shower, the immersion heater inside the tank takes over. It is essentially a thick resistive coil wrapped in a stainless sleeve, controlled by a thermostat and a simple on/off switch (sometimes a timer). In Sanur's humidity, the terminal block where the live wire meets the element is the first thing to corrode, causing intermittent heating or a tripped RCD.",
+    "A burnt-out element will show zero resistance on a multimeter, but you do not need one to suspect it: if the water heats fine on sunny mornings and stays cold after 6 pm, the boost is likely dead. Replacing the element involves draining part of the tank, unscrewing the old coil, fitting a new one with fresh thread sealant, and testing the thermostat before refilling. That is a half-day job best left to someone who has done it before.",
+    "Safety note: the element sits inside a pressurised, electrically connected vessel. If you are not comfortable working with mains voltage near standing water, stop and have a licensed technician handle it."
+   ],
+   "bullets": [
+    "Thermostat set-point usually 55–60 °C; verify it actually trips",
+    "Corroded terminals → intermittent heat, blown fuses, RCD trips",
+    "Element replacement requires partial drain + new gasket + torque check"
+   ]
+  },
+  {
+   "h2": "Flushing and Routine Maintenance",
+   "paragraphs": [
+    "PDAM water in Sanur carries a fair amount of dissolved calcium and iron, and well water can be even harder. Over a year this builds a chalky scale layer on the inner coil and at the bottom of the tank, insulating the metal and making the heater work harder for less heat. A proper flush—circulating a mild descaling solution through the loop, then rinsing until clear—restores most of that lost efficiency.",
+    "I recommend a full service once a year, ideally just before the rainy season starts (around April). The visit covers: visual inspection of tubes and seals, glycol level and concentration check, pump current draw test, boost-element resistance reading, pressure-relief valve function test, tightening of all pipe joints, and a quick clean of the panel faces with fresh water and a soft cloth (no abrasive pads—they scratch the coating).",
+    "Between services, wipe the tubes every two or three weeks if you notice dust or salt crust building up. It takes ten minutes with a garden hose and keeps output steady through the dry months."
+   ],
+   "bullets": [
+    "Annual flush removes 1–3 mm of limescale from coil and tank base",
+    "Glycol: top up to correct level; never mix different brands",
+    "Clean panels with plain water + soft sponge; avoid detergents on coated glass",
+    "Tighten (do not over-torque) all threaded fittings while you are up there"
+   ]
+  },
+  {
+   "h2": "",
+   "paragraphs": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "My solar heater worked fine last year but now barely warms the water. Is it broken?",
+   "a": "Not necessarily. If it is the wet season, reduced sun hours explain lower temperatures. But if the sky has been clear for days and you still get only lukewarm water, suspect a failing circulation pump, low glycol, or heavy scale on the coil. A technician can confirm with a simple flow-and-temperature test in about twenty minutes."
+  },
+  {
+   "q": "Can I just replace one cracked evacuated tube myself?",
+   "a": "You can buy replacement tubes, but fitting them requires draining the loop, removing the old tube's seal, and re-seating the new one without introducing air into the glycol circuit. One misaligned O-ring and you will leak onto your terrace within a week. Most villa owners find it faster and safer to have a local tech swap the tube during a routine visit."
+  },
+  {
+   "q": "How often should I really service the system in Sanur?",
+   "a": "Once a year is the minimum given the salt air and hard water. If your villa uses well water rather than PDAM, consider twice-a-year checks because iron content accelerates corrosion on copper joints. The key tasks—glycol check, element test, valve function, panel clean—take under an hour when nothing is wrong."
+  }
+ ],
+ "cta": "If something looks off—dripping, a dead pump, no heat after sunset—snap a photo of the unit from below and send it over WhatsApp; we will tell you whether it is a quick fix or needs a proper visit, and quote from what we see.",
+ "id": "A011",
+ "hub": "S",
+ "status": "draft-qwen"
+}

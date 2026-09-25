@@ -1,0 +1,72 @@
+{
+ "title": "Gas Water Heater Won't Light? Here's What to Check First",
+ "slug": "gas-water-heater-wont-light-sanur",
+ "meta": "Gas water heater not lighting up at your Sanur villa? Quick checks for batteries, LPG supply, and ventilation before you need a technician.",
+ "intro": "If your instant gas water heater has stopped producing hot water, the cause is usually one of three things: dead ignition batteries, an empty or low-pressure LPG cylinder, or a blocked vent pipe. In most Sanur villas the unit runs on a small 3 kg or 12 kg cylinder tucked under the sink or on the terrace, so the fix is often simple. Work through the checklist below before you pick up the phone.",
+ "sections": [
+  {
+   "h2": "How Gas Is Connected at Your Villa",
+   "paragraphs": [
+    "Piped natural gas is rare in residential Sanur. Almost every villa uses liquefied petroleum gas (LPG) from a steel cylinder – typically 3 kg for a single bathroom or 12 kg when two or more taps draw hot water simultaneously. The cylinder sits within a couple of metres of the column, connected by a braided stainless-steel hose that passes through a pressure regulator. You should see a small brass or plastic valve on top of the bottle and a second shut-off valve right where the hose meets the heater.",
+    "Older villas built in the 1990s sometimes have a rubber hose instead of braided metal. That hose degrades faster in our humidity and should be replaced if it feels soft, cracked, or smells faintly of gas even with no visible leak. When you move into a new rental, ask the owner which size cylinder they use and keep one spare nearby; refills are available from local gas suppliers along Jl. Danau Poso and the beach road."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Column Won't Ignite: Step-by-Step Check",
+   "paragraphs": [
+    "Before assuming the burner is broken, run through these checks in order. They cover roughly ninety percent of 'no flame' calls I get from Sanur villa owners.",
+    "First, confirm the cylinder actually has gas. Open the tap on a portable stove or the kitchen hob for two seconds – if nothing lights, your bottle is empty or the regulator is stuck closed. Swap in a full cylinder and try again. Second, open the hot-water tap fully and wait ten seconds. Many columns need a minimum flow rate (usually around 3 litres per minute) before the ignition sequence starts. A dripping tap will not trigger the unit. Third, listen carefully at the back of the heater when you turn the tap on. You should hear a series of rapid clicks followed by a soft whoosh. No clicks at all points to the ignition circuit; clicks but no flame points to the gas path."
+   ],
+   "bullets": [
+    "Cylinder valve fully open? Regulator knob turned clockwise?",
+    "Hot-water tap opened wide enough to meet minimum flow?",
+    "Hose kinked or pinched under the sink cabinet?",
+    "Error code displayed on the panel? Note it down.",
+    "Unit switched off after a power cut? Some models lock out until you press reset."
+   ]
+  },
+  {
+   "h2": "Gas Smell: What To Do Immediately",
+   "paragraphs": [
+    "If you smell LPG anywhere near the column, under the sink, or on the terrace where the cylinder sits, stop what you are doing. Do not switch any light on or off, do not use a phone inside the room, and do not strike a match or lighter. LPG is heavier than air and pools low, so crouching down to 'check' makes things worse.",
+    "Open every window and door in that area to let the gas disperse. Leave the villa and close the main cylinder valve from outside if you can reach it safely without entering the affected space. Once you are at least twenty metres away – ideally across the street – call your landlord's maintenance contact or a licensed gas technician. If the smell is strong, you feel dizzy, or you see a visible jet of gas, evacuate everyone and call 113 (Bali fire and rescue) before anything else. A small leak that smells faintly for a few seconds may be a loose fitting; a continuous odour means something has failed and needs a professional with a detector and proper tools."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Batteries and the Piezo Igniter",
+   "paragraphs": [
+    "Most instant columns sold in Indonesia use one or two AA (or occasionally D-size) batteries to power the piezo igniter and the flow sensor. In Sanur's humidity those cells corrode quickly, especially if the unit sits in an unventilated bathroom cabinet. A weak battery gives you a slow, weak click instead of the sharp snap you expect, and the flame either fails to catch or dies out after a few seconds.",
+    "Open the battery compartment (usually on the front lower panel), remove the old cells, wipe any white or green residue off the contacts with a dry cloth, and fit fresh alkaline batteries. While you are there, press the manual ignition button – it should give a firm, audible click. If there is no click at all even with new batteries, the piezo element itself may be cracked from age or heat cycling, and the unit will need a parts replacement. That is a job for a technician rather than a DIY fix, because the burner assembly must be re-seated correctly."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Ventilation and Sea-Air Corrosion",
+   "paragraphs": [
+    "Sanur faces the Indian Ocean, so the air carries salt particles that settle on every metal surface within a few hundred metres of the beach. The backplate, flue pipe, and heat exchanger of your gas column are all vulnerable. Over two or three years you may notice a fine orange-brown crust forming around the vent outlet or along the burner housing. That corrosion can narrow the exhaust path, cause incomplete combustion, and eventually make the flame go out mid-shower.",
+    "During the rainy season (roughly November to March) moisture condenses inside the flue if the outdoor end points downward or into a shaded wall cavity. Make sure the vent terminates above the roofline or at least 30 cm above any window, and that nothing – a satellite dish, a hanging plant, a pile of laundry – blocks the opening. If the column sits in an enclosed bathroom with no cross-ventilation, add a small extractor fan or ensure the door has a gap at the bottom for fresh-air intake. A column starved of oxygen will flicker, produce a yellow flame instead of blue, and trip its safety cut-off."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "My gas column lights up but goes out after ten seconds. What is wrong?",
+   "a": "That pattern usually means the flame sensor (thermocouple) is not registering heat fast enough. It can be a dirty thermocouple tip, a weak battery starving the control valve, or a draft pulling air across the burner. Wipe the thermocouple with fine steel wool, replace the batteries, and check that no exhaust fan or open window is blowing directly on the back of the unit. If it still cuts out, the thermocouple may need replacing."
+  },
+  {
+   "q": "Can I use a 3 kg cylinder if my villa was set up for a 12 kg one?",
+   "a": "Yes, as long as the regulator matches the smaller bottle's outlet thread and the hose length reaches comfortably without kinking. The flow rate from a 3 kg cylinder is lower, so you may notice slower hot-water delivery when two taps run at once. For a single bathroom in Sanur it works fine; for a master bath plus kitchen simultaneously, stick with the larger size."
+  },
+  {
+   "q": "How often should I have the column serviced?",
+   "a": "In our coastal humidity and with PDAM water that can carry sediment, a visual inspection every twelve months is sensible. A technician will clean the burner jets, check the gas path for micro-leaks with a detector, inspect the flue for salt crust, and test the safety cut-off. If your villa has been unoccupied through the dry season, do a quick check before the first shower – rubber seals shrink and settle after sitting idle."
+  }
+ ],
+ "cta": "Not sure which part is at fault? Snap a clear photo of your column (front panel, back vent, and cylinder connection) and send it on WhatsApp – I'll tell you what to try next or book a visit if it needs hands-on work.",
+ "id": "A012",
+ "hub": "S",
+ "status": "draft-qwen"
+}

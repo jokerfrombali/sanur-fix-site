@@ -1,0 +1,80 @@
+{
+ "title": "Water Heater Installation in Sanur: Choosing & Fitting a Boiler",
+ "slug": "water-heater-installation-sanur-villa",
+ "meta": "Flow-through vs storage, right tank size, safe mounting, pressure relief valve, grounding — practical guide to fitting a water heater on your Sanur villa.",
+ "intro": "Most Sanur villas come with either no hot water at all or a tired old unit that cannot keep up with two people showering back-to-back. Whether you need a compact flow-through heater for one bathroom or a 50-litre storage tank for a family of four, getting the choice and installation right saves real headaches down the road. Here is how we think through it.",
+ "sections": [
+  {
+   "h2": "Flow-Through or Storage Tank?",
+   "paragraphs": [
+    "A flow-through (instantaneous) heater warms water as it passes through the unit — no tank, no waiting. It works well when your PDAM supply or rooftop tank delivers steady pressure and you only need hot water at one tap at a time. A storage-tank boiler, by contrast, keeps a set volume pre-heated so you get a longer, more consistent flow even if inlet pressure dips during the rainy season when demand spikes across the neighbourhood.",
+    "For most Sanur villas fed by a rooftop tank, a storage unit between 30 and 80 litres hits the sweet spot. If your property runs off a well pump with variable output, lean toward storage so the tank buffers those pressure swings and you are not left with lukewarm water mid-shower."
+   ],
+   "bullets": [
+    "One shower plus one kitchen tap → flow-through is usually enough",
+    "Two bathrooms used simultaneously → storage tank recommended",
+    "Variable well-pump pressure → storage tank smooths things out"
+   ]
+  },
+  {
+   "h2": "Sizing by Household Size",
+   "paragraphs": [
+    "As a working rule, budget roughly 40 to 50 litres per person for a comfortable daily routine of showers and washing-up. A couple gets away with 50 L; a family of three or four will want 80 L or more.",
+    "Do not oversize just because the wall can hold it. A bigger tank takes longer to reheat after heavy use and draws more current from your electrical panel — something that matters in older Sanur villas where the wiring may already be near its limit. Count how many people actually use hot water on a typical day before committing to a size."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Where to Install and How to Mount It",
+   "paragraphs": [
+    "The heater should sit as close as practical to the point(s) of use to minimise heat loss in the pipework. In most Sanur villas that means an exterior wall next to the bathroom or kitchen, tucked under the eaves so the unit stays shaded through the afternoon sun.",
+    "Because we are right on the coast, salt-laden air accelerates corrosion on any exposed metal bracket or pipe joint. Make sure the mounting plate is stainless steel or powder-coated and that all fittings are brass or PEX-rated. Older villas often have hollow-block or thin brick walls that simply cannot bear a full 80-L tank weighing over 70 kg when filled. We either reinforce the wall with a backing board and chemical anchors, or mount the unit on a dedicated steel frame bolted to the floor slab.",
+    "Leave at least 20 cm clearance above the unit for filter and valve servicing, and never install it directly above a gas burner or inside a sealed cupboard without ventilation."
+   ],
+   "bullets": [
+    "Exterior, shaded wall near the bathroom = best spot",
+    "Stainless or coated brackets; avoid bare galvanized steel in sea air",
+    "Check wall type first — hollow block needs extra reinforcement",
+    "Keep service space above the unit"
+   ]
+  },
+  {
+   "h2": "Safety Valve and Grounding",
+   "paragraphs": [
+    "Every storage-tank boiler must have a pressure-relief (safety) valve fitted on the hot-water outlet side, discharging into a drain or waste pipe. This valve opens if internal pressure exceeds its rating and prevents the tank from rupturing. In Sanur's heat, a sealed tank left in direct sun can build pressure quickly, so this component is not optional — it is critical.",
+    "On the electrical side, the heater's earth wire must connect to your villa's main earthing rod. If you are unsure whether your property has a proper ground connection (many older builds do not), stop and call an electrician before anyone plugs the unit in. Working with live wiring near water carries a genuine shock risk, and that is a job for a licensed professional, not a DIY fix."
+   ],
+   "bullets": [
+    "Pressure-relief valve: mandatory, discharge routed to a drain",
+    "Earth/ground wire: verify your villa actually has one",
+    "No proper grounding? Call an electrician first — do not improvise"
+   ]
+  },
+  {
+   "h2": "What Goes Into the Cost",
+   "paragraphs": [
+    "The final quote depends on several variables: the type and capacity of the unit, how much plumbing needs rerouting, whether new electrical circuits or a dedicated RCD breaker are required, any wall-reinforcement work, and access difficulty such as a narrow corridor or second-floor landing.",
+    "We do not publish fixed prices because every villa layout is different. The simplest way to get a figure is to send clear photos of the installation spot, the existing pipework, and the electrical panel on WhatsApp. From those images we can tell you what will be involved and give you a transparent estimate before any work starts."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I install a small flow-through heater myself?",
+   "a": "You can physically hang a compact unit, but connecting it safely to both water and electricity without checking the pressure-relief valve and verifying earthing is where things go wrong. In Sanur's humid, salty air a poorly sealed joint will start leaking within months. Let a technician handle the connections and test the system under pressure before you walk away."
+  },
+  {
+   "q": "My villa uses a well pump instead of PDAM. Does that change anything?",
+   "a": "Yes, mainly in sizing and protection. Well pumps deliver variable pressure, so a storage tank acts as a buffer. Also, well water in parts of Bali can carry fine sediment; ask us about adding an inline filter upstream of the heater to protect the heating element from limescale buildup over time."
+  },
+  {
+   "q": "How long does a typical installation take?",
+   "a": "A straightforward swap — same size, same location, existing plumbing intact — usually takes a few hours including testing. If we need to reroute pipes, reinforce the wall, or add a new circuit at the panel, plan for a full working day. We confirm the timeline after seeing your photos on WhatsApp."
+  }
+ ],
+ "cta": "Send a couple of clear photos of your bathroom wall and pipework on WhatsApp, and we will tell you exactly what fits and what the job involves.",
+ "id": "A010",
+ "hub": "S",
+ "status": "draft-qwen"
+}
