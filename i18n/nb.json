@@ -1,0 +1,305 @@
+{
+ "lang": "nb",
+ "ui": {
+  "tagline": "VVS-montør og bassengservice i Sanur",
+  "wa": "Send meg på WhatsApp",
+  "call": "Ring",
+  "wa_text": "Hei! Jeg trenger en tekniker i Sanur: ",
+  "services": "Tjenester",
+  "prices": "Priser",
+  "areas": "Område",
+  "contacts": "Kontakt",
+  "fix": "Hva jeg retter opp",
+  "how": "Slik fungerer det",
+  "faq": "FAQ",
+  "on_req": "på forespørsel",
+  "work": "Oppdrag",
+  "price": "Pris",
+  "steps": [
+   "Send et foto eller kort video på WhatsApp",
+   "Få pris og tid som passer deg",
+   "Jeg retter det og sender deg resultatet"
+  ],
+  "area_txt": "Jeg jobber kun i Sanur – hele området:",
+  "home_h1": "VVS-montør og bassengservice i Sanur, Bali",
+  "home_lead": "Privat tekniker: VVS, lekkasjer, varmtvannsberedere, pumper, rengjøring og reparasjon av bassenger, småvilla-reparasjoner i Sanur. Send et foto – jeg svarer på WhatsApp.",
+  "prices_h1": "Priser i Sanur",
+  "prices_note": "Prisen avhenger av oppdraget. Jeg tar ut fra foto før jeg kommer. Deler faktureres separat med kvittering.",
+  "areas_h1": "Kun Sanur",
+  "contacts_h1": "Kontakt",
+  "contacts_lead": "Hurtigste måte: WhatsApp med et foto av problemet og ditt område.",
+  "nf": "Siden finnes ikke",
+  "home": "Hjem",
+  "badge": "Kun Sanur · Bali",
+  "guides": "Veiledninger",
+  "guides_h1": "Veiledninger for villa og basseng i Sanur",
+  "guides_lead": "Praktiske veiledninger fra en tekniker som kun jobber i Sanur: lekkasjer, varmtvann, pumper, bassenger, septiktanker og små reparasjoner.",
+  "toc": "I denne veiledningen",
+  "related": "Relaterte veiledninger",
+  "read": "Les veiledning",
+  "all_guides": "Alle veiledninger",
+  "need_help": "Trenger du hjelp?",
+  "faq_h": "Spørsmål",
+  "trust": [
+   "Foto-rapport på WhatsApp etter hvert oppdrag",
+   "Tilbud fra dine foto før jeg kommer",
+   "Kun Sanur – jeg bor og jobber her",
+   "Deler faktureres med kvittering"
+  ],
+  "why": "Hvorfor villaeiere i Sanur ringer meg",
+  "why_items": [
+   [
+    "Jeg kommer selv",
+    "Ikke en kundeservice eller et team. Personen du skriver til er personen som gjør jobben."
+   ],
+   [
+    "Kun ett område",
+    "Jeg krysser ikke øya. Jeg kjenner villene i Sanur: gamle bassenger, brakke brønner nær stranden, taktanker."
+   ],
+   [
+    "Rapporter for eiere",
+    "Utenlands? Du får før-etter-foto og en kort liste over hva som ble gjort."
+   ]
+  ],
+  "master_h": "Din tekniker",
+  "master_txt": "Et foto og noen ord om teknikeren hører her: navn, års erfaring, språk. I Bali velger folk en person, ikke et selskap.",
+  "master_ph": "Foto av tekniker",
+  "map_h": "Hvor jeg jobber",
+  "ready": "Noe er ødelagt? Send et foto på WhatsApp.",
+  "ready_sub": "Jeg svarer med hva som trengs, en pris og når jeg kan komme.",
+  "credits": "Fotografier: Unsplash",
+  "eyebrow": "VVS · Bassenger · Reparasjoner",
+  "menu": "Meny",
+  "language": "Språk",
+  "photo_note": "(bytt ut med et ekte foto)",
+  "guides_en": "Veiledninger (engelsk)"
+ },
+ "services": {
+  "srv-santehnik": {
+   "name": "VVS-montør i Sanur",
+   "intro": "En privat VVS-montør i Sanur: Jeg kommer selv, finner årsaken og løser problemet. Haner, toaletter, rør, pumper og varmtvann – i villaer, hus og leiligheter.",
+   "items": [
+    "Dryppende haner og blandere",
+    "Løpende eller lekkende toalettspyling",
+    "Lavt vanntrykk",
+    "Utskifting av blandere, sifoner og slanger",
+    "Montering av toalett og vask",
+    "Tilkobling av vaskemaskin og oppvaskmaskin"
+   ],
+   "faq": [
+    [
+     "Hvor raskt kan du komme?",
+     "Avhenger av dagens planlegging. Send et bilde på WhatsApp så forteller jeg deg når jeg kan være der."
+    ],
+    [
+     "Hvem kjøper delene?",
+     "Det er opp til deg. Jeg kan kjøpe dem og gi deg kvitteringen."
+    ]
+   ]
+  },
+  "srv-protechki": {
+   "name": "Vannlekkasje – funn og reparasjon",
+   "intro": "Finn og retter lekkasjer: under vasker, i vegger, dusjer og hageledninger. En skjult lekkasje viser seg ofte på PDAM-måleren eller en pumpe som ikke stanser.",
+   "items": [
+    "Lekkasjer under vasker",
+    "Dryppende dusjer og gulvavløp",
+    "Skjulte lekkasjer funnet via måleren",
+    "Sprukne PVC/PPR-rør",
+    "Lekkasjer i hagevanning"
+   ],
+   "faq": [
+    [
+     "Hva bør jeg gjøre før du kommer?",
+     "Steng hovedventilen og, hvis vannet er nær stikkontakter, slå av strømmen."
+    ]
+   ]
+  },
+  "srv-zasor": {
+   "name": "Tilstoppede avløp og toaletter",
+   "intro": "Fjerne tilstopninger i toaletter, vasker, dusjer og avløpsledninger med slange – uten aggressive kjemikalier som skader rør og septiktanker.",
+   "items": [
+    "Tilstoppet toalett",
+    "Langsomt avløp i dusj eller vask",
+    "Tilstoppt kloakkledning",
+    "Lukt fra avløp"
+   ],
+   "faq": [
+    [
+     "Hvorfor ikke toalettpapir i toalettet på Bali?",
+     "Smale rør og små septiktanker – papir tetter raskt systemet."
+    ]
+   ]
+  },
+  "srv-bojler": {
+   "name": "Vannvarmer – reparasjon og montering",
+   "intro": "Ingen varmtvann? Jeg finner ut hvorfor – elektrisk varmer, gassvarmer eller takmontert solcelle. Varmeelementer, termostater, anoder og nyinstallasjoner.",
+   "items": [
+    "Varmeren varmer ikke",
+    "Varmeren tripper sikringen",
+    "Dryppende varmer",
+    "Solvarmer gir lunkent vann",
+    "Montering av ny varmer"
+   ],
+   "faq": [
+    [
+     "Reparere eller bytte?",
+     "En lekkende beholder betyr at den må skiftes. Et defekt element eller en termostat er vanlig verdt å reparere."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Vannpumper og filtre",
+   "intro": "Pumper, trykkbrytere, taktanker og vannfiltre. Like ved stranden i Sanur kan brønnvannet være saltbrakk – jeg hjelper med filtrering eller overgang til PDAM.",
+   "items": [
+    "Pumpen starter og stopper hele tiden",
+    "Ingen vann i huset",
+    "Tanken løper over eller er tom",
+    "Montering av filtre og patroner",
+    "Rensing av taktank"
+   ],
+   "faq": [
+    [
+     "Hvor ofte bør man bytte patroner?",
+     "Vanligvis hvert 3.–6. måned, avhengig av vannkvaliteten. Jeg viser deg hva du skal se etter."
+    ]
+   ]
+  },
+  "srv-chistka-bassejna": {
+   "name": "Bassengrensing",
+   "intro": "Engangs bassengrensing: skimming, børsting, støvsuging, gjenomvask av filter og vannbalanse. Gjenoppretting av grønt basseng.",
+   "items": [
+    "Rensing før gjester ankommer",
+    "Grønt eller grumsete vann",
+    "Rensing av fliser ved vannlinjen",
+    "Gjenomvask av filter"
+   ],
+   "faq": [
+    [
+     "Hvor lenge tar det å få i stand et grønt basseng?",
+     "Vanligvis 2–4 dager, avhengig av vannet og filteret."
+    ]
+   ]
+  },
+  "srv-obsluzhivanie-bassejna": {
+   "name": "Fast bassengservice",
+   "intro": "Planlagt bassengservice. Etter hvert besøk får du en rapport på WhatsApp: bilder, vannmålinger og utført arbeid. Perfekt hvis du ikke bor fast i Bali.",
+   "items": [
+    "Planlagte besøk",
+    "Vannprøver og balansejustering",
+    "Støvsuging, børsting, skimmer",
+    "Kontroll av pumpe og filter",
+    "Rapport etter hvert besøk"
+   ],
+   "faq": [
+    [
+     "Er kjemikalier inkludert?",
+     "Avtales på forhånd: enten inkludert eller fakturert separat med kvittering."
+    ]
+   ]
+  },
+  "srv-oborudovanie-bassejna": {
+   "name": "Bassengutstyr",
+   "intro": "Montering og reparasjon av pumper, sand- og patronfiltre, kloratorer, lys og automatisk fylling.",
+   "items": [
+    "Pumpen primer ikke eller er støyende",
+    "Utskifting av filtersand",
+    "Multippelventil",
+    "Saltklorator",
+    "Bassenglys"
+   ],
+   "faq": [
+    [
+     "Kan jeg sende et bilde av pumperommet?",
+     "Ja – det er den beste måten for meg å vite hva jeg skal ta med."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Bassengreparasjon",
+   "intro": "Lekkasjer, løse fliser, fuger, rørledninger. Mange bassenger i Sanur er 15–20 år gamle – jeg hjelper deg med å bestemme hva som skal repareres først.",
+   "items": [
+    "Vannlekkasje – lekkasjesøk",
+    "Løse fliser og mosaikk",
+    "Fuging på nytt",
+    "Rørlekkasjer i bassenget"
+   ],
+   "faq": [
+    [
+     "Fordampning eller lekkasje?",
+     "Sporettest: Sett en sprett med vann på trappen og sammenlign begge nivåene etter 24 timer."
+    ]
+   ]
+  },
+  "srv-septik": {
+   "name": "Septikk og kloakk",
+   "intro": "Lukt, tregt avløp, full septiktank. Jeg finner problemet, ordner pumpe og rydder ledningene.",
+   "items": [
+    "Kloakklukt",
+    "Full septiktank",
+    "Tett avløpsledning",
+    "Fettfang"
+   ],
+   "faq": [
+    [
+     "Hvor ofte bør manpumpe en septiktank?",
+     "Avhenger av størrelse og antall brukere – typisk hvert 1.–3. år."
+    ]
+   ]
+  },
+  "srv-melkij-remont": {
+   "name": "Allround-håndverker",
+   "intro": "Små reparasjoner i hjemmet på ett besøk: dører, låser, myggenett, silikon, hyller, møbler.",
+   "items": [
+    "Klemmende dører og hengsler",
+    "Låser og håndtak",
+    "Myggenett",
+    "Silikonbehandling i badet",
+    "Hyller, gardinstenger, TV-montering",
+    "Møbelsamling"
+   ],
+   "faq": [
+    [
+     "Kan jeg liste flere oppdrag til ett besøk?",
+     "Ja, det er den beste verdien. Send listen med bilder."
+    ]
+   ]
+  },
+  "srv-obsluzhivanie-villy": {
+   "name": "Villavedlikehold",
+   "intro": "Regelmessig sjekk av villaen: rørleggearbeid, basseng, pumper, varmtvannsberegnere, tak før regntiden. For eiere og forvaltere.",
+   "items": [
+    "Sjekkliste-inspeksjoner",
+    "Forberedelse til regntiden",
+    "Kontroller før ankomst",
+    "Rapporter til eier"
+   ],
+   "faq": [
+    [
+     "Arbeider dere med villaforvaltere?",
+     "Ja, vi kan sette opp en fast plan."
+    ]
+   ]
+  }
+ },
+ "hubs": {
+  "S": "VVS",
+  "W": "Vann & pumper",
+  "PC": "Bassengpleie",
+  "PE": "Bassegnutstyr",
+  "PR": "Bassengreparasjon",
+  "K": "Sjølegruver & avløp",
+  "R": "Boligreparasjoner",
+  "V": "Villapleie"
+ },
+ "areas": [
+  "Sanur Kaja",
+  "Sanur Kauh",
+  "Sindhu",
+  "Semawang",
+  "Mertasari",
+  "Batujimbar",
+  "Jl. Danau Tamblingan",
+  "Jl. Danau Poso",
+  "Jl. Bypass Ngurah Rai"
+ ]
+}

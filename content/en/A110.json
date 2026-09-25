@@ -1,0 +1,83 @@
+{
+ "title": "Sewer Pipe Repair & Replacement in Sanur Villas",
+ "slug": "sewer-pipe-repair-sanur-bali",
+ "meta": "Sewer pipe repair and replacement guide for Sanur villa owners. Signs of blockage, correct slope, materials, and when to call a local technician.",
+ "intro": "If your drains are slow, gurgling, or backing up into the shower, the cause is usually a collapsed joint, root intrusion, or a misaligned section somewhere in the sewer run. In older Sanur villas, clay pipes laid decades ago are especially vulnerable to salt-air corrosion and ground shift during the rainy season. Here is what to look for, why slope matters, and what a proper replacement actually involves.",
+ "sections": [
+  {
+   "h2": "Signs Your Sewer Line Needs Attention",
+   "paragraphs": [
+    "Start with the obvious: water draining slowly from every fixture at once, gurgling sounds from the toilet when you flush the kitchen sink, or a foul smell rising through floor drains that were fine last week. In one bathroom these symptoms can point to a local clog. When they appear across the whole villa simultaneously, the issue is almost always downstream – a cracked joint, roots pushing into a seam, or a section of pipe that has shifted in the sand.",
+    "In older Sanur villas built on loose sandy soil, ground movement during the wet season (roughly November to March) can tilt buried pipes just enough to break a seal. Sea air also accelerates corrosion on any metal fittings near the surface. You do not need to dig to confirm this; a camera inspection through an access manhole will show exactly where the problem sits."
+   ],
+   "bullets": [
+    "Multiple fixtures backing up at the same time",
+    "Persistent sewage odour in the yard or under the house",
+    "Wet patches or soft ground above the sewer line after two dry days",
+    "Septic tank level staying high despite normal household use"
+   ]
+  },
+  {
+   "h2": "Why Slope Matters More Than You Think",
+   "paragraphs": [
+    "A common mistake in both DIY fixes and some contractor work is laying pipe too steep or too flat. For standard 100 mm (4-inch) sewer pipe the rule is roughly 1–2 cm of fall per metre of run. Too little slope and solids settle, building up until flow stops. Too much slope and water rushes past the waste, leaving grease and paper behind that clog the next section.",
+    "If you are replacing a run, check the existing layout first. In many Sanur villas the sewer exits toward the street or into a communal drain, so the available drop over the distance is fixed. If the original builder used a shallow trench with barely any fall, no amount of jetting will fix it long-term. A proper replacement means re-trenching at the correct angle, backfilling with compacted sand, and protecting the pipe from future ground shift."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "How a Full Pipe Replacement Works",
+   "paragraphs": [
+    "The technician starts by locating the exact problem section with a camera scope fed through an access point. Once the length is confirmed, the affected stretch is excavated. In a typical villa yard this means opening a trench about 60–80 cm deep along the run – manageable without heavy machinery.",
+    "Old pipe sections are cut out, the joint area cleaned, and new pipe fitted with solvent-welded or coupling joints depending on material. The trench is backfilled in layers, tamped down to prevent settling, and the surface restored. If the septic tank inlet or outlet connections need realigning, those are adjusted in the same visit. You should see clear water flowing freely from every fixture before the crew leaves."
+   ],
+   "bullets": [
+    "Camera inspection to confirm location and extent of damage",
+    "Trench excavation along the affected run",
+    "Cut-out of damaged section; fitting of new pipe at correct slope",
+    "Backfill in compacted sand layers; surface restoration",
+    "Flow test from all fixtures before sign-off"
+   ]
+  },
+  {
+   "h2": "Choosing the Right Materials for Bali",
+   "paragraphs": [
+    "For buried sewer runs in Sanur's sandy, slightly saline soil, PVC-U (unplasticised polyvinyl chloride) pipe is the standard choice. It resists corrosion from both sea air and any residual treatment chemicals that may leach into the ground near PDAM supply lines. Avoid galvanized steel or old terracotta clay if you have a choice – both degrade faster here.",
+    "Look for pipe rated for external burial (often marked 'S' or 'sewer grade') rather than light-wall drainage pipe. Wall thickness matters: a 100 mm pipe with at least 3 mm wall handles root pressure and minor ground movement far better than a 2 mm variant. Fittings should match the pipe material and manufacturer for a consistent joint seal.",
+    "If cost is a concern, the price depends on the length of replacement, trench depth, and whether access points need to be added. Send photos of the problem area on WhatsApp and the technician can give you a quote without a site visit for straightforward jobs."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "A Quick Inspection Checklist Before You Call",
+   "paragraphs": [
+    "Before booking a repair, do a ten-minute walk-around so you can describe the situation clearly. Check every floor drain, the shower base, the toilet, and the kitchen sink. Note which fixtures are affected and when the problem started. Look under the villa for damp patches or a musty smell near where the sewer line runs.",
+    "If you see standing water in the yard after two dry days, that is a strong indicator of a leak below. Take one photo from above and one close-up if there is an exposed section. These images help the technician prepare the right fittings and save time on the day."
+   ],
+   "bullets": [
+    "List all affected fixtures and when symptoms began",
+    "Photograph any wet spots, soft ground, or exposed pipe",
+    "Note the approximate distance from the house to the street drain",
+    "Confirm whether the septic tank was pumped within the last year"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I just use a chemical drain cleaner instead of repairing the pipe?",
+   "a": "Chemical cleaners may clear a minor grease build-up in a single fixture, but they will not fix a collapsed joint, root intrusion, or slope problem. Repeated use also degrades older PVC and clay pipes over time. If the issue recurs within a week, a structural repair cannot be avoided."
+  },
+  {
+   "q": "How long does a typical sewer replacement take in a Sanur villa?",
+   "a": "For a run of 3–6 metres in an open yard, most jobs are completed in a single working day including backfill and surface restoration. Longer runs, access through a paved driveway, or work near the septic tank can add half a day. The technician confirms timing after reviewing your photos."
+  },
+  {
+   "q": "Do I need to worry about the PDAM water connection during the repair?",
+   "a": "The sewer line is separate from the PDAM supply, so there is no cross-contamination risk. However, if the trench crosses near the water meter or supply pipe, the technician marks it before digging. Keep the main water valve accessible so it can be shut off quickly if needed."
+  }
+ ],
+ "cta": "Send a photo of the affected area on WhatsApp and the technician will confirm whether it is a simple repair or a full replacement before you commit to anything.",
+ "id": "A110",
+ "hub": "K",
+ "status": "draft-qwen"
+}

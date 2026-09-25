@@ -1,0 +1,305 @@
+{
+ "lang": "fi",
+ "ui": {
+  "tagline": "Lövitys- ja allaspalvelu Sanurissa",
+  "wa": "Viesti minua",
+  "call": "Soita",
+  "wa_text": "Hei! Tarvitsen tekijää Sanurissa: ",
+  "services": "Palvelut",
+  "prices": "Hinnat",
+  "areas": "Toiminta-alue",
+  "contacts": "Yhteystiedot",
+  "fix": "Mitä korjaan",
+  "how": "Näin toimii",
+  "faq": "UKK",
+  "on_req": "pyynnöstä",
+  "work": "Työ",
+  "price": "Hinta",
+  "steps": [
+   "Lähetä valokuva tai lyhyt video WhatsAppilla",
+   "Saat hinnan ja sinulle sopivan ajan",
+   "Korjaan ja lähetän sinulle tuloksen"
+  ],
+  "area_txt": "Toimin vain Sanurissa — koko alue:",
+  "home_h1": "Lövitys- ja allaspalvelu Sanurissa, Bali",
+  "home_lead": "Yksityinen tekijä: lövitys, vuodot, vesilämmittimet, pumput, allastenhoito ja -korjaus sekä pienet villakorjaukset Sanurissa. Lähetä kuva — vastaan WhatsAppilla.",
+  "prices_h1": "Hinnat Sanurissa",
+  "prices_note": "Hinta riippuu työstä. Arvioin hinnan kuvista ennen tuloani. Osat laskutetaan erikseen kuittineen.",
+  "areas_h1": "Vain Sanur",
+  "contacts_h1": "Yhteystiedot",
+  "contacts_lead": "Nopein tapa: WhatsApp, jossa on kuva ongelmasta ja alueesi.",
+  "nf": "Sivua ei löytynyt",
+  "home": "Etusivu",
+  "badge": "Vain Sanur · Bali",
+  "guides": "Ohjeet",
+  "guides_h1": "Villan ja allasohjeet Sanurille",
+  "guides_lead": "Käytännölliset ohjeet tekijältä, joka toimii vain Sanurissa: vuodot, kuumavesi, pumput, altaat, viemäröinti ja pienkorjaukset.",
+  "toc": "Tässä ohjeessa",
+  "related": "Liittyvät ohjeet",
+  "read": "Lue ohje",
+  "all_guides": "Kaikki ohjeet",
+  "need_help": "Tarvitsetko korjausta?",
+  "faq_h": "Kysymykset",
+  "trust": [
+   "Valokuvat WhatsAppilla jokaisen työn jälkeen",
+   "Arvio kuvistasi ennen tuloani",
+   "Vain Sanur — asun ja työskentelen täällä",
+   "Osat laskutetaan kuittineen"
+  ],
+  "why": "Miksi Sanurin villanomistajat soittavat minulle",
+  "why_items": [
+   [
+    "Tulen itse paikalle",
+    "Ei puhelinkeskus eikä porukka. Henkilö, jolle viestit, on sama henkilö, joka tekee työn."
+   ],
+   [
+    "Yksi alue vain",
+    "En risti saarta. Tunnistan Sanurin villat: vanhat altaat, suolaiset kaivot rannan lähellä, kattotankit."
+   ],
+   [
+    "Raportit omistajille",
+    "Ulkomailta? Saat ennen-jälkeen-kuvat ja lyhyen luettelon tehdyistä toimenpiteistä."
+   ]
+  ],
+  "master_h": "Tekijäsi",
+  "master_txt": "Tähän tulee valokuva ja muutama sana tekijästä: nimi, vuosien kokemus, kielet. Balilla ihmiset valitsevat henkilön, ei yrityksen.",
+  "master_ph": "Tekijän valokuva",
+  "map_h": "Missä työskentelen",
+  "ready": "Jokin rikki? Lähetä kuva WhatsAppilla.",
+  "ready_sub": "Vastaan tarpeista, hinnasta ja siitä, milloin voin tulla.",
+  "credits": "Kuvat: Unsplash",
+  "eyebrow": "Lövitys · Altaat · Korjaukset",
+  "menu": "Valikko",
+  "language": "Kieli",
+  "photo_note": "(korvaa oikealla kuvalla)",
+  "guides_en": "Ohjeet (englanniksi)"
+ },
+ "services": {
+  "srv-santehnik": {
+   "name": "Santehnikko Sanurissa",
+   "intro": "Yksityinen santehnikko Sanurissa: tulen itse, löydän syyn ja korjaan. Hanat, wc:t, putket, pumput ja lämmin vesi — villoissa, taloissa ja asunnoissa.",
+   "items": [
+    "Tippaavat hanat ja sekoittimet",
+    "Juokseva tai vuotava wc-pesukastin",
+    "Matala vesipaine",
+    "Sekoitimien, sifonkien ja letkujen vaihto",
+    "Wc:n ja lavuaarin asennus",
+    "Pesukoneen ja astianpesukoneen liittäminen"
+   ],
+   "faq": [
+    [
+     "Kuinka nopeasti voit tulla?",
+     "Riippuu päivän aikataulusta. Lähetä valokuva WhatsAppiin ja kerron, milloin ehdin paikalle."
+    ],
+    [
+     "Kuka ostaa osat?",
+     "Molemmat tapaukset toimivat. Voin hankkia ne ja antaa sinulle kuittia."
+    ]
+   ]
+  },
+  "srv-protechki": {
+   "name": "Vesivuodon korjaus",
+   "intro": "Vuotojen löytäminen ja korjaaminen: allasalaisten alla, seinissä, suihkuissa ja puutarhajohtojen kohdalla. Piilovuoto ilmenee usein PDAM-mittarilla tai pumppu, joka pyörii jatkuvasti.",
+   "items": [
+    "Vuodot allasalaisten alla",
+    "Vuotavat suihkut ja lattiaimut",
+    "Piilovoudot mittarin perusteella",
+    "Rikkoutuneet PVC/PPR-putket",
+    "Puutarhan kastelujärjestelmän vuodot"
+   ],
+   "faq": [
+    [
+     "Mitä minun tulisi tehdä ennen saapumistasi?",
+     "Sulje pääventtiili ja jos vesi on lähellä pistorasioita, katkaise virta."
+    ]
+   ]
+  },
+  "srv-zasor": {
+   "name": "Tuhkeat viemärit ja wc:t",
+   "intro": "Tuhkien wc:ten, allasalaisten, suihkujen ja viemärijohtojen puhdistus viemärikäärmeellä ilman aggressiivisia kemikaaleja, jotka vahingoittavat putkia ja septitankkeja.",
+   "items": [
+    "Tuhkaantunut wc",
+    "Hidas suihkuviemäri tai allasviemäri",
+    "Tuhkaantunut viemäriputki",
+    "Haju viemäreistä"
+   ],
+   "faq": [
+    [
+     "Miksi wc-paperia ei saa laittaa wc:hen Balilla?",
+     "Kapeat putket ja pienet septitankit — paperi tukkii järjestelmän nopeasti."
+    ]
+   ]
+  },
+  "srv-bojler": {
+   "name": "Vesilämmitin korjaus ja asennus",
+   "intro": "Eikö lämmin vesi tule? Löydän syyn — sähkölämmitin, kaasukattila tai katon aurinkolämpö. Lämmityselementit, termostaatit, anodit ja uudet asennukset.",
+   "items": [
+    "Lämmitin ei lämmitä",
+    "Lämmitin katkaisee sulakekytkimen",
+    "Vuotava lämmitin",
+    "Aurinkolämpölaitteisto ei lämmene tarpeeksi",
+    "Uuden lämmitteen asennus"
+   ],
+   "faq": [
+    [
+     "Korjata vai vaihtaa?",
+     "Vuotava säiliö tarkoittaa vaihtoa. Viallinen elementti tai termostaatti kannattaa yleensä korjata."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Vesipumput ja suodattimet",
+   "intro": "Pumput, paineanturit, katon vesikontit ja veden suodattimet. Sanurin rannikon lähellä kaivovedet voivat olla suolaisia – autan suodatuksessa tai siirtymisessä PDAM-veden käyttöön.",
+   "items": [
+    "Pumppu käy jatkuvasti",
+    "Ei vettä talossa",
+    "Kontti ylivuotaa tai on tyhjä",
+    "Suodattimen asennus ja patruunat",
+    "Katon vesikontin puhdistus"
+   ],
+   "faq": [
+    [
+     "Kuinka usein patruunat pitää vaihtaa?",
+     "Yleensä 3–6 kuukauden välein riippuen vedestä. Näytän, mitä kannattaa tarkastella."
+    ]
+   ]
+  },
+  "srv-chistka-bassejna": {
+   "name": "Uima-altaan puhdistus",
+   "intro": "Erillinen altaan puhdistus: pinnankeräys, harjaukset, imurointi, suodattimen takapesu ja veden tasapaino. Vihreän altaan korjaus.",
+   "items": [
+    "Puhdistus ennen vieraiden saapumista",
+    "Vihreä tai samea vesi",
+    "Vesirajan laattojen puhdistus",
+    "Suodattimen takapesu"
+   ],
+   "faq": [
+    [
+     "Kuinka kauan vihreän altaan korjaus kestää?",
+     "Yleensä 2–4 päivää riippuen vedestä ja suodattimesta."
+    ]
+   ]
+  },
+  "srv-obsluzhivanie-bassejna": {
+   "name": "Säännöllinen altaanhoito",
+   "intro": "Säännöllinen altaanhoito. Jokaisen vierailun jälkeen saat WhatsApp-raportin: kuvat, veden mittaukset, tehdyt työt. Ihanteellinen, jos et asu Balilla koko ajan.",
+   "items": [
+    "Säännölliset vierailut",
+    "Veden testaus ja tasapainotus",
+    "Imurointi, harjaukset, pinnankeräys",
+    "Pumppujen ja suodattimien tarkistus",
+    "Raportti jokaisesta vierailusta"
+   ],
+   "faq": [
+    [
+     "Sisältyvätkö kemikaalit hintaan?",
+     "Sopitaan etukäteen: joko sisältyy hintaan tai laskutaan erikseen kuittineineen."
+    ]
+   ]
+  },
+  "srv-oborudovanie-bassejna": {
+   "name": "Uima-altaan laitteet",
+   "intro": "Pumppujen, hiekkasuodattimien ja patruunasuodattimien, kloorausten, valojen ja automaattitäytön asennus ja korjaus.",
+   "items": [
+    "Pumppu ei käynnisty tai on meluisa",
+    "Suodattimen hiekan vaihto",
+    "Monitoimisventtiili",
+    "Suolakloorauslaite",
+    "Altaan valot"
+   ],
+   "faq": [
+    [
+     "Voinko lähettää kuvan pumppuhuoneesta?",
+     "Kyllä – se on paras tapa, jotta tiedän, mitä tuoda mukaan."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Uima-altaan korjaus",
+   "intro": "Vuodot, irtoavat laatat, saumausten kunto, putkisto. Monet Sanurin altaat ovat 15–20 vuotta vanhoja — autan sinua päättämään, mitä kannattaa korjata ensin.",
+   "items": [
+    "Veden katoaminen — vuotojen paikallistus",
+    "Irtoavat laatat ja mosaiikki",
+    "Saumauksen uusiminen",
+    "Altaan putkivuodot"
+   ],
+   "faq": [
+    [
+     "Höyrytys vai vuoto?",
+     "Tölkkitesti: aseta vettä täytetty tölkki allasaskelmalle ja vertaa molempien pintoja 24 tunnin jälkeen."
+    ]
+   ]
+  },
+  "srv-septik": {
+   "name": "Särkö ja viemäri",
+   "intro": "Haju, hitaat viemärit, täynnä oleva särkö. Löydän ongelman, järjestän tyhjennyksen ja puhdistan viemärit.",
+   "items": [
+    "Viemärihaju",
+    "Täysi särkö",
+    "Pulkaantunut viemäriputki",
+    "Rasvasieppari"
+   ],
+   "faq": [
+    [
+     "Kuinka usein särkö kannattaa tyhjentää?",
+     "Riippuu koosta ja asukasmäärästä — tyypillisesti 1–3 vuoden välein."
+    ]
+   ]
+  },
+  "srv-melkij-remont": {
+   "name": "Yleiskorjaukset",
+   "intro": "Pienet kotikorjaukset yhdellä käynnillä: ovet, lukot, hyttysverkot, silikoni, hyllyt, kalusteet.",
+   "items": [
+    "Kiinni jäävät ovet ja saranat",
+    "Lukot ja kahvat",
+    "Hyttysverkot",
+    "Kylpyhuoneen silikonoinnin uusiminen",
+    "Hyllyt, verhoilutankot, TV:n kiinnitys",
+    "Kalusteen kokoaminen"
+   ],
+   "faq": [
+    [
+     "Voinko listata useamman työn yhteen käyntiin?",
+     "Kyllä, se on paras hinta-laatusuhde. Lähetä lista valokuvineen."
+    ]
+   ]
+  },
+  "srv-obsluzhivanie-villy": {
+   "name": "Villan huolto",
+   "intro": "Säännölliset villatarkastukset: putkisto, allas, pumput, vesilämmittimet, katto ennen sademautta. Omistajille ja hallintoyhtiöille.",
+   "items": [
+    "Listamuotoiset tarkastukset",
+    "Sademauden valmistelut",
+    "Saapumisen edeltävät tarkistukset",
+    "Omistajan raportit"
+   ],
+   "faq": [
+    [
+     "Teetkö yhteistyötä villanhallintojen kanssa?",
+     "Kyllä, voimme sopia säännöllisestä aikataulusta."
+    ]
+   ]
+  }
+ },
+ "hubs": {
+  "S": "Putkityöt",
+  "W": "Vesi ja pumput",
+  "PC": "Allashuolto",
+  "PE": "Allastarvikkeet",
+  "PR": "Allakorjaus",
+  "K": "Jätevesi ja viemärit",
+  "R": "Kotikorjaus",
+  "V": "Villahuolto"
+ },
+ "areas": [
+  "Sanur Kaja",
+  "Sanur Kauh",
+  "Sindhu",
+  "Semawang",
+  "Mertasari",
+  "Batujimbar",
+  "Jl. Danau Tamblingan",
+  "Jl. Danau Poso",
+  "Jl. Bypass Ngurah Rai"
+ ]
+}

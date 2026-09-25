@@ -1,0 +1,93 @@
+{
+ "title": "Drainage & Sewage Pumps for Your Sanur Villa",
+ "slug": "drainage-sewage-pump-sanur-villa",
+ "meta": "How to choose, install and maintain a drainage or sewage pump in your Sanur villa. Practical tips for rainy season, septic systems and older plumbing.",
+ "intro": "Most Sanur villas need at least one small pump to move water from a sump pit, a low-lying bathroom, or a septic-tank overflow. In the rainy season, when PDAM pressure drops and gutters flood, that little motor becomes critical. This guide walks you through choosing, installing, and keeping a drainage or sewage pump running without surprises.",
+ "sections": [
+  {
+   "h2": "Where You Actually Need One",
+   "paragraphs": [
+    "Think about every point in your villa where water sits below the main drain line. A pool-equipment room often has a shallow pit that collects backwash water; a ground-floor bathroom built into a hillside may sit lower than the street sewer connection; an old septic tank can overflow during heavy rain if the soakaway is saturated.",
+    "Older Sanur villas were sometimes wired with gravity-only drains that worked fine in dry months but backed up once the monsoon hit. If you have noticed standing water after storms, a small submersible pump in the lowest point of that run will save your floors and tile grout."
+   ],
+   "bullets": [
+    "Sump pits under pool decks or equipment rooms",
+    "Bathrooms or kitchens located below the main outfall level",
+    "Septic-tank overflow lines that need a boost to reach the soakaway",
+    "Low-lying garden areas that channel stormwater toward the house"
+   ]
+  },
+  {
+   "h2": "Choosing Between a Drainage Pump and a Sewage Pump",
+   "paragraphs": [
+    "A drainage (or sump) pump handles clean or lightly dirty water: rain runoff, pool backwash, condensation. Its impeller is designed for free-flowing liquid and small grit. A sewage pump, by contrast, has a wider passage and a cutting or macerating mechanism so it can push toilet paper, wipes, and solid waste through a narrow pipe without clogging.",
+    "Do not swap them. Running a sewage load through a standard drainage pump will jam the impeller within days; running only clean water through an expensive macerator wastes money and adds unnecessary moving parts that wear out faster in our humid air."
+   ],
+   "bullets": [
+    "Flow rate (litres per hour) – match it to your peak demand, not just average use",
+    "Head height – how many metres the pump must lift water vertically plus friction loss in the pipe",
+    "Solids handling – 10 mm max for drainage, 35–40 mm for sewage",
+    "Housing material – stainless or glass-reinforced nylon resists the salt-laden air around Sanur better than plain cast iron",
+    "Power rating – most residential units run on 220 V single-phase; confirm your villa's sub-circuit can handle the startup surge"
+   ]
+  },
+  {
+   "h2": "Installation Basics That Save You Headaches",
+   "paragraphs": [
+    "Place the pump where you can reach it with a wrench after dark if it fails. A locked equipment room is fine, but a pit buried under a concrete slab is not. Leave at least 30 cm of clearance above the float switch so you can pull the unit out without draining the whole system.",
+    "Fit a check valve on the discharge pipe immediately above the pump outlet. Without one, gravity will suck water back into the pit every time the motor stops, and the pump will short-cycle all night. Add an inline strainer before the check valve to catch leaves and sand that blow in from the garden during wind season."
+   ],
+   "bullets": [
+    "Mount the pump on a flat, level base inside the pit – no rocking",
+    "Use a dedicated RCD (residual-current device) circuit for anything electrical near standing water",
+    "Route cables through a drip loop so rain running down the wall does not wick moisture into the connector",
+    "Vent the pit or room; trapped fumes from a septic line plus heat from the motor create an uncomfortable and unsafe space"
+   ]
+  },
+  {
+   "h2": "The Breakdowns We See Most Often",
+   "paragraphs": [
+    "Clogging tops the list. Palm fronds, hair, and small stones find their way into sump pits, especially after a week of rain. The impeller slows, the motor draws more current, and eventually trips the overload protector. A quick visual inspection and a brush-out usually bring it back.",
+    "A stuck float switch is the second most common fault. Mineral scale from PDAM water or biofilm can glue the float to its guide rod. The pump either runs continuously (wearing out the seal) or never starts at all. Wiggle the float by hand every few months to keep it free.",
+    "Salt-air corrosion on terminal blocks and cable glands is quieter but more insidious. You will not hear it until one day the pump simply will not start because a connection has oxidised open. If you notice greenish-white crust on metal fittings near the pool deck, clean them with a wire brush and apply a thin coat of anti-corrosion grease."
+   ],
+   "bullets": [
+    "Pump hums but no flow – likely clogged impeller or blocked discharge pipe",
+    "Motor runs constantly – float stuck in 'on' position or check valve leaking",
+    "No power at all – tripped RCD, corroded terminals, or burnt winding",
+    "Water seeping around the shaft seal – time for a seal kit replacement before the motor floods"
+   ]
+  },
+  {
+   "h2": "Keeping It Running Through Another Monsoon",
+   "paragraphs": [
+    "Set a phone reminder twice a year: once before the wet season (roughly October) and once after (around May). Each visit takes ten minutes. Pull the pump out, rinse the impeller under a hose, check that the float moves freely, inspect the cable for nicks, and give the pit walls a quick scrape to remove sand and algae.",
+    "Run the pump dry for two seconds every month just to confirm it starts. You do not need water in the pit for this; most submersible units have a thermal cut-out that protects them from a brief dry run. If it does not start within a couple of seconds, stop and call a technician rather than forcing it."
+   ],
+   "bullets": [
+    "Clear leaves and debris from the pit inlet screen weekly during heavy rain",
+    "Test the RCD button monthly so you know it will trip when needed",
+    "Keep a spare float switch and a set of O-rings in your tool box – they are cheap and save an emergency call",
+    "If the pump is older than five years and has been running hard through several monsoons, budget for a replacement rather than repeated repairs"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I use a standard drainage pump to handle my septic-tank overflow?",
+   "a": "No. A drainage pump's impeller passage is too narrow for toilet solids and will jam quickly. For any line carrying sewage or greywater with wipes, you need a dedicated sewage (macerating) pump rated for at least 35 mm solids. Mixing the two roles is one of the most common mistakes we see in older Sanur villas."
+  },
+  {
+   "q": "How often should I service the pump given Bali's humidity and salt air?",
+   "a": "A visual check and float test every month, plus a full pull-out cleaning twice a year before and after the rainy season, keeps most residential pumps healthy. The coastal humidity accelerates corrosion on terminals and cable glands, so include those in your inspection even if the motor itself looks fine."
+  },
+  {
+   "q": "The area around the pump smells like gas or feels electrically unsafe – what do I do?",
+   "a": "Stop using the pump immediately, switch off its circuit breaker, ventilate the space by opening doors and windows, and call a licensed plumber or electrician before touching anything else. Do not mix chlorine-based cleaners into a pit that may contain septic gases. Your safety comes first; the pump can wait an hour."
+  }
+ ],
+ "cta": "If you are not sure which type of pump your villa needs, snap a quick photo of the pit, the existing motor (if any), and the wiring, then send it over on WhatsApp – we will point out exactly what to look at and quote from there.",
+ "id": "A108",
+ "hub": "K",
+ "status": "draft-qwen"
+}
