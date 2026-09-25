@@ -132,7 +132,19 @@
   "years": "years of experience",
   "langs": "Languages",
   "warranty": "Warranty",
-  "sample": "Sample data"
+  "sample": "Sample data",
+  "form_h": "Tell me what's wrong",
+  "form_what": "What's going on?",
+  "form_when": "When do you need it?",
+  "when_opts": [
+   "Today — it's urgent",
+   "This week",
+   "Just a quote"
+  ],
+  "form_btn": "Send on WhatsApp",
+  "form_note": "Opens WhatsApp with your message. Add a photo there.",
+  "rated": "Rated {r} · {n} reviews",
+  "serving": "Proudly serving Sanur"
  },
  "services": {
   "srv-santehnik": {

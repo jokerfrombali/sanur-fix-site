@@ -56,6 +56,7 @@ if DEMO:
 
 HERE = pathlib.Path(__file__).parent
 ROOT = HERE / "site"
+THEME = "classic"  # classic — основной сайт; pro — вариант по мотивам plumbingpro.com в /pro/
 sys.path.insert(0, str(HERE / "tools"))
 from articles_plan import HUB_EN
 
@@ -219,7 +220,10 @@ def build():
     if ROOT.exists():
         shutil.rmtree(ROOT)
     ROOT.mkdir()
-    (ROOT / "style.css").write_text((HERE / "tools" / "style.css").read_text(encoding="utf-8"), encoding="utf-8")
+    (ROOT / "style.css").write_text((("@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Public+Sans:wght@400;500;600;700&display=swap');
+" if THEME == "pro" else "")
+                                   + (HERE / "tools" / "style.css").read_text(encoding="utf-8")
+                                   + ((HERE / "tools" / "theme_pro.css").read_text(encoding="utf-8") if THEME == "pro" else "")), encoding="utf-8")
     ARTS = load_articles()
     gpath = lambda lang, a: sec(lang, "gd") + "/" + HUB_EN[a["hub"]][0] + "/" + a["slug"]
     for lang in ACTIVE:
@@ -287,6 +291,24 @@ def build():
         h1 = u["home_h1"].replace("Sanur", "<em>Sanur</em>", 1) if "Sanur" in u["home_h1"] else u["home_h1"].replace("Сануре", "<em>Сануре</em>")
         hero = (f'<div class="hero"><img src="{img(PH["hero"], 2000, 1200)}" alt="" fetchpriority="high"><div class="wrap">'
                 f'<div class="eyebrow">{u["eyebrow"]}</div><h1>{h1}</h1><p>{u["home_lead"]}</p>{buttons(u)}</div></div>')
+        if THEME == "pro":
+            rating = ""
+            if REVIEWS:
+                avg = sum(r.get("stars", 5) for r in REVIEWS) / len(REVIEWS)
+                rating = f'<div class="rating"><span class="st">★★★★★</span>{u["rated"].replace("{r}", f"{avg:.1f}").replace("{n}", str(len(REVIEWS)))} {demo}</div>'
+            feat = '<ul class="feat">' + "".join(f"<li>{CHECK_ICO}<span>{t}</span></li>" for t in u["trust"]) + "</ul>"
+            opts = "".join(f"<option>{e(SV[x]['name'])}</option>" for x in SRV)
+            wopts = "".join(f"<option>{e(w)}</option>" for w in u["when_opts"])
+            form = (f'<form class="lead-form" data-wa="https://wa.me/{WHATSAPP}?text=" data-pre="{e(u["wa_text"])}" '
+                    f'onsubmit="event.preventDefault();location.href=this.dataset.wa+encodeURIComponent(this.dataset.pre+this.w.value+String.fromCharCode(32,8212,32)+this.t.value)">'
+                    f'<h3>{u["form_h"]}</h3><label>{u["form_what"]}</label><select name="w">{opts}</select><label>{u["form_when"]}</label><select name="t">{wopts}</select>'
+                    f'<button class="btn wa" type="submit">{wa_i()} {u["form_btn"]}</button><p>{u["form_note"]}</p></form>')
+            hero = (f'<div class="hero pro"><img src="{img(PH["hero"], 2000, 1200)}" alt="" fetchpriority="high"><div class="wrap"><div>{rating}<h1>{h1}</h1>'
+                    f'<p>{u["home_lead"]}</p>{feat}<a class="pcard" href="{TEL}"><i>{ph_i(20)}</i><span><small>{u["call"]} · WhatsApp</small><b>{PHONE}</b></span></a></div>{form}</div></div>')
+            tc = [(MASTER["years"] + " " + u["years"]) if MASTER["years"] else u["only"], u["only"], u["pricing_items"][0][0], (f"★ {len(REVIEWS)} Google" if REVIEWS else u["pricing_items"][2][0])]
+            tsub = [MASTER["languages"] or u["badge"], u["badge"], u["pricing_items"][0][1][:60] + "…", u["reviews_h"] if REVIEWS else u["pricing_items"][2][1][:60] + "…"]
+            strip = ('<div class="wrap"><div class="tcards">' + "".join(f"<div><b>{a}</b><span>{b}</span></div>" for a, b in zip(tc, tsub)) + "</div></div>"
+                     f'<div class="serving" style="margin-top:48px">{u["serving"]}</div>')
         P("", f"{u['home_h1']} | {BRAND}", u["home_lead"][:155],
           hero + strip + f'<section><div class="wrap"><div class="shead"><div><div class="eyebrow">{u["services"]}</div><h2>{u["tagline"]}</h2></div><p>{u["ready_sub"]}</p></div><div class="grid">{cards}</div></div></section>'
           + how + master + local(False) + reviews + projects + why + guides_block + where + cta, all_alts(lambda c: ""), schema=biz_schema(lang))
@@ -398,4 +420,7 @@ def build():
     print("pages:", len(pages), "| langs:", ",".join(ACTIVE), "| articles:", {k: len(v) for k, v in ARTS.items() if v})
 
 if __name__ == "__main__":
+    build()
+    # вариант дизайна «pro» — отдельной копией в /pro/ для сравнения
+    THEME, BASE, ROOT, pages = "pro", BASE + "/pro", ROOT / "pro", []
     build()
