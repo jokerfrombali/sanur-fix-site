@@ -1,0 +1,36 @@
+{
+ "h2": "Water Pumps & Filters Denpasar – Reliable Supply for City Homes",
+ "intro": "Denpasar runs on PDAM mains, but supply drops happen without warning—especially along tighter streets around Renon and Sidakarya where older pipework meets busy shop-house plumbing. Water Pumps & Filters Denpasar is about keeping your rooftop tank topped up, your pressure switch cycling correctly, and your water clean enough for daily use. If the pump keeps restarting or the house goes dry mid-shower, that's usually a fixable issue with the right parts and a quick diagnosis.",
+ "sections": [
+  {
+   "h3": "Why City Mains Need Backup Here",
+   "text": "PDAM interruptions are routine in Denpasar; the mains simply stop for hours while crews work upstream. In neighbourhoods like Renon and Sesetan, narrow lanes mean fewer alternative feed points, so a single household depends entirely on its own tank, float valve and booster pump. Older drainage channels also overflow during heavy rain and can push backflow into ground-floor units, which stresses seals and switches. A properly sized filter cartridge protects downstream taps from sediment that accumulates when the main line restarts after a break."
+  },
+  {
+   "h3": "Common Pump & Filter Issues We See in Denpasar",
+   "text": "The most frequent calls involve a pressure switch that clicks every few seconds instead of holding steady, a rooftop tank that either overflows onto the street below or runs completely empty by morning, and a sediment filter whose cartridge has clogged to the point where flow barely trickles. Shop-houses in Panjer and Kesiman add another layer: shared risers and high-traffic toilets create recurring blockages that back up into the pump inlet. I diagnose the root cause on site, replace worn diaphragms or cartridges, and re-balance the float mechanism so the system holds pressure without constant cycling."
+  },
+  {
+   "h3": "What to Send Before You Book",
+   "text": "A quick photo of your pump unit (brand plate visible), the pressure switch wiring, and the current water level in the tank helps me bring the correct spare parts and save you a second visit. If the issue is intermittent—say it only fails at 6 a.m.—note the time pattern and whether other taps are affected simultaneously. For filter work, include a shot of the housing and any visible discoloration in the output stream. All of this goes through WhatsApp; no phone call needed, just a short message with images and a one-line description of what's happening."
+  },
+  {
+   "h3": "Keeping Your System Running Between Visits",
+   "text": "Between service visits, a few habits protect the whole chain. Flush the rooftop tank once a month during dry season to prevent algae and mineral build-up on the float arm. Check the filter cartridge every six weeks rather than waiting for flow to drop; in brackish coastal zones the sediment load is higher than inland areas. Keep the pressure switch cover dry and free of dust, since humidity accelerates contact wear. And if PDAM has been off more than two days, run cold water from the lowest tap before restarting the pump to clear trapped air from the line."
+  }
+ ],
+ "faq": [
+  {
+   "q": "My pump keeps turning on and off every 20 seconds—is that normal?",
+   "a": "No, constant cycling usually means a worn diaphragm, a stuck check valve, or an air pocket in the line. It strains the motor and can burn out the windings within weeks if left unaddressed."
+  },
+  {
+   "q": "Can I use PDAM water directly without a filter?",
+   "a": "It's drinkable by regulation, but after long mains interruptions or heavy rain backflow, sediment and chlorine residue spike. A basic sediment-plus-carbon cartridge protects your taps, heater elements and washing machine seals at minimal cost."
+  },
+  {
+   "q": "Do you handle shared plumbing in shop-house buildings?",
+   "a": "Yes—I work with individual units as well as common risers. For shared systems I coordinate with the building manager so access to the main valve and pump room is arranged before I arrive."
+  }
+ ]
+}

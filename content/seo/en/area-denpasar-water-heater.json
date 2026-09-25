@@ -1,0 +1,36 @@
+{
+ "h2": "Water Heater Repair & Installation Denpasar",
+ "intro": "No hot water in your family house or office? Water heater repair and installation in Denpasar covers electric units, gas heaters and rooftop solar systems — from a single failed heating element to a full replacement. If you're in Renon, anywhere along PDAM mains, or running a shared-plumbing shop-house, I can get to the bottom of why your shower went cold.",
+ "sections": [
+  {
+   "h3": "Why Denpasar Conditions Stress Your Heater",
+   "text": "PDAM supply drops are routine here, so float valves, tanks and pumps work harder than they would on a stable line. In older shop-houses with shared risers, pressure swings hit every unit at once, accelerating wear on gaskets and elements. Electric and gas heaters installed years ago build up limescale; when mains stabilise after a long outage, that scale triggers overheating, breaker trips or slow flange leaks. Tight streets also make access for a replacement tank trickier than in a villa with a carport, so planning ahead avoids a second call-out."
+  },
+  {
+   "h3": "The Jobs I See Most Around the City",
+   "text": "A heater that won't heat usually means a burnt element or stuck thermostat — quick swaps. Repeated MCB trips point to internal corrosion shorting out; the fix is replacing the element assembly, not just resetting the box. Base or flange leaks need new gaskets, or a full tank swap if the shell has corroded through. Lukewarm rooftop solar most often means tired vacuum tubes or a failing circulation pump. For new installs in Sesetan villas, I size the tank to your household, route pipework, wire the safety cut-off, and test under load before leaving site."
+  },
+  {
+   "h3": "What to Send on WhatsApp for a Quote",
+   "text": "Snap two photos: one of the whole unit showing any visible damage or rust, and one close-up of the area that's leaking, sparking or tripping. Tell me whether it's electric, gas or solar, roughly how old it is, and which floor it sits on. If the breaker keeps cutting out, note the amperage rating printed on the MCB. That's enough for me to give you a fair estimate — pricing depends entirely on the job, so no fixed rate applies until I've seen what we're dealing with. Message me on WhatsApp and I'll reply with next steps."
+  },
+  {
+   "h3": "Keeping Your Heater Running Between Visits",
+   "text": "PDAM water here carries dissolved minerals, so flush the anode rod every six months if you can reach it — a spent anode lets corrosion attack the tank shell directly. Lift the pressure relief valve lever monthly; no drip means it's seized and should be replaced before failing under real load. In Panjer and similar low-lying streets where drainage backflow is common after heavy rain, keep all electrical connections well above any possible flood line. Water taking longer to warm? Don't wait for total failure — send a photo on WhatsApp and I'll say whether it's a small swap or time for a new unit."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do I know if my heater needs repair or a full replacement?",
+   "a": "If the element or thermostat is faulty, a repair usually makes sense. But if the tank shell shows rust pitting, the flange leaks repeatedly, or faults keep recurring, a new installation will save you from repeated call-outs."
+  },
+  {
+   "q": "Can you install a solar water heater in a shop-house in Denpasar?",
+   "a": "Yes, provided there's roof space for the collector panels and room for the storage tank. I assess the structure, route pipework through existing chases, and wire a backup electric element so you still get hot water on cloudy days."
+  },
+  {
+   "q": "What happens if PDAM cuts supply while I'm showering?",
+   "a": "Your stored tank should carry you through most interruptions. If you're relying on direct mains pressure without a buffer, a float-valve setup or small pump helps — happy to advise after seeing your current arrangement via photos on WhatsApp."
+  }
+ ]
+}
