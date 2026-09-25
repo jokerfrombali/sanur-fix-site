@@ -1,0 +1,75 @@
+{
+ "title": "Cartridge Pool Filter: Cleaning, Replacement & Tips",
+ "slug": "cartridge-pool-filter-maintenance",
+ "meta": "How a cartridge pool filter works, when to clean or replace it, and how it compares to sand filters for your Sanur villa pool.",
+ "intro": "Most smaller villa pools around Sanur run on a cartridge filter because they are simple, quiet, and easy to service. Water passes through a pleated synthetic pad that traps dirt, algae fragments, and fine particles before returning to the pool. Below you will find how the unit works, how to clean the cartridge properly, when to swap it out, and how to pick the right replacement size.",
+ "sections": [
+  {
+   "h2": "How a Cartridge Filter Works",
+   "paragraphs": [
+    "A cartridge filter sits between the pump and the pool return line. Inside a sealed housing you will find a cylindrical pleated media element, usually made of polyester or a polyester-paper blend. As the pump draws water from the pool, it pushes the flow through those tight pleats. Particles as small as roughly five microns get trapped in the folds while clean water exits back into the pool.",
+    "In Sanur villas these units are common because many pools are modest in size and the owner wants low-maintenance equipment without a large sand bed to backwash. The whole assembly is typically just a pump, a round or oval tank with a lid, and the cartridge inside. No multi-port valve, no manifold—just open the lid, pull the cartridge, hose it down, put it back."
+   ],
+   "bullets": [
+    "Typical setup: pump → filter housing → cartridge → return pipe",
+    "Filtration rating: usually 5–15 microns depending on the pad",
+    "Most common in pools under about 40 m³; larger pools often use sand or DE filters"
+   ]
+  },
+  {
+   "h2": "Cleaning Your Cartridge: Step by Step",
+   "paragraphs": [
+    "How often you clean depends on usage and how dusty the area is. In Sanur, construction dust, sea-salt spray, and leafy debris that blows in during the rainy season (roughly November to March) all load up the media faster than expected. Inspect the cartridge every two weeks and give it a proper rinse at least once a month if the pool sees regular use.",
+    "To clean: switch off the pump at the breaker box—do not rely only on the small switch on the unit, because the motor can still be spinning. Open the housing lid, lift out the cartridge, and take it outside. Hose it from the top pleat down to the bottom with a garden sprayer, working both sides. If grime is stubborn, soak it in plain water for an hour before rinsing again. Let it dry fully before reassembling, then close the lid and restart the pump.",
+    "If your routine involves any chlorine-based shock treatment, keep chemicals well away from the electrical panel and the pump. Never mix different chemical products in one container. If you smell gas or notice sparks near the equipment, stop immediately and call a qualified technician."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "When It Is Time to Replace the Cartridge",
+   "paragraphs": [
+    "A healthy cartridge comes out of the housing looking uniformly dirty but structurally intact. You know it is past its life when the pleats are torn, the core rod is bent, the media has turned permanently brown-grey no matter how much you hose it, or the water stays cloudy even after a thorough rinse. In practice most cartridges in a Sanur villa last one to two swimming seasons, though heavy use or an uncovered pool during the wet months can shorten that.",
+    "Replacement is straightforward: buy the correct diameter × height and micron rating, drop it into the housing, tighten the lid, and run the pump. The cost depends on the size and brand; if you send me a clear photo of the old cartridge with its label visible, I can identify the exact part and quote you over WhatsApp before you spend a rupiah."
+   ],
+   "bullets": [
+    "Signs of wear: torn pleats, bent core, permanent discolouration, reduced flow",
+    "Typical lifespan: 1–2 seasons for a residential villa pool",
+    "Always match diameter, height, and micron rating to the original spec"
+   ]
+  },
+  {
+   "h2": "Cartridge vs Sand Filter: Which Suits Your Villa?",
+   "paragraphs": [
+    "Sand filters have been the default in Bali for decades because they were easy to source and the sand bed lasts years between replacements. They handle larger volumes well and are forgiving about chemical dosing. The trade-off is bulk: a multi-port valve, a bigger tank, periodic backwashing, and eventually a full sand change every few years.",
+    "A cartridge filter wins on simplicity and finer filtration out of the box. There is no backwash cycle, no waste-water drain, and the whole unit is lighter—easier to move if you are re-laying the pool deck. The downside is that the media is consumable; you will be replacing it seasonally rather than once every three or four years. For a small Sanur pool where the owner wants low fuss and crystal-clear water without a complicated valve bank, the cartridge setup is often the better fit."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Choosing the Right Cartridge",
+   "paragraphs": [
+    "The two numbers that matter are the inner (or outer) diameter and the overall height of the pleated element. A third specification is the micron rating—lower means finer filtration but also faster clogging. Most residential villa pools do fine with a 10-micron pad; go to 5 microns only if you want the absolute clearest water and accept more frequent cleaning.",
+    "Do not guess from memory. Take the old cartridge out, photograph the label, and note any part number printed on the housing itself. Send those photos over WhatsApp and I will match you to the correct size before you order, so you avoid ending up with a pad that wobbles in the basket or leaves a gap at the top."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "How often should I clean my pool filter cartridge in Bali?",
+   "a": "Inspect it every two weeks and give it a full hose-down at least monthly. During the rainy season (November–March), leaf litter and dust can double the load, so check weekly if the pool sits uncovered."
+  },
+  {
+   "q": "Can I use a generic cartridge instead of the original brand?",
+   "a": "Yes, as long as the diameter, height, and core-rod type match exactly. Many manufacturers make cross-compatible pads. If you are unsure, send a photo of the old cartridge's label and I will confirm the fit before you buy."
+  },
+  {
+   "q": "My pool is still green after filtering—what should I check first?",
+   "a": "Start with the basics: is the pump running at full speed? Is the cartridge clogged or torn? Are your chlorine levels in range? If the water stays green despite a clean cartridge and good chemistry there may be an algae bloom that needs a shock treatment—call a technician rather than mixing chemicals yourself."
+  }
+ ],
+ "cta": "If you are not sure which cartridge size your villa pool uses, snap a quick photo of the current pad and its housing label and send it over on WhatsApp—I will identify the part and let you know what to look for.",
+ "id": "A070",
+ "hub": "PE",
+ "status": "draft-qwen"
+}

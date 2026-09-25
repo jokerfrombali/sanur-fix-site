@@ -1,0 +1,88 @@
+{
+ "title": "Pool Sand Filter: Backwashing & Sand Replacement Guide",
+ "slug": "pool-sand-filter-backwash-replace",
+ "meta": "Learn when to backwash or replace sand in your Sanur villa pool filter. Practical steps for expats dealing with sea-air dust and rainy-season debris.",
+ "intro": "A sand filter is the heart of any villa pool in Sanur. It traps hair, leaves, insects, and the fine dust that sea breeze carries across the water every day. You do not need plumbing knowledge to keep it running — you just need to know when to backwash and when the sand has finally done its job.",
+ "sections": [
+  {
+   "h2": "How a Sand Filter Works",
+   "paragraphs": [
+    "Water from your pool is pulled by the pump through a multiport valve into the top of the filter tank. As it passes downward through graded silica sand, particles get trapped between the grains. Clean water exits at the bottom and returns to the pool.",
+    "In Sanur villas the filter usually sits on the ground floor or in a small equipment shed near the kitchen. Because PDAM pressure fluctuates and many older properties still run well water with higher mineral content, the sand clogs faster than you might expect. That is normal — the filter is doing its job."
+   ],
+   "bullets": [
+    "Typical sand depth inside the tank: 30–45 cm",
+    "Flow direction: top → down through sand → out the bottom",
+    "Multiport positions: FILTER, BACKWASH, RINSE, CIRCULATE, WASTE, CLOSED"
+   ]
+  },
+  {
+   "h2": "Backwashing Your Pool Filter",
+   "paragraphs": [
+    "Backwashing reverses flow so dirty water shoots up through the sand bed and out the waste line. Do this when the gauge climbs about 8–10 psi above your clean baseline, or roughly every two weeks during Bali's rainy season when leaves and organic matter double.",
+    "To backwash: turn off the pump. Move the multiport handle to BACKWASH. Restart for 60–90 seconds until the sight glass runs clear. Switch to RINSE for another 20–30 seconds to settle the sand bed. Return the handle to FILTER and resume normal circulation.",
+    "Make sure the waste hose discharges safely away from walkways and garden beds. In older Sanur villas the outlet sometimes points straight at the pool deck — check that the area is clear before you start."
+   ],
+   "bullets": [
+    "Frequency: every 2 weeks in wet season (Nov–Apr), every 4 weeks in dry season",
+    "Duration: 60–90 s backwash + 20–30 s rinse",
+    "Always confirm the waste line is directed safely before starting"
+   ]
+  },
+  {
+   "h2": "When and How to Replace the Sand",
+   "paragraphs": [
+    "Sand breaks down over time. Grains lose their sharp edges and begin to clump together. You will notice cloudy water even after a fresh backwash, or small grit appearing in the skimmer basket. As a rule of thumb, replace the media every three to five years, sooner if the pool sees heavy daily use.",
+    "The job itself is straightforward but messy. Drain the tank, open the bottom manway (or top access port on some models), scoop out the old sand with a bucket, rinse the interior, then pour in new graded silica sand slowly while adding water so it settles evenly. Close the port, refill, run a short RINSE cycle, and switch back to FILTER.",
+    "If your villa uses a rooftop tank for pool top-up, make sure you have enough clean water available for the fill-back step — PDAM pressure can be low in the afternoon, so plan ahead."
+   ],
+   "bullets": [
+    "Signs sand is tired: cloudy water after backwash, visible grit in skimmer, uneven flow",
+    "Typical replacement interval: 3–5 years depending on usage",
+    "Use graded silica sand around 0.45 mm unless your manual specifies otherwise"
+   ]
+  },
+  {
+   "h2": "Reading Your Pressure Gauge",
+   "paragraphs": [
+    "Most Sanur pool filters come with a simple round gauge on the multiport valve housing. Note the reading when the filter is freshly cleaned — that is your baseline. From there, an increase of about 8–10 psi tells you the bed is loaded and it is time to backwash.",
+    "If the needle barely moves no matter how dirty the water looks, the internal diaphragm may have failed. A dead gauge lets the pump work harder than designed, which shortens its life. If yours reads zero or maxes out instantly, send us a photo and we will advise whether it needs a simple seal swap or a full gauge change."
+   ],
+   "bullets": [
+    "Record your clean baseline once per season",
+    "+8–10 psi above baseline = backwash now",
+    "Gauge stuck at one position? Likely a worn internal seal"
+   ]
+  },
+  {
+   "h2": "Glass Media Instead of Sand",
+   "paragraphs": [
+    "Some newer filters installed in Bali use polished glass beads rather than traditional silica sand. The principle is identical — water flows through, particles get trapped — but the glass grains are more uniform in size and do not break down as quickly, meaning fewer replacements over the tank's life.",
+    "Glass also handles the slightly acidic pH range many Sanur pools sit at (7.2–7.6) without degrading. However, glass is roughly 40 % denser than sand, so confirm the tank's laterals and bottom plate can handle the extra weight before pouring. When in doubt, ask the technician to check the support structure first."
+   ],
+   "bullets": [
+    "Lifespan: often 5+ years versus 3–5 for standard sand",
+    "Weight: about 40 % heavier than an equivalent volume of sand",
+    "Backwashing procedure is exactly the same as with sand"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "How often should I backwash my pool filter in Sanur?",
+   "a": "During the rainy season (roughly November to April) aim for every two weeks because leaves, insects, and organic debris double. In the dry season four-week intervals usually suffice. Always let the pressure gauge be your final say."
+  },
+  {
+   "q": "Can I just add a layer of new sand on top instead of replacing it all?",
+   "a": "Adding a thin layer on top can mask a problem temporarily, but broken or clumped sand underneath will keep trapping poorly. A full drain-and-replace gives you a clean, even bed and restores proper flow — cheaper in the long run."
+  },
+  {
+   "q": "My water still looks cloudy after backwashing. What now?",
+   "a": "First check that the multiport valve seal is not cracked — a common issue on older units. If the seal is fine, the sand bed likely needs replacing. Send us a photo of the filter housing, the gauge reading, and the skimmer basket so we can point you in the right direction before you open anything up."
+  }
+ ],
+ "cta": "If you are unsure whether your filter needs a backwash, a new seal, or a full sand change, snap a quick photo of the unit and send it over on WhatsApp — we will tell you exactly what to do next.",
+ "id": "A069",
+ "hub": "PE",
+ "status": "draft-qwen"
+}

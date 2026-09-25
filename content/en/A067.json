@@ -1,0 +1,80 @@
+{
+ "title": "Pool Pump Not Pumping? 5 Things to Check First",
+ "slug": "pool-pump-not-pumping-checks",
+ "meta": "Your Sanur villa pool pump is not pumping water? Walk through air locks, a clogged prefilter, low water level, impeller wear, and motor issues step by step.",
+ "intro": "Your pool pump hums but no water comes out of the return jets — or it simply refuses to start. In most Sanur villas the cause is trapped air, a blocked prefilter basket, or a water level that has slipped below the skimmer opening. Work through these five checks from top to bottom before you reach for your phone.",
+ "sections": [
+  {
+   "h2": "Trapped Air in the Suction Line",
+   "paragraphs": [
+    "Air is the number-one reason a pool pump will not pick up suction, especially after the pump has been off overnight or after a filter backwash. The wet end (the volute where the impeller sits) can fill with air if any fitting has loosened. In Sanur the salty sea breeze accelerates corrosion on brass unions and O-rings, so check every connection along the suction line for weeping.",
+    "To bleed the system: turn the pump off, remove the lid on the strainer pot, and let water flow in until it runs clear of bubbles. You can also open the small bleed screw at the highest point of the pipe run. If you hear gurgling for more than two minutes there is likely a larger leak downstream — trace the pipe toward the skimmer box."
+   ],
+   "bullets": [
+    "After heavy rain, pull leaves out of the skimmer before restarting; they create an air pocket under the grate.",
+    "Inspect the O-ring inside the strainer lid. A dried-out ring lets air in every time the pump cycles.",
+    "If the pump was recently serviced, make sure the union nut is hand-tight plus a quarter turn — no more, or you crack the thread."
+   ]
+  },
+  {
+   "h2": "Clogged Prefilter Basket",
+   "paragraphs": [
+    "The prefilter basket sits between the suction pipe and the impeller. Its job is to catch leaves, insects, and sand before they reach the motor. In Bali the combination of dry-season dust, monsoon debris, and (in older villas) PDAM mains that carry fine sediment means this basket clogs faster than you would expect back home.",
+    "Turn off the pump, lift the lid, and pull the basket out. Rinse it with a garden hose. If the mesh is torn or the plastic has become brittle from UV exposure, replace it. While the lid is off, look into the pot: if there is a thick layer of silt at the bottom, flush it out with a bucket of clean water before reseating the lid."
+   ],
+   "bullets": [
+    "Well-water villas tend to load the basket with fine silica sand; check weekly during the dry season.",
+    "A cracked or warped basket will let grit through and score the impeller vanes over time."
+   ]
+  },
+  {
+   "h2": "Water Level Below the Skimmer",
+   "paragraphs": [
+    "Bali's heat can evaporate several centimetres of pool water per week in the dry months. If the level drops below the top edge of the skimmer opening, the pump loses its suction path and starts pulling air instead of water. You will hear a distinctive chugging sound and the pressure gauge will swing wildly.",
+    "Check the level against the mid-point of the skimmer throat (most manufacturers mark this on the tile). Top up with clean water — PDAM tap water is fine, but run it through the filter for a few hours so any chlorine residual circulates evenly. Pour slowly along the pool wall rather than directly onto the return jets."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Impeller Jammed or Worn",
+   "paragraphs": [
+    "If the prefilter is clean and the water level is correct but the pump still will not prime, the impeller itself may be jammed or worn. Remove the strainer pot, unscrew the volute housing (usually one large hex bolt), and lift out the impeller assembly.",
+    "Spin the shaft by hand. It should turn freely with a slight magnetic drag from the motor. If it sticks, you likely have debris wedged between the vanes or calcium deposits from hard well water gluing the shaft to the bearing. Soak the impeller in white vinegar for an hour, then brush gently with an old toothbrush. Do NOT use metal wire brushes — they scratch the vanes and create turbulence that reduces flow."
+   ],
+   "bullets": [
+    "Worn vanes (rounded edges instead of sharp) reduce head pressure; at that point the impeller needs replacing.",
+    "A broken or missing wear ring inside the volute lets water recirculate past the impeller, killing suction.",
+    "Reassemble with a fresh O-ring on the volute gasket; a dry ring is a common source of the air-leak problem above."
+   ]
+  },
+  {
+   "h2": "Motor and Electrical Faults",
+   "paragraphs": [
+    "If the impeller spins freely but the pump still will not run, the issue is electrical. The most common fault I see in Sanur villas is a failed start capacitor — the small cylindrical component on top of the motor housing. When it dies, the motor hums but does not turn.",
+    "Here is where I need to be blunt: do not open the motor housing yourself if you are not comfortable working on live electrics near standing water. A short circuit in a wet environment can be genuinely dangerous. If the motor smells burnt, shows visible scorching on the terminal block, or trips the RCD/breaker every time you switch it on, stop and call a qualified electrician or pool technician before touching anything further."
+   ],
+   "bullets": [
+    "Check that the dedicated pool breaker in your DB board has not tripped; reset it once, then observe.",
+    "A seized bearing (you feel grinding when spinning the shaft) means the motor needs professional attention — forcing it can destroy the windings."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "My pool pump runs but only pushes air bubbles from the return jets. What should I check first?",
+   "a": "Start at the skimmer box and trace the suction line toward the pump. Look for a loose union, a cracked pipe joint, or a dry O-ring on the strainer lid. In Sanur's salty air these small seals degrade faster than expected. Bleed the system as described above and re-check after ten minutes of running."
+  },
+  {
+   "q": "The pump was fine yesterday and today it will not start at all. Could it be the rainy season?",
+   "a": "Very possibly. Monsoon downpours flood the skimmer with leaves and debris, and the sudden surge can trip the thermal overload protector inside the motor. Let the pump cool for 30 minutes, clear the basket, and try again. If it trips immediately the overload is likely internal and you need a technician to test the windings."
+  },
+  {
+   "q": "How often should I clean the prefilter in a Sanur villa?",
+   "a": "During the dry season (May–September) aim for once a week; during the wet months (November–March) every three to four days if your pool sits near trees. Well-water villas may need more frequent cleaning because of suspended sand. A quick visual check before each swim session takes thirty seconds and saves the impeller from premature wear."
+  }
+ ],
+ "cta": "If you have worked through all five checks and the pump still will not pick up water, send me a short video or photo of the pump housing and pressure gauge on WhatsApp — I will tell you exactly what to look at next.",
+ "id": "A067",
+ "hub": "PE",
+ "status": "draft-qwen"
+}

@@ -1,0 +1,78 @@
+{
+ "title": "How to Choose a Pool Pump for Your Bali Villa",
+ "slug": "choose-pool-pump-bali-villa",
+ "meta": "Size your pool pump by volume, motor power, and inverter vs standard type. Practical guide for Sanur villa owners facing salt air, heat, and monsoon wear.",
+ "intro": "The right pool pump is not the biggest or most expensive one on the shelf. It is the one that turns over your specific water volume at the correct speed without burning out under Bali's constant heat and salt-laden sea breeze. Here is how to work through the numbers before you buy.",
+ "sections": [
+  {
+   "h2": "Water Volume and Turnover Rate",
+   "paragraphs": [
+    "Start with the basics: measure your pool's length, width, and average depth, then multiply them together. A typical Sanur villa pool might be 4 m × 8 m × 1.5 m, giving roughly 48 cubic metres (48,000 litres). Write that number down – every other decision flows from it.",
+    "A healthy pool needs its entire volume circulated through the filter once every six to eight hours. In the dry season that is straightforward. During the rainy months, organic debris, dust kicked up by the sea wind, and occasional flooding of the skimmer area all increase the load. If your pump barely keeps up in June, it will struggle even more in November."
+   ],
+   "bullets": [
+    "Measure L × W × average depth → total litres",
+    "Divide total litres by desired turnover time (6–8 h) → required flow rate in litres per hour",
+    "Match that flow rate to a pump performance curve, not just a kW figure on the box",
+    "Add 10–20 % headroom if your plumbing has long runs or multiple return jets"
+   ]
+  },
+  {
+   "h2": "Motor Power and Sizing",
+   "paragraphs": [
+    "Do not jump straight to kilowatts. The motor size you need depends on the flow rate above plus the static head of your system – how high the water must be lifted and how much friction loss the pipes create. A pump rated at 1.5 kW might deliver 20 m³/h in one setup but only 12 m³/h in another with longer piping or a taller return jet.",
+    "Check whether your villa's electrical supply is single-phase or three-phase. Older Sanur villas built before the 2000s often carry single-phase 220 V service; newer compounds may have three-phase. Buying a three-phase pump for a single-phase house means either a costly conversion or a pump that simply will not run. Confirm voltage and phase count on your meter box before ordering.",
+    "If you are unsure about wiring or circuit capacity near the pool equipment, stop and call a licensed electrician. Working on electrics beside standing water carries a real shock risk."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Brands Worth Considering",
+   "paragraphs": [
+    "You will see names like Pentair, Hayward, Sta-Rite, Emaux, and a range of Chinese-manufactured units in Bali hardware stores. Each has models across different price brackets. The practical question for a Sanur owner is not just which brand sounds best, but where spare parts – impellers, seals, motor bearings – can be sourced locally within a reasonable time.",
+    "Ask the supplier to confirm they stock the specific seal kit and impeller for the model you are buying. In the dry season, when humidity drops and salt crystals settle on every metal surface, bearing wear accelerates. A pump whose spares sit in a warehouse in Jakarta is a gamble during monsoon week. Price depends entirely on the unit chosen; send photos of your current setup and we can quote what makes sense."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Inverter (Variable-Speed) Pumps",
+   "paragraphs": [
+    "An inverter pump lets you dial the motor speed up or down instead of running at one fixed RPM. For most of the day you only need gentle circulation; full power matters mainly when backwashing the filter or after heavy leaf fall. Running at 50 % speed uses a fraction of the energy compared with 100 %, because pump power scales with the cube of rotational speed.",
+    "In practice this means quieter operation – important if the equipment box sits near a bedroom window – and less thermal stress on the windings, which extends motor life in our 32 °C-plus ambient heat. The upfront cost is higher than a standard pump, but daily running cost is lower. Whether that trade-off works for you depends on how many hours per day you actually run the pool.",
+    "If your villa already has a timer or smart-home controller, an inverter model integrates more cleanly. If you simply want a reliable workhorse and run the pump two to three hours a day, a good standard pump may be all you need."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Saving Energy and Money",
+   "paragraphs": [
+    "A few habits make a real difference over a year without any extra hardware:"
+   ],
+   "bullets": [
+    "Clean the strainer basket every two days (daily in rainy season); a clogged basket forces the motor to work harder",
+    "Run the pump during off-peak hours if your tariff allows it",
+    "Check the suction line for air leaks; a hissing sound at the skimmer means the pump is losing prime",
+    "Top up water from PDAM mains or your well rather than hosing the garden into the pool – saves both water and an extra filtration cycle",
+    "In the dry season, wipe salt film off the motor housing weekly; accumulated crystals trap moisture against bearings"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "How often should I replace my pool pump?",
+   "a": "There is no fixed interval. Most pumps last several years if the seal kit is renewed on schedule and the impeller stays clean. If you hear grinding, see weeping at the shaft, or notice flow has dropped noticeably, have it inspected before the motor seizes completely."
+  },
+  {
+   "q": "Can I just buy a bigger pump to fix slow circulation?",
+   "a": "Not always. An oversized pump can over-pressurise older plumbing, blow gaskets, and waste energy. The correct fix is usually matching the right-sized pump to your actual head loss, not simply going one size up."
+  },
+  {
+   "q": "What happens if the pump runs dry?",
+   "a": "The impeller loses its water cushion, friction heat builds rapidly, and the mechanical seal can crack within minutes. If you suspect a dry-run situation – for example after a long power cut that drained the suction line – do not restart until you confirm water is flowing through the strainer basket first."
+  }
+ ],
+ "cta": "If you are not sure which size fits your pool, send a photo of your current pump's nameplate and rough pool dimensions on WhatsApp – we will work out the right spec before you spend a single rupiah.",
+ "id": "A068",
+ "hub": "PE",
+ "status": "draft-qwen"
+}
