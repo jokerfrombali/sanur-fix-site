@@ -132,7 +132,7 @@ def wa_link(u, what=""):
     return f"https://wa.me/{WHATSAPP}?text={quote(u['wa_text'] + what)}"
 
 def buttons(u, what=""):
-    b = f'<div class="btns"><a class="btn wa" href="{wa_link(u, what)}">{wa_i()} {u["wa"]}</a><a class="btn ghost" href="{TEL}">{ph_i()} {PHONE}</a>'
+    b = f'<div class="btns"><a class="btn wa" href="{wa_link(u, what)}">{wa_i()} {u["wa"]}</a>'
     if GBP_URL:
         b += f'<a class="btn ghost" href="{GBP_URL}">Google</a>'
     return b + "</div>"
@@ -154,13 +154,13 @@ def page(lang, slug, title, descr, body, alts, crumbs=None, schema=None, head=No
     nav = (f'<nav class="main">' + dd(u["services"], url(lang, sec(lang, "sv")), srv_links, u["all_services"])
            + dd(u["areas"], url(al, sec(al, "ar")), area_links, u["areas_h1"])
            + "".join(f'<a class="m" href="{h}">{n}</a>' for h, n in links) + "</nav>")
-    tools_ = (f'<div class="htools"><a class="hphone" href="{TEL}">{ph_i(18)}<span>{PHONE}</span></a>'
+    tools_ = (f'<div class="htools">'
               f'<details class="langsel"><summary aria-label="{u["language"]}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.6 2.8 3.9 6 3.9 9.5s-1.3 6.7-3.9 9.5c-2.6-2.8-3.9-6-3.9-9.5S9.4 5.3 12 2.5z"/></svg><span>{lang.upper()}</span></summary><div class="ll">{ll}</div></details>'
               f'<a class="hbtn" href="{wa_link(u, wa_what)}">{wa_i(18)} WhatsApp</a>'
               f'<button class="burger" aria-label="{u.get("menu", "Menu")}" onclick="document.body.classList.toggle(\'menu-open\')"><span></span></button></div>')
     mnav = (f'<div class="mnav"><h4>{u["services"]}</h4><div class="ll">{srv_links}</div><h4>{u["areas"]}</h4><div class="ll">{area_links}</div>'
             + "".join(f'<a class="big" href="{h}">{n}</a>' for h, n in links)
-            + f'<a class="big" href="{TEL}">{PHONE}</a><h4>{u.get("language", "Language")}</h4><div class="ll">{ll}</div></div>')
+            + f'<h4>{u.get("language", "Language")}</h4><div class="ll">{ll}</div></div>')
     top = ""
     if head:
         cr = '<div class="crumbs"><a href="' + url(lang) + '">' + u["home"] + "</a> / " + " / ".join(
@@ -186,7 +186,7 @@ def page(lang, slug, title, descr, body, alts, crumbs=None, schema=None, head=No
 <div><h4>{u['services']}</h4>{svc}</div><div><h4>{u['areas']}</h4>{ars}</div>
 <div><h4>{u['contacts']}</h4><a href="{wa_link(u)}">WhatsApp</a><br><a href="{TEL}">{PHONE}</a><br><a href="{url(gl, sec(gl, 'gd'))}">{u['guides']}</a><br><a href="{url(lang, sec(lang, 'pr'))}">{u['prices']}</a></div></div>
 <div class="cred">{u['credits']}.</div></div></footer>
-<script>document.addEventListener('click',e=>{{const a=e.target.closest('a[href^="https://wa.me"],a[href^="tel:"]');if(a&&window.gtag)gtag('event','generate_lead',{{method:a.href.split(':')[0]}});if(e.target.closest('.mnav a'))document.body.classList.remove('menu-open')}});</script>
+<script>document.addEventListener('click',e=>{{const a=e.target.closest('a[href^="https://wa.me"],a[href^="tel:"]');if(a&&window.gtag)gtag('event','generate_lead',{{method:a.href.split(':')[0]}});if(e.target.closest('.mnav a'))document.body.classList.remove('menu-open')}});(function(){{var h=document.querySelector('.hero,.phead'),lim=h?h.offsetHeight*0.6:300;function f(){{document.body.classList.toggle('scrolled',scrollY>lim)}}addEventListener('scroll',f,{{passive:true}});f()}})();</script>
 <script src="{BASE}/lang.js?v={CSS_V}" defer></script>
 </body></html>"""
 
@@ -278,7 +278,7 @@ def build():
                   + (f'<div class="facts">{facts_html}</div>' if facts_html else f'<p>{u["master_txt"]}</p>')
                   + '<ul class="check">' + "".join(f"<li>{t}</li>" for t in u["trust"]) + f'</ul><div style="margin-top:26px">{buttons(u)}</div></div></div></section>')
         tel_a = f'<a href="{TEL}">{PHONE}</a>'
-        inline = lambda what="": f'<p class="inl">{u["call_or_wa"].replace("{phone}", tel_a).replace("WhatsApp", f"<a href={chr(34)}{wa_link(u, what)}{chr(34)}>WhatsApp</a>", 1)}</p>'
+        inline = lambda what="": f'<p class="inl"><a href="{wa_link(u, what)}">{wa_i(18)} {u["ready"]}</a> {u["ready_sub"]}</p>'
         stars = lambda n: "★" * int(n) + "☆" * (5 - int(n))
         reviews = (f'<section class="alt"><div class="wrap"><div class="shead"><h2>{u["reviews_h"]} {demo}</h2>'
                    + (f'<p><a href="{GBP_URL}">{u["reviews_more"]} →</a></p>' if GBP_URL else "") + '</div><div class="revs">'
@@ -290,7 +290,7 @@ def build():
         projects = (f'<section><div class="wrap"><div class="shead"><div><div class="eyebrow">{u["projects"]} {demo}</div><h2>{u["projects_h1"]}</h2></div>'
                     f'<p><a href="{url(lang, "work")}">{u["projects_lead"]} →</a></p></div><div class="grid">{"".join(pcard(p) for p in PROJECTS[:4])}</div></div></section>') if PROJECTS else ""
         cta = (f'<section style="padding-top:0"><div class="wrap"><div class="cta"><div><h2>{u["ready"]}</h2><p>{u["ready_sub"]}</p></div>'
-               f'<div class="btns"><a class="btn wa" href="{wa_link(u)}">{wa_i()} {u["wa"]}</a><a class="btn ghost" href="{TEL}">{ph_i()} {PHONE}</a></div></div></div></section>')
+               f'<div class="btns"><a class="btn wa" href="{wa_link(u)}">{wa_i()} {u["wa"]}</a></div></div></div></section>')
         def acard_art(a):
             return (f'<a class="card" href="{url(lang, gpath(lang, a))}"><div class="im"><img loading="lazy" src="{img(art_photo(a), 700, 525)}" alt=""></div>'
                     f'<h3>{e(a["title"])}</h3><p>{e(a["meta"][:110])}…</p><span class="more">{u["read"]} →</span></a>')
@@ -313,7 +313,7 @@ def build():
                 rating = f'<div class="rating"><span class="st">★★★★★</span>{u["rated"].replace("{r}", f"{avg:.1f}").replace("{n}", str(len(REVIEWS)))} {demo}</div>'
             feat = '<ul class="feat">' + "".join(f"<li>{CHECK_ICO}<span>{t}</span></li>" for t in u["trust"]) + "</ul>"
             return (f'<div class="hero pro"><img src="{img(photo, 2200, 1300)}" alt="" fetchpriority="high"><div class="wrap"><div>{rating}<h1>{h1}</h1>'
-                    f'<p>{lead}</p>{feat}<a class="pcard" href="{TEL}"><i>{ph_i(20)}</i><span><small>{u["call"]} · WhatsApp</small><b>{PHONE}</b></span></a></div>{lead_form(what)}</div></div>')
+                    f'<p>{lead}</p>{feat}</div>{lead_form(what)}</div></div>')
         tc = [(MASTER["years"] + " " + u["years"]) if MASTER["years"] else u["only"], u["only"], u["pricing_items"][0][0], (f"★ {len(REVIEWS)} Google" if REVIEWS else u["pricing_items"][2][0])]
         tsub = [MASTER["languages"] or u["badge"], u["badge"], u["pricing_items"][0][1][:70] + "…", u["reviews_h"] if REVIEWS else u["pricing_items"][2][1][:70] + "…"]
         tcards = '<div class="wrap"><div class="tcards">' + "".join(f"<div><b>{a}</b><span>{b}</span></div>" for a, b in zip(tc, tsub)) + "</div></div>"
@@ -450,7 +450,7 @@ def build():
                     c += "<ul>" + "".join(f"<li>{e(b)}</li>" for b in x["bullets"]) + "</ul>"
                 if i == 2:
                     c += (f'<div class="inline-cta"><div><b>{u["need_help"]}</b><br><span style="color:var(--muted)">{e(a.get("cta") or u["ready_sub"])}</span></div>'
-                          f'<a class="btn wa" href="{wa_link(u, a["title"])}">{wa_i()} WhatsApp</a><a class="btn ghost" href="{TEL}">{ph_i()} {u["call"]}</a></div>')
+                          f'<a class="btn wa" href="{wa_link(u, a["title"])}">{wa_i()} WhatsApp</a></div>')
             if a.get("faq"):
                 c += f'<h2 id="faq">{u["faq_h"]}</h2>' + "".join(f'<details><summary>{e(q["q"])}</summary><p>{e(q["a"])}</p></details>' for q in a["faq"])
             c += (f'<div class="inline-cta"><div><b>{SV[srv]["name"]}</b><br><span style="color:var(--muted)">{u["ready_sub"]}</span></div>'

@@ -137,3 +137,7 @@ details.langsel{padding:0;border:0;margin:0}details.langsel>summary{display:bloc
  .htools{gap:6px}.hbtn{padding:9px 12px!important;font-size:14px!important;gap:6px}.hbtn svg{width:16px;height:16px}
  .langsel>summary{padding:8px 8px}.burger{width:38px;height:38px}}
 @media(max-width:360px){.hbtn{font-size:0!important;padding:10px!important}.hbtn svg{width:20px;height:20px}}
+/* WhatsApp в шапке — после прокрутки первого экрана */
+.hbtn{opacity:0;visibility:hidden;transform:translateY(-6px);transition:opacity .25s,transform .25s,visibility .25s}
+body.scrolled .hbtn,body.menu-open .hbtn{opacity:1;visibility:visible;transform:none}
+p.inl a{display:inline-flex;align-items:center;gap:6px;color:var(--wa)!important;font-weight:700}
