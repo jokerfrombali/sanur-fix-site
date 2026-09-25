@@ -1,0 +1,75 @@
+{
+ "title": "Overflow & Infinity Pool Equipment: A Sanur Villa Guide",
+ "slug": "overflow-infinity-pool-equipment",
+ "meta": "How overflow and infinity pool equipment works in your Sanur villa — the tank, pump, water-level control, and the problems we see most often after the rainy season.",
+ "intro": "An overflow or infinity pool doesn't just sit there — it has a hidden system of tanks, pumps, and level controls working around the clock. In a Sanur villa, that system deals with salty coastal air, heavy monsoon rain, and PDAM or well water that is rough on seals and filters. Here is what is actually under your deck and how to keep it running.",
+ "sections": [
+  {
+   "h2": "How It Works",
+   "paragraphs": [
+    "Unlike a standard skimmer pool where you top up the water by hand, an overflow pool is self-regulating. Water flows over a channel cut into the pool edge, drops through a gutter, and lands in a reservoir tank below grade. A pump then pushes that water back up through the filtration loop and returns it to the pool. The level stays constant because the outflow rate matches the inflow rate — as long as every component is healthy. Think of it as a closed hydraulic circuit with one open top."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "The Overflow Tank",
+   "paragraphs": [
+    "The overflow tank (sometimes called the equalisation vessel) is the heart of the system. In most Sanur villas it is a concrete box built during construction, sitting at ground level behind or beside the pool. Inside you will find a weir plate or baffle stack that separates floating debris from the clean water heading to the filter.",
+    "Over time, especially after the rainy season when leaf litter and sand wash in, sediment builds up on the bottom and algae colonises the walls. If the tank has not been opened in two or three years, expect a thick layer of sludge. Cracks in old concrete tanks are common too; they leak slowly and can erode the surrounding soil. When we service these, we usually pressure-wash the interior, check the baffles for corrosion, and inspect the concrete for hairline cracks before sealing them."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Water Level Control",
+   "paragraphs": [
+    "Because the whole system depends on a stable water level, there is an auto-fill arrangement feeding into the tank. A float valve or electronic sensor opens the inlet when the level drops and shuts it off when full.",
+    "In Bali this part needs more attention than in drier climates. PDAM mains pressure fluctuates through the day, and well-water levels dip noticeably in the dry months (May to September). Iron and manganese in untreated well water coat the float mechanism and the valve seat, so the fill valve sticks open or closed. Clean the float assembly every few months and flush the inlet line if you notice rust-coloured streaks around the tank rim."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "The Pump",
+   "paragraphs": [
+    "The circulation pump runs almost continuously, which means its bearings, seals, and motor windings are under constant stress. Sanur's coastal humidity accelerates corrosion on any exposed metal fittings, and the vibration of a running pump on an older villa's slab foundation can loosen pipe connections over time.",
+    "Listen to your pump: a smooth hum is normal; grinding, rattling, or a sudden whine usually points to bearing wear or a clogged impeller. One safety note — if you ever smell burning insulation near the pump panel, see sparks, or feel a tingling shock when touching the enclosure, stop using the pool immediately and call a licensed electrician before anyone touches the wiring again. Never mix chlorine-based products while working near electrical panels; the fumes corrode contacts fast."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Typical Problems We See Most Often",
+   "paragraphs": [
+    "Here are the issues that come up regularly in Sanur villas with overflow or infinity setups:"
+   ],
+   "bullets": [
+    "Algae bloom inside the overflow tank after a wet week — organic load spikes and the filter cannot keep up. A full tank clean and a shock dose through the return jets usually clears it within two days.",
+    "Pump cavitation (bubbling, loss of pressure) caused by the water level dropping below the suction inlet. Check the fill valve first, then look for a crack in the tank or a leaking return line.",
+    "Corroded stainless-steel weir plates and gutter channels from years of salt air. Once pitting starts, the flow pattern changes and you get uneven overflow at one end of the pool.",
+    "Clogged baffles packed with sand, leaves, and insect debris after the rainy season. The result is back-pressure on the pump and reduced circulation around the villa.",
+    "Slow level drift over several weeks, traced to a worn float-valve seat that trickles continuously. Easy fix once found, but annoying if you are away and the pool runs low."
+   ]
+  },
+  {
+   "h2": "",
+   "paragraphs": [],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "How often should I clean the overflow tank?",
+   "a": "At minimum once a year, ideally before the rainy season kicks in around October. If your villa sits near the beach or under heavy tree cover, twice a year is wiser. A quick visual check through the access hatch every two months will catch early algae growth before it becomes a full clean-out job."
+  },
+  {
+   "q": "My pool level keeps dropping slowly — what could it be?",
+   "a": "The most common culprits are a leaking float-valve seat, a hairline crack in the concrete tank, or a small leak at a return-jet fitting. Start by checking the fill valve for drips, then inspect the tank walls when the water is low. If you cannot find it visually, we can do a dye test on the fittings or a pressure test on the tank. Send us a photo of the area and we will advise from there."
+  },
+  {
+   "q": "Can I convert my existing skimmer pool to an overflow system?",
+   "a": "In theory yes, but in practice it is a major structural change: you would need to cut a channel into the pool edge, build or install a new underground tank, reroute all plumbing, and re-plaster the affected area. For most Sanur villas the cost and disruption make a full renovation more realistic than a partial conversion. Talk to your builder first; the pool shell has to handle the extra hydrostatic load."
+  }
+ ],
+ "cta": "If something looks off with your overflow tank, pump, or water level, snap a quick photo and send it over on WhatsApp — we will take a look and let you know what the job involves before you commit to anything.",
+ "id": "A078",
+ "hub": "PE",
+ "status": "draft-qwen"
+}

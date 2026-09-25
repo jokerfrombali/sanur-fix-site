@@ -1,0 +1,76 @@
+{
+ "title": "Pool Light Replacement & LED Upgrade in Sanur",
+ "slug": "pool-light-replacement-led-sanur",
+ "meta": "Replace a pool light bulb or upgrade to LED in your Sanur villa. Practical steps for 12 V safety, fixing niche leaks, and setting up dimmer control.",
+ "intro": "Your pool light has gone dim, started flickering, or simply stopped working. In most Sanur villas that means either a burnt-out halogen bulb or a corroded LED module sitting behind the glass lens. The good news is that in many cases you can swap the lamp yourself in under twenty minutes — provided you follow the 12-volt safety steps and check the rubber gasket before you close everything back up.",
+ "sections": [
+  {
+   "h2": "Types of Pool Lights You Will Find in Sanur Villas",
+   "paragraphs": [
+    "Older builds (think early-2000s beachfront villas) almost always use a 12 V halogen bulb, usually 50 W or 75 W, sealed inside a stainless-steel or aluminium housing with a tempered-glass lens. Newer constructions and recent renovations tend to come with an integrated LED module — often RGB or warm-white — bolted into the same niche shape.",
+    "The sea air here is relentless on metal fittings. Even if the bulb still works, you may notice greenish corrosion on the threaded collar or a faint white residue around the gasket. That is salt and humidity doing its slow work, and it is the number-one reason pool lights fail in Sanur rather than from the lamp itself."
+   ],
+   "bullets": [
+    "Halogen: replaceable bulb, simple socket, cheaper part but shorter life.",
+    "LED module: no separate bulb, longer life, but if one diode dies the whole unit usually needs swapping.",
+    "Check the model number stamped on the back plate before ordering any replacement."
+   ]
+  },
+  {
+   "h2": "12-Volt Safety: Read This Before Touching Anything",
+   "paragraphs": [
+    "Pool lights run at 12 V DC fed through a small transformer (often called a 'pool light isolator') that sits in your electrical panel or under the stairs. The transformer converts 230 V mains to 12 V. Even though 12 V is generally safe for a dry hand, working near standing water with any live conductor nearby is not something to take lightly.",
+    "Before you open the lens: switch off the breaker feeding the transformer, then verify with a multimeter or a non-contact voltage tester that there is truly no output at the lamp terminals. If you smell burning plastic, see scorch marks on the wiring, or notice the transformer housing is hot and discoloured, stop immediately and call a licensed electrician. Do not keep troubleshooting a faulted transformer yourself — saltwater plus a shorted coil is a genuine shock and fire risk.",
+    "If chlorine tablets have been dropped into the pool recently, let the water circulate for at least an hour before you submerge any part of the housing. Mixing residual chlorine with metal fittings accelerates corrosion and can degrade rubber seals."
+   ]
+  },
+  {
+   "h2": "Replacing the Lamp: Step by Step",
+   "paragraphs": [
+    "Lower the water level so it sits at least 15 cm below the light niche. You do not need to drain the whole pool; a small pump or even a bucket works fine for this height difference. This keeps splashing out of your face and protects the electrical connections while you work.",
+    "Switch off the breaker as described above. Unscrew the retaining ring (usually a large knurled nut) and lift the glass lens out. Carefully pull the old bulb or LED module straight back along its axis — do not twist, because the pins are fragile. Wipe the socket contacts with a dry cloth; if there is white or greenish crud, clean it gently with a cotton bud and a tiny dab of isopropyl alcohol, then let it air-dry completely.",
+    "Inspect the rubber gasket that sits between the housing and the niche wall. If it is cracked, flattened, or has a salt crust baked into it, replace it. A new EPDM or silicone gasket costs very little and prevents the slow seep that eventually kills the next lamp. Press the new gasket fully into its groove before seating the housing.",
+    "Fit the replacement bulb or LED module, re-seat the housing, thread the retaining ring on by hand first, then tighten with a flat wrench just enough to compress the gasket evenly — do not over-torque, or you will crack the glass lens. Switch the breaker back on and test."
+   ],
+   "bullets": [
+    "Halogen: match wattage exactly; going higher will overheat the sealed housing.",
+    "LED retrofit: confirm voltage (12 V DC) and pin layout before buying.",
+    "Always fit a fresh gasket at the same time as the lamp."
+   ]
+  },
+  {
+   "h2": "Water in the Niche? Fix the Leak Before You Fit a New Lamp",
+   "paragraphs": [
+    "If you open the housing and find standing water, mineral deposits, or rust on the wiring, the leak has been there for a while. Fitting a new bulb without addressing the source means the replacement will fail within weeks, especially once the rainy season brings heavier splash-back from the pool surface.",
+    "Common culprits in Sanur villas are a worn gasket, a hairline crack in the concrete niche wall behind the housing, or a corroded threaded collar that no longer seals against the wall plate. The fix is usually re-sealing the niche with a marine-grade silicone or polyurethane sealant around the perimeter of the housing flange, then re-tightening the ring.",
+    "If the concrete itself is spalling or the steel reinforcement is showing through, that is beyond a DIY patch. Call a professional to assess whether the niche needs a small cement repair or a full re-cast before you refit the light."
+   ]
+  },
+  {
+   "h2": "Dimmers, Timers & Smart Control",
+   "paragraphs": [
+    "A simple 12 V dimmer (the kind that screws into the same socket as the transformer output) lets you drop the light to a soft glow for evening dinners by the pool rather than full brightness at midnight. Make sure the dimmer is rated for the total wattage of your fitting and is specifically designed for DC loads if you have an LED module — a standard AC dimmer will buzz and shorten LED life.",
+    "Many villa owners in Sanur pair the pool light with a basic timer relay so it switches on at dusk and off after two hours, saving energy during the long dry-season evenings when nobody is swimming. If your villa already runs a smart-home hub, check whether the transformer can be switched via a relay input; that way you can control the light from your phone without rewiring anything.",
+    "Whatever control method you choose, keep the wiring connections inside a sealed junction box away from direct spray. The humid air here will creep into any open terminal and cause intermittent faults within a season."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I just screw a standard LED bulb into my old halogen fitting?",
+   "a": "Only if the LED bulb is explicitly rated for 12 V DC pool use and matches the pin type (G5.3, GY6.35, etc.). A mains-voltage LED or one meant for a different socket will not fit correctly and may overheat inside the sealed housing. When in doubt, send me a photo of the socket and I will confirm compatibility before you order."
+  },
+  {
+   "q": "How often should I replace the rubber gasket?",
+   "a": "As a rule of thumb, every time you service the light — which for a halogen setup means roughly once a year, and for an LED module maybe every three to four years. In Sanur's salty, high-humidity air the rubber degrades faster than in inland climates, so do not skip the visual check even if there is no visible leak yet."
+  },
+  {
+   "q": "My pool light keeps tripping the RCD breaker. What is going on?",
+   "a": "That almost always means moisture has reached the wiring or the transformer secondary side, creating a small earth-leakage current. Switch off the circuit, open the niche, dry everything thoroughly, inspect the gasket and sealant, and test again. If it trips immediately on re-energising, stop and call a professional — a persistent fault can damage the transformer or, worse, create a shock hazard around the pool edge."
+  }
+ ],
+ "cta": "Send me a clear photo of your light housing (model number if visible) on WhatsApp and I will tell you exactly which replacement part to order or whether the niche needs a full reseal before you fit anything new.",
+ "id": "A075",
+ "hub": "PE",
+ "status": "draft-qwen"
+}

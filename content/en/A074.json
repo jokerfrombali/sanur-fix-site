@@ -1,0 +1,76 @@
+{
+ "title": "Pool Heating in Bali: Do You Actually Need It?",
+ "slug": "pool-heating-bali-sanur",
+ "meta": "Should you heat your villa pool in Sanur? We break down heat pumps vs solar heaters, real costs, and what installation looks like in Bali.",
+ "intro": "Sanur's water temperature hovers around 28–30 °C most of the year, so many villa owners never think about heating their pool. But during the rainy season (November to March), cooler nights and days of overcast sky can drop that number by a few degrees — enough to make an early-morning swim feel unpleasant. Whether you actually need a heater depends on how often you use the pool, who is swimming, and which side of the island your villa sits on.",
+ "sections": [
+  {
+   "h2": "Do You Really Need Pool Heating in Sanur?",
+   "paragraphs": [
+    "For most expats living in Sanur, the honest answer is: not for the whole year. From April through October the sea breeze off the beach keeps evenings warm, and the pool rarely drops below 26 °C even at night. If you swim once or twice a day after lunch, you will probably be perfectly happy without any equipment.",
+    "Things change when you have small children who want to splash at 7 a.m., or when you are here during the wet months and the sun hides behind cloud for three days straight. In those weeks the pool can sit at 24–25 °C, which feels chilly if you step out of it into a humid, cool air. A modest 3–5 °C boost makes a real difference in comfort."
+   ],
+   "bullets": [
+    "You likely do NOT need heating if you swim midday, stay mostly Apr–Oct, and tolerate slightly cooler water.",
+    "You probably DO benefit from heating if you have toddlers, swim early morning, or spend the rainy season on-site."
+   ]
+  },
+  {
+   "h2": "Heat Pump for Your Pool",
+   "paragraphs": [
+    "A heat pump works like an air-conditioner in reverse: it pulls thermal energy from the surrounding air and transfers it into your pool water through a closed-loop coil. It is the most common option we see installed in Sanur villas because it is compact, quiet, and does not require a large roof area.",
+    "In Bali's climate there are two practical considerations. First, the salt-laden sea air near Sanur beach accelerates corrosion on metal fins and fittings, so make sure the unit you choose has a marine-grade coating or is mounted under a covered pergola. Second, humidity is high year-round; condensation will form on the cold side of the heat exchanger, which means you need proper drainage underneath the unit rather than letting water pool on a concrete slab.",
+    "Electrical safety matters here. A heat pump draws continuous current, often 16–32 A depending on size. If your villa was wired before 2010, the existing circuit may not be rated for that load. Do not improvise with extension cables or unmarked breakers — have a licensed electrician verify the panel before any installation."
+   ]
+  },
+  {
+   "h2": "Solar Pool Heating",
+   "paragraphs": [
+    "Bali gets plenty of sun, so solar collectors (flat panels or evacuated tubes) can warm pool water effectively during the dry season. The system is simple: a pump circulates water through the collector array, usually mounted on the roof or a freestanding frame, and back into the pool.",
+    "The limitation in Sanur is obvious: once the rainy season rolls in and skies stay grey for days, output drops sharply. Solar also depends on roof orientation and available space. Many older Sanur villas have small, steeply pitched roofs already crowded with PDAM rooftop tanks, satellite dishes, and laundry lines, leaving little room for a collector bank.",
+    "If your roof has at least 8–10 m² of clear south- or west-facing area and you are mostly here in the dry months, solar can be a low-running-cost option. Pair it with a small heat pump as backup and you cover both seasons."
+   ]
+  },
+  {
+   "h2": "What Will It Cost?",
+   "paragraphs": [
+    "There is no single number I can give you, because the total depends on your pool volume (a typical Sanur villa pool runs 40 to 90 cubic metres), the type of heater, how far the unit sits from the pool, whether new electrical circuits are needed, and the condition of existing plumbing.",
+    "A rough rule of thumb: a compact heat pump plus installation will cost less than a full solar array with structural mounting, but the heat pump carries a higher monthly electricity bill. The exact figure changes job by job. The best way to get a real number is to send me photos of your pool area, roof, and electrical panel on WhatsApp — I look them over and quote from what I see rather than guessing over the phone."
+   ]
+  },
+  {
+   "h2": "Installation: What to Expect",
+   "paragraphs": [
+    "A typical install in a Sanur villa takes one to three days depending on complexity. Here is the usual sequence:",
+    "We confirm the pool's circulation loop (pump size, filter type, return jet positions) so the heater fits without rerouting main pipes. If your villa uses well water alongside PDAM supply, we check chlorine residual levels first — high chlorine or iron staining can foul a heat-exchanger coil within months.",
+    "The electrician pulls a dedicated circuit from the main board, installs an RCD (residual-current device) breaker, and runs cable through conduit. This step is non-negotiable for safety around water.",
+    "The unit is mounted on a vibration-dampening pad, connected to the suction and return lines with flexible hoses and isolation valves, and pressure-tested before we hand it back to you.",
+    "If you smell gas near any plumbing work, or notice sparks at an electrical junction while the system is being wired, stop everything and call a professional immediately. Do not attempt to troubleshoot live circuits yourself."
+   ],
+   "bullets": [
+    "Confirm pump and filter compatibility before ordering anything.",
+    "Check water chemistry (chlorine, pH, iron) if you draw from a well.",
+    "Ensure a dedicated RCD-protected circuit exists before connecting the heater.",
+    "Mount the unit where sea spray and direct monsoon rain are shielded."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I just leave my pool unheated and still swim comfortably in Sanur?",
+   "a": "For most of the year, yes. Between April and October the ambient heat keeps pool water in the high 20s °C even overnight. You only feel the need for extra warmth during the wet months or very early mornings when the sea breeze cools things down."
+  },
+  {
+   "q": "Will salt air from the beach damage a heat pump over time?",
+   "a": "It can accelerate corrosion on unprotected metal parts. Choose a unit with marine-grade coating, mount it under cover, and rinse the fins with fresh water every few weeks. A short hose-down takes two minutes and saves you from a premature failure."
+  },
+  {
+   "q": "Do I need to change my existing pool pump to add a heater?",
+   "a": "Not always, but we check flow rate first. If your current pump is undersized for the added resistance of a heat-exchanger coil, circulation will drop and the heater may trip its low-flow safety cut-out. In that case an upgrade to a slightly larger variable-speed pump solves it."
+  }
+ ],
+ "cta": "Send me a couple of photos of your pool area and roof on WhatsApp — I will take a look and let you know whether heating actually makes sense for your setup before you spend a rupiah.",
+ "id": "A074",
+ "hub": "PE",
+ "status": "draft-qwen"
+}

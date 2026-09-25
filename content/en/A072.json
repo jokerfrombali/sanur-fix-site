@@ -1,0 +1,74 @@
+{
+ "title": "Saltwater Chlorinator for Your Pool: Setup & Repair Guide",
+ "slug": "salt-chlorinator-pool-setup-repair",
+ "meta": "Learn how a salt chlorinator works in your Sanur pool, get practical installation steps, decode common fault codes, and know when to replace the cell.",
+ "intro": "A saltwater chlorinator turns dissolved table salt into active chlorine through electrolysis, so you skip handling dry chemical tablets every week. In Sanur's humid, salty air this matters even more because sea-breeze corrosion hits metal parts fast if the system isn't maintained. Below is what actually happens inside the unit, how it plugs into your pool loop, and what to do the moment a fault light comes on.",
+ "sections": [
+  {
+   "h2": "How It Works",
+   "paragraphs": [
+    "A titanium cell coated with a thin precious-metal catalyst sits in the return line of your pool pump. As water flows over the plates, a low-voltage DC current splits sodium chloride into hypochlorous acid – the same active chlorine you'd get from granules or tablets. The controller regulates amperage based on the salinity reading; you set a percentage (typically 30–60 %) and let it run continuously.",
+    "Because Sanur pools sit outdoors year-round, UV exposure and heat degrade that catalyst layer faster than in cooler climates. Expect the cell to need cleaning or replacement roughly every two to three years rather than longer."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Installation Basics",
+   "paragraphs": [
+    "Most Sanur villas already have a small equipment area beside the pool, often under a corrugated roof near the septic tank. The chlorinator connects between the pump outlet and the filter inlet, or after the filter if space is tight. Here are the practical steps:",
+    "Shut off the pump and isolate the section using the two gate valves fitted either side of where the cell will go. If your villa was built before those valves were standard, add them now – they save hours later.",
+    "Mount the cell horizontally or at a slight angle so water fully covers the plates. Never mount it vertically unless the manufacturer explicitly allows it.",
+    "Connect the DC power cable from the control unit to the cell with the supplied quick-connect plug. Keep this cable well away from the PDAM supply line and any well-pump wiring; saltwater plus stray current is a dangerous combination.",
+    "Set salinity to roughly 3,000–3,500 ppm (about one teaspoon per litre). In Sanur, if you top up from a rooftop rainwater tank, re-check the reading after each fill because mineral content varies seasonally.",
+    "Run the system for 24 hours, then test free chlorine with a liquid kit. Adjust amperage until you land in the 1–3 ppm range."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Caring for the Cell",
+   "paragraphs": [
+    "The cell is the only consumable part. Over time calcium and magnesium scale builds up on the plates and the catalyst slowly wears away. You'll notice the controller demanding higher amperage to hold the same chlorine level, or the water turning faintly cloudy despite correct salinity.",
+    "Cleaning is straightforward: disconnect the cell, soak it in a dilute citric-acid solution for about 30 minutes, rinse thoroughly under fresh water, and refit. If the plates look pitted, discoloured beyond light tan, or the resistance reading on the controller sits far above spec, the cell has reached end-of-life.",
+    "Never pour any cleaning chemical into the cell housing while residual chlorine is still present. Rinse completely before soaking, and work in a ventilated area – fumes over an open pool deck are unpleasant at best and hazardous at worst."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Reading Common Fault Codes",
+   "paragraphs": [
+    "Controllers from different brands use different labels, but the patterns repeat across the board:",
+    "'No flow' or 'Low flow': the pump isn't pushing enough water through the cell. Check for a clogged filter, a partially closed valve, or air trapped in the line after a dry-season drain-and-clean.",
+    "'Cell overheat': scale is insulating the plates. Clean the cell as described above; if the fault returns within a week the cell is likely worn out.",
+    "'Salinity low': evaporation or backwashing has dropped the salt concentration below working range. Top up with plain table salt (no iodine, no anti-caking agents) and re-test.",
+    "'DC output zero': the control board may have tripped its internal fuse, or the cable connection has corroded. In Sanur's salty air, inspect the quick-connect plug monthly for green-white residue and clean it with a dry soft brush."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Replacing the Cell",
+   "paragraphs": [
+    "When the controller reports a resistance value well outside the normal band – or chlorine simply won't climb despite correct salinity and amperage – it's time to swap the cell. Physical size and pin layout differ between brands, so photograph your existing unit before ordering a replacement.",
+    "Fit the new cell in the same orientation, reconnect the plug, reset the controller's 'new cell' counter, and run at reduced amperage for the first 48 hours while the fresh catalyst beds in. If you're not comfortable cutting into the plumbing or handling an electrical connector near the pool edge, that's exactly the kind of job worth handing over rather than improvising."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I use a salt chlorinator if my pool is fed by PDAM tap water?",
+   "a": "Yes. PDAM water in Sanur already carries some dissolved minerals; just confirm your total alkalinity and calcium hardness are in range before adding salt, otherwise scale will coat the plates faster than usual."
+  },
+  {
+   "q": "Do I still need shock chlorine with a salt system?",
+   "a": "Occasionally, yes. Salt cells produce steady free chlorine but don't deliver the high-impact superchlorination hit needed after heavy bather load or a rainy-season algae spike. A monthly liquid shock keeps organics under control."
+  },
+  {
+   "q": "What should I do if I smell strong chlorine near the equipment area?",
+   "a": "Stop work immediately, ventilate the space, and do not mix any other chemical nearby. Call a qualified technician to inspect the cell housing and controller before restarting the pump."
+  }
+ ],
+ "cta": "If your chlorinator is throwing an error code you can't decode, send a clear photo of the display and the cell on WhatsApp – we'll tell you what's going on and quote from there.",
+ "id": "A072",
+ "hub": "PE",
+ "status": "draft-qwen"
+}

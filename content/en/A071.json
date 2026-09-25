@@ -1,0 +1,78 @@
+{
+ "title": "Pool Filter Pressure Gauge: What Your Reading Actually Means",
+ "slug": "pool-filter-pressure-gauge-readings",
+ "meta": "Learn what normal, high, and low readings on your Sanur villa pool filter pressure gauge mean, and when to call a technician before damage spreads.",
+ "intro": "The pressure gauge on your pool filter is the simplest diagnostic tool you have, yet most villa owners in Sanur ignore it until something breaks. A healthy reading usually sits between 10 and 25 PSI (roughly 0.7–1.7 bar) once the pump has been running for two or three minutes. If the needle is well outside that band, the gauge is telling you exactly where to look next.",
+ "sections": [
+  {
+   "h2": "What Counts as Normal",
+   "paragraphs": [
+    "Turn the pump on, let it run for a couple of minutes so the system stabilises, then read the dial. For most cartridge filters and sand filters found in Sanur villas, a steady needle somewhere between 10 and 25 PSI is the sweet spot. The exact number varies with pump size, pipe diameter, and how much water is actually flowing through the media.",
+    "If your villa draws from a well rather than PDAM mains, the mineral content can be higher. That means the filter loads up a little faster, and your 'normal' baseline might creep toward the upper end of the range over a few weeks. Write down the reading when the filter is freshly cleaned; that becomes your personal reference point."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "High Pressure: What It Is Telling You",
+   "paragraphs": [
+    "A needle climbing past 30 PSI (about 2 bar) almost always means the filter media is clogged. In the dry season this builds slowly from sunscreen residue, hair, and fine dust. During the rainy months, however, a single afternoon storm can dump leaves, twigs, and mud into the skimmer, and you may see pressure jump within a day or two.",
+    "Sea-salt spray is another quiet culprit here in Sanur. Salt crystals settle on the cartridge pleats or pack into sand grains, adding resistance even after a backwash. If you notice the gauge creeping upward week after week despite regular cleaning, salt buildup is likely part of the story.",
+    "Sustained high pressure forces the pump to work harder, shortens its life, and in older villas with tired seals can eventually crack a weak pipe joint. Do not ignore it for more than a few days."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Low Pressure: The Quieter Problem",
+   "paragraphs": [
+    "A reading below about 8 PSI, or a needle that barely moves when the pump starts, points to a loss of flow somewhere between the pool and the filter. The most common causes are a cracked suction pipe, a loose union fitting, or an air leak at the pump strainer basket.",
+    "In some older Sanur properties the pool is fed from a rooftop tank. If that tank runs low during a hot spell, the pump cavitates and the gauge drops. Check the tank level before assuming the filter itself is faulty.",
+    "A worn impeller seal inside the pump will also let air in and drop your pressure. You may hear a gurgling sound from the pump housing if this is the case."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "What to Do Step by Step",
+   "paragraphs": [
+    "First, switch off the pump and unplug it. Never open any fitting while water is under pressure. Then work through the list below in order; each step takes only a few minutes.",
+    "If pressure is high: remove the cartridge and rinse it with a garden hose, or backwash a sand filter for two to three minutes until the sight glass runs clear. Reassemble, restart the pump, and re-read the gauge after two minutes.",
+    "If pressure is low: check the skimmer basket, the pump strainer basket, and every visible union joint for weeping. Top up the rooftop tank if applicable. Listen for gurgling at the pump.",
+    "If the reading does not return to your normal band after cleaning, stop and call a technician. Mixing chlorine-based shock with other chemicals to 'force' a clean can create toxic gas—do not attempt that yourself. Likewise, if you smell gas near the pool equipment (some older villas have LPG lines running close), shut everything down and ventilate before calling anyone."
+   ],
+   "bullets": [
+    "Switch off and unplug the pump before touching anything.",
+    "Clean the filter media first; 80 percent of pressure issues are simply dirt.",
+    "Inspect all pipe joints and the pump seal for air leaks.",
+    "Check the rooftop tank level if your villa uses one.",
+    "Do not mix chlorine products to try to force-clean the system.",
+    "If you suspect a cracked pipe or a failing pump seal, stop and get professional help."
+   ]
+  },
+  {
+   "h2": "Replacing the Gauge Itself",
+   "paragraphs": [
+    "The gauge is a small brass or plastic dial screwed into the top of the filter housing. In Sanur's salty, humid air the internal spring corrodes within a year or two, and the needle starts sticking or drifting. You will notice it reads high even right after a fresh backwash, or it simply does not return to zero when the pump is off.",
+    "Replacement is straightforward: turn off the pump, unscrew the old gauge (a standard 1/4-inch NPT thread on most residential filters), wipe the threads clean, apply a thin layer of PTFE tape, and screw in the new unit. No soldering, no special tools beyond an adjustable wrench.",
+    "If the gauge face is cracked or the glass is clouded with mineral deposits from well water, replace it rather than trying to read through the haze. A misread gauge can send you chasing a problem that does not exist—or miss one that does."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "How often should I check my pool filter pressure gauge?",
+   "a": "A quick glance every time you start the pump for the day is enough. Note the reading down once a week so you can spot a slow creep upward before it becomes a real clog, especially during the rainy season when debris loads spike."
+  },
+  {
+   "q": "My gauge reads fine but the pool water still looks cloudy. What could be wrong?",
+   "a": "Cloudiness is usually a chemistry issue—pH out of range, low chlorine, or calcium scaling—rather than a filtration-flow problem. Test your water first. If chemistry checks out and the water stays cloudy, the cartridge or sand bed may have a channel forming where water bypasses the media; that needs a professional inspection."
+  },
+  {
+   "q": "Can sea salt damage my filter over time even if I rinse it regularly?",
+   "a": "Yes, to a degree. Salt crystals are abrasive at the microscopic level and accelerate wear on cartridge pleats and sand grains. Rinsing helps, but in Sanur's coastal air most owners find they need to replace cartridges a little more often than someone inland would. Keep an eye on your baseline pressure as a proxy for how much buildup is accumulating."
+  }
+ ],
+ "cta": "If your gauge is stuck, cracked, or giving readings you cannot explain, snap a clear photo of the dial and the filter housing and send it over on WhatsApp—I will take a look and let you know whether it is a five-minute fix or something that needs a proper service visit.",
+ "id": "A071",
+ "hub": "PE",
+ "status": "draft-qwen"
+}

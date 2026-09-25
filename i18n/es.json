@@ -1,0 +1,305 @@
+{
+ "lang": "es",
+ "ui": {
+  "tagline": "Fontanero y servicio de piscinas en Sanur",
+  "wa": "Escríbeme por WhatsApp",
+  "call": "Llamar",
+  "wa_text": "¡Hola! Necesito un técnico en Sanur: ",
+  "services": "Servicios",
+  "prices": "Precios",
+  "areas": "Zona de servicio",
+  "contacts": "Contacto",
+  "fix": "Qué reparo",
+  "how": "Cómo funciona",
+  "faq": "Preguntas frecuentes",
+  "on_req": "bajo petición",
+  "work": "Trabajo",
+  "price": "Precio",
+  "steps": [
+   "Envía una foto o un breve vídeo por WhatsApp",
+   "Recibe precio y horario que te convenga",
+   "Lo arreglo y te envío el resultado"
+  ],
+  "area_txt": "Solo trabajo en Sanur — toda la zona:",
+  "home_h1": "Fontanero y servicio de piscinas en Sanur, Bali",
+  "home_lead": "Técnico independiente: fontanería, fugas, calentadores, bombas, limpieza y reparación de piscinas, pequeñas reparaciones de villas en Sanur. Envía una foto — te respondo por WhatsApp.",
+  "prices_h1": "Precios en Sanur",
+  "prices_note": "El precio depende del trabajo. Cotizo con fotos antes de ir. Las piezas se cobran aparte con factura.",
+  "areas_h1": "Solo Sanur",
+  "contacts_h1": "Contacto",
+  "contacts_lead": "La forma más rápida: WhatsApp con una foto del problema y tu zona.",
+  "nf": "Página no encontrada",
+  "home": "Inicio",
+  "badge": "Solo Sanur · Bali",
+  "guides": "Guías",
+  "guides_h1": "Guías de villas y piscinas para Sanur",
+  "guides_lead": "Guías prácticas de un técnico que solo trabaja en Sanur: fugas, agua caliente, bombas, piscinas, fosas sépticas y pequeñas reparaciones.",
+  "toc": "En esta guía",
+  "related": "Guías relacionadas",
+  "read": "Leer guía",
+  "all_guides": "Todas las guías",
+  "need_help": "¿Necesitas una reparación?",
+  "faq_h": "Preguntas",
+  "trust": [
+   "Informe con fotos por WhatsApp tras cada trabajo",
+   "Cotizo con tus fotos antes de ir",
+   "Solo Sanur — vivo y trabajo aquí",
+   "Piezas cobradas con factura"
+  ],
+  "why": "Por qué los dueños de villas en Sanur me llaman",
+  "why_items": [
+   [
+    "Voy yo mismo",
+    "No es un centro de llamadas ni un equipo. La persona que te responde es la que hace el trabajo."
+   ],
+   [
+    "Una sola zona",
+    "No cruzo la isla. Conozco las villas de Sanur: piscinas antiguas, pozos salobres cerca de la playa, depósitos en azotea."
+   ],
+   [
+    "Informes para propietarios",
+    "¿Estás fuera? Recibes fotos antes/después y una breve lista de lo hecho."
+   ]
+  ],
+  "master_h": "Tu técnico",
+  "master_txt": "Aquí va una foto y unas palabras sobre el técnico: nombre, años de experiencia, idiomas. En Bali la gente elige a una persona, no a una empresa.",
+  "master_ph": "Foto del técnico",
+  "map_h": "Dónde trabajo",
+  "ready": "¿Algo roto? Envía una foto por WhatsApp.",
+  "ready_sub": "Te respondo con lo que se necesita, un precio y cuándo puedo ir.",
+  "credits": "Fotos: Unsplash",
+  "eyebrow": "Fontanería · Piscinas · Reparaciones",
+  "menu": "Menú",
+  "language": "Idioma",
+  "photo_note": "(sustituir por una foto real)",
+  "guides_en": "Guías (Inglés)"
+ },
+ "services": {
+  "srv-santehnik": {
+   "name": "Fontanero en Sanur",
+   "intro": "Fontanero privado en Sanur: voy yo mismo, busco la causa y lo arreglo. Grifos, inodoros, tuberías, bombas y agua caliente — en villas, casas y apartamentos.",
+   "items": [
+    "Grifos y mezcladores que gotean",
+    "Depósito del inodoro que no para o gotea",
+    "Baja presión de agua",
+    "Cambio de mezcladores, sifones y mangueras",
+    "Instalación de inodoros y lavabos",
+    "Conexión de lavadora y lavavajillas"
+   ],
+   "faq": [
+    [
+     "¿Cuándo puedes venir?",
+     "Depende de la agenda del día. Mándame una foto por WhatsApp y te digo cuándo puedo estar allí."
+    ],
+    [
+     "¿Quién compra las piezas?",
+     "Como prefieras. Puedo comprarlas yo y darte el recibo."
+    ]
+   ]
+  },
+  "srv-protechki": {
+   "name": "Reparación de fugas de agua",
+   "intro": "Localización y reparación de fugas: bajo fregaderos, en paredes, duchas y líneas de jardín. Una fuga oculta suele notarse en el contador de PDAM o con una bomba que no para de funcionar.",
+   "items": [
+    "Fugas bajo fregaderos",
+    "Duchas y desagües de suelo que gotean",
+    "Fugas ocultas detectadas por el contador",
+    "Tuberías PVC/PPR rotas",
+    "Fugas en riego de jardín"
+   ],
+   "faq": [
+    [
+     "¿Qué debo hacer antes de tu llegada?",
+     "Cierra la llave principal y, si hay agua cerca de enchufes, corta la corriente."
+    ]
+   ]
+  },
+  "srv-zasor": {
+   "name": "Desatascos de desagües e inodoros",
+   "intro": "Desatasco de inodoros, fregaderos, duchas y líneas de desagüe con sonda flexible, sin químicos agresivos que dañen tuberías y fosas sépticas.",
+   "items": [
+    "Inodoro atascado",
+    "Ducha o fregadero que drena lento",
+    "Línea de alcantarillado obstruida",
+    "Mal olor en los desagües"
+   ],
+   "faq": [
+    [
+     "¿Por qué no se usa papel higiénico en el inodoro en Bali?",
+     "Tuberías estrechas y fosas sépticas pequeñas — el papel obstruye el sistema rápidamente."
+    ]
+   ]
+  },
+  "srv-bojler": {
+   "name": "Reparación e instalación de calentadores de agua",
+   "intro": "¿Sin agua caliente? Busco la causa — calentador eléctrico, de gas o solar en azotea. Resistencias, termostatos, ánodos e instalaciones nuevas.",
+   "items": [
+    "Calentador que no calienta",
+    "Calentador que salta el disyuntor",
+    "Calentador que gotea",
+    "Calentador solar tibio",
+    "Instalación de calentador nuevo"
+   ],
+   "faq": [
+    [
+     "¿Reparar o reemplazar?",
+     "Si el tanque gotea, hay que reemplazarlo. Una resistencia o un termostato averiado suele merecer la reparación."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Bombas de agua y filtros",
+   "intro": "Bombas, presostatos, depósitos en azotea y filtros de agua. Cerca de la playa en Sanur, el agua del pozo puede ser salobre; te ayudo con filtración o el cambio a PDAM.",
+   "items": [
+    "La bomba no deja de encenderse",
+    "Sin agua en la casa",
+    "Depósito desbordado o vacío",
+    "Instalación de filtros y cartuchos",
+    "Limpieza del depósito en azotea"
+   ],
+   "faq": [
+    [
+     "¿Cada cuánto se cambian los cartuchos?",
+     "Normalmente cada 3–6 meses según el agua. Te enseño qué revisar."
+    ]
+   ]
+  },
+  "srv-chistka-bassejna": {
+   "name": "Limpieza de piscina",
+   "intro": "Limpieza puntual: aspirar hojas, cepillar, vaciar, retroceso del filtro y equilibrio del agua. Recuperación de piscina verde.",
+   "items": [
+    "Limpieza antes de recibir visitas",
+    "Agua verde o turbia",
+    "Limpieza de baldosas a la línea del agua",
+    "Retroceso del filtro"
+   ],
+   "faq": [
+    [
+     "¿Cuánto tarda en recuperarse una piscina verde?",
+     "Normalmente 2–4 días, dependiendo del agua y del filtro."
+    ]
+   ]
+  },
+  "srv-obsluzhivanie-bassejna": {
+   "name": "Mantenimiento regular de piscina",
+   "intro": "Servicio programado de piscina. Después de cada visita recibes un informe por WhatsApp: fotos, mediciones del agua y trabajos realizados. Ideal si no vives todo el año en Bali.",
+   "items": [
+    "Visitas programadas",
+    "Análisis y equilibrio del agua",
+    "Aspirar, cepillar y limpiar el skimmer",
+    "Revisión de bomba y filtro",
+    "Informe tras cada visita"
+   ],
+   "faq": [
+    [
+     "¿Están incluidos los químicos?",
+     "Se acuerda antes: o están incluidos o se cobran aparte con factura."
+    ]
+   ]
+  },
+  "srv-oborudovanie-bassejna": {
+   "name": "Equipamiento de piscina",
+   "intro": "Instalación y reparación de bombas, filtros de arena y cartucho, cloradores, luces y llenado automático.",
+   "items": [
+    "Bomba que no hace vacío o ruidosa",
+    "Cambio de arena del filtro",
+    "Válvula multiposición",
+    "Clorador salino",
+    "Luces de piscina"
+   ],
+   "faq": [
+    [
+     "¿Puedo enviarte una foto de la sala de bombas?",
+     "Sí, es la mejor manera para saber qué llevar."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Reparación de piscinas",
+   "intro": "Fugas, azulejos sueltos, juntas, tuberías. Muchas piscinas en Sanur tienen entre 15 y 20 años; te ayudo a decidir qué reparar primero.",
+   "items": [
+    "Pérdida de agua — detección de fugas",
+    "Azulejos y mosaico sueltos",
+    "Renovación de juntas",
+    "Fugas en tuberías de la piscina"
+   ],
+   "faq": [
+    [
+     "¿Evaporación o fuga?",
+     "Prueba del cubo: coloca un cubo con agua sobre el escalón y compara ambos niveles tras 24 horas."
+    ]
+   ]
+  },
+  "srv-septik": {
+   "name": "Fosa séptica y alcantarillado",
+   "intro": "Olores, desagües lentos, fosa llena. Encuentro el problema, organizo el vaciado y desbloqueo las líneas.",
+   "items": [
+    "Olor a alcantarilla",
+    "Fosa séptica llena",
+    "Línea de alcantarillado obstruida",
+    "Depósito de grasas"
+   ],
+   "faq": [
+    [
+     "¿Cada cuánto hay que vaciar la fosa séptica?",
+     "Depende del tamaño y los ocupantes; normalmente cada 1–3 años."
+    ]
+   ]
+  },
+  "srv-melkij-remont": {
+   "name": "Servicios varios",
+   "intro": "Pequeñas reparaciones en una sola visita: puertas, cerraduras, mosquiteras, silicona, estanterías, muebles.",
+   "items": [
+    "Puertas y bisagras atascadas",
+    "Cerraduras y manillas",
+    "Mosquiteras",
+    "Renovación de silicona en baño",
+    "Estanterías, rieles de cortinas, montaje de TV",
+    "Montaje de muebles"
+   ],
+   "faq": [
+    [
+     "¿Puedo pedir varias tareas para una sola visita?",
+     "Sí, es la mejor opción. Envíame la lista con fotos."
+    ]
+   ]
+  },
+  "srv-obsluzhivanie-villy": {
+   "name": "Mantenimiento de villas",
+   "intro": "Revisiones periódicas de tu villa: fontanería, piscina, bombas, calentadores, tejado antes de la temporada de lluvias. Para propietarios y gestores.",
+   "items": [
+    "Inspecciones con lista de verificación",
+    "Preparación para la temporada de lluvias",
+    "Revisión previa a la llegada",
+    "Informes para el propietario"
+   ],
+   "faq": [
+    [
+     "¿Trabaja con gestores de villas?",
+     "Sí, podemos establecer un calendario fijo."
+    ]
+   ]
+  }
+ },
+ "hubs": {
+  "S": "Fontanería",
+  "W": "Agua y Bombas",
+  "PC": "Cuidado de Piscinas",
+  "PE": "Equipamiento de Piscinas",
+  "PR": "Reparación de Piscinas",
+  "K": "Fosas Sépticas y Drenajes",
+  "R": "Reparaciones del Hogar",
+  "V": "Mantenimiento de Villas"
+ },
+ "areas": [
+  "Sanur Kaja",
+  "Sanur Kauh",
+  "Sindhu",
+  "Semawang",
+  "Mertasari",
+  "Batujimbar",
+  "Jl. Danau Tamblingan",
+  "Jl. Danau Poso",
+  "Jl. Bypass Ngurah Rai"
+ ]
+}

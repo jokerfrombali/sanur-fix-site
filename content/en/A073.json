@@ -1,0 +1,78 @@
+{
+ "title": "Pool Chlorine Dosing Systems in Sanur: A Practical Guide",
+ "slug": "pool-chlorine-dosing-sanur-bali",
+ "meta": "How chlorine float dosers and automatic pH controllers keep your Sanur villa pool safe. Calibration tips, types explained, and when to call a technician.",
+ "intro": "Keeping your Sanur villa pool clear doesn't mean checking chlorine three times a day. Whether you run a simple float doser or a full automatic system with a pH controller, understanding how chemicals enter the water saves time and prevents damage. Here's what works in Bali's heat, humidity, and seasonal rain.",
+ "sections": [
+  {
+   "h2": "Types of Pool Chemical Dosing",
+   "paragraphs": [
+    "In most Sanur villas the pool is fed by PDAM mains or a borehole, each bringing its own mineral profile. Your dosing method should match how much daily attention you want to give.",
+    "There are two main families: manual float dispensers that sit in the skimmer or return line, and electronic systems that meter liquid chlorine or acid based on probe readings. Some older properties still rely on hand-dropped tablets – workable, but inconsistent."
+   ],
+   "bullets": [
+    "Float doser (manual, low cost)",
+    "Automatic chlorine injector (peristaltic pump)",
+    "Salt chlorinator with controller",
+    "pH / ORP controller unit"
+   ]
+  },
+  {
+   "h2": "The Float Doser – Simple and Honest",
+   "paragraphs": [
+    "A float doser holds one or two chlorine tablets in a small plastic chamber. A weighted float keeps the tablet partly submerged so it dissolves as water flows past; you adjust the rate by moving the float position.",
+    "It's inexpensive, has no electronics to fail, and suits owners who are at the villa most days. In the dry season evaporation concentrates chemicals quickly, so check weekly. During November-to-March rains, dilution can drop levels below safe range overnight.",
+    "The limitation is clear: a float doser controls chlorine only. It does nothing for pH or alkalinity, so if your well water runs high in iron or hardness you'll balance those manually every few days."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Automatic Dosing and pH Controllers",
+   "paragraphs": [
+    "An automatic system uses a peristaltic pump to inject measured doses of liquid sodium hypochlorite and acid into the return line. A probe reads pH and ORP continuously, and the controller adjusts pump run-time to hold both in target range.",
+    "In Bali this matters more than in temperate climates. Sea air deposits salt and organics on pool surfaces; afternoon heat accelerates chemical breakdown; a single downpour can shift pH by half a point. An automated loop corrects all of that while you sleep.",
+    "Safety note: these units place low-voltage electronics near standing water. If you notice a burnt smell near the control box, see exposed wiring above the deck, or detect any gas odour, stop using the system immediately and call a qualified technician before touching anything.",
+    "Installation usually needs a small wall cabinet, a dedicated circuit, and a drain beneath the pump. In older Sanur villas with solid concrete decks we sometimes chase a channel for tubing – allow a full day rather than an hour."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Calibration – Getting Your Numbers Right",
+   "paragraphs": [
+    "A dosing system is only as good as its calibration. Here's the practical routine I recommend:"
+   ],
+   "bullets": [
+    "Test free chlorine and pH with fresh reagent strips at least twice weekly.",
+    "Compare your strip reading against the controller display. A gap over 0.2 pH or 1 ppm chlorine means recalibrate the probe.",
+    "Clean the ORP/pH probe every two weeks; mineral scale from PDAM or well water builds up fast in this humidity.",
+    "After heavy rain or a rooftop-tank top-up, wait 24 hours before trusting automated readings."
+   ]
+  },
+  {
+   "h2": "Cost and What to Expect",
+   "paragraphs": [
+    "Prices vary widely depending on pool volume, existing plumbing, electrical work needed, and which components are already fitted. Swapping a float doser is a small job; installing a full automatic loop with a pH/ORP controller into an older villa can involve cabinet fabrication, pump selection, and new wiring.",
+    "I don't publish fixed rates because no two Sanur pools are identical. The fastest way to get a real number: photograph your skimmer area, any existing chemical feed, and the wall where a cabinet would go, then send those photos on WhatsApp. I'll come back with a clear quote and timeline."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "How often should I replace tablets in a float doser?",
+   "a": "In the dry season check every three to four days; in the rainy months weekly is usually enough. If the tablet has shrunk below half its original size or the water smells weak, top up sooner rather than later."
+  },
+  {
+   "q": "Can I use a salt chlorinator instead of liquid chlorine?",
+   "a": "Yes, and many newer Sanur villas do. Salt cells handle oxidation while a separate acid line keeps pH stable. Make sure the cell is rated for local hardness – well water here is mineral-heavy and will scale a cell faster."
+  },
+  {
+   "q": "What if my automatic system fails during the rainy season?",
+   "a": "The pool won't become dangerous overnight, but unprotected water in 30 °C heat can grow algae within two or three days. Switch to manual tablet dosing as a bridge and get the unit inspected before the next storm front rolls in from the Indian Ocean."
+  }
+ ],
+ "cta": "Send me a photo of your current pool setup on WhatsApp and I'll tell you exactly which dosing option makes sense for your villa.",
+ "id": "A073",
+ "hub": "PE",
+ "status": "draft-qwen"
+}
