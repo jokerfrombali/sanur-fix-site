@@ -72,7 +72,67 @@
   "menu": "Menü",
   "language": "Dil",
   "photo_note": "(gerçek bir fotoğrafla değiştirin)",
-  "guides_en": "Rehberler (İngilizce)"
+  "guides_en": "Rehberler (İngilizce)",
+  "only": "Yalnızca Sanur",
+  "call_or_wa": "WhatsApp'tan fotoğraf gönderin veya {phone} numarasını arayın — ne gerektiğini ve ne zaman gelebileceğimi söyleyeyim.",
+  "local_eyebrow": "Bölge bilgisi",
+  "local_h": "Sanur'da tesisat farklıdır",
+  "local_intro": "Sanur'daki arıza çağrılarının çoğu aynı yerel koşullara dayanır. Bunları bilmek teşhisin yarısıdır — bu yüzden yalnızca tek bir bölgede çalışırım.",
+  "local_items": [
+   [
+    "15–20 yıl önce inşa edilmiş villalar",
+    "Sanur'daki birçok villa hâlâ orijinal PVC boru ve bağlantı parçalarıyla çalışıyor. Güneşte kalan borular kırılganlaşıyor, ek yerlerinden sızıntı başlıyor. Çoğu zaman yamamak yerine o bölümü değiştirmek daha mantıklı."
+   ],
+   [
+    "Plaj yakınındaki tuzlu hava",
+    "Sindhu, Semawang ve Mertasari'de deniz havası muslukları, duş başlıklarını, menteşeleri ve pompa motorlarını iç kesimlere göre çok daha hızlı aşındırıyor. Doğru malzemeyi seçmek tekrarlayan tamiratları önler."
+   ],
+   [
+    "Kuyu suyu ve PDAM",
+    "Birçok villa PDAM şebekesini bir kuyuyla birlikte kullanıyor. Denize yakın bölgelerde kuyu suyu tuzlu olabilir — filtreler ve kartuşlar daha çabuk tıkanır, ısıtıcılarda kireç birikir."
+   ],
+   [
+    "Çatı depoları ve pompalar",
+    "Su basıncı depo, pompa ve basınç şalterine bağlıdır. Çoğu 'duş zayıf akıyor' ve 'pompa sürekli açılıp kapanıyor' çağrısı buradan kaynaklanır, musluktan değil."
+   ],
+   [
+    "Lağım çukurları ve tuvalet kağıdı",
+    "Lağım çukurları küçük, borular dar. Tıkanıklık ve kokular genellikle sistemin içindeki kağıt veya yağ birikintisi ya da boşaltma zamanı gelmiş bir çukur demektir."
+   ],
+   [
+    "Yağmurlu mevsim",
+    "Yaklaşık Kasım'dan Mart'a kadar yoğun yağmur çatıları, olukları, drenajları, havuzları ve lağım çukurlarını zorlar. Kontrol için en iyi zaman ilk büyük fırtınalardan önce."
+   ]
+  ],
+  "hoods_h": "Sanur'un her köşesi",
+  "hoods_txt": "Sanur'un tamamında hizmet veriyorum: Sanur Kaja, Sanur Kauh, Sindhu, Semawang, Mertasari ve Batujimbar — Jl. Danau Tamblingan, Jl. Danau Poso ve Bypass Ngurah Rai hattında. Villa, ev, apartman ve küçük pansiyonlar.",
+  "all_services": "Tüm hizmetler",
+  "pricing_h": "Fiyatlandırma nasıl işliyor?",
+  "pricing_items": [
+   [
+    "İşten önce fiyat",
+    "Fotoğraf ya da video gönderin; gelmeden önce fiyat alırsınız, işe başlamadan birlikte anlaşıyoruz."
+   ],
+   [
+    "Fişli parça",
+    "Parçalar maliyetine alınır, fişi size verilir."
+   ],
+   [
+    "Fotoğraflı rapor",
+    "İş bitiminde WhatsApp'tan önce/sonra fotoğraflarını alırsınız."
+   ]
+  ],
+  "reviews_h": "Müşteriler ne diyor?",
+  "reviews_more": "Google'daki tüm yorumlar",
+  "projects": "İşler",
+  "projects_h1": "Sanur'daki son işlerimiz",
+  "projects_lead": "Sanur'da gerçekleştirdiğimiz işler: Sorun neydi, ne yaptık?",
+  "emergency": "Acil müdahale",
+  "about_h": "Teknisyen hakkında",
+  "years": "Yıl Deneyim",
+  "langs": "Diller",
+  "warranty": "Garanti",
+  "sample": "Örnek Veri"
  },
  "services": {
   "srv-santehnik": {
