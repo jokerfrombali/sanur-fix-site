@@ -2,7 +2,7 @@
 """Статический сайт мастера в Сануре, до 20 языков.
 Тексты: i18n/<lang>.json (en — основной, в корне сайта). Статьи: content/<lang>/A###.json. Стили: tools/style.css.
 Запуск: python build_site.py → папка site/."""
-import html, json, pathlib, re, shutil, sys
+import hashlib, html, json, pathlib, re, shutil, sys
 from urllib.parse import quote
 
 # ======== ЗАПОЛНИТЬ ДАННЫМИ МАСТЕРА ========
@@ -98,8 +98,8 @@ def url(lang, slug=""):
 U = "https://images.unsplash.com/"
 def img(pid, w=900, h=None):
     return f"{U}{pid}?auto=format&fit=crop&w={w}{'&h=' + str(h) if h else ''}&q=70"
-PH = {"hero": "photo-1720161263981-84281892ee4b", "sanur": "photo-1733281120655-8da3dc371514", "sanur2": "photo-1733281121312-6bec65d3c809",
-      "srv-santehnik": "photo-1749532125405-70950966b0e5", "srv-protechki": "photo-1676210134188-4c05dd172f89", "srv-zasor": "photo-1676210134050-6f12c6898395",
+PH = {"hero": "photo-1676210134188-4c05dd172f89", "hero_villa": "photo-1720161263981-84281892ee4b", "sanur": "photo-1733281120655-8da3dc371514", "sanur2": "photo-1733281121312-6bec65d3c809",
+      "srv-santehnik": "photo-1749532125405-70950966b0e5", "srv-protechki": "photo-1694875119129-d79757ef3780", "srv-zasor": "photo-1676210134050-6f12c6898395",
       "srv-bojler": "photo-1676210134190-3f2c0d5cf58d", "srv-voda": "photo-1676210133055-eab6ef033ce3", "srv-chistka-bassejna": "photo-1605702755163-4f303492e55f",
       "srv-obsluzhivanie-bassejna": "photo-1742353980377-b8e42932c590", "srv-oborudovanie-bassejna": "photo-1614667288602-9ac6e37318a7",
       "srv-remont-bassejna": "photo-1724660583299-2356fe880e54", "srv-septik": "photo-1606340671662-27ee685dd111", "srv-melkij-remont": "photo-1615974679600-665fb9468c4f",
@@ -166,7 +166,7 @@ def page(lang, slug, title, descr, body, alts, crumbs=None, schema=None, head=No
 <title>{e(title)}</title><meta name="description" content="{e(descr)}"><meta name="theme-color" content="#003483"><link rel="icon" href="{FAVICON}">
 {'<meta name="robots" content="noindex,nofollow">' if PREVIEW else ''}<link rel="canonical" href="{DOMAIN}{url(lang, slug)}">{hl}
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(descr)}"><meta property="og:image" content="{img(og or (head[0] if head else PH['hero']), 1200, 630)}"><meta property="og:locale" content="{lang}">
-<link rel="preconnect" href="https://images.unsplash.com"><link rel="stylesheet" href="{BASE}/style.css">{ld}</head><body>
+<link rel="preconnect" href="https://images.unsplash.com"><link rel="stylesheet" href="{BASE}/style.css?v={CSS_V}">{ld}</head><body>
 {topbar}<header><div class="wrap"><a class="logo" href="{url(lang)}">{LOGO}Sanur<span>Fix</span></a><nav>{nav}</nav></div></header>{mnav}
 <main>{top}{body}</main>
 <footer><div class="wrap"><div class="cols"><div><a class="logo" href="{url(lang)}">{LOGO}Sanur<span>Fix</span></a><p>{u['tagline']}.<br>{u['badge']}.</p>
@@ -216,14 +216,17 @@ def art_photo(a):
 def all_alts(fn):
     return {c: fn(c) for c in ACTIVE}
 
+CSS_V = ""
 def build():
     if ROOT.exists():
         shutil.rmtree(ROOT)
     ROOT.mkdir()
+    global CSS_V
     PRO_FONTS = "@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');\n"
     (ROOT / "style.css").write_text(((PRO_FONTS if THEME == "pro" else "")
                                    + (HERE / "tools" / "style.css").read_text(encoding="utf-8")
                                    + ((HERE / "tools" / "theme_pro.css").read_text(encoding="utf-8") if THEME == "pro" else "")), encoding="utf-8")
+    CSS_V = hashlib.md5((ROOT / "style.css").read_bytes()).hexdigest()[:8]
     ARTS = load_articles()
     gpath = lambda lang, a: sec(lang, "gd") + "/" + HUB_EN[a["hub"]][0] + "/" + a["slug"]
     for lang in ACTIVE:

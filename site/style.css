@@ -213,3 +213,20 @@ a:hover{color:var(--green2)}p.inl{border-left-color:var(--wa)}p.inl a{color:var(
 .tcards div{background:var(--bg);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:var(--shadow)}
 .tcards b{display:block;font-size:18px;font-weight:800;text-transform:none;letter-spacing:-.01em;color:var(--ink)}.tcards span{font-size:13.5px;color:var(--muted)}
 .serving{background:none;color:var(--muted);text-align:center;padding:26px 16px 0;font-size:13px!important;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+/* v2.3: большие экраны и первый экран */
+.wrap{max-width:1320px}
+.hero.pro>img{object-position:72% center}
+.hero.pro:after{background:linear-gradient(90deg,rgba(11,31,58,.97) 0%,rgba(11,31,58,.9) 38%,rgba(11,31,58,.55) 62%,rgba(11,31,58,.25) 100%)}
+@media(min-width:1000px){.hero.pro{min-height:min(88vh,920px)}.hero.pro .wrap{align-self:center}}
+@media(min-width:1200px){.grid{grid-template-columns:repeat(4,1fr);gap:24px}.tcards{gap:20px}}
+@media(min-width:1440px){
+ .wrap{max-width:1440px;padding:0 40px}body{font-size:17.5px}
+ .hero.pro .wrap{grid-template-columns:1.1fr 480px;gap:80px;padding:110px 40px 150px}
+ .hero.pro h1{font-size:78px}.hero.pro p{font-size:19px;max-width:640px}
+ .lead-form{padding:38px}.lead-form h3{font-size:28px}
+ section{padding:120px 0}.shead{margin-bottom:52px}.shead h2{font-size:52px}
+ .card h3{font-size:22px}.tcards div{padding:26px}.tcards b{font-size:20px}
+ .local{gap:52px 48px}.local h3{font-size:24px}
+ header .wrap{height:76px}.logo{font-size:24px}
+}
+@media(min-width:1800px){.wrap{max-width:1560px}}
