@@ -1,0 +1,87 @@
+{
+ "title": "Automatic Garden Irrigation for Sanur Villas: Setup & Repair",
+ "slug": "sanur-villa-automatic-irrigation-repair",
+ "meta": "How drip and spray irrigation works in a Sanur villa, how to fix leaks, clear clogged nozzles, and adjust your timer before the rainy season hits.",
+ "intro": "An automatic irrigation system keeps your Sanur garden alive while you are at the beach or away on a trip. Whether it is a drip line under the frangipani trees or a sprinkler grid over the lawn, the logic is the same: a pump draws from your well or PDAM tank, a timer sets when it runs, and small emitters deliver water close to the roots. When something fails—a leak under the pavers, a clogged nozzle—the repair is usually straightforward once you know where to look.",
+ "sections": [
+  {
+   "h2": "Drip Lines vs. Sprinklers: Which Fits Your Garden?",
+   "paragraphs": [
+    "In most Sanur villas I see two setups. Drip irrigation runs thin tubing along the base of each plant, releasing a slow trickle right at the root zone. It uses less water, wastes very little to evaporation, and suits the tropical mix of palms, bougainvillea, and ground cover that fills these gardens. Sprinkler heads—rotor or fixed—cover open lawn areas and flower beds in a wider arc. Many properties use both: drip for the planting beds, a couple of rotors for the grass strip near the pool.",
+    "Because Sanur sits right on the coast, salt-laden air accelerates corrosion on metal fittings and degrades cheap plastic connectors faster than you would expect inland. If your system was installed five or more years ago, check every elbow, tee, and quick-connect for white mineral crust or brittle cracking before the dry season peaks."
+   ],
+   "bullets": [
+    "Drip line: best for individual plants, shrubs, and tree bases; low pressure; minimal splash waste",
+    "Sprinkler/rotor: best for lawns and large open beds; needs even head spacing of roughly 1–1.5 m",
+    "Mixed layout: common in older Sanur villas where the garden was added in stages over the years"
+   ]
+  },
+  {
+   "h2": "Setting Up (or Resetting) Your Irrigation Timer",
+   "paragraphs": [
+    "The timer is the brain of the whole system. Most units I see here are simple mechanical dials or basic electronic controllers mounted on the pump housing or a wall near the water tank. They let you set start time, run duration, and frequency—say, 30 minutes at 6 am and again at 4 pm during the hot months.",
+    "If the timer has stopped working, first check the battery compartment. Salt-air humidity can corrode the contacts even if the unit looks fine outside. Wipe them with a dry cloth, replace the batteries, and re-set your programme. If it is an electronic controller with a small LCD, make sure no one has accidentally switched it to off mode after a power blip, which happens more often than you think during Bali's occasional outages."
+   ],
+   "bullets": [
+    "Mount the timer in a shaded, dry spot away from direct spray and pool chlorine vapour",
+    "Set two shorter sessions rather than one long one; this reduces runoff on sandy coastal soil",
+    "After any power cut, walk the zone and confirm heads actually fire before walking away"
+   ]
+  },
+  {
+   "h2": "Finding and Fixing Leaks Under the Garden",
+   "paragraphs": [
+    "A slow leak under concrete pavers or gravel paths is the most common complaint I get from Sanur villa owners. You notice a dark patch of moss, a soggy area that never dries, or the water meter spinning while nothing should be running. In older villas where the original irrigation was laid in the 1990s or early 2000s, the tubing underneath may have split at a joint or been crushed by tree roots.",
+    "To locate the leak without digging up the whole garden, shut off the pump, open the main isolation valve, and run each zone separately. Watch for pressure drop or visible seepage at joints. Once you find the weak point, a repair clamp or a short piece of replacement tubing with two compression fittings will hold it together. For a clean fix, cut out the damaged section entirely and splice in new pipe.",
+    "If the leak is inside a buried PVC main line—say, under the path to the pool—the job gets more involved. That is when it makes sense to call a technician who can pressure-test the line rather than guess and dig."
+   ],
+   "bullets": [
+    "Check quick-connect couplings first; they are the weakest link in most DIY installs",
+    "Look for leaks after a full cycle, not mid-run, so you see steady seepage",
+    "If you smell gas near any electrical junction box by the pump, stop work immediately, ventilate, and call an electrician before touching anything else"
+   ]
+  },
+  {
+   "h2": "Clearing Clogged Emitters and Nozzles",
+   "paragraphs": [
+    "Sediment from PDAM water and mineral deposits from well water are the usual culprits behind emitters that drip instead of flow, or sprinkler heads that throw a thin, crooked stream. Over a dry season the buildup adds up, especially if there is no inline filter between the tank outlet and the distribution manifold.",
+    "The fix is simple for individual emitters: pull the small cap off the end of the drip tube, flush it with a jet of clean water, and re-seat it. For sprinkler heads, unscrew the nozzle insert (a quarter-turn on most types), soak it in white vinegar for twenty minutes to dissolve limescale, then rinse and refit. If more than half your heads are clogged at once, the problem is upstream—your filter screen needs cleaning or replacing."
+   ],
+   "bullets": [
+    "Install or service an inline mesh filter (100–150 micron) every six months",
+    "Soak brass or plastic nozzles in vinegar; avoid soaking rubber diaphragms for long periods",
+    "If you use well water, add a sediment pre-filter before the pump to protect the whole line"
+   ]
+  },
+  {
+   "h2": "Adjusting Your System for the Rainy Season",
+   "paragraphs": [
+    "From roughly November through April, Sanur gets its share of heavy afternoon downpours. Running a full irrigation schedule during this window can waterlog the soil around shallow-rooted palms and turn gravel paths into mud. The simplest adjustment is to cut run time by half or shift to one session per day instead of two, and let the rain do the rest.",
+    "In older villas with concrete slab foundations and limited drainage, over-watering near the walls can seep under the slab and cause damp patches indoors. Keep drip lines at least 30 cm away from any exterior wall, and make sure the ground slopes gently away from the building. If you see persistent damp on interior walls after a wet week, that is a drainage issue more than an irrigation one—worth having someone take a look before it becomes a mould problem."
+   ],
+   "bullets": [
+    "Reduce frequency rather than duration; short, infrequent runs still keep roots hydrated without saturating the soil",
+    "Check that overflow from rooftop tanks discharges onto lawn, not directly against a foundation wall",
+    "If your garden sits low relative to the street (common in parts of Sanur), confirm surface drains are clear before the first big storm"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I connect my drip system to PDAM water directly?",
+   "a": "You can, but PDAM supply pressure fluctuates and the water carries fine sediment that clogs small emitters quickly. A rooftop storage tank plus a mesh filter between the inlet and your manifold gives you steadier pressure and protects the line. Most Sanur villas already have this setup for house plumbing; just tap into the same tank outlet with a dedicated valve for the garden zone."
+  },
+  {
+   "q": "How often should I service the whole irrigation system?",
+   "a": "Twice a year is a good rhythm here: once at the start of the dry season (around May) when you ramp up usage, and once before the rains (October or November) when you dial back. That covers cleaning filters, checking fittings for salt corrosion, testing every head, and confirming the timer programme still matches what the plants actually need."
+  },
+  {
+   "q": "My sprinkler heads spray unevenly after a few months—what is going on?",
+   "a": "Usually it is partial clogging inside the nozzle or a slight shift in the head's alignment where the riser was knocked during mowing or foot traffic. Unscrew each suspect head, clean the insert, and make sure it sits level in its riser. If the problem persists across several heads on one zone, check the lateral pipe for a kink or a partially closed valve upstream."
+  }
+ ],
+ "cta": "If something in your garden irrigation looks off—a leak you cannot find, heads that will not fire, or a timer acting strange—snap a quick photo or short video and send it over on WhatsApp; I will take a look and let you know whether it is a ten-minute fix or needs a proper visit.",
+ "id": "A038",
+ "hub": "W",
+ "status": "draft-qwen"
+}

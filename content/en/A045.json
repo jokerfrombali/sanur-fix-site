@@ -1,0 +1,78 @@
+{
+ "title": "Pool pH Levels: Normal Range & How to Fix It",
+ "slug": "pool-ph-levels-fix-guide",
+ "meta": "What is the correct pool pH range, how to test it, and practical steps to raise or lower pH in your Sanur villa pool. Simple guide for expats in Bali.",
+ "intro": "The ideal pH for a residential pool sits between 7.2 and 7.6. Outside that window, chlorine stops working properly, tiles etch, and swimmers get irritated eyes. In Sanur, salt air from the Indian Ocean, PDAM water hardness, and the long rainy season all push pH around faster than you'd expect, so regular testing matters more here than in most places.",
+ "sections": [
+  {
+   "h2": "What Is a Normal Pool pH?",
+   "paragraphs": [
+    "Most pool chemicals are calibrated to work best at a slightly alkaline pH. The sweet spot is 7.2–7.6. Below 7.0 the water becomes acidic: metal fittings corrode, plaster surfaces start to dissolve, and skin stings. Above 7.8 the water turns scaley, chlorine efficiency drops sharply, and the surface looks cloudy or milky-white.",
+    "In Sanur villas this range can drift quickly. Sea spray settles on open pools, PDAM tap water often arrives with higher mineral content, and during the rainy season (roughly November to March) dilution and runoff change the chemistry overnight. A pool that was perfectly balanced one morning can be off by evening."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "How to Test Your Pool pH",
+   "paragraphs": [
+    "You have two reliable options: colour-matching test strips or a digital pH meter. Strips are cheap, easy, and good enough for weekly checks. Dip the strip into water taken from mid-depth—not near the return jet—wait the time printed on the bottle, then match the colour against the chart. Read it in natural daylight; fluorescent light under a villa pergola will throw off your reading.",
+    "A digital meter gives you a number to two decimal places and is worth having if you manage more than one pool. Calibrate it monthly with buffer solution. Whichever method you use, test at the same time of day each week so you're comparing like-for-like readings."
+   ],
+   "bullets": [
+    "Test at mid-depth, away from the return jet",
+    "Read strips in natural daylight, not under artificial light",
+    "Calibrate a digital meter once a month"
+   ]
+  },
+  {
+   "h2": "How to Lower High pH",
+   "paragraphs": [
+    "If your reading is above 7.8 you need a pH-down product (sodium bisulphate). Here's the routine: turn the pump OFF before adding chemical so the dose stays concentrated where you pour it. Pour the measured amount slowly along the deep-end wall while stirring gently with a broom handle—never dump a whole bottle in one spot. Let the pump run for at least four hours so the chemical circulates fully, then re-test after six hours. If still high, repeat with half the dose.",
+    "Safety note: never mix pH-down with chlorine or any other chemical in the same container. If you accidentally splash two products together and notice strong fumes or an irritating smell, step back, ventilate the area, and call a professional rather than trying to neutralise it yourself. Keep all chemicals lidded tight and out of reach of children and pets on the pool deck."
+   ],
+   "bullets": [
+    "Pump off → pour slowly along deep end → stir → pump on 4 hrs → retest after 6 hrs",
+    "Repeat with half-dose if needed; avoid over-correction",
+    "Store chemicals separately, lids closed, away from kids and pets"
+   ]
+  },
+  {
+   "h2": "How to Raise Low pH",
+   "paragraphs": [
+    "If your reading is below 7.2 you need a pH-up product (sodium carbonate / soda ash). The steps mirror the lowering process: switch the pump off, dissolve the measured dose in a bucket of warm pool water first (this prevents a white cloud that settles on the bottom), pour slowly along the deep end while stirring, then run the pump for four hours and re-test after six.",
+    "Low pH in Sanur often comes from acidic rain during the wet season or from PDAM water with a naturally low starting point. If you find yourself adding pH up every few days, check whether your rooftop tank has been sitting unused and the stored water quality has shifted, or whether a nearby well feed is changing the balance."
+   ],
+   "bullets": [
+    "Dissolve in a bucket before pouring—avoids white sediment on the floor",
+    "Check rooftop tank and well source if pH keeps dropping"
+   ]
+  },
+  {
+   "h2": "Alkalinity: The Hidden Factor Behind pH Drift",
+   "paragraphs": [
+    "pH does not drift on its own. The real stabiliser is total alkalinity (TA), which should sit between 80 and 120 ppm. Think of TA as the shock absorber: high TA makes pH stubbornly resist change (you'll add acid and barely see a drop); very low TA means pH swings wildly with every splash of rain or backwash cycle.",
+    "If your pH keeps bouncing around despite correct dosing, test TA before touching pH again. Bring TA into range first, then fine-tune pH. In older Sanur villas where the original plaster was poured decades ago, the surface can leach calcium and nudge both numbers over time—something a simple chemical adjustment won't fix permanently.",
+    "A practical rule: adjust alkalinity to target, wait 24 hours, then adjust pH. Doing it in that order saves product and frustration."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "How often should I test pool pH at my Sanur villa?",
+   "a": "At minimum once a week during dry season and twice a week through the rainy months (November–March). If you have a salt-chlorine generator or a large family using the pool daily, three times a week keeps things stable. Always re-test after heavy rain or a full backwash cycle."
+  },
+  {
+   "q": "Can I use vinegar or lemon juice instead of commercial pH-down?",
+   "a": "In a pinch white vinegar will lower pH slightly, but it's hard to dose accurately and adds organic matter that feeds algae. For a proper correction on a typical 30-cubic-metre villa pool, a dedicated sodium bisulphate product is safer and more predictable. If you're unsure which product suits your setup, send us a photo of your current strip reading on WhatsApp and we'll point you in the right direction."
+  },
+  {
+   "q": "Why does my pool pH keep dropping even though I add pH up regularly?",
+   "a": "The most common cause is low total alkalinity—without enough buffer, every acidic input (rain, backwash, PDAM water top-ups) pulls pH down faster than you can correct it. Test TA first; if it reads below 80 ppm, raise alkalinity before continuing to chase pH. In Sanur, acidic monsoon rain hitting an open pool is a major contributor during wet season."
+  }
+ ],
+ "cta": "If your pH is out of range and you're not sure which adjustment to make next, snap a photo of your test-strip colour chart and send it over on WhatsApp—we'll tell you exactly what to do.",
+ "id": "A045",
+ "hub": "PC",
+ "status": "draft-qwen"
+}

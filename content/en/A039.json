@@ -1,0 +1,77 @@
+{
+ "title": "Water Testing in Bali: When, What & Where to Check",
+ "slug": "bali-water-test-guide",
+ "meta": "Find out when and why to test your villa water in Sanur, Bali. Key parameters to check, where to send samples, and next steps for bad results.",
+ "intro": "If you've lived in a Sanur villa long enough, you know the tap can taste different after the monsoon or carry a faint chlorine note from PDAM treatment. A simple lab analysis tells you whether that's normal or a sign of corroding pipes, bacterial growth in your rooftop tank, or mineral buildup. Here is a practical, no-nonsense guide to getting it done without overthinking.",
+ "sections": [
+  {
+   "h2": "Why Bother Testing at All?",
+   "paragraphs": [
+    "Most older villas in Sanur were wired with galvanized steel or early PVC piping. Years of salt-laden sea air accelerate corrosion on exposed fittings, especially around the kitchen sink and outdoor shower. The result: iron flakes, elevated turbidity, and sometimes a metallic taste that no amount of boiling fixes.",
+    "PDAM mains water is treated, but once it sits in an unsealed rooftop tank through the rainy season—when leaves, bird droppings, and dust wash in—the microbial load can climb. If your villa also draws from a well (common on the eastern side of Sanur), you add nitrates and variable hardness into the mix.",
+    "You do not need to test every month. But if you notice a colour change, a new smell, a skin irritation in kids, or you are about to install a reverse-osmosis unit, a one-off panel gives you a baseline and peace of mind."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "What Parameters Actually Matter",
+   "paragraphs": [
+    "Ask for a 'drinking-water panel' rather than a single-parameter strip test. A useful list includes:",
+    "pH – tells you whether the water is acidic enough to leach metals from old pipes.",
+    "Total dissolved solids (TDS) and hardness – high numbers mean scale will coat heaters and clog filters over time.",
+    "Free chlorine residual – confirms PDAM disinfection reached your tap; zero means the pipe network may be stagnant.",
+    "E. coli / total coliform – the bacterial red flag, especially after heavy rain when tank lids were open.",
+    "Iron and manganese – responsible for brown stains on tiles and a rusty taste.",
+    "Nitrates – relevant only if you use a well; elevated levels matter most for infants.",
+    "Turbidity – a quick proxy for how much particulate matter is floating around."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Where to Send a Sample in Sanur / Denpasar",
+   "paragraphs": [
+    "A handful of private environmental labs operate out of the Denpasar–Sanur corridor and accept walk-in bottles. Your villa manager or a local plumber can usually point you to one they trust; ask them to send you the lab's name and sample-collection instructions so you are not guessing at the counter.",
+    "Collection tip: rinse a clean, wide-mouth plastic bottle with the water you intend to test (not soap), then fill it leaving about 1 cm headspace. Label it with date, time, and which tap (kitchen, bathroom, outdoor). If testing a rooftop tank outlet, run the tap for two minutes first to get a 'steady-state' sample rather than the stagnant first draw.",
+    "Cost depends on how many parameters you select. The simplest way to budget: message the lab or your technician a photo of the panel list you want, and they will quote from that. No need to commit before seeing the number."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Reading the Report Without a Chemistry Degree",
+   "paragraphs": [
+    "Most Bali lab reports print each parameter next to its reference value (usually aligned with Indonesian SNI or WHO guidance) and mark PASS or FAIL. Focus on any row flagged FAIL or 'near limit.'",
+    "If iron is slightly above range but everything else passes, you likely have a corroding section of pipe rather than a source-water problem. A plumber can isolate and replace that segment.",
+    "If coliform bacteria appear, stop using that water for drinking or cooking immediately until you retest after cleaning the tank and flushing lines. Do not mix chlorine tablets into standing water in the tank without proper ventilation—chlorine gas in an enclosed space is dangerous; call a professional to handle disinfection safely."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "What to Do After You Get Results Back",
+   "paragraphs": [
+    "Small issues (mild hardness, trace iron): install a sediment pre-filter plus a carbon block under the kitchen sink. Flush the system once a month by running all taps for two minutes.",
+    "Bigger issues (bacterial positives, high nitrates, persistent chlorine absence): clean and seal the rooftop tank, replace any cracked gaskets, consider UV treatment at the point of use, and schedule a full plumbing inspection so no hidden leak is diluting your supply.",
+    "Retest three months after any corrective work. Keep the old report next to the new one so you can see whether numbers are trending up or down across seasons.",
+    "And if anything smells like gas near the water heater, or you see live wires dripping in the pump room: shut off the relevant valve or breaker and call a licensed technician before touching anything else."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "How often should I test my villa's water?",
+   "a": "Once a year is sensible for most Sanur villas on PDAM mains. If you rely on a well, or if your rooftop tank has been open during monsoon without a proper lid, test twice a year—once after the dry season and once after the wet season."
+  },
+  {
+   "q": "Can't I just taste it or look at the colour?",
+   "a": "Taste and colour catch obvious problems (rust, algae) but miss bacteria, nitrates, and low-level heavy metals that have no visible sign. A lab panel is the only way to rule those out with confidence."
+  },
+  {
+   "q": "Does PDAM-treated water still need testing?",
+   "a": "Yes. Treatment happens at the plant; what reaches your tap depends on pipe age, tank hygiene, and how long water sits before use. In older Sanur villas the 'last 50 metres' of distribution is often where quality drifts."
+  }
+ ],
+ "cta": "If you'd like a second pair of eyes on your plumbing setup or help interpreting a lab report, snap a photo of the issue or the results sheet and send it over on WhatsApp—I'll take a look and let you know whether it needs a visit or just a filter swap.",
+ "id": "A039",
+ "hub": "W",
+ "status": "draft-qwen"
+}
