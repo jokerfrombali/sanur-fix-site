@@ -1,0 +1,79 @@
+{
+ "title": "Six-Way Pool Filter Valve: Positions, Leaks & Fixes",
+ "slug": "six-way-pool-filter-valve-guide",
+ "meta": "Learn how a six-position pool filter valve works, spot leaks early, and know when to replace it. Practical tips for Sanur villa owners.",
+ "intro": "A six-way valve is the traffic controller of your pool filtration system. It routes water through the sand or cartridge in different modes depending on what you need at that moment. In Sanur villas, salt-laden air and monsoon humidity put extra strain on seals and handles, so understanding the basics helps you catch problems before they become expensive ones.",
+ "sections": [
+  {
+   "h2": "The Six Positions Explained",
+   "paragraphs": [
+    "Most residential valves in Bali villas have a round handle with six labelled positions around its edge. Here is what each one does:",
+    ""
+   ],
+   "bullets": [
+    "Filter – normal operation; water enters dirty, passes through the media, exits clean back to the pool.",
+    "Backwash – reverses flow to flush trapped debris out through the waste line. Run this every two to four weeks, more often after heavy rain stirs up silt.",
+    "Rinse – short cycle (about 30 seconds) after backwashing to settle the sand bed before returning to Filter.",
+    "Waste – sends water straight overboard without touching the filter. Useful for draining a few centimetres of level or removing large leaves.",
+    "Recirculate – bypasses the filter entirely; water goes pump → valve → pool. Handy when you just want circulation without straining the cartridge.",
+    "Closed / Winterise – shuts off all ports. In Sanur we rarely need true winterising, but it is useful if the pump must be isolated for plumbing work."
+   ]
+  },
+  {
+   "h2": "Spotting a Leak at the Valve",
+   "paragraphs": [
+    "Walk around the valve housing with a dry paper towel while the pump runs. A slow seep from the handle stem, the port flanges, or the top cap gasket will show as a damp ring within a minute. In older Sanur villas built in the 1990s and early 2000s, the original rubber O-rings have often hardened from UV exposure and salt air, making them brittle and prone to weeping.",
+    "A small drip at the handle is usually a worn stem seal. A steady stream from any port means the internal rotor no longer seats properly against that port's seat. If you see white mineral deposits (common with PDAM-treated water) crusted around a joint, the leak has been there quietly for weeks.",
+    "If the leak is only cosmetic and the pool still filters correctly, note it on your maintenance list. If water is pooling under the equipment pad or the pressure gauge reads low during Filter mode, stop using the pool until the valve is checked – running a compromised system can pull air into the lines and stress the pump."
+   ]
+  },
+  {
+   "h2": "When to Replace the Valve",
+   "paragraphs": [
+    "Replacement becomes necessary when the internal rotor is cracked, multiple ports are leaking simultaneously, or the handle mechanism strips so the position indicator no longer matches actual flow. You will also need a new valve if the housing itself has developed a hairline crack from thermal cycling – common in rooftop installations where the sun bakes the plastic all day.",
+    "Before ordering, photograph the existing valve with its port labels visible and send the photo to your technician via WhatsApp. The size (1½-inch, 2-inch), thread type, and brand family all affect compatibility. Pricing depends on the specific job; the technician will quote after reviewing your photos.",
+    "During replacement, make sure the new valve's orientation matches your plumbing layout. In tight Sanur equipment rooms, space is often limited, so confirm clearance before anything is cut."
+   ]
+  },
+  {
+   "h2": "Common Mistakes Villa Owners Make",
+   "paragraphs": [
+    "A few habits show up again and again during my visits around Sanur:",
+    ""
+   ],
+   "bullets": [
+    "Forcing the handle past a detent. If it does not click into place, stop. Forcing it cracks the internal cam and you now have two leaking ports instead of one.",
+    "Running Backwash for ten minutes or more. Thirty to sixty seconds is enough for a standard residential filter. Over-backwashing wastes water and disturbs the sand bed unnecessarily.",
+    "Ignoring the Rinse step. Skipping it leaves fine grit suspended in the media, which then migrates back into the pool during the next Filter cycle.",
+    "Using the Waste position to 'clean' the pool by draining and refilling. This strips chlorine balance, stresses the pump, and in dry season can drop your PDAM meter reading alarmingly fast.",
+    "Leaving the valve in Recirculate while the pump runs unattended. Without filtration, algae blooms can establish overnight in Bali's warm, humid climate."
+   ]
+  },
+  {
+   "h2": "What Can Actually Be Repaired",
+   "paragraphs": [
+    "Not every leak means a full replacement. A worn stem seal (the small rubber ring where the handle shaft exits the housing) can often be swapped out with a basic kit in under twenty minutes. Similarly, a single port seat that has developed a groove from years of use may be resurfaced or replaced individually on some valve models.",
+    "However, if the internal rotor is cracked, the top-cap gasket is perished beyond stretching, or more than two ports are weeping, the labour cost of disassembly usually makes a new valve the cleaner option – especially when you factor in the risk of breaking an old, salt-brittle housing during teardown.",
+    "If you smell gas near the equipment area, see exposed wiring near standing water, or need to mix any chemicals with chlorine, stop what you are doing and call a professional before touching anything further."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "How often should I backwash my pool filter in Sanur?",
+   "a": "As a general rule, every two to four weeks during dry season and weekly during the rainy months (November–March), when silt and organic debris load the media faster. Watch your pressure gauge: a rise of about 25 percent above the clean baseline is your cue to backwash regardless of the calendar."
+  },
+  {
+   "q": "Can I just tighten the handle to stop a drip at the stem?",
+   "a": "A very slight tightening can buy a day or two, but it will not fix a hardened or torn stem seal. In Bali's heat and humidity those seals degrade quickly. If the drip persists after one gentle adjustment, plan a proper seal replacement rather than living with a slow leak that erodes the plastic threads over time."
+  },
+  {
+   "q": "Do I need to drain the pool to replace the six-way valve?",
+   "a": "No. The valve sits between the pump and the filter on the return line; you isolate it by closing the upstream and downstream ball valves (or clamping the flexible hoses) and draining only the small amount of water trapped in the section. Your pool level stays essentially unchanged."
+  }
+ ],
+ "cta": "If your valve is weeping, clicking oddly, or simply past its prime, snap a clear photo of the whole unit – handle position visible – and send it on WhatsApp so we can tell you exactly what needs doing before you book anything out.",
+ "id": "A084",
+ "hub": "PE",
+ "status": "draft-qwen"
+}

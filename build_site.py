@@ -104,7 +104,7 @@ PH = {"hero": "photo-1720161263981-84281892ee4b", "sanur": "photo-1733281120655-
       "srv-obsluzhivanie-bassejna": "photo-1742353980377-b8e42932c590", "srv-oborudovanie-bassejna": "photo-1614667288602-9ac6e37318a7",
       "srv-remont-bassejna": "photo-1724660583299-2356fe880e54", "srv-septik": "photo-1606340671662-27ee685dd111", "srv-melkij-remont": "photo-1615974679600-665fb9468c4f",
       "srv-obsluzhivanie-villy": "photo-1634671651144-adbeca8623cb"}
-LOGO = '''<svg width="38" height="38" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="9" fill="#003483"/><path d="M5 14h15a6 6 0 0 1 6 6v15" stroke="#fff" stroke-width="6" fill="none"/><rect x="15.5" y="9" width="4" height="10" rx="1" fill="#bb0b0e"/><rect x="21" y="23.5" width="10" height="4" rx="1" fill="#bb0b0e"/><path d="M27.5 9.5l3 3 5.5-6.5" stroke="#bb0b0e" stroke-width="2.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>'''
+LOGO = '''<svg width="38" height="38" viewBox="0 0 40 40" aria-hidden="true"><rect class="lg-bg" width="40" height="40" rx="9" fill="#003483"/><path d="M5 14h15a6 6 0 0 1 6 6v15" stroke="#fff" stroke-width="6" fill="none"/><rect x="15.5" y="9" width="4" height="10" rx="1" class="lg-acc" fill="#bb0b0e"/><rect x="21" y="23.5" width="10" height="4" rx="1" class="lg-acc" fill="#bb0b0e"/><path d="M27.5 9.5l3 3 5.5-6.5" class="lg-ok" stroke="#bb0b0e" stroke-width="2.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>'''
 FAVICON = "data:image/svg+xml," + quote(LOGO.replace('width="38" height="38" ', ''))
 HUB_PHOTOS = json.loads((HERE / "tools" / "photos.json").read_text(encoding="utf-8"))
 HUB_SRV = {"S": "srv-santehnik", "W": "srv-voda", "PC": "srv-chistka-bassejna", "PE": "srv-oborudovanie-bassejna",
@@ -220,7 +220,7 @@ def build():
     if ROOT.exists():
         shutil.rmtree(ROOT)
     ROOT.mkdir()
-    PRO_FONTS = "@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Public+Sans:wght@400;500;600;700&display=swap');\n"
+    PRO_FONTS = "@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');\n"
     (ROOT / "style.css").write_text(((PRO_FONTS if THEME == "pro" else "")
                                    + (HERE / "tools" / "style.css").read_text(encoding="utf-8")
                                    + ((HERE / "tools" / "theme_pro.css").read_text(encoding="utf-8") if THEME == "pro" else "")), encoding="utf-8")

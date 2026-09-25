@@ -72,7 +72,67 @@
   "menu": "Valikko",
   "language": "Kieli",
   "photo_note": "(korvaa oikealla kuvalla)",
-  "guides_en": "Ohjeet (englanniksi)"
+  "guides_en": "Ohjeet (englanniksi)",
+  "only": "Vain Sanur",
+  "call_or_wa": "Lähetä valokuva WhatsAppissa tai soita numeroon {phone} — kerroin mitä tarvitaan ja milloin voin tulla.",
+  "local_eyebrow": "Paikallinen tuntemus",
+  "local_h": "Sanurin putkisto on omanlaisensa",
+  "local_intro": "Useimmat huoltokutsut Sanurissa johtuvat samoista paikallisista olosuhteista. Niiden tunteminen on puolet diagnoosista — siksi työskentelen vain yhdellä alueella.",
+  "local_items": [
+   [
+    "Villat rakennettu 15–20 vuotta sitten",
+    "Monet Sanurin villat käyttävät yhä alkuperäisiä PVC-putkia ja liitoksia. Auringossa olevat putket muuttuvat haurasiksi ja liitokset alkavat tihku. Usein kannattaa vaihtaa koko osuus kuin paikkailla uudelleen."
+   ],
+   [
+    "Suolainen meri-ilma rannikon lähellä",
+    "Sindhussa, Semawangissa ja Mertasarissa meren suolainen ilma ruostuttaa hanakoita, suihkunuppeja, saranointeja ja pumppujen moottoreita paljon nopeammin kuin sisämaassa. Oikeiden materiaalien valinta säästää toistuvia korjauksia."
+   ],
+   [
+    "Kaivo- ja PDAM-vesi",
+    "Monet villat käyttävät sekä PDAM-verkkoa että kaivovettä. Meren läheisyydessä kaivo-vedessä voi olla suolaa — suodattimet ja kasetit tukkeutuvat nopeammin ja lämmittimiin kertyy kalkkia."
+   ],
+   [
+    "Katon vesisäiliöt ja pumput",
+    "Vedenpainetta määrää säiliö, pumppu ja painesäädin. Useimmat heikon suihkun ja pumppun jatkuvan käynnistyksen huoltokutsut alkavat täältä, ei hanasta."
+   ],
+   [
+    "Jätevesialtaat ja wc-paperi",
+    "Jätevesialtaat ovat pieniä ja putket kapeita. Tukkeumat ja haju yleensä johtuvat paperista tai rasvasta järjestelmässä, tai altaan tyhjennys on myöhästynyt."
+   ],
+   [
+    "Sateinen kausi",
+    "Noin marraskuusta maaliskuuhun rankkasateet koettelevat kattoja, vesikouruja, viemäreitä, uima-allasia ja jätevesialtaita. Paras aika tarkistuksiin on ennen ensimmäisiä suuria ukkosmyrskyjä."
+   ]
+  ],
+  "hoods_h": "Sanurin kaikki alueet",
+  "hoods_txt": "Toimin koko Sanurissa: Sanur Kaja, Sanur Kauh, Sindhu, Semawang, Mertasari ja Batujimbar — sekä Jl. Danau Tamblinganilla, Jl. Danau Posolla ja Bypass Ngurah Railla. Villat, talot, asunnot ja pienet majoitusliikkeet.",
+  "all_services": "Kaikki palvelut",
+  "pricing_h": "Hinnoittelu",
+  "pricing_items": [
+   [
+    "Hinta ennen työtä",
+    "Lähetä kuvia tai video — saat hinnan ennen kuin tulen paikalle, ja sovitaan se ennen työn aloitusta."
+   ],
+   [
+    "Osat laskulla",
+    "Osat ostetaan kustannushintaan ja saat laskun."
+   ],
+   [
+    "Kuvapalautus",
+    "Työn jälkeen saat ennen-jälkeen-kuvat WhatsAppissa."
+   ]
+  ],
+  "reviews_h": "Mitä asiakkaat sanovat",
+  "reviews_more": "Kaikki arvostelut Googlessa",
+  "projects": "Työmme",
+  "projects_h1": "Viimeaikaiset työt Sanurissa",
+  "projects_lead": "Todellisia töitä Sanurissa – mikä oli viallinen ja miten se korjattiin.",
+  "emergency": "Hätähuolto",
+  "about_h": "Teknikosta",
+  "years": "vuotta kokemusta",
+  "langs": "Kielet",
+  "warranty": "Takuu",
+  "sample": "Esimerkkidata"
  },
  "services": {
   "srv-santehnik": {
