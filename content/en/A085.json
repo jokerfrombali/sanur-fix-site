@@ -1,0 +1,71 @@
+{
+ "title": "How to Cut Your Pool Electricity Bill in Sanur",
+ "slug": "cut-pool-electricity-bill-sanur",
+ "meta": "Practical ways to reduce your pool's power draw in Sanur, Bali. Pumps, timers, LED lights, and heat pump settings explained simply.",
+ "intro": "Your pool is one of the biggest electricity consumers in a Sanur villa, especially during the dry season when you run filtration every day. The good news: most of that draw comes from just two or three components, and small changes to how they operate can make a real difference on your PLN bill. Here are the practical levers I see in villas around here.",
+ "sections": [
+  {
+   "h2": "What Actually Uses Power",
+   "paragraphs": [
+    "The main power consumers in a typical Bali villa pool are the circulation pump, the heater or heat pump, and the underwater lighting. In older compounds built before 2010 you may also have a separate skimmer pump, a UV steriliser, or a salt-chlorine cell running continuously alongside the main motor.",
+    "Sanur's sea air accelerates corrosion on electrical connections. If your pump starts humming louder than it used to, the motor may be straining against a worn bearing. Check the junction box monthly for moisture or green oxidation. This is where electrics meet water – if you spot anything unusual, stop using the pool and call a professional rather than opening the panel yourself."
+   ],
+   "bullets": [
+    "Circulation / filtration pump (typically runs 6–12 hrs per day)",
+    "Heat pump or gas heater (dry-season months, roughly April to October)",
+    "Underwater lights (halogen or LED)",
+    "Skimmer pump, UV unit, or salt-chlorine cell (if fitted)"
+   ]
+  },
+  {
+   "h2": "Switching to an Inverter Pump",
+   "paragraphs": [
+    "A standard single-speed pump draws the same wattage whether the filter needs two hours of cycling or twelve. An inverter, or variable-speed, pump adjusts its RPM to match actual demand. For a typical 8 × 4 m villa pool here, that means running at a lower speed for most of the day and ramping up only for backwashing or after heavy use.",
+    "You do not need to replace the whole system. Many inverter units bolt onto existing plumbing with a small adapter plate. If your current pump is older than eight years, ask about compatibility before committing to a swap. Send me photos of your equipment area on WhatsApp and I will tell you what will fit without guesswork."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Setting a Smart Timer",
+   "paragraphs": [
+    "The simplest saving is not running the pump when nobody is swimming. A basic mechanical timer cuts six or more hours off the daily cycle at almost no cost. Better still, a smart relay lets you set different schedules for each season.",
+    "In the dry season (April–October) evaporation pulls dust and pollen into the water, so you may want a longer run. In the rainy season (November–March) downpours stir up sediment from the bottom, and an extra hour of filtration after heavy rain keeps the skimmer basket clear. Scheduling the pump for overnight hours also helps because cooler ambient temperature means the motor works less hard against heat buildup."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "LED Underwater Lighting",
+   "paragraphs": [
+    "Many older Sanur villas still have halogen underwater fixtures drawing 50–100 W each. Swapping them for LED modules brings that down to roughly 8–15 W per light while giving brighter, whiter output. The retrofit usually means replacing the lamp module inside the existing housing – no rewiring required.",
+    "One important caution: never handle chlorine-based chemicals near an open electrical fitting. If you are doing any work around the pool's electrics, switch the main breaker off first. Anything beyond swapping the bulb itself should be left to a licensed technician who can verify the seal is intact before you power it back on."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Heat Pump Settings That Save Power",
+   "paragraphs": [
+    "If your villa has a heat-pump heater, it is almost certainly the single biggest line item on your bill between April and October. A few habits make a noticeable difference: pre-heat the pool the night before a swim rather than holding temperature all day; set your target two or three degrees lower than you think you need, since warm tropical air already raises surface temperature; and run the filter before the heater kicks in so the coil stays clean and efficient.",
+    "Salt-chlorine cells also draw current continuously. Check the cell's condition once a year because a fouled element pulls more amps to produce the same chlorine level. In the rainy season you can often reduce chlorination frequency since rain dilutes contaminants, but keep the pump cycling regularly to prevent algae in the shaded corners common in older Sanur compounds with overhanging frangipani or banyan roots."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many hours should I run my pool pump each day in Bali?",
+   "a": "For most villa pools here, six to eight hours of filtration per day keeps the water clear without overworking the motor. In the rainy season add an extra hour after heavy downpours to cycle stirred-up sediment. Adjust based on what you see in the skimmer basket rather than following a fixed rule."
+  },
+  {
+   "q": "Will switching to an inverter pump save enough to justify the cost?",
+   "a": "It depends on how long you currently run the pump and its wattage. A single-speed 1.5 kW unit running ten hours a day uses far more energy than a variable-speed pump doing the same filtration duty at lower RPM for longer periods. The price varies by model and installation complexity – send me photos of your current setup on WhatsApp and I will quote from there."
+  },
+  {
+   "q": "My pool is turning green even though the pump runs all day. What else could be wrong?",
+   "a": "Continuous pumping does not fix a chemistry imbalance. Check that your free-chlorine level is in range, confirm the salt cell or chlorinator is actually producing output, and look for shaded pockets where algae settle. If the problem persists after adjusting chemicals it can point to a failing impeller or a blocked return line – worth having someone inspect before it becomes a bigger repair."
+  }
+ ],
+ "cta": "Send a photo of your pool equipment area on WhatsApp and I will walk you through exactly which changes will make the biggest difference for your villa.",
+ "id": "A085",
+ "hub": "PE",
+ "status": "draft-qwen"
+}

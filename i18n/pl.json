@@ -1,0 +1,305 @@
+{
+ "lang": "pl",
+ "ui": {
+  "tagline": "Klempiarz i serwis basenów w Sanur",
+  "wa": "Napisz na WhatsAppa",
+  "call": "Zadzwoń",
+  "wa_text": "Cześć! Potrzebuję technika w Sanur: ",
+  "services": "Usługi",
+  "prices": "Cennik",
+  "areas": "Obszar działania",
+  "contacts": "Kontakt",
+  "fix": "Co naprawiam",
+  "how": "Jak to działa",
+  "faq": "FAQ",
+  "on_req": "na życzenie",
+  "work": "Praca",
+  "price": "Cena",
+  "steps": [
+   "Wyślij zdjęcie lub krótki film na WhatsAppa",
+   "Otrzymasz wycenę i termin dopasowany do Ciebie",
+   "Naprawiam i wysyłam Ci efekt końcowy"
+  ],
+  "area_txt": "Działam wyłącznie w Sanur — cały obszar:",
+  "home_h1": "Klempiarz i serwis basenów w Sanur, Bali",
+  "home_lead": "Prywatny technik: hydraulika, wycieki, podgrzewacze wody, pompy, czyszczenie i naprawa basenów, drobne naprawy willi w Sanur. Wyślij zdjęcie — odpiszę na WhatsAppie.",
+  "prices_h1": "Cennik w Sanur",
+  "prices_note": "Cena zależy od zakresu prac. Wycenię na podstawie zdjęć przed przyjazdem. Części zamienne są wyceniane osobno z paragonem.",
+  "areas_h1": "Wyłącznie Sanur",
+  "contacts_h1": "Kontakt",
+  "contacts_lead": "Najszybsza droga: WhatsApp ze zdjęciem problemu i Twoją lokalizacją.",
+  "nf": "Nie znaleziono strony",
+  "home": "Strona główna",
+  "badge": "Tylko Sanur · Bali",
+  "guides": "Poradniki",
+  "guides_h1": "Poradniki dla willi i basenów w Sanur",
+  "guides_lead": "Praktyczne poradniki od technika działającego wyłącznie w Sanur: wycieki, ciepła woda, pompy, baseny, szamba i drobne naprawy.",
+  "toc": "W tym poradniku",
+  "related": "Powiązane poradniki",
+  "read": "Czytaj poradnik",
+  "all_guides": "Wszystkie poradniki",
+  "need_help": "Potrzebujesz naprawy?",
+  "faq_h": "Pytania",
+  "trust": [
+   "Zdjęciowy raport na WhatsAppie po każdej pracy",
+   "Wycena ze zdjęć przed przyjazdem",
+   "Tylko Sanur — mieszkam i pracuję tutaj",
+   "Części zamienne z paragonem"
+  ],
+  "why": "Dlaczego właściciele willi w Sanur dzwonią do mnie",
+  "why_items": [
+   [
+    "Przychodzę osobiście",
+    "Nie jest to centrum obsługi ani ekipa. Osoba, do której piszesz, to ta sama, która wykonuje pracę."
+   ],
+   [
+    "Jeden obszar",
+    "Nie jeżdżę po całej wyspie. Znam willie w Sanur: stare baseny, słone studnie blisko plaży, zbiorniki na dachu."
+   ],
+   [
+    "Raporty dla właścicieli",
+    "Za granicą? Otrzymujesz zdjęcia przed/po oraz krótką listę wykonanych prac."
+   ]
+  ],
+  "master_h": "Twój technik",
+  "master_txt": "Tutaj pojawi się zdjęcie i kilka słów o techniku: imię, lata doświadczenia, języki. W Bali ludzie wybierają osobę, nie firmę.",
+  "master_ph": "Zdjęcie technika",
+  "map_h": "Gdzie działam",
+  "ready": "Coś się zepsuło? Wyślij zdjęcie na WhatsAppa.",
+  "ready_sub": "Odpiszę, co jest potrzebne, ile to kosztuje i kiedy mogę przyjechać.",
+  "credits": "Zdjęcia: Unsplash",
+  "eyebrow": "Hydraulika · Baseny · Naprawy",
+  "menu": "Menu",
+  "language": "Język",
+  "photo_note": "(zamień na prawdziwe zdjęcie)",
+  "guides_en": "Poradniki (angielski)"
+ },
+ "services": {
+  "srv-santehnik": {
+   "name": "Hydraulik w Sanurze",
+   "intro": "Prywatny hydraulik w Sanurze: przyjeżdżam osobiście, znajduję przyczynę i naprawiam. Kraniki, toalety, rury, pompy i ciepła woda — w willach, domach i mieszkaniach.",
+   "items": [
+    "Kapiące kraniki i mieszacze",
+    "Spłuczka spuszczająca wodę lub przeciekająca",
+    "Niskie ciśnienie wody",
+    "Wymiana mieszaczy, syfonów i węży",
+    "Montaż toalety i umywalki",
+    "Podłączenie pralki i zmywarki"
+   ],
+   "faq": [
+    [
+     "Jak szybko możesz przyjechać?",
+     "Zależy od zaplanowanych na dzień zleceń. Wyślij zdjęcie na WhatsAppa i powiem, kiedy będę mógł do Ciebie dotrzeć."
+    ],
+    [
+     "Kto kupuje części?",
+     "Jak wolisz. Mogę je kupić i przekazać Ci paragon."
+    ]
+   ]
+  },
+  "srv-protechki": {
+   "name": "Naprawa wycieków wody",
+   "intro": "Wykrywanie i naprawa wycieków: pod umywalkami, w ścianach, prysznicach i instalacjach ogrodowych. Ukryty wyciek często objawia się na liczniku PDAM albo pompą, która nie przestaje pracować.",
+   "items": [
+    "Wycieki pod umywalkami",
+    "Przeciekające prysznice i odpływy podłogowe",
+    "Ukryte wycieki wykrywane przez licznik",
+    "Pęknięte rury PVC/PPR",
+    "Wycieki w nawadnianiu ogrodu"
+   ],
+   "faq": [
+    [
+     "Co mam zrobić przed Twoim przyjazdem?",
+     "Zamknij główny zawór, a jeśli woda jest blisko gniazdek — wyłącz prąd."
+    ]
+   ]
+  },
+  "srv-zasor": {
+   "name": "Zatkane odpływy i toalety",
+   "intro": "Odkręcanie zatkanych toalet, umywalek, pryszniców i rur kanalizacyjnych za pomocą węża hydraulicznego, bez agresywnych chemikaliów niszczących rury i szamba.",
+   "items": [
+    "Zatkała się toaleta",
+    "Powolny spływ wody w prysznicy lub umywalce",
+    "Zatkana rura kanalizacyjna",
+    "Nieprzyjemny zapach z odpływów"
+   ],
+   "faq": [
+    [
+     "Dlaczego na Bali nie wrzuca się papieru toaletowego do WC?",
+     "Wąskie rury i małe szamba — papier szybko je zatyka."
+    ]
+   ]
+  },
+  "srv-bojler": {
+   "name": "Naprawa i montaż podgrzewaczy wody",
+   "intro": "Brak ciepłej wody? Znajdę przyczynę — podgrzewacz elektryczny, gazowy czy solarny na dachu. Elementy grzejne, termostaty, anody i nowe instalacje.",
+   "items": [
+    "Podgrzewacz nie grzeje",
+    "Podgrzewacz wyłącza bezpiecznik",
+    "Przeciekający podgrzewacz",
+    "Letnia woda z podgrzewacza słonecznego",
+    "Montaż nowego podgrzewacza"
+   ],
+   "faq": [
+    [
+     "Naprawić czy wymienić?",
+     "Przeciekający zbiornik to wymiana. Uszkodzony element grzejny albo termostat zwykle warto naprawić."
+    ]
+   ]
+  },
+  "srv-voda": {
+   "name": "Pompy i filtry wody",
+   "intro": "Pompy, przełączniki ciśnieniowe, zbiorniki dachowe i filtry wody. W okolicach plaży w Sanurze woda z ujęcia może być słona – pomogę w filtracji lub przejściu na PDAM.",
+   "items": [
+    "Pompa cyklicznie się załącza",
+    "Brak wody w domu",
+    "Zbiornik przelewa się lub jest pusty",
+    "Montaż filtra i wymiana wkładów",
+    "Czyszczenie zbiornika dachowego"
+   ],
+   "faq": [
+    [
+     "Jak często wymieniać wkłady?",
+     "Zwykle co 3–6 miesięcy, w zależności od jakości wody. Pokażę, na co zwracać uwagę."
+    ]
+   ]
+  },
+  "srv-chistka-bassejna": {
+   "name": "Czyszczenie basenu",
+   "intro": "Jednorazowe czyszczenie basenu: zbieranie zanieczyszczeń, mycie szczotką, odkurzanie, płukanie filtra i balansowanie wody. Odbudowa po zielonej wodzie.",
+   "items": [
+    "Czyszczenie przed przyjazdem gości",
+    "Zielona lub mętna woda",
+    "Mywanie płytek na linii wody",
+    "Płukanie filtra"
+   ],
+   "faq": [
+    [
+     "Ile trwa odbudowa zielonego basenu?",
+     "Zwykle 2–4 dni, w zależności od stanu wody i filtra."
+    ]
+   ]
+  },
+  "srv-obsluzhivanie-bassejna": {
+   "name": "Regularna obsługa basenu",
+   "intro": "Ustalony harmonogram obsługi basenu. Po każdej wizycie otrzymujesz raport przez WhatsApp: zdjęcia, odczyty wody, wykonane prace. Idealne, jeśli nie mieszkasz na Bali na stałe.",
+   "items": [
+    "Wizyty wg harmonogramu",
+    "Testowanie i balansowanie wody",
+    "Odkurzanie, mycie szczotką, zbieranie zanieczyszczeń",
+    "Kontrola pompy i filtra",
+    "Raport po każdej wizycie"
+   ],
+   "faq": [
+    [
+     "Czy chemia jest wliczona?",
+     "Umawiamy się wcześniej: albo wliczone, albo doliczane osobno z paragonem."
+    ]
+   ]
+  },
+  "srv-oborudovanie-bassejna": {
+   "name": "Wyposażenie basenu",
+   "intro": "Montaż i naprawa pomp, filtrów piaskowych i wkładkowych, chlorowników solnych, oświetlenia i automatycznego napełniania.",
+   "items": [
+    "Pompa nie nabiera wody lub hałasuje",
+    "Wymiana piasku w filtrze",
+    "Zawór wielodrogowy",
+    "Chlorownik solny",
+    "Oświetlenie basenu"
+   ],
+   "faq": [
+    [
+     "Czy mogę wysłać zdjęcie pompyowni?",
+     "Tak – to najlepszy sposób, żebym wiedział, co ze sobą zabrać."
+    ]
+   ]
+  },
+  "srv-remont-bassejna": {
+   "name": "Naprawa basenu",
+   "intro": "Wycieki, luźne kafelki, fugi, instalacje. Wiele basenów w Sanur ma już 15–20 lat — pomogę ustalić, co naprawić w pierwszej kolejności.",
+   "items": [
+    "Utrata wody — lokalizacja nieszczelności",
+    "Luźne kafelki i mozaika",
+    "Wymiana fug",
+    "Nieszczelności rur basenowych"
+   ],
+   "faq": [
+    [
+     "Parowanie czy nieszczelność?",
+     "Test wiadra: postaw wiadro z wodą na stopniu i porównaj oba poziomy po 24 godzinach."
+    ]
+   ]
+  },
+  "srv-septik": {
+   "name": "Szambo i kanalizacja",
+   "intro": "Zapachy, wolny odpływ, pełne szambo. Znajdę przyczynę, zamówię opróżnienie i udrożnię przewody.",
+   "items": [
+    "Zapach z kanalizacji",
+    "Pełne szambo",
+    "Zatkany przewód kanalizacyjny",
+    "Osadnik tłuszczu"
+   ],
+   "faq": [
+    [
+     "Jak często opróżniać szambo?",
+     "Zależy od pojemności i liczby osób — zwykle co 1–3 lata."
+    ]
+   ]
+  },
+  "srv-melkij-remont": {
+   "name": "Drobne naprawy",
+   "intro": "Drobne naprawy domowe w jednej wizycie: drzwi, zamki, moskitiery, silikon, półki, meble.",
+   "items": [
+    "Klinujące się drzwi i zawiasy",
+    "Zamki i klamki",
+    "Moskitiery",
+    "Wymiana uszczelnień silikonowych w łazience",
+    "Półki, karnisze, montaż telewizora",
+    "Montaż mebli"
+   ],
+   "faq": [
+    [
+     "Czy mogę zgłosić kilka prac na jedną wizytę?",
+     "Tak, to najkorzystniejsza opcja. Wyślij listę z zdjęciami."
+    ]
+   ]
+  },
+  "srv-obsluzhivanie-villy": {
+   "name": "Serwis willi",
+   "intro": "Regularne przeglądy willi: instalacje wodne, basen, pompy, podgrzewacze wody, dach przed sezonem deszczowym. Dla właścicieli i zarządców.",
+   "items": [
+    "Przeglądy wg checklisty",
+    "Przygotowanie do sezonu deszczowego",
+    "Kontrola przed przyjazdem gości",
+    "Raporty dla właściciela"
+   ],
+   "faq": [
+    [
+     "Czy współpracujecie z zarządcami willi?",
+     "Tak, możemy ustalić stały harmonogram przeglądów."
+    ]
+   ]
+  }
+ },
+ "hubs": {
+  "S": "Hydraulika",
+  "W": "Woda i pompy",
+  "PC": "Pielęgnacja basenu",
+  "PE": "Wyposażenie basenu",
+  "PR": "Naprawa basenu",
+  "K": "Szamba i odpływy",
+  "R": "Naprawy domowe",
+  "V": "Pielęgnacja wille"
+ },
+ "areas": [
+  "Sanur Kaja",
+  "Sanur Kauh",
+  "Sindhu",
+  "Semawang",
+  "Mertasari",
+  "Batujimbar",
+  "Jl. Danau Tamblingan",
+  "Jl. Danau Poso",
+  "Jl. Bypass Ngurah Rai"
+ ]
+}

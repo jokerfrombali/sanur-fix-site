@@ -1,0 +1,81 @@
+{
+ "title": "Automatic Pool Top-Up: How to Install & Set It Up",
+ "slug": "pool-auto-topup-installation-guide",
+ "meta": "Install and calibrate a pool auto-top-up system in your Sanur villa: sensor types, setup steps, common faults, and chemistry tips after refilling.",
+ "intro": "An automatic top-up keeps your pool at the right level without daily checking. In Sanur, where evaporation is high in dry season and PDAM supply can fluctuate, a reliable auto-fill system protects your pump from running dry. Here's how these systems work, how to install one, and what to watch after setup.",
+ "sections": [
+  {
+   "h2": "Types of Auto-Top-Up Systems",
+   "paragraphs": [
+    "The simplest option is a float valve on the skimmer or return line. A ball rises with the water and shuts off the inlet at target level. It needs no power but drifts as mineral deposits build up from well water or salt residue in the sea air.",
+    "Step up to an electronic level sensor — a small probe or ultrasonic unit — wired to a solenoid valve on the fill pipe. The controller opens the valve only when the reading drops below your set point. This is the most common setup in Sanur villas because it handles both PDAM mains pressure and rooftop-tank gravity feed.",
+    "A third tier uses a smart multi-sensor controller that logs data and sends alerts. Useful if you manage two pools; overkill for a single villa."
+   ],
+   "bullets": [
+    "Float valve: mechanical, no power needed, lowest cost",
+    "Electronic sensor + solenoid: best balance of reliability and simplicity",
+    "Smart multi-sensor controller: for larger properties or dual pools"
+   ]
+  },
+  {
+   "h2": "Installation Steps",
+   "paragraphs": [
+    "Before any plumbing work, confirm where your fill water comes from. Older Sanur villas often run on a well with a rooftop tank; newer builds tap PDAM directly. Pressure differs, so a solenoid sized for PDAM mains will hammer a low-pressure well line.",
+    "Typical install goes like this: shut off the main supply, cut into the existing fill pipe near the skimmer box, thread in the solenoid (or float) valve, then run the sensor cable to a junction box mounted away from direct spray. If you're using a rooftop tank as buffer, make sure its overflow clears the pool edge so monsoon downpours don't flood the garden.",
+    "Safety note: any wiring near the deck must sit in IP65-rated enclosures behind an RCD breaker. Salt air corrodes terminals fast — use marine-grade connectors. If electrics around water aren't your thing, stop and call a licensed electrician before touching anything."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Calibration & Setup",
+   "paragraphs": [
+    "Set your target level just below the top of the skimmer weir — high enough to keep the pump primed, low enough that heavy rain won't push water over the coping.",
+    "Open the fill valve fully, let the pool reach target, close it. Adjust the sensor threshold so the controller triggers two to three centimetres below that mark. Test by draining a bucketful of water and watching the system kick in and shut off cleanly. Repeat twice to rule out hunting (rapid open-close cycling).",
+    "On a well supply, check flow rate. A wide-open solenoid can pull more than the submersible delivers, tripping dry-run protection. Restrict with a partially closed ball valve until fill runs steady at roughly one to two litres per second."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Common Faults & Fixes",
+   "paragraphs": [
+    "The most frequent issue is mineral and salt crust on the float or probe. In Sanur's humid, salty air even stainless fittings build up within a season. Wipe the sensing element monthly with a soft cloth and mild vinegar; skip abrasive pads.",
+    "Solenoid valves are next. The internal diaphragm hardens from chlorine exposure and sticks either open (pool overflows) or shut (pump runs dry). Listen for the click when the controller calls for water — silence means the coil has likely failed.",
+    "After the first monsoon, inspect every joint. Vibration plus humidity loosens push-fit connections and corrodes threaded unions. A slow drip behind the skimmer box can rot timber frames in older villas before anyone notices."
+   ],
+   "bullets": [
+    "Float/probe crusted with minerals → clean monthly",
+    "Solenoid stuck open or shut → replace diaphragm or whole valve",
+    "Loose plumbing after rainy season → inspect all joints each June/July",
+    "Pump dry-run trips → verify fill rate matches pump capacity"
+   ]
+  },
+  {
+   "h2": "Top-Up Water & Pool Chemistry",
+   "paragraphs": [
+    "Every litre of fresh water dilutes your chemical balance: chlorine drops, pH drifts up, salinity falls in salt systems. After a top-up exceeding ten centimetres of level change, re-test and re-dose before swimming.",
+    "If the auto-fill cycles daily against evaporation, the effect is small but cumulative. Build a weekly test into your routine rather than waiting for cloudy water. Dry months (May through September) bring noticeable evaporation off Sanur pools; expect several fill cycles per week.",
+    "Never add chemicals while the fill line is active. Fresh water flowing over an undissolved tablet creates localised high-concentration zones that can shock swimmers or damage liners. Let the cycle finish, wait twenty minutes, then dose at the deep end.",
+    "Safety: if you smell gas near the equipment shed — some villas have LPG heaters nearby — stop work immediately, ventilate the area, and call a professional. Do not operate any electrical switch in that space."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "How often should I clean the pool level sensor?",
+   "a": "In Sanur's salty air, every four to six weeks is sensible. Rinse with fresh water, wipe gently with a soft cloth, and check the mounting bracket isn't corroding. If readings start drifting by more than two centimetres, it's time for a deeper clean or replacement."
+  },
+  {
+   "q": "Can I use PDAM water directly without a buffer tank?",
+   "a": "You can, but PDAM pressure in Sanur fluctuates, especially in dry season when demand peaks. A rooftop or ground-level tank smooths out those swings and protects your solenoid valve from pressure spikes. Most villa installs here include at least a small intermediate tank."
+  },
+  {
+   "q": "My auto-top-up keeps running and won't shut off. What do I check first?",
+   "a": "Start simple: confirm the float or probe isn't stuck below the target line. Then listen for the solenoid click — if you hear it but water still flows, the diaphragm has likely failed. Shut the isolation valve, let the pool drain slightly, and arrange a replacement before the pump runs dry."
+  }
+ ],
+ "cta": "If you'd like a second pair of eyes on your current setup, snap a photo of your skimmer box and fill-line area and send it over on WhatsApp — I'll take a look and suggest what to adjust.",
+ "id": "A083",
+ "hub": "PE",
+ "status": "draft-qwen"
+}

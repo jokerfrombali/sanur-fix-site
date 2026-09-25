@@ -1,0 +1,83 @@
+{
+ "title": "Pool Robot Vacuum Not Working? Sanur Repair Guide",
+ "slug": "pool-robot-vacuum-repair-sanur",
+ "meta": "Your pool robot stopped moving or cleaning? Diagnose cable damage, brush wear, and motor faults common in Sanur pools before calling a technician.",
+ "intro": "Most pool robots in Sanur villas fail for three reasons: a damaged power cable, worn brushes, or a seized drive motor. The salty sea air and year-round humidity accelerate corrosion on connectors and rubber seals, while hard water from PDAM mains or a private well leaves mineral deposits inside the pump housing. In many cases the fix is straightforward once you know what to look for.",
+ "sections": [
+  {
+   "h2": "Common Pool Robot Faults",
+   "paragraphs": [
+    "Before you take anything apart, run through this quick checklist. Plug the robot into its charger and watch the indicator light. If there is no light at all, the problem is upstream – the cable, the junction box, or the wall socket. If the light blinks but the robot does not move, the controller board has detected a fault and the error pattern will point you toward the motor or a sensor.",
+    "During the rainy season (roughly November to April), pools collect more leaf litter and algae. A clogged filter screen can make the robot appear dead when it is actually just struggling against suction resistance. Pull out the filter basket, rinse it under fresh tap water, and try again before assuming a component has failed."
+   ],
+   "bullets": [
+    "Test the wall socket with another plug-in device first",
+    "Look up your model's blinking-LED code in the manual",
+    "Remove and rinse the filter screen after every heavy-rain week"
+   ]
+  },
+  {
+   "h2": "Cable Problems",
+   "paragraphs": [
+    "The power cable is the single most common failure point on pool robots used in coastal areas like Sanur. Constant salt-laden air corrodes the metal pins inside the connector, and repeated flexing where the cable exits the robot body creates hairline cracks that let water seep in over time.",
+    "Unplug everything before inspecting. Run your fingers along the full length of the cable, paying attention to the last 30 cm near the robot housing. If you feel a soft spot, a kink, or see exposed copper strands, stop using the robot immediately. Water plus electricity around a pool is genuinely dangerous – do not attempt a tape-and-pray repair. This needs a proper waterproof splice or a new cable section fitted by a technician."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Brush Wear and Replacement",
+   "paragraphs": [
+    "Rubber drive brushes and side brushes degrade faster in Bali than in temperate climates. The combination of direct sun, chlorine residual in the water, and high ambient heat makes the rubber brittle within one or two seasons. You will notice the robot slipping on the pool floor instead of gripping it, or leaving streaks of algae behind.",
+    "Lift the robot out of the water and turn it over. Spin each brush by hand. Healthy rubber should feel slightly tacky; worn rubber feels chalky or has visible splits. While you are there, pull out any hair, string, or leaf fragments wrapped around the axle – this is the most common reason a robot stops working after a few weeks of use."
+   ],
+   "bullets": [
+    "Inspect brushes every four to six weeks",
+    "Wipe the axle with a dry cloth before re-fitting",
+    "Replace both side brushes at the same time for even traction"
+   ]
+  },
+  {
+   "h2": "Motor Issues",
+   "paragraphs": [
+    "If the robot powers on (you see lights) but does not move, the drive motor or the pump impeller is the likely culprit. In Sanur, hard water from PDAM mains or a bore well deposits calcium and magnesium inside the sealed pump housing. Over months this grinds against the impeller vanes until the motor seizes.",
+    "A grinding or whining noise when you press start usually means the bearings are wearing out. Complete silence despite a lit indicator points to a burnt winding or a tripped internal thermal fuse. Do not open a sealed motor unit yourself – the internals are potted in resin and require specific tools to disassemble safely. This is a workshop-bench job, not a villa-garage fix."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Ongoing Service Tips for Sanur Pools",
+   "paragraphs": [
+    "A little routine care will noticeably extend your pool robot's life in a tropical setting. After each run, lift it out of the pool, rinse the filter screen and brush axles under fresh tap water, and let it air-dry in shade before storing. Avoid leaving it sitting in direct afternoon sun on the pool deck; UV accelerates rubber cracking just as much as chlorine does.",
+    "Before the rainy season kicks in around October, do a full visual check: cable integrity, connector pins, brush condition, and a spin-test of both motors. If you use well water rather than PDAM mains, pay extra attention to mineral buildup inside the pump housing – a gentle soak in dilute white vinegar (one part vinegar to four parts water) can dissolve early deposits without damaging seals. Never mix this with any chlorine-based cleaner."
+   ],
+   "bullets": [
+    "Rinse and dry after every session",
+    "Store in shade, away from direct sun",
+    "Full inspection once a year, ideally before November rains"
+   ]
+  },
+  {
+   "h2": "",
+   "paragraphs": [],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "My pool robot won't turn on at all – what should I check first?",
+   "a": "Start at the wall socket – test it with another plug-in device. Then inspect the power cable for visible damage or a disconnected junction box. If the cable looks fine but there is still no indicator light, the internal fuse or controller board has likely failed and will need a technician's diagnosis."
+  },
+  {
+   "q": "How often should I replace the brushes on my pool robot?",
+   "a": "In Sanur's heat and constant chlorine exposure, most rubber brushes show significant wear within one to two swimming seasons. Check them every four to six weeks; if they feel chalky, split, or the robot is slipping on the floor, replace both side brushes together to keep traction even."
+  },
+  {
+   "q": "Can I repair the drive motor myself, or do I need a professional?",
+   "a": "Sealed drive motors are potted in resin and require specific tools to open without damaging the windings. If you hear grinding or get no response despite a lit indicator, send photos of the unit and describe the symptoms on WhatsApp so we can advise whether it needs a workshop visit."
+  }
+ ],
+ "cta": "Send a clear photo of your robot (top and bottom) plus any visible damage on WhatsApp, and we'll let you know whether it's a quick fix or a job that needs our bench.",
+ "id": "A081",
+ "hub": "PE",
+ "status": "draft-qwen"
+}

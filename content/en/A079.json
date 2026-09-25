@@ -1,0 +1,87 @@
+{
+ "title": "Pool Equipment Installation: Parts, Layout & Wiring",
+ "slug": "pool-equipment-installation-layout",
+ "meta": "Pool equipment installation in Sanur villas: what components you need, how they connect, where to place them in tropical heat, and safety checks before first run.",
+ "intro": "You're not supposed to figure out pool plumbing from random videos while your villa's pump is dripping onto the terrace. Here's what actually goes into a standard Sanur villa pool equipment setup, how the pieces connect in sequence, and what to verify before you switch everything on for the first time.",
+ "sections": [
+  {
+   "h2": "What's Actually in the Setup",
+   "paragraphs": [
+    "The core loop is simple: a circulation pump pulls water from the skimmer and main drain, pushes it through a filter, optionally past a heater, injects chemicals, and sends clean water back through return jets. That's the whole circuit.",
+    "In a typical Bali villa you'll also see a chemical dosing unit or manual feed point, an air-release valve on top of the filter tank, and a small control panel with a timer or variable-speed controller. Older villas sometimes have just a pump and a basic sand filter — no automation at all."
+   ],
+   "bullets": [
+    "Circulation pump (single-speed or variable-speed)",
+    "Filter tank: sand or cartridge, sized to the pool volume",
+    "Heater (gas or electric) if year-round swimming is wanted",
+    "Chemical injection tee or automatic doser",
+    "Return lines and mid-depth jets",
+    "Air-release valve and pressure gauge on the filter",
+    "Control box with RCD breaker and timer"
+   ]
+  },
+  {
+   "h2": "How It All Connects",
+   "paragraphs": [
+    "Think of one continuous loop. Water leaves the pool through the skimmer (surface debris) and the main drain (bottom). Both feed the suction side of the pump. The pump pushes water into the filter, where sand or cartridges trap particles. From the filter outlet, water passes the heater (if fitted), then the chemical-injection tee, and finally returns to the pool through jets set at mid-depth.",
+    "The mistake people make most often is mixing up suction and pressure sides. Suction is before the pump; pressure is after. Fittings, valves, and the chemical injector sit on specific sides. Swap them and the pump will cavitate or the filter won't hold pressure."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Where to Place the Equipment",
+   "paragraphs": [
+    "In Sanur the equipment area takes three hits at once: direct sun for most of the day, salt-laden sea breeze from the east, and monsoon downpours that dump a lot of water in an hour. Your layout should account for all three.",
+    "Put the pump and filter under a roof or shade structure if you can. UV degrades rubber seals and plastic fittings faster than expected, especially with PDAM water that already carries some mineral load. Keep the whole assembly off bare ground — concrete plinths or raised pads stop standing water wicking up during the wet season.",
+    "If your villa has a well as backup supply, make sure its suction line doesn't cross the pool's drain line. And keep the equipment at least two metres from any septic-tank vent or soakaway; old Sanur villas sometimes have these tucked right behind the kitchen wall."
+   ],
+   "bullets": [
+    "Shade or covered area to protect seals from UV",
+    "Raised pad so monsoon rain doesn't pool around electrical parts",
+    "Ventilated space — don't seal it into a closet",
+    "Away from septic vents and garden irrigation lines",
+    "Accessible for backwashing without dragging hoses across the terrace"
+   ]
+  },
+  {
+   "h2": "Wiring and Electrical Safety",
+   "paragraphs": [
+    "This is where I get firm. Pool equipment sits outdoors, near water, in a humid tropical climate. Every circuit feeding the pump, heater, and lights must go through an RCD (residual-current device) rated at 30 mA minimum on its own dedicated breaker. Junction boxes need IP65 rating or better, and all outdoor connections should use waterproof glands, not a twist of tape.",
+    "If you smell burning insulation, see discoloured wiring, or notice the RCD tripping repeatedly: stop using the system and call a licensed electrician before touching anything further. Water plus electricity in a salt-air environment is not a combination to troubleshoot yourself."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "First Run and Checks",
+   "paragraphs": [
+    "Before you fill the pool, do a dry run of the pump with the filter tank full of water but no chlorine in the system yet. Listen for grinding, watch for weeping at unions, and confirm the pressure gauge climbs and stabilises. Open the return valves slowly so you don't hammer the pipes.",
+    "When you start dosing chemicals, add them one at a time into the running water stream — never pour two different products into the same bucket or the same port simultaneously. Chlorine mixed with acid-based cleaners releases toxic gas. If you're unsure which product goes where, ask your technician to label every port before first dose."
+   ],
+   "bullets": [
+    "Dry-run the pump; check every union for leaks",
+    "Verify flow direction through the filter (inlet → outlet)",
+    "Test the RCD by pressing its test button",
+    "Confirm heater cut-off temperature is set correctly",
+    "Label chemical ports clearly before the first dose"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I use well water to top up my Sanur villa pool?",
+   "a": "Yes, but well water here tends to be high in iron and hardness. Run it through the filter first and expect more frequent backwashing. A simple inline softener or iron-removal cartridge on the suction line helps protect the pump seals over time."
+  },
+  {
+   "q": "How often should I replace the sand in my filter?",
+   "a": "As a rough guide, every three to five years depending on how much debris your garden drops and whether you run the filter daily. You'll know it's time when backwashing stops clearing the pressure gauge or the water stays cloudy even after a full cycle."
+  },
+  {
+   "q": "What should I do to the equipment during the rainy season?",
+   "a": "Make sure the area drains properly so water isn't sitting around the control box. Check that any roof over the equipment hasn't shifted — monsoon winds are strong in Sanur. If the pump has been off for weeks, prime it again before restarting; trapped air will make it run dry and damage the seal."
+  }
+ ],
+ "cta": "If your equipment area looks half-finished or you're not sure what's missing, snap a photo and send it over on WhatsApp — I'll tell you exactly what needs doing before you fill that pool.",
+ "id": "A079",
+ "hub": "PE",
+ "status": "draft-qwen"
+}
