@@ -155,7 +155,7 @@ def page(lang, slug, title, descr, body, alts, crumbs=None, schema=None, head=No
            + dd(u["areas"], url(al, sec(al, "ar")), area_links, u["areas_h1"])
            + "".join(f'<a class="m" href="{h}">{n}</a>' for h, n in links) + "</nav>")
     tools_ = (f'<div class="htools"><a class="hphone" href="{TEL}">{ph_i(18)}<span>{PHONE}</span></a>'
-              f'<details class="langsel"><summary>{lang.upper()} ▾</summary><div class="ll">{ll}</div></details>'
+              f'<details class="langsel"><summary aria-label="{u["language"]}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.6 2.8 3.9 6 3.9 9.5s-1.3 6.7-3.9 9.5c-2.6-2.8-3.9-6-3.9-9.5S9.4 5.3 12 2.5z"/></svg><span>{lang.upper()}</span></summary><div class="ll">{ll}</div></details>'
               f'<a class="hbtn" href="{wa_link(u, wa_what)}">{wa_i(18)} WhatsApp</a>'
               f'<button class="burger" aria-label="{u.get("menu", "Menu")}" onclick="document.body.classList.toggle(\'menu-open\')"><span></span></button></div>')
     mnav = (f'<div class="mnav"><h4>{u["services"]}</h4><div class="ll">{srv_links}</div><h4>{u["areas"]}</h4><div class="ll">{area_links}</div>'
