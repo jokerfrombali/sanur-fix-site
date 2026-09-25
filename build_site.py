@@ -312,7 +312,9 @@ def build():
                 avg = sum(r.get("stars", 5) for r in REVIEWS) / len(REVIEWS)
                 rating = f'<div class="rating"><span class="st">★★★★★</span>{u["rated"].replace("{r}", f"{avg:.1f}").replace("{n}", str(len(REVIEWS)))} {demo}</div>'
             feat = '<ul class="feat">' + "".join(f"<li>{CHECK_ICO}<span>{t}</span></li>" for t in u["trust"]) + "</ul>"
-            return (f'<div class="hero pro"><img src="{img(photo, 2200, 1300)}" alt="" fetchpriority="high"><div class="wrap"><div>{rating}<h1>{h1}</h1>'
+            plain = re.sub(r"<[^>]+>", "", h1)
+            hcls = "xl" if len(plain) > 44 else ("l" if len(plain) > 32 else "s")
+            return (f'<div class="hero pro"><img src="{img(photo, 2200, 1300)}" alt="" fetchpriority="high"><div class="wrap"><div>{rating}<h1 class="h-{hcls}">{h1}</h1>'
                     f'<p>{lead}</p>{feat}</div>{lead_form(what)}</div></div>')
         tc = [(MASTER["years"] + " " + u["years"]) if MASTER["years"] else u["only"], u["only"], u["pricing_items"][0][0], (f"★ {len(REVIEWS)} Google" if REVIEWS else u["pricing_items"][2][0])]
         tsub = [MASTER["languages"] or u["badge"], u["badge"], u["pricing_items"][0][1][:70] + "…", u["reviews_h"] if REVIEWS else u["pricing_items"][2][1][:70] + "…"]

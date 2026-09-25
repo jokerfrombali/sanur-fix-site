@@ -304,3 +304,18 @@ details.langsel{padding:0;border:0;margin:0}details.langsel>summary{display:bloc
 .hbtn{opacity:0;visibility:hidden;transform:translateY(-6px);transition:opacity .25s,transform .25s,visibility .25s}
 body.scrolled .hbtn,body.menu-open .hbtn{opacity:1;visibility:visible;transform:none}
 p.inl a{display:inline-flex;align-items:center;gap:6px;color:var(--wa)!important;font-weight:700}
+/* v3.2: первый экран = высота окна на любом языке */
+:root{--hh:84px}@media(min-width:1440px){:root{--hh:96px}}
+@media(min-width:1000px){
+ .hero.pro{min-height:calc(100vh - var(--hh));min-height:calc(100svh - var(--hh));display:flex;align-items:center}
+ .hero.pro .wrap{padding-top:clamp(28px,5vh,72px)!important;padding-bottom:clamp(28px,5vh,72px)!important}
+ .hero.pro h1.h-s{font-size:clamp(46px,min(5.2vw,9vh),96px)}
+ .hero.pro h1.h-l{font-size:clamp(42px,min(4.2vw,7.4vh),80px)}
+ .hero.pro h1.h-xl{font-size:clamp(38px,min(3.6vw,6.4vh),68px)}
+ .hero.pro p{font-size:clamp(16px,2vh,21px);margin-bottom:0}
+ .feat{margin:clamp(14px,2.4vh,26px) 0 0}.feat li{font-size:clamp(15px,1.9vh,19px)}
+ .rating{margin-bottom:clamp(6px,1.5vh,14px)}
+ .lead-form{padding:clamp(24px,3.6vh,44px)}.lead-form h3{font-size:clamp(24px,3.4vh,36px)}
+ .lead-form label{margin:clamp(10px,1.8vh,20px) 0 6px}.lead-form select{padding:clamp(11px,1.5vh,16px) 14px}
+ .tcards{margin-top:40px!important}
+}
