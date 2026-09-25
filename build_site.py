@@ -27,7 +27,7 @@ PROJECTS = []
 DEMO = True
 if DEMO:
     EMERGENCY = True
-    MASTER = {"name": "Made", "photo": "https://images.unsplash.com/photo-1749532125405-70950966b0e5?auto=format&fit=crop&w=900&h=1125&q=70",
+    MASTER = {"name": "Jupri", "bio": {"en": "Sample profile: Jupri has fixed villa plumbing, water heaters and pools in Bali for 12 years. He comes himself, explains what is wrong in plain English and sends photos after every job.", "ru": "Пример профиля: Джупри 12 лет чинит сантехнику, бойлеры и бассейны на виллах Бали. Приезжает сам, понятно объясняет, что сломалось, и присылает фото после каждой работы."}, "photo": "https://images.unsplash.com/photo-1749532125405-70950966b0e5?auto=format&fit=crop&w=900&h=1125&q=70",
               "years": "12", "languages": "English, Bahasa", "warranty": {"en": "3 months on work", "ru": "3 месяца на работу"}}
     REVIEWS = [
         {"name": "Sample — Anna, Sindhu", "stars": 5, "text": "Sample review: our pool pump stopped the day before guests arrived. Sent a photo on WhatsApp, got a price in ten minutes, fixed the same afternoon."},
@@ -265,18 +265,24 @@ def build():
             return "".join(f'<a class="card area" href="{url(al, a["slug"])}"><div class="im"><img loading="lazy" src="{img(a["photo"], 700, 525)}" alt="{e(aname(al, a))}"></div>'
                            f'<h3>{aname(al, a)}</h3><p>{", ".join(a["subs"][:3])}</p></a>' for a in AREAS if a is not exclude)
         strip = '<div class="strip"><div class="wrap">' + "".join(f"<div>{CHECK_ICO}<span>{v}</span></div>" for v in u["trust"]) + "</div></div>"
-        steps = '<ol class="steps">' + "".join(f"<li>{s}</li>" for s in u["steps"]) + "</ol>"
-        how = f'<section class="dark"><div class="wrap"><div class="shead"><div><div class="eyebrow">{u["how"]}</div><h2>{u["ready"]}</h2></div><p>{u["ready_sub"]}</p></div>{steps}</div></section>'
+        STEP_ICO = ['<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg>',
+                    '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.5"/></svg>',
+                    '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.5-.5-.5-2.5z"/></svg>']
+        steps = '<ol class="steps2">' + "".join(f'<li><i>{STEP_ICO[i]}</i><span class="n">0{i + 1}</span><b>{s}</b></li>' for i, s in enumerate(u["steps"])) + "</ol>"
+        how = (f'<section class="how2"><div class="wrap"><div class="how-l"><div class="eyebrow">{u["how"]}</div><h2>{u["ready"]}</h2><p>{u["ready_sub"]}</p>'
+               f'<a class="btn wa" href="{wa_link(u)}">{wa_i()} {u["wa"]}</a></div>{steps}</div></section>')
         why = (f'<section><div class="wrap"><div class="shead"><h2>{u["why"]}</h2></div><div class="why">'
                + "".join(f"<div><h3>{a}</h3><p>{b}</p></div>" for a, b in u["why_items"]) + "</div></div></section>")
         mphoto = (f'<img class="mimg" src="{MASTER["photo"] if MASTER["photo"].startswith("http") else BASE + MASTER["photo"]}" alt="{e(MASTER["name"])}">'
                   if MASTER["photo"] else f'<div class="ph">{u["master_ph"]}<br>{u.get("photo_note", "")}</div>')
         facts = [(u["years"], MASTER["years"]), (u["langs"], MASTER["languages"]), (u["warranty"], tx(lang, MASTER["warranty"]))]
         facts_html = "".join(f'<div><b>{v}</b><span>{k}</span></div>' for k, v in facts if v)
-        master = (f'<section style="padding-top:0"><div class="wrap master">{mphoto}'
-                  f'<div><div class="eyebrow">{u["about_h"]} {demo}</div><h2>{MASTER["name"] or u["master_h"]}</h2>'
-                  + (f'<div class="facts">{facts_html}</div>' if facts_html else f'<p>{u["master_txt"]}</p>')
-                  + '<ul class="check">' + "".join(f"<li>{t}</li>" for t in u["trust"]) + f'</ul><div style="margin-top:26px">{buttons(u)}</div></div></div></section>')
+        bio = tx(lang, MASTER.get("bio", {})) or u["master_txt"]
+        master = (f'<section class="master2"><div class="wrap"><div class="m-photo">{mphoto}'
+                  + (f'<div class="m-badge"><b>{e(MASTER["name"])}</b><span>{u["badge"]}</span></div>' if MASTER["name"] else "")
+                  + f'</div><div class="m-body"><div class="eyebrow">{u["about_h"]} {demo}</div><h2>{e(MASTER["name"]) or u["master_h"]}</h2><p class="big">{e(bio)}</p>'
+                  + (f'<div class="facts2">{facts_html}</div>' if facts_html else "")
+                  + '<ul class="check two">' + "".join(f"<li>{t}</li>" for t in u["trust"]) + f'</ul>{buttons(u)}</div></div></section>')
         tel_a = f'<a href="{TEL}">{PHONE}</a>'
         inline = lambda what="": f'<p class="inl"><a href="{wa_link(u, what)}">{wa_i(18)} {u["ready"]}</a> {u["ready_sub"]}</p>'
         stars = lambda n: "★" * int(n) + "☆" * (5 - int(n))
