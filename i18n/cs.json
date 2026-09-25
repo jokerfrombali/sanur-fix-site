@@ -1,13 +1,10 @@
 {
  "lang": "cs",
  "ui": {
-  "tagline": "Vodář a servis bazénů v Sanuru",
   "wa": "Napište mi na WhatsApp",
   "call": "Zavolat",
-  "wa_text": "Dobrý den! Potřebuji technika v Sanuru: ",
   "services": "Služby",
   "prices": "Ceny",
-  "areas": "Oblast působnosti",
   "contacts": "Kontakt",
   "fix": "Co opravuji",
   "how": "Jak to funguje",
@@ -20,51 +17,21 @@
    "Získáte cenu a termín, který vám vyhovuje",
    "Opravím a pošlu vám výsledek"
   ],
-  "area_txt": "Působím pouze v Sanuru — celá oblast:",
-  "home_h1": "Vodář a servis bazénů v Sanuru, Bali",
-  "home_lead": "Soukromý technik: vodovod, úniky, ohřívače vody, čerpadla, čištění a opravy bazénů, drobné opravy vil v Sanuru. Pošlete fotku — odpovím na WhatsAppu.",
-  "prices_h1": "Ceny v Sanuru",
   "prices_note": "Cena závisí na typu práce. Nabídnu cenovou nabídku z fotografií před návštěvou. Díly se účtují zvlášť s fakturou.",
-  "areas_h1": "Pouze Sanur",
   "contacts_h1": "Kontakt",
   "contacts_lead": "Nejrychlejší cesta: WhatsApp s fotkou problému a vaší lokalitou.",
   "nf": "Stránka nenalezena",
   "home": "Domů",
-  "badge": "Pouze Sanur · Bali",
   "guides": "Průvodci",
-  "guides_h1": "Průvodce vilami a bazény pro Sanur",
-  "guides_lead": "Praktické průvodce od technika, který působí pouze v Sanuru: úniky, teplá voda, čerpadla, bazény, septiky a drobné opravy.",
   "toc": "V tomto průvodci",
   "related": "Související průvodci",
   "read": "Číst průvodce",
   "all_guides": "Všechny průvodce",
   "need_help": "Potřebujete to opravit?",
   "faq_h": "Dotazy",
-  "trust": [
-   "Fotoreport na WhatsAppu po každé práci",
-   "Cenová nabídka z vašich fotek před návštěvou",
-   "Pouze Sanur — žiju a pracuji tady",
-   "Díly účtovány s fakturou"
-  ],
-  "why": "Proč majitelé vil v Sanuru volají mně",
-  "why_items": [
-   [
-    "Jdu osobně",
-    "Nejsem call centrum ani tým. Kdo vám píše, ten i opravuje."
-   ],
-   [
-    "Jedna oblast",
-    "Nepřejedu ostrov. Znám vily v Sanuru: staré bazény, studny s poloslanou vodou u pláže, nádrže na střeše."
-   ],
-   [
-    "Reporty pro majitele",
-    "Jste v zahraničí? Dostanete fotky před/po a krátký přehled provedených pracích."
-   ]
-  ],
   "master_h": "Váš technik",
   "master_txt": "Zde bude fotka a pár slov o technikovi: jméno, roky zkušeností, jazyky. Na Balijích lidé vybírají člověka, ne firmu.",
   "master_ph": "Fotka technika",
-  "map_h": "Kde působím",
   "ready": "Něco se pokazilo? Pošlete fotku přes WhatsApp.",
   "ready_sub": "Odpovím s tím, co je potřeba, cenou a termínem návštěvy.",
   "credits": "Fotografie: Unsplash",
@@ -73,9 +40,7 @@
   "language": "Jazyk",
   "photo_note": "(nahraďte skutečnou fotkou)",
   "guides_en": "Průvodci (anglicky)",
-  "only": "Jen Sanur",
   "call_or_wa": "Pošlete fotku přes WhatsApp nebo zavolejte {phone} — řeknu, co je potřeba a kdy můžu přijet.",
-  "local_eyebrow": "Místní znalosti",
   "local_h": "Instalatérství v Sanuru je jiné",
   "local_intro": "Většina výjezdů v Sanuru má stejné místní příčiny. Znát je znamená mít půlku diagnózy — proto pracuji jen v jedné oblasti.",
   "local_items": [
@@ -143,32 +108,9 @@
   ],
   "form_btn": "Poslat přes WhatsApp",
   "form_note": "Otevře se WhatsApp s vaší zprávou. Přidejte tam fotku.",
-  "rated": "Hodnocení {r} · {n} recenzí",
-  "serving": "Hrdě sloužíme Sanuru"
+  "rated": "Hodnocení {r} · {n} recenzí"
  },
  "services": {
-  "srv-santehnik": {
-   "name": "Vodní instalatér v Sanuru",
-   "intro": "Soukromý vodní instalatér v Sanuru: přijedu osobně, najdu příčinu a opravím ji. Baterie, záchody, potrubí, čerpadla i teplá voda — ve vilách, domech a bytech.",
-   "items": [
-    "Uzávěry a baterie s únikem vody",
-    "Tékající nebo unikající splachovací nádržka",
-    "Nízký tlak vody",
-    "Výměna baterií, sifonů a hadic",
-    "Montáž záchodu a umyvadla",
-    "Připojení pračky a myčky"
-   ],
-   "faq": [
-    [
-     "Jak rychle můžete přijet?",
-     "Záleží na denním plánu. Pošlete fotku přes WhatsApp a řeknu vám, kdy tam budu moci být."
-    ],
-    [
-     "Kdo nakupuje díly?",
-     "Jako chcete. Můžu je koupit já a předat vám účtenku."
-    ]
-   ]
-  },
   "srv-protechki": {
    "name": "Oprava úniků vody",
    "intro": "Hledání a odstraňování úniků: pod umyvadly, ve stěnách, v sprchách i zahradních rozvodech. Skrytý útek se často projeví na měřiči PDAM nebo čerpadlem, které neustále běží.",
@@ -219,23 +161,6 @@
     ]
    ]
   },
-  "srv-voda": {
-   "name": "Vodní čerpadla a filtry",
-   "intro": "Čerpadla, tlakové spínače, střešní nádrže a vodní filtry. V blízkosti pláže v Sanuru může být studniční voda slaná – pomohu s filtrací nebo přechodem na PDAM.",
-   "items": [
-    "Čerpadlo neustále cykluje",
-    "Žádná voda v domě",
-    "Nádrž přetéká nebo je prázdná",
-    "Montáž filtrů a výměna kazet",
-    "Úklid střešní nádrže"
-   ],
-   "faq": [
-    [
-     "Jak často měnit kazety?",
-     "Obvykle každých 3–6 měsíců podle kvality vody. Ukážu vám, na co si dát pozor."
-    ]
-   ]
-  },
   "srv-chistka-bassejna": {
    "name": "Úklid bazénu",
    "intro": "Jednorázový úklid bazénu: odstraňování nečistot, kartáčování, vysávání, zpětné proplachnutí filtru a vyvážení vody. Obnova zeleného bazénu.",
@@ -283,22 +208,6 @@
     [
      "Můžu poslat fotku čerpacího prostoru?",
      "Ano – je to nejlepší způsob, jak vědět, co si přivézt."
-    ]
-   ]
-  },
-  "srv-remont-bassejna": {
-   "name": "Opravy bazénů",
-   "intro": "Úniky vody, uvolněné dlaždice, spáry, potrubí. Mnoho bazénů v Sanuru má 15–20 let — pomohu vám rozhodnout, co opravit nejdřív.",
-   "items": [
-    "Únik vody — lokalizace netěsnosti",
-    "Uvolněné dlaždice a mozaika",
-    "Výměna spárovací hmoty",
-    "Úniky ve vodovodním potrubí bazénu"
-   ],
-   "faq": [
-    [
-     "Odpařování nebo únik?",
-     "Test s vědrem: postavte vedro s vodou na schodek a po 24 hodinách porovnejte hladiny."
     ]
    ]
   },

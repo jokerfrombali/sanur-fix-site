@@ -1,13 +1,10 @@
 {
  "lang": "fi",
  "ui": {
-  "tagline": "Lövitys- ja allaspalvelu Sanurissa",
   "wa": "Viesti minua",
   "call": "Soita",
-  "wa_text": "Hei! Tarvitsen tekijää Sanurissa: ",
   "services": "Palvelut",
   "prices": "Hinnat",
-  "areas": "Toiminta-alue",
   "contacts": "Yhteystiedot",
   "fix": "Mitä korjaan",
   "how": "Näin toimii",
@@ -20,51 +17,21 @@
    "Saat hinnan ja sinulle sopivan ajan",
    "Korjaan ja lähetän sinulle tuloksen"
   ],
-  "area_txt": "Toimin vain Sanurissa — koko alue:",
-  "home_h1": "Lövitys- ja allaspalvelu Sanurissa, Bali",
-  "home_lead": "Yksityinen tekijä: lövitys, vuodot, vesilämmittimet, pumput, allastenhoito ja -korjaus sekä pienet villakorjaukset Sanurissa. Lähetä kuva — vastaan WhatsAppilla.",
-  "prices_h1": "Hinnat Sanurissa",
   "prices_note": "Hinta riippuu työstä. Arvioin hinnan kuvista ennen tuloani. Osat laskutetaan erikseen kuittineen.",
-  "areas_h1": "Vain Sanur",
   "contacts_h1": "Yhteystiedot",
   "contacts_lead": "Nopein tapa: WhatsApp, jossa on kuva ongelmasta ja alueesi.",
   "nf": "Sivua ei löytynyt",
   "home": "Etusivu",
-  "badge": "Vain Sanur · Bali",
   "guides": "Ohjeet",
-  "guides_h1": "Villan ja allasohjeet Sanurille",
-  "guides_lead": "Käytännölliset ohjeet tekijältä, joka toimii vain Sanurissa: vuodot, kuumavesi, pumput, altaat, viemäröinti ja pienkorjaukset.",
   "toc": "Tässä ohjeessa",
   "related": "Liittyvät ohjeet",
   "read": "Lue ohje",
   "all_guides": "Kaikki ohjeet",
   "need_help": "Tarvitsetko korjausta?",
   "faq_h": "Kysymykset",
-  "trust": [
-   "Valokuvat WhatsAppilla jokaisen työn jälkeen",
-   "Arvio kuvistasi ennen tuloani",
-   "Vain Sanur — asun ja työskentelen täällä",
-   "Osat laskutetaan kuittineen"
-  ],
-  "why": "Miksi Sanurin villanomistajat soittavat minulle",
-  "why_items": [
-   [
-    "Tulen itse paikalle",
-    "Ei puhelinkeskus eikä porukka. Henkilö, jolle viestit, on sama henkilö, joka tekee työn."
-   ],
-   [
-    "Yksi alue vain",
-    "En risti saarta. Tunnistan Sanurin villat: vanhat altaat, suolaiset kaivot rannan lähellä, kattotankit."
-   ],
-   [
-    "Raportit omistajille",
-    "Ulkomailta? Saat ennen-jälkeen-kuvat ja lyhyen luettelon tehdyistä toimenpiteistä."
-   ]
-  ],
   "master_h": "Tekijäsi",
   "master_txt": "Tähän tulee valokuva ja muutama sana tekijästä: nimi, vuosien kokemus, kielet. Balilla ihmiset valitsevat henkilön, ei yrityksen.",
   "master_ph": "Tekijän valokuva",
-  "map_h": "Missä työskentelen",
   "ready": "Jokin rikki? Lähetä kuva WhatsAppilla.",
   "ready_sub": "Vastaan tarpeista, hinnasta ja siitä, milloin voin tulla.",
   "credits": "Kuvat: Unsplash",
@@ -73,9 +40,7 @@
   "language": "Kieli",
   "photo_note": "(korvaa oikealla kuvalla)",
   "guides_en": "Ohjeet (englanniksi)",
-  "only": "Vain Sanur",
   "call_or_wa": "Lähetä valokuva WhatsAppissa tai soita numeroon {phone} — kerroin mitä tarvitaan ja milloin voin tulla.",
-  "local_eyebrow": "Paikallinen tuntemus",
   "local_h": "Sanurin putkisto on omanlaisensa",
   "local_intro": "Useimmat huoltokutsut Sanurissa johtuvat samoista paikallisista olosuhteista. Niiden tunteminen on puolet diagnoosista — siksi työskentelen vain yhdellä alueella.",
   "local_items": [
@@ -143,32 +108,9 @@
   ],
   "form_btn": "Lähetä WhatsAppiin",
   "form_note": "Avaa WhatsAppin valmiilla viestillä. Lisää sinne myös kuva.",
-  "rated": "Arvosana {r} · {n} arvostelua",
-  "serving": "Palvelemme ylpeänä Sanur"
+  "rated": "Arvosana {r} · {n} arvostelua"
  },
  "services": {
-  "srv-santehnik": {
-   "name": "Santehnikko Sanurissa",
-   "intro": "Yksityinen santehnikko Sanurissa: tulen itse, löydän syyn ja korjaan. Hanat, wc:t, putket, pumput ja lämmin vesi — villoissa, taloissa ja asunnoissa.",
-   "items": [
-    "Tippaavat hanat ja sekoittimet",
-    "Juokseva tai vuotava wc-pesukastin",
-    "Matala vesipaine",
-    "Sekoitimien, sifonkien ja letkujen vaihto",
-    "Wc:n ja lavuaarin asennus",
-    "Pesukoneen ja astianpesukoneen liittäminen"
-   ],
-   "faq": [
-    [
-     "Kuinka nopeasti voit tulla?",
-     "Riippuu päivän aikataulusta. Lähetä valokuva WhatsAppiin ja kerron, milloin ehdin paikalle."
-    ],
-    [
-     "Kuka ostaa osat?",
-     "Molemmat tapaukset toimivat. Voin hankkia ne ja antaa sinulle kuittia."
-    ]
-   ]
-  },
   "srv-protechki": {
    "name": "Vesivuodon korjaus",
    "intro": "Vuotojen löytäminen ja korjaaminen: allasalaisten alla, seinissä, suihkuissa ja puutarhajohtojen kohdalla. Piilovuoto ilmenee usein PDAM-mittarilla tai pumppu, joka pyörii jatkuvasti.",
@@ -219,23 +161,6 @@
     ]
    ]
   },
-  "srv-voda": {
-   "name": "Vesipumput ja suodattimet",
-   "intro": "Pumput, paineanturit, katon vesikontit ja veden suodattimet. Sanurin rannikon lähellä kaivovedet voivat olla suolaisia – autan suodatuksessa tai siirtymisessä PDAM-veden käyttöön.",
-   "items": [
-    "Pumppu käy jatkuvasti",
-    "Ei vettä talossa",
-    "Kontti ylivuotaa tai on tyhjä",
-    "Suodattimen asennus ja patruunat",
-    "Katon vesikontin puhdistus"
-   ],
-   "faq": [
-    [
-     "Kuinka usein patruunat pitää vaihtaa?",
-     "Yleensä 3–6 kuukauden välein riippuen vedestä. Näytän, mitä kannattaa tarkastella."
-    ]
-   ]
-  },
   "srv-chistka-bassejna": {
    "name": "Uima-altaan puhdistus",
    "intro": "Erillinen altaan puhdistus: pinnankeräys, harjaukset, imurointi, suodattimen takapesu ja veden tasapaino. Vihreän altaan korjaus.",
@@ -283,22 +208,6 @@
     [
      "Voinko lähettää kuvan pumppuhuoneesta?",
      "Kyllä – se on paras tapa, jotta tiedän, mitä tuoda mukaan."
-    ]
-   ]
-  },
-  "srv-remont-bassejna": {
-   "name": "Uima-altaan korjaus",
-   "intro": "Vuodot, irtoavat laatat, saumausten kunto, putkisto. Monet Sanurin altaat ovat 15–20 vuotta vanhoja — autan sinua päättämään, mitä kannattaa korjata ensin.",
-   "items": [
-    "Veden katoaminen — vuotojen paikallistus",
-    "Irtoavat laatat ja mosaiikki",
-    "Saumauksen uusiminen",
-    "Altaan putkivuodot"
-   ],
-   "faq": [
-    [
-     "Höyrytys vai vuoto?",
-     "Tölkkitesti: aseta vettä täytetty tölkki allasaskelmalle ja vertaa molempien pintoja 24 tunnin jälkeen."
     ]
    ]
   },

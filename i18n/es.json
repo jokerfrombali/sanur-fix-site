@@ -1,13 +1,10 @@
 {
  "lang": "es",
  "ui": {
-  "tagline": "Fontanero y servicio de piscinas en Sanur",
   "wa": "Escríbeme por WhatsApp",
   "call": "Llamar",
-  "wa_text": "¡Hola! Necesito un técnico en Sanur: ",
   "services": "Servicios",
   "prices": "Precios",
-  "areas": "Zona de servicio",
   "contacts": "Contacto",
   "fix": "Qué reparo",
   "how": "Cómo funciona",
@@ -20,51 +17,21 @@
    "Recibe precio y horario que te convenga",
    "Lo arreglo y te envío el resultado"
   ],
-  "area_txt": "Solo trabajo en Sanur — toda la zona:",
-  "home_h1": "Fontanero y servicio de piscinas en Sanur, Bali",
-  "home_lead": "Técnico independiente: fontanería, fugas, calentadores, bombas, limpieza y reparación de piscinas, pequeñas reparaciones de villas en Sanur. Envía una foto — te respondo por WhatsApp.",
-  "prices_h1": "Precios en Sanur",
   "prices_note": "El precio depende del trabajo. Cotizo con fotos antes de ir. Las piezas se cobran aparte con factura.",
-  "areas_h1": "Solo Sanur",
   "contacts_h1": "Contacto",
   "contacts_lead": "La forma más rápida: WhatsApp con una foto del problema y tu zona.",
   "nf": "Página no encontrada",
   "home": "Inicio",
-  "badge": "Solo Sanur · Bali",
   "guides": "Guías",
-  "guides_h1": "Guías de villas y piscinas para Sanur",
-  "guides_lead": "Guías prácticas de un técnico que solo trabaja en Sanur: fugas, agua caliente, bombas, piscinas, fosas sépticas y pequeñas reparaciones.",
   "toc": "En esta guía",
   "related": "Guías relacionadas",
   "read": "Leer guía",
   "all_guides": "Todas las guías",
   "need_help": "¿Necesitas una reparación?",
   "faq_h": "Preguntas",
-  "trust": [
-   "Informe con fotos por WhatsApp tras cada trabajo",
-   "Cotizo con tus fotos antes de ir",
-   "Solo Sanur — vivo y trabajo aquí",
-   "Piezas cobradas con factura"
-  ],
-  "why": "Por qué los dueños de villas en Sanur me llaman",
-  "why_items": [
-   [
-    "Voy yo mismo",
-    "No es un centro de llamadas ni un equipo. La persona que te responde es la que hace el trabajo."
-   ],
-   [
-    "Una sola zona",
-    "No cruzo la isla. Conozco las villas de Sanur: piscinas antiguas, pozos salobres cerca de la playa, depósitos en azotea."
-   ],
-   [
-    "Informes para propietarios",
-    "¿Estás fuera? Recibes fotos antes/después y una breve lista de lo hecho."
-   ]
-  ],
   "master_h": "Tu técnico",
   "master_txt": "Aquí va una foto y unas palabras sobre el técnico: nombre, años de experiencia, idiomas. En Bali la gente elige a una persona, no a una empresa.",
   "master_ph": "Foto del técnico",
-  "map_h": "Dónde trabajo",
   "ready": "¿Algo roto? Envía una foto por WhatsApp.",
   "ready_sub": "Te respondo con lo que se necesita, un precio y cuándo puedo ir.",
   "credits": "Fotos: Unsplash",
@@ -73,9 +40,7 @@
   "language": "Idioma",
   "photo_note": "(sustituir por una foto real)",
   "guides_en": "Guías (Inglés)",
-  "only": "Solo en Sanur",
   "call_or_wa": "Envía una foto por WhatsApp o llama al {phone}: te digo qué se necesita y cuándo puedo pasar.",
-  "local_eyebrow": "Conocimiento local",
   "local_h": "La fontanería en Sanur es diferente",
   "local_intro": "La mayoría de las averías en Sanur se deben a las mismas condiciones locales. Conocerlas es media el diagnóstico; por eso solo trabajo en una zona.",
   "local_items": [
@@ -143,32 +108,9 @@
   ],
   "form_btn": "Enviar por WhatsApp",
   "form_note": "Se abre WhatsApp con tu mensaje. Añade una foto ahí.",
-  "rated": "Calificado con {r} · {n} reseñas",
-  "serving": "Orgullosos de atender Sanur"
+  "rated": "Calificado con {r} · {n} reseñas"
  },
  "services": {
-  "srv-santehnik": {
-   "name": "Fontanero en Sanur",
-   "intro": "Fontanero privado en Sanur: voy yo mismo, busco la causa y lo arreglo. Grifos, inodoros, tuberías, bombas y agua caliente — en villas, casas y apartamentos.",
-   "items": [
-    "Grifos y mezcladores que gotean",
-    "Depósito del inodoro que no para o gotea",
-    "Baja presión de agua",
-    "Cambio de mezcladores, sifones y mangueras",
-    "Instalación de inodoros y lavabos",
-    "Conexión de lavadora y lavavajillas"
-   ],
-   "faq": [
-    [
-     "¿Cuándo puedes venir?",
-     "Depende de la agenda del día. Mándame una foto por WhatsApp y te digo cuándo puedo estar allí."
-    ],
-    [
-     "¿Quién compra las piezas?",
-     "Como prefieras. Puedo comprarlas yo y darte el recibo."
-    ]
-   ]
-  },
   "srv-protechki": {
    "name": "Reparación de fugas de agua",
    "intro": "Localización y reparación de fugas: bajo fregaderos, en paredes, duchas y líneas de jardín. Una fuga oculta suele notarse en el contador de PDAM o con una bomba que no para de funcionar.",
@@ -219,23 +161,6 @@
     ]
    ]
   },
-  "srv-voda": {
-   "name": "Bombas de agua y filtros",
-   "intro": "Bombas, presostatos, depósitos en azotea y filtros de agua. Cerca de la playa en Sanur, el agua del pozo puede ser salobre; te ayudo con filtración o el cambio a PDAM.",
-   "items": [
-    "La bomba no deja de encenderse",
-    "Sin agua en la casa",
-    "Depósito desbordado o vacío",
-    "Instalación de filtros y cartuchos",
-    "Limpieza del depósito en azotea"
-   ],
-   "faq": [
-    [
-     "¿Cada cuánto se cambian los cartuchos?",
-     "Normalmente cada 3–6 meses según el agua. Te enseño qué revisar."
-    ]
-   ]
-  },
   "srv-chistka-bassejna": {
    "name": "Limpieza de piscina",
    "intro": "Limpieza puntual: aspirar hojas, cepillar, vaciar, retroceso del filtro y equilibrio del agua. Recuperación de piscina verde.",
@@ -283,22 +208,6 @@
     [
      "¿Puedo enviarte una foto de la sala de bombas?",
      "Sí, es la mejor manera para saber qué llevar."
-    ]
-   ]
-  },
-  "srv-remont-bassejna": {
-   "name": "Reparación de piscinas",
-   "intro": "Fugas, azulejos sueltos, juntas, tuberías. Muchas piscinas en Sanur tienen entre 15 y 20 años; te ayudo a decidir qué reparar primero.",
-   "items": [
-    "Pérdida de agua — detección de fugas",
-    "Azulejos y mosaico sueltos",
-    "Renovación de juntas",
-    "Fugas en tuberías de la piscina"
-   ],
-   "faq": [
-    [
-     "¿Evaporación o fuga?",
-     "Prueba del cubo: coloca un cubo con agua sobre el escalón y compara ambos niveles tras 24 horas."
     ]
    ]
   },

@@ -81,19 +81,29 @@ def tx(lang, d):
     """строка из словаря {lang: text} с откатом на en"""
     return d.get(lang) or d.get("en", "") if isinstance(d, dict) else d
 
-SRV = list(L["en"]["services"])  # порядок услуг
-SLUGS = {"srv-santehnik": ("plumber-sanur", "santehnik-sanur"), "srv-protechki": ("leak-repair-sanur", "protechki-sanur"), "srv-zasor": ("blocked-drain-sanur", "prochistka-zasorov-sanur"), "srv-bojler": ("water-heater-sanur", "bojler-sanur"), "srv-voda": ("water-pump-filter-sanur", "nasosy-filtry-sanur"), "srv-chistka-bassejna": ("pool-cleaning-sanur", "chistka-bassejna-sanur"), "srv-obsluzhivanie-bassejna": ("pool-service-sanur", "obsluzhivanie-bassejna-sanur"), "srv-oborudovanie-bassejna": ("pool-equipment-sanur", "oborudovanie-bassejna-sanur"), "srv-remont-bassejna": ("pool-repair-sanur", "remont-bassejna-sanur"), "srv-septik": ("septic-sanur", "septik-kanalizaciya-sanur"), "srv-melkij-remont": ("handyman-sanur", "master-na-chas-sanur"), "srv-obsluzhivanie-villy": ("villa-maintenance-sanur", "obsluzhivanie-villy-sanur")}
-SEC_EN = dict(sv="services", pr="prices", ar="area", ct="contact", gd="guides")
-SEC_RU = dict(sv="uslugi", pr="ceny", ar="rajon", ct="kontakty", gd="stati")
+# услуги: общий порядок и переводы с откатом на en
+SRV = list(L["en"]["services"])
+for c in ACTIVE:
+    L[c]["services"] = {s: {**L["en"]["services"][s], **L[c]["services"].get(s, {})} for s in SRV}
+
+from areas import AREAS, SERVICE_ISSUE
+AREA_LANGS = ("en", "ru")  # страницы районов — только на этих языках (тексты районов есть только на них)
+SLUGS = {"srv-santehnik": "plumber", "srv-protechki": "leak-repair", "srv-zasor": "blocked-drain", "srv-bojler": "water-heater",
+         "srv-voda": "water-pump-filter", "srv-chistka-bassejna": "pool-cleaning", "srv-obsluzhivanie-bassejna": "pool-service",
+         "srv-oborudovanie-bassejna": "pool-equipment", "srv-remont-bassejna": "pool-repair", "srv-septik": "septic",
+         "srv-melkij-remont": "handyman", "srv-obsluzhivanie-villy": "villa-maintenance"}
+SEC_EN = dict(sv="services", pr="prices", ar="areas", ct="contact", gd="guides")
+SEC_RU = dict(sv="services", pr="prices", ar="areas", ct="contact", gd="stati")
 def sec(lang, k):
     return (SEC_RU if lang == "ru" else SEC_EN)[k]
 def sslug(lang, sid):
-    return SLUGS[sid][1] if lang == "ru" else SLUGS[sid][0]
+    return "services/" + SLUGS[sid]
+def aname(lang, a):
+    return a.get(lang) or a["en"]
 def pre(lang):
     return "" if lang == "en" else lang + "/"
 def url(lang, slug=""):
     return BASE + "/" + pre(lang) + (slug + "/" if slug else "")
-
 # ---------- фото (Unsplash, заменить на реальные) ----------
 U = "https://images.unsplash.com/"
 def img(pid, w=900, h=None):
@@ -127,59 +137,62 @@ def buttons(u, what=""):
         b += f'<a class="btn ghost" href="{GBP_URL}">Google</a>'
     return b + "</div>"
 
-def page(lang, slug, title, descr, body, alts, crumbs=None, schema=None, head=None, og=None, has_guides=True):
+def page(lang, slug, title, descr, body, alts, crumbs=None, schema=None, head=None, og=None, has_guides=True, wa_what=""):
     """alts: {lang: slug} — языковые версии этой страницы (для hreflang и переключателя)."""
     u = L[lang]["ui"]
     gl = lang if has_guides else "en"
-    links = [(url(lang, sec(lang, "sv")), u["services"]), (url(gl, sec(gl, "gd")), u["guides"] if has_guides else u.get("guides_en", "Guides")),
-             (url(lang, sec(lang, "pr")), u["prices"]), (url(lang, sec(lang, "ar")), u["areas"]), (url(lang, sec(lang, "ct")), u["contacts"])]
-    if PROJECTS:
-        links.insert(2, (url(lang, "work"), u["projects"]))
-    ll = "".join(f'<a class="{"on" if c == lang else ""}" href="{url(c, alts.get(c, ""))}" hreflang="{c}" lang="{c}">{LANG_NAME[c]}</a>' for c in ACTIVE)
+    al = lang if lang in AREA_LANGS else "en"
     srv_links = "".join(f'<a href="{url(lang, sslug(lang, s))}">{L[lang]["services"][s]["name"]}</a>' for s in SRV)
-    dd = (f'<div class="dd"><a class="m" href="{links[0][0]}">{links[0][1]} ▾</a><div class="ddm">{srv_links}'
-          f'<a class="all" href="{links[0][0]}">{u["all_services"]} →</a></div></div>')
-    nav = (dd + "".join(f'<a class="m" href="{h}">{n}</a>' for h, n in links[1:])
-           + f'<details class="langsel"><summary>{lang.upper()} ▾</summary><div class="ll">{ll}</div></details>'
-           + f'<a class="hbtn" href="{wa_link(u)}">{wa_i(16)} WhatsApp</a>'
-           + f'<button class="burger" aria-label="{u.get("menu", "Menu")}" onclick="document.body.classList.toggle(\'menu-open\')"><span></span></button>')
-    mnav = (f'<div class="mnav">' + "".join(f'<a class="big" href="{h}">{n}</a>' for h, n in links)
-            + f'<a class="big" href="{TEL}">{PHONE}</a><h4>{u["services"]}</h4><div class="ll">{srv_links}</div>'
-            + f'<h4>{u.get("language", "Language")}</h4><div class="ll">{ll}</div></div>')
-    topbar = (f'<div class="topbar"><div class="wrap"><span>{u["tagline"]} · <b>{u["only"]}</b>'
-              + (f' · <b class="urg">{u["emergency"]}{" · " + u["sample"] if DEMO else ""}</b>' if EMERGENCY else "")
-              + f'</span><span><a href="{wa_link(u)}">WhatsApp</a> · <a href="{TEL}">{PHONE}</a></span></div></div>')
+    area_links = "".join(f'<a href="{url(al, a["slug"])}">{aname(al, a)}</a>' for a in AREAS)
+    dd = lambda label, href, items, more: (f'<div class="dd"><a class="m" href="{href}">{label} <span class="car">▾</span></a><div class="ddm">{items}'
+                                           f'<a class="all" href="{href}">{more} →</a></div></div>')
+    ll = "".join(f'<a class="{"on" if c == lang else ""}" href="{url(c, alts.get(c, ""))}" hreflang="{c}" lang="{c}">{LANG_NAME[c]}</a>' for c in ACTIVE)
+    links = [(url(gl, sec(gl, "gd")), u["guides"] if has_guides else u.get("guides_en", "Guides")),
+             (url(lang, sec(lang, "pr")), u["prices"]), (url(lang, sec(lang, "ct")), u["contacts"])]
+    if PROJECTS:
+        links.insert(1, (url(lang, "work"), u["projects"]))
+    nav = (f'<nav class="main">' + dd(u["services"], url(lang, sec(lang, "sv")), srv_links, u["all_services"])
+           + dd(u["areas"], url(al, sec(al, "ar")), area_links, u["areas_h1"])
+           + "".join(f'<a class="m" href="{h}">{n}</a>' for h, n in links) + "</nav>")
+    tools_ = (f'<div class="htools"><a class="hphone" href="{TEL}">{ph_i(18)}<span>{PHONE}</span></a>'
+              f'<details class="langsel"><summary>{lang.upper()} ▾</summary><div class="ll">{ll}</div></details>'
+              f'<a class="hbtn" href="{wa_link(u, wa_what)}">{wa_i(18)} WhatsApp</a>'
+              f'<button class="burger" aria-label="{u.get("menu", "Menu")}" onclick="document.body.classList.toggle(\'menu-open\')"><span></span></button></div>')
+    mnav = (f'<div class="mnav"><h4>{u["services"]}</h4><div class="ll">{srv_links}</div><h4>{u["areas"]}</h4><div class="ll">{area_links}</div>'
+            + "".join(f'<a class="big" href="{h}">{n}</a>' for h, n in links)
+            + f'<a class="big" href="{TEL}">{PHONE}</a><h4>{u.get("language", "Language")}</h4><div class="ll">{ll}</div></div>')
     top = ""
     if head:
         cr = '<div class="crumbs"><a href="' + url(lang) + '">' + u["home"] + "</a> / " + " / ".join(
             f'<a href="{h}">{n}</a>' if h else n for n, h in (crumbs or [])) + "</div>"
-        top = (f'<div class="phead"><img src="{img(head[0], 1800, 900)}" alt="" fetchpriority="high"><div class="wrap">{cr}'
-               f'<h1>{head[1]}</h1><p>{head[2]}</p>{buttons(u, head[1])}</div></div>')
+        top = (f'<div class="phead"><img src="{img(head[0], 1920, 900)}" alt="" fetchpriority="high"><div class="wrap">{cr}'
+               f'<h1>{head[1]}</h1><p>{head[2]}</p>{buttons(u, wa_what or head[1])}</div></div>')
     sch = schema if isinstance(schema, list) else ([schema] if schema else [])
     ld = "".join(f'<script type="application/ld+json">{json.dumps(s, ensure_ascii=False)}</script>' for s in sch)
     hl = "".join(f'<link rel="alternate" hreflang="{c}" href="{DOMAIN}{url(c, s)}">' for c, s in alts.items())
     if "en" in alts:
         hl += f'<link rel="alternate" hreflang="x-default" href="{DOMAIN}{url("en", alts["en"])}">'
-    svc = "".join(f'<a href="{url(lang, sslug(lang, s))}">{L[lang]["services"][s]["name"]}</a><br>' for s in SRV[:6])
-    hubs = "".join(f'<a href="{url(gl, sec(gl, "gd") + "/" + HUB_EN[h][0])}">{L[gl]["hubs"][h]}</a><br>' for h in HUB_EN)
+    svc = "".join(f'<a href="{url(lang, sslug(lang, s))}">{L[lang]["services"][s]["name"]}</a><br>' for s in SRV[:8])
+    ars = "".join(f'<a href="{url(al, a["slug"])}">{aname(al, a)}</a><br>' for a in AREAS)
     return f"""<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{e(title)}</title><meta name="description" content="{e(descr)}"><meta name="theme-color" content="#003483"><link rel="icon" href="{FAVICON}">
+<title>{e(title)}</title><meta name="description" content="{e(descr)}"><meta name="theme-color" content="#0b1f3a"><link rel="icon" href="{FAVICON}">
 {'<meta name="robots" content="noindex,nofollow">' if PREVIEW else ''}<link rel="canonical" href="{DOMAIN}{url(lang, slug)}">{hl}
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(descr)}"><meta property="og:image" content="{img(og or (head[0] if head else PH['hero']), 1200, 630)}"><meta property="og:locale" content="{lang}">
 <link rel="preconnect" href="https://images.unsplash.com"><link rel="stylesheet" href="{BASE}/style.css?v={CSS_V}">{ld}</head><body>
-{topbar}<header><div class="wrap"><a class="logo" href="{url(lang)}">{LOGO}Sanur<span>Fix</span></a><nav>{nav}</nav></div></header>{mnav}
+<header><div class="wrap"><a class="logo" href="{url(lang)}">{LOGO}Sanur<span>Fix</span></a>{nav}{tools_}</div></header>{mnav}
 <main>{top}{body}</main>
 <footer><div class="wrap"><div class="cols"><div><a class="logo" href="{url(lang)}">{LOGO}Sanur<span>Fix</span></a><p>{u['tagline']}.<br>{u['badge']}.</p>
 <p><a href="{wa_link(u)}">WhatsApp</a> · <a href="{TEL}">{PHONE}</a></p></div>
-<div><h4>{u['services']}</h4>{svc}</div><div><h4>{u['guides']}</h4>{hubs}</div>
-<div><h4>{u['contacts']}</h4><a href="{wa_link(u)}">WhatsApp</a><br><a href="{TEL}">{PHONE}</a><br><a href="{url(lang, sec(lang, 'ar'))}">{u['areas']}</a><br><a href="{url(lang, sec(lang, 'pr'))}">{u['prices']}</a></div></div>
+<div><h4>{u['services']}</h4>{svc}</div><div><h4>{u['areas']}</h4>{ars}</div>
+<div><h4>{u['contacts']}</h4><a href="{wa_link(u)}">WhatsApp</a><br><a href="{TEL}">{PHONE}</a><br><a href="{url(gl, sec(gl, 'gd'))}">{u['guides']}</a><br><a href="{url(lang, sec(lang, 'pr'))}">{u['prices']}</a></div></div>
 <div class="cred">{u['credits']}.</div></div></footer>
 <script>document.addEventListener('click',e=>{{const a=e.target.closest('a[href^="https://wa.me"],a[href^="tel:"]');if(a&&window.gtag)gtag('event','generate_lead',{{method:a.href.split(':')[0]}});if(e.target.closest('.mnav a'))document.body.classList.remove('menu-open')}});</script>
 </body></html>"""
 
-def biz_schema(lang):
+def biz_schema(lang, area=None):
+    served = [{"@type": "Place", "name": a["en"] + ", Bali"} for a in ([area] if area else AREAS)]
     return {"@context": "https://schema.org", "@type": "Plumber", "name": BRAND, "url": DOMAIN + url(lang), "telephone": PHONE, "image": img(PH["hero"], 1200),
-            "areaServed": {"@type": "Place", "name": "Sanur, Denpasar Selatan, Bali"}, "sameAs": [GBP_URL] if GBP_URL else []}
+            "areaServed": served, "sameAs": [GBP_URL] if GBP_URL else []}
 
 pages = []
 def write(lang, slug, content):
@@ -189,7 +202,9 @@ def write(lang, slug, content):
     if slug != "404":
         pages.append((lang, slug))
 
-MAP = '<iframe class="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Sanur,+Denpasar+Selatan,+Bali&z=14&output=embed" title="Sanur map"></iframe>'
+def mapframe(q):
+    return f'<iframe class="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q={quote(q)}&z=13&output=embed" title="{e(q)}"></iframe>'
+MAP = mapframe("Bali, Indonesia").replace("z=13", "z=10")
 
 def load_articles():
     res = {}
@@ -213,15 +228,15 @@ def art_photo(a):
     pool = HUB_PHOTOS[a["hub"]]
     return pool[int(a["id"][1:]) % len(pool)][0]
 
-def all_alts(fn):
-    return {c: fn(c) for c in ACTIVE}
+def all_alts(fn, langs=None):
+    return {c: fn(c) for c in (langs or ACTIVE)}
 
 CSS_V = ""
 def build():
+    global CSS_V
     if ROOT.exists():
         shutil.rmtree(ROOT)
     ROOT.mkdir()
-    global CSS_V
     PRO_FONTS = "@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');\n"
     (ROOT / "style.css").write_text(((PRO_FONTS if THEME == "pro" else "")
                                    + (HERE / "tools" / "style.css").read_text(encoding="utf-8")
@@ -229,145 +244,184 @@ def build():
     CSS_V = hashlib.md5((ROOT / "style.css").read_bytes()).hexdigest()[:8]
     ARTS = load_articles()
     gpath = lambda lang, a: sec(lang, "gd") + "/" + HUB_EN[a["hub"]][0] + "/" + a["slug"]
+    area_alts = lambda fn: {c: fn(c) for c in AREA_LANGS if c in ACTIVE}
     for lang in ACTIVE:
         D = L[lang]; u = D["ui"]; SV = D["services"]
         arts = ARTS[lang]
         has_g = bool(arts)
-        areas_l = D["areas"]
-        cards = "".join(f'<a class="card" href="{url(lang, sslug(lang, s))}"><div class="im"><img loading="lazy" src="{img(PH[s], 700, 525)}" alt="{e(SV[s]["name"])}"></div>'
-                        f'<h3>{SV[s]["name"]}</h3><p>{SV[s]["items"][0]} · {SV[s]["items"][1]}</p></a>' for s in SRV)
+        has_a = lang in AREA_LANGS
+        al = lang if has_a else "en"
+        demo = f'<span class="demo">{u["sample"]}</span>' if DEMO else ""
+        P = lambda slug, title, descr, body, alts, **kw: write(lang, slug, page(lang, slug, title, descr, body, alts, has_guides=has_g, **kw))
+
+        # ---- общие блоки ----
+        def scards(area=None, skip=None):
+            return "".join(
+                f'<a class="card" href="{url(lang, (area["slug"] + "/" + SLUGS[s]) if area else sslug(lang, s))}"><div class="im"><img loading="lazy" src="{img(PH[s], 700, 525)}" alt="{e(SV[s]["name"])}"></div>'
+                f'<h3>{SV[s]["name"]}</h3><p>{SV[s]["items"][0]} · {SV[s]["items"][1]}</p></a>' for s in SRV if s != skip)
+        def acards(exclude=None):
+            return "".join(f'<a class="card area" href="{url(al, a["slug"])}"><div class="im"><img loading="lazy" src="{img(a["photo"], 700, 525)}" alt="{e(aname(al, a))}"></div>'
+                           f'<h3>{aname(al, a)}</h3><p>{", ".join(a["subs"][:3])}</p></a>' for a in AREAS if a is not exclude)
         strip = '<div class="strip"><div class="wrap">' + "".join(f"<div>{CHECK_ICO}<span>{v}</span></div>" for v in u["trust"]) + "</div></div>"
         steps = '<ol class="steps">' + "".join(f"<li>{s}</li>" for s in u["steps"]) + "</ol>"
         how = f'<section class="dark"><div class="wrap"><div class="shead"><div><div class="eyebrow">{u["how"]}</div><h2>{u["ready"]}</h2></div><p>{u["ready_sub"]}</p></div>{steps}</div></section>'
-        chips = '<div class="chips"><span>Sanur</span>' + "".join(f"<span>{a}</span>" for a in areas_l) + "</div>"
         why = (f'<section><div class="wrap"><div class="shead"><h2>{u["why"]}</h2></div><div class="why">'
                + "".join(f"<div><h3>{a}</h3><p>{b}</p></div>" for a, b in u["why_items"]) + "</div></div></section>")
-        demo = f'<span class="demo">{u["sample"]}</span>' if DEMO else ""
-        # (1) блок доверия: реальные данные мастера; пустые поля не выводятся
         mphoto = (f'<img class="mimg" src="{MASTER["photo"] if MASTER["photo"].startswith("http") else BASE + MASTER["photo"]}" alt="{e(MASTER["name"])}">'
                   if MASTER["photo"] else f'<div class="ph">{u["master_ph"]}<br>{u.get("photo_note", "")}</div>')
         facts = [(u["years"], MASTER["years"]), (u["langs"], MASTER["languages"]), (u["warranty"], tx(lang, MASTER["warranty"]))]
         facts_html = "".join(f'<div><b>{v}</b><span>{k}</span></div>' for k, v in facts if v)
-        promises = "".join(f"<li>{t}</li>" for t in u["trust"])
         master = (f'<section style="padding-top:0"><div class="wrap master">{mphoto}'
                   f'<div><div class="eyebrow">{u["about_h"]} {demo}</div><h2>{MASTER["name"] or u["master_h"]}</h2>'
                   + (f'<div class="facts">{facts_html}</div>' if facts_html else f'<p>{u["master_txt"]}</p>')
-                  + f'<ul class="check">{promises}</ul><div style="margin-top:26px">{buttons(u)}</div></div></div></section>')
-        # (10) телефон/WhatsApp прямо в тексте
+                  + '<ul class="check">' + "".join(f"<li>{t}</li>" for t in u["trust"]) + f'</ul><div style="margin-top:26px">{buttons(u)}</div></div></div></section>')
         tel_a = f'<a href="{TEL}">{PHONE}</a>'
-        inline = lambda: f'<p class="inl">{u["call_or_wa"].replace("{phone}", tel_a).replace("WhatsApp", f"<a href={chr(34)}{wa_link(u)}{chr(34)}>WhatsApp</a>", 1)}</p>'
-        # (2)(3) местная специфика и кварталы
-        def local(full=True):
-            if not has(lang, "local_items"):
-                return ""
-            items = u["local_items"] if full else u["local_items"][:3]
-            more = "" if full else f'<p style="margin-top:28px"><a class="more" href="{url(lang, sslug(lang, "srv-santehnik"))}">{u["local_h"]} →</a></p>'
-            return (f'<section class="{"" if full else "alt"}"><div class="wrap"><div class="shead"><div><div class="eyebrow">{u["local_eyebrow"]}</div><h2>{u["local_h"]}</h2></div>'
-                    f'<p>{u["local_intro"]}</p></div><div class="local">' + "".join(f"<div><h3>{a}</h3><p>{b}</p></div>" for a, b in items) + f"</div>{more}</div></section>")
-        hoods = (f'<section style="padding-top:0"><div class="wrap narrow"><div class="eyebrow">{u["areas"]}</div><h2 class="h2s">{u["hoods_h"]}</h2>'
-                 f'<p class="big">{u["hoods_txt"]}</p>{chips}{inline()}</div></section>') if has(lang, "hoods_txt") else ""
-        # (4) отзывы — только настоящие
+        inline = lambda what="": f'<p class="inl">{u["call_or_wa"].replace("{phone}", tel_a).replace("WhatsApp", f"<a href={chr(34)}{wa_link(u, what)}{chr(34)}>WhatsApp</a>", 1)}</p>'
         stars = lambda n: "★" * int(n) + "☆" * (5 - int(n))
         reviews = (f'<section class="alt"><div class="wrap"><div class="shead"><h2>{u["reviews_h"]} {demo}</h2>'
                    + (f'<p><a href="{GBP_URL}">{u["reviews_more"]} →</a></p>' if GBP_URL else "") + '</div><div class="revs">'
                    + "".join(f'<figure><div class="st">{stars(r.get("stars", 5))}</div><blockquote>{e(r["text"])}</blockquote><figcaption>{e(r["name"])}</figcaption></figure>' for r in REVIEWS[:6])
                    + "</div></div></section>") if REVIEWS else ""
-        # (5) работы
         def pcard(p):
             return (f'<a class="card" href="{url(lang, "work/" + p["slug"])}"><div class="im ba"><img loading="lazy" src="{p["before"]}" alt=""><img loading="lazy" src="{p["after"]}" alt=""></div>'
                     f'<h3>{e(tx(lang, p["title"]))}</h3><p>{e(p["area"])}</p></a>')
         projects = (f'<section><div class="wrap"><div class="shead"><div><div class="eyebrow">{u["projects"]} {demo}</div><h2>{u["projects_h1"]}</h2></div>'
-                    f'<p><a href="{url(lang, "work")}">{u["projects_lead"]} →</a></p></div><div class="grid">{"".join(pcard(p) for p in PROJECTS[:3])}</div></div></section>') if PROJECTS else ""
-        where = (f'<section><div class="wrap split"><div><div class="eyebrow">{u["areas"]}</div><h2>{u["map_h"]}</h2>'
-                 f'<p style="color:var(--muted)">{u["area_txt"]}</p>{chips}{buttons(u)}</div>{MAP}</div></section>')
+                    f'<p><a href="{url(lang, "work")}">{u["projects_lead"]} →</a></p></div><div class="grid">{"".join(pcard(p) for p in PROJECTS[:4])}</div></div></section>') if PROJECTS else ""
         cta = (f'<section style="padding-top:0"><div class="wrap"><div class="cta"><div><h2>{u["ready"]}</h2><p>{u["ready_sub"]}</p></div>'
                f'<div class="btns"><a class="btn wa" href="{wa_link(u)}">{wa_i()} {u["wa"]}</a><a class="btn ghost" href="{TEL}">{ph_i()} {PHONE}</a></div></div></div></section>')
-        def acard(a):
+        def acard_art(a):
             return (f'<a class="card" href="{url(lang, gpath(lang, a))}"><div class="im"><img loading="lazy" src="{img(art_photo(a), 700, 525)}" alt=""></div>'
-                    f'<h3>{e(a["title"])}</h3><p>{e(a["meta"][:120])}…</p><span class="more">{u["read"]} →</span></a>')
-        latest = list(arts.values())[:6]
+                    f'<h3>{e(a["title"])}</h3><p>{e(a["meta"][:110])}…</p><span class="more">{u["read"]} →</span></a>')
+        latest = list(arts.values())[:4]
         guides_block = (f'<section style="padding-top:0"><div class="wrap"><div class="shead"><div><div class="eyebrow">{u["guides"]}</div><h2>{u["guides_h1"]}</h2></div>'
-                        f'<p><a href="{url(lang, sec(lang, "gd"))}">{u["all_guides"]} ({len(arts)}) →</a></p></div><div class="grid">{"".join(acard(a) for a in latest)}</div></div></section>') if latest else ""
-        P = lambda slug, title, descr, body, alts, **kw: write(lang, slug, page(lang, slug, title, descr, body, alts, has_guides=has_g, **kw))
-
-        # главная
-        h1 = u["home_h1"].replace("Sanur", "<em>Sanur</em>", 1) if "Sanur" in u["home_h1"] else u["home_h1"].replace("Сануре", "<em>Сануре</em>")
-        hero = (f'<div class="hero"><img src="{img(PH["hero"], 2000, 1200)}" alt="" fetchpriority="high"><div class="wrap">'
-                f'<div class="eyebrow">{u["eyebrow"]}</div><h1>{h1}</h1><p>{u["home_lead"]}</p>{buttons(u)}</div></div>')
-        if THEME == "pro":
+                        f'<p><a href="{url(lang, sec(lang, "gd"))}">{u["all_guides"]} ({len(arts)}) →</a></p></div><div class="grid">{"".join(acard_art(a) for a in latest)}</div></div></section>') if latest else ""
+        areas_block = (f'<section class="alt"><div class="wrap"><div class="shead"><div><div class="eyebrow">{u["areas"]}</div><h2>{u["choose_area"]}</h2></div>'
+                       f'<p>{u["areas_lead"]}</p></div><div class="grid areas5">{acards()}</div></div></section>')
+        def lead_form(what_default=""):
+            opts = "".join(f"<option>{e(SV[x]['name'])}</option>" for x in SRV)
+            wopts = "".join(f"<option>{e(w)}</option>" for w in u["when_opts"])
+            return (f'<form class="lead-form" data-wa="https://wa.me/{WHATSAPP}?text=" data-pre="{e(u["wa_text"] + what_default)}" '
+                    f'onsubmit="event.preventDefault();location.href=this.dataset.wa+encodeURIComponent(this.dataset.pre+this.w.value+String.fromCharCode(32,8212,32)+this.t.value)">'
+                    f'<h3>{u["form_h"]}</h3><label>{u["form_what"]}</label><select name="w">{opts}</select><label>{u["form_when"]}</label><select name="t">{wopts}</select>'
+                    f'<button class="btn wa" type="submit">{wa_i()} {u["form_btn"]}</button><p>{u["form_note"]}</p></form>')
+        def hero(h1, lead, photo, what=""):
             rating = ""
             if REVIEWS:
                 avg = sum(r.get("stars", 5) for r in REVIEWS) / len(REVIEWS)
                 rating = f'<div class="rating"><span class="st">★★★★★</span>{u["rated"].replace("{r}", f"{avg:.1f}").replace("{n}", str(len(REVIEWS)))} {demo}</div>'
             feat = '<ul class="feat">' + "".join(f"<li>{CHECK_ICO}<span>{t}</span></li>" for t in u["trust"]) + "</ul>"
-            opts = "".join(f"<option>{e(SV[x]['name'])}</option>" for x in SRV)
-            wopts = "".join(f"<option>{e(w)}</option>" for w in u["when_opts"])
-            form = (f'<form class="lead-form" data-wa="https://wa.me/{WHATSAPP}?text=" data-pre="{e(u["wa_text"])}" '
-                    f'onsubmit="event.preventDefault();location.href=this.dataset.wa+encodeURIComponent(this.dataset.pre+this.w.value+String.fromCharCode(32,8212,32)+this.t.value)">'
-                    f'<h3>{u["form_h"]}</h3><label>{u["form_what"]}</label><select name="w">{opts}</select><label>{u["form_when"]}</label><select name="t">{wopts}</select>'
-                    f'<button class="btn wa" type="submit">{wa_i()} {u["form_btn"]}</button><p>{u["form_note"]}</p></form>')
-            hero = (f'<div class="hero pro"><img src="{img(PH["hero"], 2000, 1200)}" alt="" fetchpriority="high"><div class="wrap"><div>{rating}<h1>{h1}</h1>'
-                    f'<p>{u["home_lead"]}</p>{feat}<a class="pcard" href="{TEL}"><i>{ph_i(20)}</i><span><small>{u["call"]} · WhatsApp</small><b>{PHONE}</b></span></a></div>{form}</div></div>')
-            tc = [(MASTER["years"] + " " + u["years"]) if MASTER["years"] else u["only"], u["only"], u["pricing_items"][0][0], (f"★ {len(REVIEWS)} Google" if REVIEWS else u["pricing_items"][2][0])]
-            tsub = [MASTER["languages"] or u["badge"], u["badge"], u["pricing_items"][0][1][:60] + "…", u["reviews_h"] if REVIEWS else u["pricing_items"][2][1][:60] + "…"]
-            strip = ('<div class="wrap"><div class="tcards">' + "".join(f"<div><b>{a}</b><span>{b}</span></div>" for a, b in zip(tc, tsub)) + "</div></div>"
-                     f'<div class="serving" style="margin-top:48px">{u["serving"]}</div>')
+            return (f'<div class="hero pro"><img src="{img(photo, 2200, 1300)}" alt="" fetchpriority="high"><div class="wrap"><div>{rating}<h1>{h1}</h1>'
+                    f'<p>{lead}</p>{feat}<a class="pcard" href="{TEL}"><i>{ph_i(20)}</i><span><small>{u["call"]} · WhatsApp</small><b>{PHONE}</b></span></a></div>{lead_form(what)}</div></div>')
+        tc = [(MASTER["years"] + " " + u["years"]) if MASTER["years"] else u["only"], u["only"], u["pricing_items"][0][0], (f"★ {len(REVIEWS)} Google" if REVIEWS else u["pricing_items"][2][0])]
+        tsub = [MASTER["languages"] or u["badge"], u["badge"], u["pricing_items"][0][1][:70] + "…", u["reviews_h"] if REVIEWS else u["pricing_items"][2][1][:70] + "…"]
+        tcards = '<div class="wrap"><div class="tcards">' + "".join(f"<div><b>{a}</b><span>{b}</span></div>" for a, b in zip(tc, tsub)) + "</div></div>"
+
+        # ---- главная ----
+        h1 = u["home_h1"].replace("Bali", "<em>Bali</em>", 1).replace("Бали", "<em>Бали</em>", 1)
         P("", f"{u['home_h1']} | {BRAND}", u["home_lead"][:155],
-          hero + strip + f'<section><div class="wrap"><div class="shead"><div><div class="eyebrow">{u["services"]}</div><h2>{u["tagline"]}</h2></div><p>{u["ready_sub"]}</p></div><div class="grid">{cards}</div></div></section>'
-          + how + master + local(False) + reviews + projects + why + guides_block + where + cta, all_alts(lambda c: ""), schema=biz_schema(lang))
-        # услуги
+          hero(h1, u["home_lead"], PH["hero"]) + tcards
+          + f'<section><div class="wrap"><div class="shead"><div><div class="eyebrow">{u["services"]}</div><h2>{u["tagline"]}</h2></div><p>{u["ready_sub"]}</p></div><div class="grid">{scards()}</div></div></section>'
+          + areas_block + how + master + reviews + projects + why + guides_block + cta,
+          all_alts(lambda c: ""), schema=biz_schema(lang))
+
+        # ---- услуги (общие по Бали) ----
         P(sec(lang, "sv"), f"{u['services']} — {u['tagline']}", u["home_lead"][:155],
-          strip + f'<section><div class="wrap"><div class="grid">{cards}</div></div></section>{how}{cta}', all_alts(lambda c: sec(c, "sv")),
+          strip + f'<section><div class="wrap"><div class="grid">{scards()}</div></div></section>{areas_block}{how}{cta}', all_alts(lambda c: sec(c, "sv")),
           crumbs=[(u["services"], None)], head=(PH["sanur"], u["services"], u["home_lead"]))
-        for i, s in enumerate(SRV):
+        def service_body(s, area=None):
             v = SV[s]
-            n = v["name"]
-            h1s = n if "Sanur" in n or "Санур" in n else n + {"en": " in Sanur", "ru": " в Сануре"}.get(lang, " — Sanur")
+            aN = aname(lang, area) if area else ""
             faq = "".join(f"<details><summary>{q}</summary><p>{a}</p></details>" for q, a in v["faq"])
             hub = next((h for h, x in HUB_SRV.items() if x == s), None)
-            rel = [a for a in arts.values() if a["hub"] == hub][:3] if hub else []
-            near = [SRV[(i + k) % len(SRV)] for k in (1, 2, 3)]
-            ncards = "".join(f'<a class="card" href="{url(lang, sslug(lang, o))}"><div class="im"><img loading="lazy" src="{img(PH[o], 700, 525)}" alt="{e(SV[o]["name"])}"></div><h3>{SV[o]["name"]}</h3></a>' for o in near)
-            main_page = s == "srv-santehnik"  # (2) главная городская страница «Plumber in Sanur»
-            svc_list = ""
-            if main_page:
-                svc_list = (f'<section style="padding-top:0"><div class="wrap"><div class="shead"><h2>{u["all_services"]}</h2></div><div class="grid">'
-                            + "".join(f'<a class="card" href="{url(lang, sslug(lang, o))}"><div class="im"><img loading="lazy" src="{img(PH[o], 700, 525)}" alt="{e(SV[o]["name"])}"></div><h3>{SV[o]["name"]}</h3><p>{SV[o]["items"][0]}</p></a>' for o in SRV if o != s)
-                            + "</div></div></section>")
-            body = (strip + f'<section><div class="wrap split"><div><div class="eyebrow">{u["fix"]}</div><h2>{n}</h2><ul class="check">' + "".join(f"<li>{x}</li>" for x in v["items"])
-                    + f'</ul><p style="margin-top:22px"><b>{u["price"]}:</b> {PRICES.get(s, u["on_req"])} · <a href="{url(lang, sec(lang, "pr"))}">{u["prices"]}</a></p>{inline()}</div>'
-                    f'<img class="side" loading="lazy" src="{img(PH[s], 900, 1125)}" alt="{e(h1s)}"></div></section>'
-                    + (local(True) + hoods + svc_list if main_page else "") + master
-                    + how + f'<section><div class="wrap narrow"><div class="eyebrow">{u["faq_h"]}</div><h2 style="font-size:48px;margin:10px 0 20px">{u["faq"]}</h2>{faq}{inline()}</div></section>' + reviews
-                    + (f'<section style="padding-top:0"><div class="wrap"><div class="shead"><h2>{u["related"]}</h2></div><div class="grid">{"".join(acard(a) for a in rel)}</div></div></section>' if rel else "")
-                    + where + f'<section style="padding-top:0"><div class="wrap"><div class="shead"><h2>{u["services"]}</h2></div><div class="grid">{ncards}</div></div></section>' + cta)
-            sch = [{"@context": "https://schema.org", "@type": "Service", "name": h1s, "areaServed": "Sanur, Bali", "provider": {"@type": "Plumber", "name": BRAND, "telephone": PHONE}},
+            rel = [a for a in arts.values() if a["hub"] == hub][:4] if hub else []
+            local = ""
+            if area and has_a:
+                iss = [area["issues"][lang][i] for i in SERVICE_ISSUE[s]]
+                local = (f'<section class="alt"><div class="wrap"><div class="shead"><div><div class="eyebrow">{u["local_eyebrow"]}</div>'
+                         f'<h2>{u["area_local_h"].replace("{area}", aN)}</h2></div><p>{area["intro"][lang]}</p></div><div class="local two">'
+                         + "".join(f"<div><h3>{a}</h3><p>{b}</p></div>" for a, b in iss)
+                         + f'</div><p class="subs"><b>{u["area_subs_h"].replace("{area}", aN)}:</b> {", ".join(area["subs"])}.</p></div></section>')
+            where = (f'<section><div class="wrap split"><div><div class="eyebrow">{u["areas"]}</div><h2>{u["map_h"]}</h2>'
+                     + (f'<p class="big">{aN}: {", ".join(area["subs"])}.</p>' if area else f'<p class="big">{u["area_txt"]} {", ".join(aname(al, a) for a in AREAS)}.</p>')
+                     + f'{inline(v["name"] + (" — " + aN if aN else ""))}</div>{mapframe(area["map"]) if area else MAP}</div></section>')
+            other = ""
+            if area:
+                other = (f'<section style="padding-top:0"><div class="wrap"><div class="shead"><h2>{v["name"]} — {u["other_areas"]}</h2></div><div class="chips">'
+                         + "".join(f'<a href="{url(lang, x["slug"] + "/" + SLUGS[s])}">{v["name"]} — {aname(lang, x)}</a>' for x in AREAS if x is not area) + "</div></div></section>")
+            else:
+                other = (f'<section style="padding-top:0"><div class="wrap"><div class="shead"><h2>{u["choose_area"]}</h2></div><div class="chips">'
+                         + "".join(f'<a href="{url(al, x["slug"] + "/" + SLUGS[s])}">{v["name"]} — {aname(al, x)}</a>' for x in AREAS) + "</div></div></section>")
+            return (strip + f'<section><div class="wrap split"><div><div class="eyebrow">{u["fix"]}</div><h2>{v["name"]}{(" — " + aN) if aN else ""}</h2><ul class="check">'
+                    + "".join(f"<li>{x}</li>" for x in v["items"])
+                    + f'</ul><p style="margin-top:22px"><b>{u["price"]}:</b> {PRICES.get(s, u["on_req"])} · <a href="{url(lang, sec(lang, "pr"))}">{u["prices"]}</a></p>{inline(v["name"])}</div>'
+                    f'<img class="side" loading="lazy" src="{img(PH[s], 900, 1125)}" alt="{e(v["name"])}"></div></section>'
+                    + local + how + master
+                    + f'<section><div class="wrap narrow"><div class="eyebrow">{u["faq_h"]}</div><h2 class="h2s">{u["faq"]}</h2>{faq}{inline(v["name"])}</div></section>'
+                    + reviews
+                    + (f'<section style="padding-top:0"><div class="wrap"><div class="shead"><h2>{u["related"]}</h2></div><div class="grid">{"".join(acard_art(a) for a in rel)}</div></div></section>' if rel else "")
+                    + where + other + cta)
+        for s in SRV:
+            v = SV[s]
+            sch = [{"@context": "https://schema.org", "@type": "Service", "name": v["name"] + " — Bali", "areaServed": [a["en"] + ", Bali" for a in AREAS], "provider": {"@type": "Plumber", "name": BRAND, "telephone": PHONE}},
                    {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in v["faq"]]}]
-            P(sslug(lang, s), f"{h1s} | {BRAND}", v["intro"][:155], body, all_alts(lambda c: sslug(c, s)),
-              crumbs=[(u["services"], url(lang, sec(lang, "sv"))), (n, None)], schema=sch, head=(PH[s], h1s, v["intro"]))
-        # цены / район / контакты
+            h1s = v["name"] + {"en": " in Bali", "ru": " на Бали"}.get(lang, " — Bali")
+            P(sslug(lang, s), f"{h1s} | {BRAND}", v["intro"][:155], service_body(s), all_alts(lambda c: sslug(c, s)),
+              crumbs=[(u["services"], url(lang, sec(lang, "sv"))), (v["name"], None)], schema=sch, head=(PH[s], h1s, v["intro"]))
+
+        # ---- районы: список, хаб района, район × услуга (только en/ru) ----
+        if has_a:
+            P(sec(lang, "ar"), f"{u['areas_h1']} | {BRAND}", u["areas_lead"],
+              f'<section><div class="wrap"><div class="grid areas5">{acards()}</div></div></section>{how}{cta}',
+              area_alts(lambda c: sec(c, "ar")), crumbs=[(u["areas"], None)], head=(PH["sanur2"], u["areas_h1"], u["areas_lead"]))
+            for a in AREAS:
+                aN = aname(lang, a)
+                h1a = u["area_hub_h"].replace("{area}", aN)
+                local = (f'<section><div class="wrap"><div class="shead"><div><div class="eyebrow">{u["local_eyebrow"]}</div><h2>{u["area_local_h"].replace("{area}", aN)}</h2></div>'
+                         f'<p>{a["intro"][lang]}</p></div><div class="local two">' + "".join(f"<div><h3>{x}</h3><p>{y}</p></div>" for x, y in a["issues"][lang])
+                         + f'</div></div></section>')
+                subs = (f'<section style="padding-top:0"><div class="wrap split"><div><div class="eyebrow">{aN}</div><h2 class="h2s">{u["area_subs_h"].replace("{area}", aN)}</h2>'
+                        f'<div class="chips">' + "".join(f"<span>{x}</span>" for x in a["subs"]) + f'</div>{inline(aN)}</div>{mapframe(a["map"])}</div></section>')
+                others = (f'<section style="padding-top:0"><div class="wrap"><div class="shead"><h2>{u["other_areas"]}</h2></div><div class="grid areas5">{acards(exclude=a)}</div></div></section>')
+                sch = [biz_schema(lang, a), {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": u["home"], "item": DOMAIN + url(lang)},
+                    {"@type": "ListItem", "position": 2, "name": aN, "item": DOMAIN + url(lang, a["slug"])}]}]
+                P(a["slug"], f"{h1a} | {BRAND}", a["intro"][lang][:155],
+                  hero(h1a.replace(aN, f"<em>{aN}</em>", 1), a["intro"][lang], a["photo"], aN) + tcards
+                  + local + f'<section class="alt"><div class="wrap"><div class="shead"><div><div class="eyebrow">{u["services"]}</div><h2>{u["area_services_h"].replace("{area}", aN)}</h2></div></div><div class="grid">{scards(a)}</div></div></section>'
+                  + how + subs + master + reviews + others + cta,
+                  area_alts(lambda c: a["slug"]), schema=sch, wa_what=aN)
+                for s in SRV:
+                    v = SV[s]
+                    h1s = f'{v["name"]} {u["in_area"].replace("{area}", aN)}'
+                    intro = f'{a["intro"][lang]} {v["intro"]}'
+                    sch = [{"@context": "https://schema.org", "@type": "Service", "name": h1s, "areaServed": a["en"] + ", Bali", "provider": {"@type": "Plumber", "name": BRAND, "telephone": PHONE}},
+                           {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": ans}} for q, ans in v["faq"]]}]
+                    P(a["slug"] + "/" + SLUGS[s], f"{h1s}, Bali | {BRAND}", intro[:155], service_body(s, a), area_alts(lambda c: a["slug"] + "/" + SLUGS[s]),
+                      crumbs=[(aN, url(lang, a["slug"])), (v["name"], None)], schema=sch, head=(a["photo"], h1s, intro), wa_what=h1s)
+
+        # ---- работы ----
+        if PROJECTS:
+            P("work", f"{u['projects_h1']} | {BRAND}", u["projects_lead"], f'<section><div class="wrap"><div class="grid">{"".join(pcard(p) for p in PROJECTS)}</div></div></section>{cta}',
+              all_alts(lambda c: "work"), crumbs=[(u["projects"], None)], head=(PH["sanur"], u["projects_h1"], u["projects_lead"] + " " + demo))
+            for p in PROJECTS:
+                ps = p.get("service", "srv-santehnik")
+                P("work/" + p["slug"], f"{tx(lang, p['title'])} — {p['area']} | {BRAND}", tx(lang, p["text"])[:155],
+                  f'<section><div class="wrap split"><div><div class="eyebrow">{e(p["area"])}, Bali {demo}</div><h2>{e(tx(lang, p["title"]))}</h2><p class="big">{e(tx(lang, p["text"]))}</p>'
+                  f'<p><a href="{url(lang, sslug(lang, ps))}">{SV[ps]["name"]} →</a></p>{inline()}</div><div class="ba2"><img src="{p["before"]}" alt="before"><img src="{p["after"]}" alt="after"></div></div></section>{cta}',
+                  all_alts(lambda c: "work/" + p["slug"]), crumbs=[(u["projects"], url(lang, "work")), (e(tx(lang, p["title"])), None)], head=(PH["sanur"], e(tx(lang, p["title"])), e(p["area"])))
+        # ---- цены / контакты ----
         rows = "".join(f"<tr><td><a href='{url(lang, sslug(lang, s))}'>{SV[s]['name']}</a></td><td>{PRICES.get(s, u['on_req'])}</td></tr>" for s in SRV)
         P(sec(lang, "pr"), f"{u['prices_h1']} | {BRAND}", u["prices_note"][:155],
           f'<section><div class="wrap"><div class="shead"><h2>{u["pricing_h"]}</h2></div><div class="why">'
           + "".join(f"<div><h3>{a}</h3><p>{b}</p></div>" for a, b in u["pricing_items"]) + "</div></div></section>"
           f'<section style="padding-top:0"><div class="wrap narrow"><table><tr><th>{u["work"]}</th><th>{u["price"]}</th></tr>{rows}</table>{inline()}</div></section>{how}{cta}',
           all_alts(lambda c: sec(c, "pr")), crumbs=[(u["prices"], None)], head=(PH["srv-melkij-remont"], u["prices_h1"], u["prices_note"]))
-        # (5) страницы работ
-        if PROJECTS:
-            P("work", f"{u['projects_h1']} | {BRAND}", u["projects_lead"], f'<section><div class="wrap"><div class="grid">{"".join(pcard(p) for p in PROJECTS)}</div></div></section>{cta}',
-              all_alts(lambda c: "work"), crumbs=[(u["projects"], None)], head=(PH["sanur"], u["projects_h1"], u["projects_lead"] + " " + demo))
-            for p in PROJECTS:
-                ps = p.get("service", "srv-santehnik")
-                P("work/" + p["slug"], f"{tx(lang, p['title'])} — {p['area']}, Sanur | {BRAND}", tx(lang, p["text"])[:155],
-                  f'<section><div class="wrap split"><div><div class="eyebrow">{e(p["area"])}, Sanur {demo}</div><h2>{e(tx(lang, p["title"]))}</h2><p class="big">{e(tx(lang, p["text"]))}</p>'
-                  f'<p><a href="{url(lang, sslug(lang, ps))}">{SV[ps]["name"]} →</a></p>{inline()}</div><div class="ba2"><img src="{p["before"]}" alt="before"><img src="{p["after"]}" alt="after"></div></div></section>{cta}',
-                  all_alts(lambda c: "work/" + p["slug"]), crumbs=[(u["projects"], url(lang, "work")), (e(tx(lang, p["title"])), None)], head=(PH["sanur"], e(tx(lang, p["title"])), e(p["area"]) + ", Sanur"))
-        P(sec(lang, "ar"), f"{u['areas_h1']} | {BRAND}", u["area_txt"], hoods + local(False) + where + f'<section style="padding-top:0"><div class="wrap"><div class="grid">{cards}</div></div></section>' + cta,
-          all_alts(lambda c: sec(c, "ar")), crumbs=[(u["areas"], None)], head=(PH["sanur2"], u["areas_h1"], u["area_txt"] + " " + ", ".join(areas_l) + "."))
         P(sec(lang, "ct"), f"{u['contacts_h1']} | {BRAND}", u["contacts_lead"],
-          f'<section><div class="wrap split"><div><div class="eyebrow">WhatsApp · {u["call"]}</div><h2>{PHONE}</h2>{buttons(u)}{chips}</div>{MAP}</div></section>',
+          f'<section><div class="wrap split"><div><div class="eyebrow">WhatsApp · {u["call"]}</div><h2>{PHONE}</h2>{buttons(u)}'
+          f'<div class="chips">' + "".join(f'<a href="{url(al, a["slug"])}">{aname(al, a)}</a>' for a in AREAS) + f'</div></div>{MAP}</div></section>',
           all_alts(lambda c: sec(c, "ct")), crumbs=[(u["contacts"], None)], schema=biz_schema(lang), head=(PH["sanur"], u["contacts_h1"], u["contacts_lead"]))
-        # статьи (только для языков, где они есть)
+
+        # ---- статьи ----
         if not has_g:
             continue
         g_alts = {c: sec(c, "gd") for c in ACTIVE if ARTS[c]}
@@ -375,12 +429,12 @@ def build():
             return ('<div class="hubs">' + f'<a class="{"on" if on is None else ""}" href="{url(lang, sec(lang, "gd"))}">{u["all_guides"]}</a>'
                     + "".join(f'<a class="{"on" if on == h else ""}" href="{url(lang, sec(lang, "gd") + "/" + HUB_EN[h][0])}">{D["hubs"][h]}</a>' for h in HUB_EN) + "</div>")
         P(sec(lang, "gd"), f"{u['guides_h1']} | {BRAND}", u["guides_lead"],
-          f'<section><div class="wrap">{hubnav()}<div class="grid">{"".join(acard(a) for a in arts.values())}</div></div></section>{cta}',
+          f'<section><div class="wrap">{hubnav()}<div class="grid">{"".join(acard_art(a) for a in arts.values())}</div></div></section>{cta}',
           g_alts, crumbs=[(u["guides"], None)], head=(PH["sanur"], u["guides_h1"], u["guides_lead"]))
         for h, (hs, _) in HUB_EN.items():
             ha = [a for a in arts.values() if a["hub"] == h]
             P(sec(lang, "gd") + "/" + hs, f"{D['hubs'][h]} — {u['guides']} | {BRAND}", u["guides_lead"],
-              f'<section><div class="wrap">{hubnav(h)}<div class="grid">{"".join(acard(a) for a in ha)}</div></div></section>{cta}',
+              f'<section><div class="wrap">{hubnav(h)}<div class="grid">{"".join(acard_art(a) for a in ha)}</div></div></section>{cta}',
               {c: sec(c, "gd") + "/" + hs for c in g_alts}, crumbs=[(u["guides"], url(lang, sec(lang, "gd"))), (D["hubs"][h], None)],
               head=(HUB_PHOTOS[h][0][0], D["hubs"][h], u["guides_lead"]))
         for a in arts.values():
@@ -399,15 +453,16 @@ def build():
                 c += f'<h2 id="faq">{u["faq_h"]}</h2>' + "".join(f'<details><summary>{e(q["q"])}</summary><p>{e(q["a"])}</p></details>' for q in a["faq"])
             c += (f'<div class="inline-cta"><div><b>{SV[srv]["name"]}</b><br><span style="color:var(--muted)">{u["ready_sub"]}</span></div>'
                   f'<a class="btn ghost" href="{url(lang, sslug(lang, srv))}">{u["services"]} →</a></div>')
-            rel = [o for o in arts.values() if o["hub"] == a["hub"] and o is not a][:3]
+            c += '<div class="chips">' + "".join(f'<a href="{url(al, x["slug"] + "/" + SLUGS[srv])}">{SV[srv]["name"]} — {aname(al, x)}</a>' for x in AREAS) + "</div>"
+            rel = [o for o in arts.values() if o["hub"] == a["hub"] and o is not a][:4]
             body = (f'<div class="wrap art"><aside class="toc"><b>{u["toc"]}</b>{toc}</aside><article class="prose">{c}</article></div>'
-                    + (f'<section style="padding-top:24px"><div class="wrap"><div class="shead"><h2>{u["related"]}</h2></div><div class="grid">{"".join(acard(o) for o in rel)}</div></div></section>' if rel else "") + cta)
+                    + (f'<section style="padding-top:24px"><div class="wrap"><div class="shead"><h2>{u["related"]}</h2></div><div class="grid">{"".join(acard_art(o) for o in rel)}</div></div></section>' if rel else "") + cta)
             photo = art_photo(a)
             sch = [{"@context": "https://schema.org", "@type": "Article", "headline": a["title"], "description": a["meta"], "image": img(photo, 1200), "inLanguage": lang,
                     "author": {"@type": "Organization", "name": BRAND}, "publisher": {"@type": "Organization", "name": BRAND}}]
             if a.get("faq"):
                 sch.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q["q"], "acceptedAnswer": {"@type": "Answer", "text": q["a"]}} for q in a["faq"]]})
-            alts = {c: gpath(c, ARTS[c][a["id"]]) for c in ACTIVE if a["id"] in ARTS[c]}
+            alts = {c2: gpath(c2, ARTS[c2][a["id"]]) for c2 in ACTIVE if a["id"] in ARTS[c2]}
             P(gpath(lang, a), f"{a['title']} | {BRAND}", a["meta"], body, alts,
               crumbs=[(u["guides"], url(lang, sec(lang, "gd"))), (D["hubs"][a["hub"]], url(lang, sec(lang, "gd") + "/" + HUB_EN[a["hub"]][0])),
                       (e(a["title"][:40]) + ("…" if len(a["title"]) > 40 else ""), None)],

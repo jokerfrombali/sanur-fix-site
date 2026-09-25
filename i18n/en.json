@@ -1,13 +1,13 @@
 {
  "lang": "en",
  "ui": {
-  "tagline": "Plumber & Pool Service in Sanur",
+  "tagline": "Plumber & Pool Service in Bali",
   "wa": "WhatsApp me",
   "call": "Call",
-  "wa_text": "Hi! I need a technician in Sanur: ",
+  "wa_text": "Hi! I need a technician in Bali: ",
   "services": "Services",
   "prices": "Prices",
-  "areas": "Service Area",
+  "areas": "Areas",
   "contacts": "Contact",
   "fix": "What I fix",
   "how": "How it works",
@@ -20,20 +20,20 @@
    "Get a price and a time that suits you",
    "I fix it and send you the result"
   ],
-  "area_txt": "I work only in Sanur — the whole area:",
-  "home_h1": "Plumber & Pool Service in Sanur, Bali",
-  "home_lead": "Private technician: plumbing, leaks, water heaters, pumps, pool cleaning and repair, small villa repairs in Sanur. Send a photo — I'll reply on WhatsApp.",
-  "prices_h1": "Prices in Sanur",
+  "area_txt": "I work in these areas of Bali:",
+  "home_h1": "Plumber & Pool Service in Bali",
+  "home_lead": "Private technician for villas: plumbing, leaks, water heaters, pumps, pool cleaning and repair, small repairs. Canggu, Ubud, Seminyak, Uluwatu, Sanur and more. Send a photo — I'll reply on WhatsApp.",
+  "prices_h1": "Prices in Bali",
   "prices_note": "Price depends on the job. I'll quote from photos before coming. Parts are charged separately with receipts.",
-  "areas_h1": "Sanur Only",
+  "areas_h1": "Areas I cover in Bali",
   "contacts_h1": "Contact",
   "contacts_lead": "Fastest way: WhatsApp with a photo of the problem and your area.",
   "nf": "Page not found",
   "home": "Home",
-  "badge": "Sanur only · Bali",
+  "badge": "Bali · 10 areas",
   "guides": "Guides",
-  "guides_h1": "Villa & Pool Guides for Sanur",
-  "guides_lead": "Practical guides from a technician who works only in Sanur: leaks, hot water, pumps, pools, septic tanks and small repairs.",
+  "guides_h1": "Villa & Pool Guides for Bali",
+  "guides_lead": "Practical guides from a Bali technician: leaks, hot water, pumps, pools, septic tanks and small repairs.",
   "toc": "In this guide",
   "related": "Related guides",
   "read": "Read guide",
@@ -43,18 +43,18 @@
   "trust": [
    "Photo report on WhatsApp after every job",
    "Quote from your photos before I come",
-   "Sanur only — I live and work here",
+   "10 areas of Bali, one technician",
    "Parts charged with receipts"
   ],
-  "why": "Why Sanur villa owners call me",
+  "why": "Why villa owners in Bali call me",
   "why_items": [
    [
     "I come myself",
     "Not a call centre and not a crew. The person you message is the person who does the job."
    ],
    [
-    "One area only",
-    "I don't cross the island. I know Sanur villas: old pools, brackish wells near the beach, rooftop tanks."
+    "I know each area",
+    "Canggu groundwater, Uluwatu water tanks, Ubud humidity, Sanur salt air — every area has its own typical problems."
    ],
    [
     "Reports for owners",
@@ -73,7 +73,7 @@
   "language": "Language",
   "photo_note": "(replace with a real photo)",
   "guides_en": "Guides (English)",
-  "only": "Sanur only",
+  "only": "10 areas of Bali",
   "call_or_wa": "Send a photo on WhatsApp or call {phone} — I'll tell you what's needed and when I can come.",
   "local_eyebrow": "Local knowledge",
   "local_h": "Plumbing in Sanur is different",
@@ -144,12 +144,20 @@
   "form_btn": "Send on WhatsApp",
   "form_note": "Opens WhatsApp with your message. Add a photo there.",
   "rated": "Rated {r} · {n} reviews",
-  "serving": "Proudly serving Sanur"
+  "serving": "Serving 10 areas of Bali",
+  "area_hub_h": "Plumber & Pool Service in {area}",
+  "area_local_h": "What's different in {area}",
+  "area_services_h": "Services in {area}",
+  "area_subs_h": "Neighbourhoods I cover in {area}",
+  "other_areas": "Other areas",
+  "choose_area": "Choose your area",
+  "in_area": "in {area}",
+  "areas_lead": "Every area of Bali has its own water, soil and building style. Pick yours — each page covers local problems and services."
  },
  "services": {
   "srv-santehnik": {
-   "name": "Plumber in Sanur",
-   "intro": "A private plumber in Sanur: I come myself, find the cause and fix it. Taps, toilets, pipes, pumps and hot water — in villas, houses and apartments.",
+   "name": "Plumber",
+   "intro": "A private plumber for Bali villas: I come myself, find the cause and fix it. Taps, toilets, pipes, pumps and hot water — in villas, houses and apartments.",
    "items": [
     "Leaking taps and mixers",
     "Running or leaking toilet cistern",
@@ -221,7 +229,7 @@
   },
   "srv-voda": {
    "name": "Water Pumps & Filters",
-   "intro": "Pumps, pressure switches, rooftop tanks and water filters. Near the beach in Sanur, well water can be brackish — I'll help with filtration or switching to PDAM.",
+   "intro": "Pumps, pressure switches, rooftop tanks and water filters. Wells near the sea can be brackish and the Bukit relies on tanks — I'll help with filtration and supply.",
    "items": [
     "Pump keeps cycling",
     "No water in the house",
@@ -288,7 +296,7 @@
   },
   "srv-remont-bassejna": {
    "name": "Pool Repair",
-   "intro": "Leaks, loose tiles, grout, pipework. Many pools in Sanur are 15–20 years old — I'll help decide what to fix first.",
+   "intro": "Leaks, loose tiles, grout, pipework. Many Bali pools are 15–20 years old — I'll help decide what to fix first.",
    "items": [
     "Losing water — leak detection",
     "Loose tiles and mosaic",
@@ -363,15 +371,5 @@
   "R": "Home Repair",
   "V": "Villa Care"
  },
- "areas": [
-  "Sanur Kaja",
-  "Sanur Kauh",
-  "Sindhu",
-  "Semawang",
-  "Mertasari",
-  "Batujimbar",
-  "Jl. Danau Tamblingan",
-  "Jl. Danau Poso",
-  "Jl. Bypass Ngurah Rai"
- ]
+ "areas": []
 }

@@ -1,13 +1,10 @@
 {
  "lang": "nl",
  "ui": {
-  "tagline": "Loodgieter & Zwembadservice in Sanur",
   "wa": "Stuur me een WhatsApp",
   "call": "Bel",
-  "wa_text": "Hoi! Ik heb een monteur nodig in Sanur: ",
   "services": "Diensten",
   "prices": "Prijzen",
-  "areas": "Werkgebied",
   "contacts": "Contact",
   "fix": "Wat ik repareer",
   "how": "Zo werkt het",
@@ -20,51 +17,21 @@
    "Ontvang een prijs en een tijdstip dat jou schikt",
    "Ik repareer het en stuur je het resultaat"
   ],
-  "area_txt": "Ik werk alleen in Sanur — het hele gebied:",
-  "home_h1": "Loodgieter & Zwembadservice in Sanur, Bali",
-  "home_lead": "Privé-monteur: loodwerk, lekkages, waterverwarmers, pompen, zwembadreiniging en -reparatie, kleine villa-reparaties in Sanur. Stuur een foto — ik reageer op WhatsApp.",
-  "prices_h1": "Prijzen in Sanur",
   "prices_note": "De prijs hangt af van het werk. Ik maak een offerte op basis van foto's voordat ik kom. Onderdelen worden apart in rekening gebracht met bonnetjes.",
-  "areas_h1": "Alleen Sanur",
   "contacts_h1": "Contact",
   "contacts_lead": "Snelste manier: stuur een WhatsApp met een foto van het probleem en je buurt.",
   "nf": "Pagina niet gevonden",
   "home": "Home",
-  "badge": "Alleen Sanur · Bali",
   "guides": "Gidsen",
-  "guides_h1": "Villa- & Zwembadgidsen voor Sanur",
-  "guides_lead": "Praktische gidsen van een monteur die alleen in Sanur werkt: lekkages, warm water, pompen, zwembaden, septische putten en kleine reparaties.",
   "toc": "In deze gids",
   "related": "Gerelateerde gidsen",
   "read": "Lees de gids",
   "all_guides": "Alle gidsen",
   "need_help": "Moet het gerepareerd worden?",
   "faq_h": "Vragen",
-  "trust": [
-   "Fotoreportage via WhatsApp na elk werk",
-   "Offerte op basis van jouw foto's voordat ik kom",
-   "Alleen Sanur — ik woon en werk hier",
-   "Onderdelen in rekening gebracht met bonnetjes"
-  ],
-  "why": "Waarom villa-eigenaars in Sanur mij bellen",
-  "why_items": [
-   [
-    "Ik kom zelf",
-    "Geen callcenter en geen team. De persoon die je bericht, is de persoon die het werk doet."
-   ],
-   [
-    "Eén gebied alleen",
-    "Ik ga niet over het hele eiland. Ik ken de villa's in Sanur: oude zwembaden, brakke putten bij het strand, dakreservoirs."
-   ],
-   [
-    "Rapporten voor eigenaars",
-    "Buitenland? Je krijgt voor- en na-foto's en een korte lijst van wat er gedaan is."
-   ]
-  ],
   "master_h": "Jouw monteur",
   "master_txt": "Hier komt een foto en enkele woorden over de monteur: naam, jaren ervaring, talen. In Bali kies je een persoon, geen bedrijf.",
   "master_ph": "Foto monteur",
-  "map_h": "Waar ik werk",
   "ready": "Iets kapot? Stuur een foto via WhatsApp.",
   "ready_sub": "Ik reageer met wat er nodig is, een prijs en wanneer ik kan komen.",
   "credits": "Foto's: Unsplash",
@@ -73,9 +40,7 @@
   "language": "Taal",
   "photo_note": "(vervang door een echte foto)",
   "guides_en": "Gidsen (Engels)",
-  "only": "Alleen Sanur",
   "call_or_wa": "Stuur een foto via WhatsApp of bel {phone} — ik vertel je wat er nodig is en wanneer ik kan komen.",
-  "local_eyebrow": "Lokale kennis",
   "local_h": "Loodgieterswerk in Sanur is anders",
   "local_intro": "De meeste meldingen in Sanur komen door dezelfde lokale omstandigheden. Die kennen is de helft van de diagnose — daarom werk ik alleen in één gebied.",
   "local_items": [
@@ -143,32 +108,9 @@
   ],
   "form_btn": "Versturen via WhatsApp",
   "form_note": "Opent WhatsApp met je bericht. Voeg daar een foto toe.",
-  "rated": "Beoordeling {r} · {n} reviews",
-  "serving": "Met trots van dienst in Sanur"
+  "rated": "Beoordeling {r} · {n} reviews"
  },
  "services": {
-  "srv-santehnik": {
-   "name": "Loodgieter in Sanur",
-   "intro": "Een particuliere loodgieter in Sanur: ik kom zelf langs, vind de oorzaak en los het op. Kranen, toiletten, leidingen, pompen en warm water — in villa's, huizen en appartementen.",
-   "items": [
-    "Lekkende kranen en mengkranen",
-    "Doorlopende of lekkende toiletcisterne",
-    "Lage waterdruk",
-    "Vervangen van mengkranen, sifons en slangen",
-    "Installatie van toilet en wastafel",
-    "Aansluiten van wasmachine en vaatwasser"
-   ],
-   "faq": [
-    [
-     "Hoe snel kunt u komen?",
-     "Dat hangt af van mijn planning die dag. Stuur een foto via WhatsApp dan laat ik weten wanneer ik er kan zijn."
-    ],
-    [
-     "Wie koopt de onderdelen?",
-     "Beide opties. Ik kan ze voor je kopen en geef ik de bon door."
-    ]
-   ]
-  },
   "srv-protechki": {
    "name": "Herstel van leidinglekken",
    "intro": "Lekken opsporen en verhelpen: onder keukens, in muren, douches en tuingleidingen. Een verborgen lek komt vaak naar voren aan de PDAM-meter of een pomp die blijft draaien.",
@@ -219,23 +161,6 @@
     ]
    ]
   },
-  "srv-voda": {
-   "name": "Waterpompen & Filters",
-   "intro": "Pompen, drukschakelaars, dakruiers en waterfilters. In de buurt van het strand in Sanur kan bronwater brak zijn — ik help met filtratie of overstappen op PDAM.",
-   "items": [
-    "Pomp blijft aan/uit schakelen",
-    "Geen water in het huis",
-    "Dakruier overloopt of is leeg",
-    "Filterinstallatie en patronen",
-    "Dakruier reinigen"
-   ],
-   "faq": [
-    [
-     "Hoe vaak moet je patronen vervangen?",
-     "Meestal elke 3–6 maanden, afhankelijk van het water. Ik laat je zien waar je op moet letten."
-    ]
-   ]
-  },
   "srv-chistka-bassejna": {
    "name": "Zwembadreiniging",
    "intro": "Eenmalige zwembadreiniging: oppervlaktezuigen, borstelen, vacuümzuigen, filterbackwash en waterbalans. Groene zwembaden herstellen.",
@@ -283,22 +208,6 @@
     [
      "Kan ik een foto van de pompkamer sturen?",
      "Ja — dat is de beste manier voor mij om te weten wat ik moet meenemen."
-    ]
-   ]
-  },
-  "srv-remont-bassejna": {
-   "name": "Zwembadherstel",
-   "intro": "Lekken, losse tegels, voegwerk, leidingen. Veel zwembaden in Sanur zijn 15–20 jaar oud — ik help je te bepalen wat het eerst moet worden hersteld.",
-   "items": [
-    "Waterverlies — lekkagedetectie",
-    "Losse tegels en mozaïek",
-    "Voegen herstellen",
-    "Leidinglekken in het zwembad"
-   ],
-   "faq": [
-    [
-     "Verdamping of een lek?",
-     "Emertest: zet een emmer met water op de trap en vergelijk beide niveaus na 24 uur."
     ]
    ]
   },

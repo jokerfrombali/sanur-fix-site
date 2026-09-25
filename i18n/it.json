@@ -1,13 +1,10 @@
 {
  "lang": "it",
  "ui": {
-  "tagline": "Idraulico & Servizio Piscine a Sanur",
   "wa": "Scrivimi su WhatsApp",
   "call": "Chiama",
-  "wa_text": "Ciao! Ho bisogno di un tecnico a Sanur: ",
   "services": "Servizi",
   "prices": "Prezzi",
-  "areas": "Zona di servizio",
   "contacts": "Contatti",
   "fix": "Cosa riparo",
   "how": "Come funziona",
@@ -20,51 +17,21 @@
    "Ricevi un preventivo e un orario che fa per te",
    "Lo sistemo e ti mando il risultato"
   ],
-  "area_txt": "Lavoro solo a Sanur — tutta la zona:",
-  "home_h1": "Idraulico & Servizio Piscine a Sanur, Bali",
-  "home_lead": "Tecnico privato: idraulica, perdite, scaldacqua, pompe, pulizia e riparazione piscine, piccole riparazioni ville a Sanur. Manda una foto — rispondo su WhatsApp.",
-  "prices_h1": "Prezzi a Sanur",
   "prices_note": "Il prezzo dipende dal lavoro. Faccio un preventivo dalle foto prima di venire. Le parti sono fatturate separatamente con ricevuta.",
-  "areas_h1": "Solo Sanur",
   "contacts_h1": "Contatti",
   "contacts_lead": "La via più veloce: WhatsApp con una foto del problema e la tua zona.",
   "nf": "Pagina non trovata",
   "home": "Home",
-  "badge": "Solo Sanur · Bali",
   "guides": "Guide",
-  "guides_h1": "Guide per Ville e Piscine a Sanur",
-  "guides_lead": "Guide pratiche da un tecnico che lavora solo a Sanur: perdite, acqua calda, pompe, piscine, pozzi neri e piccole riparazioni.",
   "toc": "In questa guida",
   "related": "Guide correlate",
   "read": "Leggi la guida",
   "all_guides": "Tutte le guide",
   "need_help": "Serve una riparazione?",
   "faq_h": "Domande",
-  "trust": [
-   "Report fotografico su WhatsApp dopo ogni lavoro",
-   "Preventivo dalle tue foto prima di venire",
-   "Solo Sanur — vivo e lavoro qui",
-   "Parti fatturate con ricevuta"
-  ],
-  "why": "Perché i proprietari di ville a Sanur mi chiamano",
-  "why_items": [
-   [
-    "Vengo io stesso",
-    "Non è un call center né una squadra. Chi ti risponde è chi fa il lavoro."
-   ],
-   [
-    "Una sola zona",
-    "Non attraverso l'isola. Conosco le ville di Sanur: piscine vecchie, pozzi salmastri vicino alla spiaggia, serbatoi in copertura."
-   ],
-   [
-    "Report per i proprietari",
-    "All'estero? Ricevi foto prima/dopo e un breve elenco di ciò che è stato fatto."
-   ]
-  ],
   "master_h": "Il tuo tecnico",
   "master_txt": "Qui va una foto e qualche parola sul tecnico: nome, anni di esperienza, lingue. A Bali la gente sceglie una persona, non un'azienda.",
   "master_ph": "Foto del tecnico",
-  "map_h": "Dove lavoro",
   "ready": "Qualcosa si è rotto? Manda una foto su WhatsApp.",
   "ready_sub": "Ti rispondo con cosa serve, un prezzo e quando posso venire.",
   "credits": "Foto: Unsplash",
@@ -73,9 +40,7 @@
   "language": "Lingua",
   "photo_note": "(sostituisci con una foto reale)",
   "guides_en": "Guide (Inglese)",
-  "only": "Solo Sanur",
   "call_or_wa": "Invia una foto su WhatsApp o chiama al {phone} — ti dico cosa serve e quando posso passare.",
-  "local_eyebrow": "Conoscenza del territorio",
   "local_h": "L'idraulica a Sanur è diversa",
   "local_intro": "La maggior parte degli interventi a Sanur dipende dalle stesse condizioni locali. Conoscerle è metà della diagnosi — ecco perché lavoro solo in questa zona.",
   "local_items": [
@@ -143,32 +108,9 @@
   ],
   "form_btn": "Invia su WhatsApp",
   "form_note": "Si apre WhatsApp con il tuo messaggio. Aggiungi una foto lì.",
-  "rated": "Valutazione {r} · {n} recensioni",
-  "serving": "Orgogliosamente al servizio di Sanur"
+  "rated": "Valutazione {r} · {n} recensioni"
  },
  "services": {
-  "srv-santehnik": {
-   "name": "Idraulico a Sanur",
-   "intro": "Un idraulico privato a Sanur: vengo io stesso, trovo la causa e risolvo il problema. Rubinetti, WC, tubazioni, pompe e acqua calda — in ville, case e appartamenti.",
-   "items": [
-    "Rubinetti e miscelatori che perdono",
-    "Cassetta del WC che perde o non si ferma",
-    "Bassa pressione dell'acqua",
-    "Sostituzione di miscelatori, sifoni e flessibili",
-    "Installazione di WC e lavandini",
-    "Collegamento di lavatrice e lavastoviglie"
-   ],
-   "faq": [
-    [
-     "Quanto presto puoi venire?",
-     "Dipende dalla disponibilità della giornata. Mandami una foto su WhatsApp e ti dico quando posso essere da te."
-    ],
-    [
-     "Chi compra i ricambi?",
-     "Come preferisci. Posso comprarli io e darti lo scontrino."
-    ]
-   ]
-  },
   "srv-protechki": {
    "name": "Riparazione perdite d'acqua",
    "intro": "Localizzo e riparo le perdite: sotto i lavandini, nei muri, nelle docce e negli impianti del giardino. Una perdita nascosta spesso si nota sul contatore PDAM o con una pompa che non smette mai di girare.",
@@ -219,23 +161,6 @@
     ]
    ]
   },
-  "srv-voda": {
-   "name": "Pompe e Filtri Acqua",
-   "intro": "Pompe, pressostati, serbatoi sul tetto e filtri acqua. Vicino alla spiaggia di Sanur, l'acqua di pozzo può essere salmastra — ti aiuto con la filtrazione o il passaggio a PDAM.",
-   "items": [
-    "La pompa cicla continuamente",
-    "Nessuna acqua in casa",
-    "Serbatoio che trabocca o vuoto",
-    "Installazione filtri e cartucce",
-    "Pulizia serbatoio sul tetto"
-   ],
-   "faq": [
-    [
-     "Ogni quanto cambiare le cartucce?",
-     "Di solito ogni 3–6 mesi, dipende dall'acqua. Ti spiego cosa controllare."
-    ]
-   ]
-  },
   "srv-chistka-bassejna": {
    "name": "Pulizia Piscina",
    "intro": "Pulizia piscina una tantum: rimozione detriti, spazzolatura, aspirazione, lavaggio a controcorrente del filtro e bilanciamento dell'acqua. Ripristino piscina verde.",
@@ -283,22 +208,6 @@
     [
      "Posso mandarti una foto della sala pompa?",
      "Sì — è il modo migliore per sapere cosa portarmi."
-    ]
-   ]
-  },
-  "srv-remont-bassejna": {
-   "name": "Riparazione Piscine",
-   "intro": "Perdite, piastrelle sciolte, stuccatura, tubature. Molte piscine a Sanur hanno 15–20 anni — ti aiuto a decidere cosa riparare per primo.",
-   "items": [
-    "Perdita d'acqua — ricerca perdite",
-    "Piastrelle e mosaici scollati",
-    "Stuccatura",
-    "Perdite nelle tubature della piscina"
-   ],
-   "faq": [
-    [
-     "Evaporazione o perdita?",
-     "Test del secchio: posiziona un secchio d'acqua sul gradino e confronta i due livelli dopo 24 ore."
     ]
    ]
   },

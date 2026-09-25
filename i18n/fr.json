@@ -1,13 +1,10 @@
 {
  "lang": "fr",
  "ui": {
-  "tagline": "Plombier & entretien de piscine à Sanur",
   "wa": "WhatsApp",
   "call": "Appeler",
-  "wa_text": "Bonjour ! J'ai besoin d'un technicien à Sanur : ",
   "services": "Services",
   "prices": "Tarifs",
-  "areas": "Zone d'intervention",
   "contacts": "Contact",
   "fix": "Ce que je répare",
   "how": "Comment ça marche",
@@ -20,51 +17,21 @@
    "Recevez un devis et un créneau qui vous convient",
    "Je répare et je vous envoie le résultat"
   ],
-  "area_txt": "J'interviens uniquement à Sanur — toute la zone :",
-  "home_h1": "Plombier & entretien de piscine à Sanur, Bali",
-  "home_lead": "Technicien indépendant : plomberie, fuites, chauffe-eau, pompes, nettoyage et réparation de piscines, petits travaux de villa à Sanur. Envoyez une photo — je réponds sur WhatsApp.",
-  "prices_h1": "Tarifs à Sanur",
   "prices_note": "Le prix dépend du travail. Je fais un devis à partir de vos photos avant d'intervenir. Les pièces sont facturées séparément avec reçu.",
-  "areas_h1": "Uniquement Sanur",
   "contacts_h1": "Contact",
   "contacts_lead": "La méthode la plus rapide : WhatsApp avec une photo du problème et votre quartier.",
   "nf": "Page non trouvée",
   "home": "Accueil",
-  "badge": "Sanur uniquement · Bali",
   "guides": "Guides",
-  "guides_h1": "Guides villa & piscine pour Sanur",
-  "guides_lead": "Des guides pratiques par un technicien qui intervient uniquement à Sanur : fuites, eau chaude, pompes, piscines, fosses septiques et petits travaux.",
   "toc": "Dans ce guide",
   "related": "Guides associés",
   "read": "Lire le guide",
   "all_guides": "Tous les guides",
   "need_help": "Besoin d'une réparation ?",
   "faq_h": "Questions",
-  "trust": [
-   "Rapport photo sur WhatsApp après chaque intervention",
-   "Devis à partir de vos photos avant mon passage",
-   "Sanur uniquement — j'y vis et j'y travaille",
-   "Pièces facturées avec reçu"
-  ],
-  "why": "Pourquoi les propriétaires de villas de Sanur m'appellent",
-  "why_items": [
-   [
-    "C'est moi qui viens",
-    "Pas de standard ni d'équipe. La personne que vous contactez est celle qui fait le travail."
-   ],
-   [
-    "Une seule zone",
-    "Je ne traverse pas l'île. Je connais les villas de Sanur : vieilles piscines, puits saumâtres près de la plage, citernes en toiture."
-   ],
-   [
-    "Rapports pour propriétaires",
-    "À l'étranger ? Vous recevez des photos avant/après et un résumé des travaux effectués."
-   ]
-  ],
   "master_h": "Votre technicien",
   "master_txt": "Une photo et quelques mots sur le technicien ici : nom, années d'expérience, langues parlées. À Bali, on choisit une personne, pas une entreprise.",
   "master_ph": "Photo du technicien",
-  "map_h": "Où j'interviens",
   "ready": "Quelque chose est cassé ? Envoyez une photo sur WhatsApp.",
   "ready_sub": "Je vous réponds avec ce qu'il faut, un prix et quand je peux passer.",
   "credits": "Photos : Unsplash",
@@ -73,9 +40,7 @@
   "language": "Langue",
   "photo_note": "(à remplacer par une vraie photo)",
   "guides_en": "Guides (anglais)",
-  "only": "Uniquement à Sanur",
   "call_or_wa": "Envoyez une photo sur WhatsApp ou appelez le {phone} — je vous dirai ce qu'il faut et quand je peux passer.",
-  "local_eyebrow": "Connaissance du terrain",
   "local_h": "La plomberie à Sanur est différente",
   "local_intro": "La plupart des interventions à Sanur sont liées aux mêmes conditions locales. Les connaître, c'est déjà la moitié du diagnostic — c'est pourquoi je ne travaille que dans cette zone.",
   "local_items": [
@@ -143,32 +108,9 @@
   ],
   "form_btn": "Envoyer sur WhatsApp",
   "form_note": "WhatsApp s'ouvrira avec votre message. Pensez à joindre une photo.",
-  "rated": "Noté {r} · {n} avis",
-  "serving": "Fiers de servir Sanur"
+  "rated": "Noté {r} · {n} avis"
  },
  "services": {
-  "srv-santehnik": {
-   "name": "Plombier à Sanur",
-   "intro": "Plombier indépendant à Sanur : je viens moi-même, j'identifie la cause et je répare. Robinets, toilettes, canalisations, pompes et eau chaude — dans les villas, maisons et appartements.",
-   "items": [
-    "Fuites de robinets et mélangeurs",
-    "Cuvette qui fuit ou ne se vide pas",
-    "Faible pression d'eau",
-    "Remplacement de mélangeurs, siphons et flexibles",
-    "Installation de toilettes et lavabos",
-    "Branchement lave-linge et lave-vaisselle"
-   ],
-   "faq": [
-    [
-     "À quelle vitesse pouvez-vous venir ?",
-     "Ça dépend du planning du jour. Envoyez une photo sur WhatsApp et je vous dirai quand je pourrai être là."
-    ],
-    [
-     "Qui achète les pièces ?",
-     "Au choix. Je peux les acheter et vous donner le reçu."
-    ]
-   ]
-  },
   "srv-protechki": {
    "name": "Réparation de fuites d'eau",
    "intro": "Recherche et réparation des fuites : sous les éviers, dans les murs, douches et lignes jardin. Une fuite cachée se manifeste souvent au compteur PDAM ou par une pompe qui tourne en continu.",
@@ -219,23 +161,6 @@
     ]
    ]
   },
-  "srv-voda": {
-   "name": "Pompes à eau et filtres",
-   "intro": "Pompes, pressostats, citernes sur le toit et filtres à eau. Près de la plage à Sanur, l'eau de puits peut être saumâtre — je vous aide pour la filtration ou le passage au réseau PDAM.",
-   "items": [
-    "La pompe cycle en permanence",
-    "Pas d'eau dans la maison",
-    "Citerne qui déborde ou vide",
-    "Installation de filtre et cartouches",
-    "Nettoyage de la citerne sur le toit"
-   ],
-   "faq": [
-    [
-     "À quelle fréquence changer les cartouches ?",
-     "Généralement tous les 3 à 6 mois selon la qualité de l'eau. Je vous montrerai quoi surveiller."
-    ]
-   ]
-  },
   "srv-chistka-bassejna": {
    "name": "Nettoyage de piscine",
    "intro": "Nettoyage ponctuel : aspiration des feuilles, brossage, nettoyage par aspiration, contre-lavage du filtre et équilibre de l'eau. Rattrapage d'une piscine verte.",
@@ -283,22 +208,6 @@
     [
      "Puis-je vous envoyer une photo de la local technique ?",
      "Oui — c'est le meilleur moyen pour que je sache quoi apporter."
-    ]
-   ]
-  },
-  "srv-remont-bassejna": {
-   "name": "Réparation de piscine",
-   "intro": "Fuites, carreaux décollés, joints, plomberie. Beaucoup de piscines à Sanur ont 15 à 20 ans — je vous aide à prioriser les réparations.",
-   "items": [
-    "Perte d'eau — recherche de fuite",
-    "Carreaux et mosaïque décollés",
-    "Refaitage des joints",
-    "Fuites sur les tuyaux de la piscine"
-   ],
-   "faq": [
-    [
-     "Évaporation ou fuite ?",
-     "Test du seau : placez un seau d'eau sur la marche et comparez les deux niveaux après 24 heures."
     ]
    ]
   },

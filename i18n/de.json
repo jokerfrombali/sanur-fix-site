@@ -1,13 +1,10 @@
 {
  "lang": "de",
  "ui": {
-  "tagline": "Klempner & Poolservice in Sanur",
   "wa": "Schreib mir",
   "call": "Anrufen",
-  "wa_text": "Hallo! Ich brauche einen Techniker in Sanur: ",
   "services": "Leistungen",
   "prices": "Preise",
-  "areas": "Einsatzgebiet",
   "contacts": "Kontakt",
   "fix": "Was ich repariere",
   "how": "So funktioniert's",
@@ -20,51 +17,21 @@
    "Erhalte Preis und einen passenden Termin",
    "Ich repariere und schicke dir das Ergebnis"
   ],
-  "area_txt": "Ich arbeite nur in Sanur – das gesamte Gebiet:",
-  "home_h1": "Klempner & Poolservice in Sanur, Bali",
-  "home_lead": "Privater Techniker: Klempnerei, Lecks, Warmwasserbereiter, Pumpen, Poolreinigung und -reparatur, kleine Villenreparaturen in Sanur. Schick ein Foto – ich antworte auf WhatsApp.",
-  "prices_h1": "Preise in Sanur",
   "prices_note": "Der Preis hängt vom Auftrag ab. Ich mache ein Angebot anhand deiner Fotos vor dem Besuch. Ersatzteile werden separat mit Rechnung berechnet.",
-  "areas_h1": "Nur Sanur",
   "contacts_h1": "Kontakt",
   "contacts_lead": "Am schnellsten: WhatsApp mit einem Foto des Problems und deinem Bereich.",
   "nf": "Seite nicht gefunden",
   "home": "Startseite",
-  "badge": "Nur Sanur · Bali",
   "guides": "Ratgeber",
-  "guides_h1": "Villen- & Pool-Ratgeber für Sanur",
-  "guides_lead": "Praktische Ratgeber von einem Techniker, der nur in Sanur arbeitet: Lecks, Warmwasser, Pumpen, Pools, Abwassertanks und kleine Reparaturen.",
   "toc": "In diesem Ratgeber",
   "related": "Passende Ratgeber",
   "read": "Ratgeber lesen",
   "all_guides": "Alle Ratgeber",
   "need_help": "Etwas zu reparieren?",
   "faq_h": "Fragen",
-  "trust": [
-   "Fotobericht per WhatsApp nach jedem Auftrag",
-   "Angebot anhand deiner Fotos vor dem Besuch",
-   "Nur Sanur – ich lebe und arbeite hier",
-   "Ersatzteile mit Rechnung"
-  ],
-  "why": "Warum Villenbesitzer in Sanur mich anrufen",
-  "why_items": [
-   [
-    "Ich komme selbst",
-    "Kein Callcenter und kein Team. Die Person, die du anschreibst, ist die, die die Arbeit macht."
-   ],
-   [
-    "Nur ein Gebiet",
-    "Ich fahre nicht über die ganze Insel. Ich kenne die Villen in Sanur: alte Pools, Brackwasserbrunnen am Strand, Dachzisternen."
-   ],
-   [
-    "Berichte für Eigentümer",
-    "Im Ausland? Du bekommst Vorher-Nachher-Fotos und eine kurze Liste der erledigten Arbeiten."
-   ]
-  ],
   "master_h": "Dein Techniker",
   "master_txt": "Hier kommen ein Foto und einige Worte zum Techniker: Name, Erfahrungsjahre, Sprachen. In Bali wählt man eine Person, keine Firma.",
   "master_ph": "Foto des Technikers",
-  "map_h": "Wo ich arbeite",
   "ready": "Etwas kaputt? Schick ein Foto per WhatsApp.",
   "ready_sub": "Ich antworte mit dem, was nötig ist, einem Preis und wann ich vorbeikommen kann.",
   "credits": "Fotos: Unsplash",
@@ -73,9 +40,7 @@
   "language": "Sprache",
   "photo_note": "(durch echtes Foto ersetzen)",
   "guides_en": "Ratgeber (Englisch)",
-  "only": "Nur Sanur",
   "call_or_wa": "Schicken Sie ein Foto per WhatsApp oder rufen Sie {phone} an – ich sage Ihnen, was nötig ist und wann ich vorbeikommen kann.",
-  "local_eyebrow": "Lokales Wissen",
   "local_h": "Sanitärtechnik in Sanur ist anders",
   "local_intro": "Die meisten Einsätze in Sanur haben dieselben lokalen Ursachen im Hintergrund. Wer sie kennt, hat die Diagnose schon zur Hälfte gelöst – deshalb arbeite ich nur in einem Gebiet.",
   "local_items": [
@@ -143,32 +108,9 @@
   ],
   "form_btn": "Per WhatsApp senden",
   "form_note": "Öffnet WhatsApp mit Ihrer Nachricht. Fügen Sie dort gerne ein Foto hinzu.",
-  "rated": "Bewertung {r} · {n} Bewertungen",
-  "serving": "Stolz im Einsatz in Sanur"
+  "rated": "Bewertung {r} · {n} Bewertungen"
  },
  "services": {
-  "srv-santehnik": {
-   "name": "Klempner in Sanur",
-   "intro": "Ein privater Klempner in Sanur: Ich komme selbst, finde die Ursache und behebe sie. Wasserhähne, Toiletten, Rohre, Pumpen und Warmwasser – in Villen, Häusern und Wohnungen.",
-   "items": [
-    "Undichte Wasserhähne und Mischbatterien",
-    "Spülkasten läuft durch oder ist undicht",
-    "Niedriger Wasserdruck",
-    "Austausch von Mischbatterien, Siphons und Schläuchen",
-    "Installation von Toilette und Waschbecken",
-    "Anschluss von Waschmaschine und Geschirrspüler"
-   ],
-   "faq": [
-    [
-     "Wie schnell können Sie kommen?",
-     "Kommt auf den Tagesplan an. Schicken Sie mir ein Foto per WhatsApp, dann sage ich Ihnen, wann ich da sein kann."
-    ],
-    [
-     "Wer kauft die Ersatzteile?",
-     "Beides geht. Ich kann sie kaufen und Ihnen die Quittung geben."
-    ]
-   ]
-  },
   "srv-protechki": {
    "name": "Leckagen finden & reparieren",
    "intro": "Leckagen finden und beheben: unter Spülen, in Wänden, Duschen und Gartenleitungen. Eine versteckte Leckage zeigt sich oft am PDAM-Zähler oder einer Pumpe, die nicht abschaltet.",
@@ -219,23 +161,6 @@
     ]
    ]
   },
-  "srv-voda": {
-   "name": "Wasserpumpen & Filter",
-   "intro": "Pumpen, Druckschalter, Dachzisternen und Wasserfilter. In der Nähe des Strandes in Sanur kann Brunnenwasser salzhaltig sein – ich helfe bei der Filtration oder dem Umstieg auf PDAM.",
-   "items": [
-    "Pumpe schaltet ständig an/aus",
-    "Kein Wasser im Haus",
-    "Zisterne überläuft oder ist leer",
-    "Filterinstallation und Kartuschen",
-    "Dachzisterne reinigen"
-   ],
-   "faq": [
-    [
-     "Wie oft muss man die Kartuschen wechseln?",
-     "In der Regel alle 3–6 Monate, je nach Wasserqualität. Ich zeige Ihnen, worauf Sie achten sollten."
-    ]
-   ]
-  },
   "srv-chistka-bassejna": {
    "name": "Poolreinigung",
    "intro": "Einmalige Poolreinigung: Skimming, Bürsten, Saugen, Filterrückspülung und Wasserbalance. Auch für grüne Pools.",
@@ -283,22 +208,6 @@
     [
      "Kann ich Ihnen ein Foto des Technikraums schicken?",
      "Ja – das ist der beste Weg, damit ich weiß, was ich mitbringen muss."
-    ]
-   ]
-  },
-  "srv-remont-bassejna": {
-   "name": "Poolreparatur",
-   "intro": "Lecks, lose Fliesen, Fugen, Rohrleitungen. Viele Pools in Sanur sind 15–20 Jahre alt – ich helfe Ihnen zu entscheiden, was zuerst repariert werden muss.",
-   "items": [
-    "Wasserverlust – Leckortung",
-    "Lockere Fliesen und Mosaik",
-    "Fugenausbesserung",
-    "Rohrlecks im Pool"
-   ],
-   "faq": [
-    [
-     "Verdunstung oder Leck?",
-     "Eimer-Test: Stellen Sie einen Eimer mit Wasser auf die Stufe und vergleichen Sie beide Wasserstände nach 24 Stunden."
     ]
    ]
   },

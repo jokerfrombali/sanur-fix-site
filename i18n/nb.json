@@ -1,13 +1,10 @@
 {
  "lang": "nb",
  "ui": {
-  "tagline": "VVS-montør og bassengservice i Sanur",
   "wa": "Send meg på WhatsApp",
   "call": "Ring",
-  "wa_text": "Hei! Jeg trenger en tekniker i Sanur: ",
   "services": "Tjenester",
   "prices": "Priser",
-  "areas": "Område",
   "contacts": "Kontakt",
   "fix": "Hva jeg retter opp",
   "how": "Slik fungerer det",
@@ -20,51 +17,21 @@
    "Få pris og tid som passer deg",
    "Jeg retter det og sender deg resultatet"
   ],
-  "area_txt": "Jeg jobber kun i Sanur – hele området:",
-  "home_h1": "VVS-montør og bassengservice i Sanur, Bali",
-  "home_lead": "Privat tekniker: VVS, lekkasjer, varmtvannsberedere, pumper, rengjøring og reparasjon av bassenger, småvilla-reparasjoner i Sanur. Send et foto – jeg svarer på WhatsApp.",
-  "prices_h1": "Priser i Sanur",
   "prices_note": "Prisen avhenger av oppdraget. Jeg tar ut fra foto før jeg kommer. Deler faktureres separat med kvittering.",
-  "areas_h1": "Kun Sanur",
   "contacts_h1": "Kontakt",
   "contacts_lead": "Hurtigste måte: WhatsApp med et foto av problemet og ditt område.",
   "nf": "Siden finnes ikke",
   "home": "Hjem",
-  "badge": "Kun Sanur · Bali",
   "guides": "Veiledninger",
-  "guides_h1": "Veiledninger for villa og basseng i Sanur",
-  "guides_lead": "Praktiske veiledninger fra en tekniker som kun jobber i Sanur: lekkasjer, varmtvann, pumper, bassenger, septiktanker og små reparasjoner.",
   "toc": "I denne veiledningen",
   "related": "Relaterte veiledninger",
   "read": "Les veiledning",
   "all_guides": "Alle veiledninger",
   "need_help": "Trenger du hjelp?",
   "faq_h": "Spørsmål",
-  "trust": [
-   "Foto-rapport på WhatsApp etter hvert oppdrag",
-   "Tilbud fra dine foto før jeg kommer",
-   "Kun Sanur – jeg bor og jobber her",
-   "Deler faktureres med kvittering"
-  ],
-  "why": "Hvorfor villaeiere i Sanur ringer meg",
-  "why_items": [
-   [
-    "Jeg kommer selv",
-    "Ikke en kundeservice eller et team. Personen du skriver til er personen som gjør jobben."
-   ],
-   [
-    "Kun ett område",
-    "Jeg krysser ikke øya. Jeg kjenner villene i Sanur: gamle bassenger, brakke brønner nær stranden, taktanker."
-   ],
-   [
-    "Rapporter for eiere",
-    "Utenlands? Du får før-etter-foto og en kort liste over hva som ble gjort."
-   ]
-  ],
   "master_h": "Din tekniker",
   "master_txt": "Et foto og noen ord om teknikeren hører her: navn, års erfaring, språk. I Bali velger folk en person, ikke et selskap.",
   "master_ph": "Foto av tekniker",
-  "map_h": "Hvor jeg jobber",
   "ready": "Noe er ødelagt? Send et foto på WhatsApp.",
   "ready_sub": "Jeg svarer med hva som trengs, en pris og når jeg kan komme.",
   "credits": "Fotografier: Unsplash",
@@ -73,9 +40,7 @@
   "language": "Språk",
   "photo_note": "(bytt ut med et ekte foto)",
   "guides_en": "Veiledninger (engelsk)",
-  "only": "Kun Sanur",
   "call_or_wa": "Send et foto på WhatsApp eller ring {phone} – jeg forteller deg hva som trengs og når jeg kan komme.",
-  "local_eyebrow": "Lokal kunnskap",
   "local_h": "VVS i Sanur er annerledes",
   "local_intro": "De fleste oppdrag i Sanur handler om de samme lokale forholdene. Å kjenne dem er halvparten av diagnosen – derfor jobber jeg bare i ett område.",
   "local_items": [
@@ -143,32 +108,9 @@
   ],
   "form_btn": "Send via WhatsApp",
   "form_note": "Åpner WhatsApp med meldingen din. Legg gjerne til et bilde der.",
-  "rated": "Vurdert {r} · {n} anmeldelser",
-  "serving": "Stolt av å betjene Sanur"
+  "rated": "Vurdert {r} · {n} anmeldelser"
  },
  "services": {
-  "srv-santehnik": {
-   "name": "VVS-montør i Sanur",
-   "intro": "En privat VVS-montør i Sanur: Jeg kommer selv, finner årsaken og løser problemet. Haner, toaletter, rør, pumper og varmtvann – i villaer, hus og leiligheter.",
-   "items": [
-    "Dryppende haner og blandere",
-    "Løpende eller lekkende toalettspyling",
-    "Lavt vanntrykk",
-    "Utskifting av blandere, sifoner og slanger",
-    "Montering av toalett og vask",
-    "Tilkobling av vaskemaskin og oppvaskmaskin"
-   ],
-   "faq": [
-    [
-     "Hvor raskt kan du komme?",
-     "Avhenger av dagens planlegging. Send et bilde på WhatsApp så forteller jeg deg når jeg kan være der."
-    ],
-    [
-     "Hvem kjøper delene?",
-     "Det er opp til deg. Jeg kan kjøpe dem og gi deg kvitteringen."
-    ]
-   ]
-  },
   "srv-protechki": {
    "name": "Vannlekkasje – funn og reparasjon",
    "intro": "Finn og retter lekkasjer: under vasker, i vegger, dusjer og hageledninger. En skjult lekkasje viser seg ofte på PDAM-måleren eller en pumpe som ikke stanser.",
@@ -219,23 +161,6 @@
     ]
    ]
   },
-  "srv-voda": {
-   "name": "Vannpumper og filtre",
-   "intro": "Pumper, trykkbrytere, taktanker og vannfiltre. Like ved stranden i Sanur kan brønnvannet være saltbrakk – jeg hjelper med filtrering eller overgang til PDAM.",
-   "items": [
-    "Pumpen starter og stopper hele tiden",
-    "Ingen vann i huset",
-    "Tanken løper over eller er tom",
-    "Montering av filtre og patroner",
-    "Rensing av taktank"
-   ],
-   "faq": [
-    [
-     "Hvor ofte bør man bytte patroner?",
-     "Vanligvis hvert 3.–6. måned, avhengig av vannkvaliteten. Jeg viser deg hva du skal se etter."
-    ]
-   ]
-  },
   "srv-chistka-bassejna": {
    "name": "Bassengrensing",
    "intro": "Engangs bassengrensing: skimming, børsting, støvsuging, gjenomvask av filter og vannbalanse. Gjenoppretting av grønt basseng.",
@@ -283,22 +208,6 @@
     [
      "Kan jeg sende et bilde av pumperommet?",
      "Ja – det er den beste måten for meg å vite hva jeg skal ta med."
-    ]
-   ]
-  },
-  "srv-remont-bassejna": {
-   "name": "Bassengreparasjon",
-   "intro": "Lekkasjer, løse fliser, fuger, rørledninger. Mange bassenger i Sanur er 15–20 år gamle – jeg hjelper deg med å bestemme hva som skal repareres først.",
-   "items": [
-    "Vannlekkasje – lekkasjesøk",
-    "Løse fliser og mosaikk",
-    "Fuging på nytt",
-    "Rørlekkasjer i bassenget"
-   ],
-   "faq": [
-    [
-     "Fordampning eller lekkasje?",
-     "Sporettest: Sett en sprett med vann på trappen og sammenlign begge nivåene etter 24 timer."
     ]
    ]
   },

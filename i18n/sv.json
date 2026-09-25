@@ -1,13 +1,10 @@
 {
  "lang": "sv",
  "ui": {
-  "tagline": "VVS-montör & poolservice i Sanur",
   "wa": "Skicka WhatsApp",
   "call": "Ring",
-  "wa_text": "Hej! Jag behöver en tekniker i Sanur: ",
   "services": "Tjänster",
   "prices": "Priser",
-  "areas": "Område",
   "contacts": "Kontakt",
   "fix": "Vad jag åtgärdar",
   "how": "Så funkar det",
@@ -20,51 +17,21 @@
    "Få ett pris och en tid som passar dig",
    "Jag åtgärdar och skickar resultatet till dig"
   ],
-  "area_txt": "Jag jobbar bara i Sanur – hela området:",
-  "home_h1": "VVS-montör & poolservice i Sanur, Bali",
-  "home_lead": "Privat tekniker: VVS, läckage, vattenberedare, pumpar, poolrengöring och reparation, små villa-reparationer i Sanur. Skicka ett foto – jag svarar på WhatsApp.",
-  "prices_h1": "Priser i Sanur",
   "prices_note": "Priset beror på arbetet. Jag offererar från foton innan jag kommer. Delar faktureras separat med kvitto.",
-  "areas_h1": "Endast Sanur",
   "contacts_h1": "Kontakt",
   "contacts_lead": "Snabbaste vägen: WhatsApp med ett foto av problemet och ditt område.",
   "nf": "Sidan hittades inte",
   "home": "Hem",
-  "badge": "Bara Sanur · Bali",
   "guides": "Guider",
-  "guides_h1": "Guider för villa & pool i Sanur",
-  "guides_lead": "Praktiska guider från en tekniker som bara jobbar i Sanur: läckage, varmvatten, pumpar, pooler, septiktankar och små reparationer.",
   "toc": "I denna guide",
   "related": "Relaterade guider",
   "read": "Läs guiden",
   "all_guides": "Alla guider",
   "need_help": "Behöver du hjälp med det?",
   "faq_h": "Frågor",
-  "trust": [
-   "Fotoreport på WhatsApp efter varje jobb",
-   "Offertering från dina foton innan jag kommer",
-   "Bara Sanur – jag bor och jobbar här",
-   "Delar faktureras med kvitto"
-  ],
-  "why": "Varför villägare i Sanur ringer mig",
-  "why_items": [
-   [
-    "Jag kommer själv",
-    "Inget kundcenter och inget team. Personen du skriver till är personen som gör jobbet."
-   ],
-   [
-    "Endast ett område",
-    "Jag korsar inte ön. Jag känner till Sanurs villor: gamla pooler, brakka brunnar nära stranden, taktankar."
-   ],
-   [
-    "Rapporter för ägare",
-    "Utanlands? Du får före-efter-foton och en kort lista över vad som gjorts."
-   ]
-  ],
   "master_h": "Din tekniker",
   "master_txt": "Ett foto och några ord om tekniken hamnar här: namn, års erfarenhet, språk. I Bali väljer man en person, inte ett företag.",
   "master_ph": "Fotografi på tekniker",
-  "map_h": "Var jag jobbar",
   "ready": "Något trasigt? Skicka ett foto på WhatsApp.",
   "ready_sub": "Jag svarar med vad som behövs, ett pris och när jag kan komma.",
   "credits": "Foton: Unsplash",
@@ -73,9 +40,7 @@
   "language": "Språk",
   "photo_note": "(ersätt med ett riktigt foto)",
   "guides_en": "Guider (engelska)",
-  "only": "Endast Sanur",
   "call_or_wa": "Skicka en foto på WhatsApp eller ring {phone} — jag berättar vad som behövs och när jag kan komma.",
-  "local_eyebrow": "Lokal kunskap",
   "local_h": "Vattenservice i Sanur är annorlunda",
   "local_intro": "De flesta åkningar i Sanur handlar om samma lokala förhållanden. Att känna till dem är halva diagnosen — därför arbetar jag bara inom ett område.",
   "local_items": [
@@ -143,32 +108,9 @@
   ],
   "form_btn": "Skicka via WhatsApp",
   "form_note": "Öppnar WhatsApp med ditt meddelande. Lägg till en bild där.",
-  "rated": "Betyg {r} · {n} omdömen",
-  "serving": "Stolt service i Sanur"
+  "rated": "Betyg {r} · {n} omdömen"
  },
  "services": {
-  "srv-santehnik": {
-   "name": "VVS-montör i Sanur",
-   "intro": "Privat VVS-montör i Sanur: Jag kommer själv, hittar felet och åtgärdar det. Kranar, toaletter, rör, pumpar och varmvatten – i villor, hus och lägenheter.",
-   "items": [
-    "Läckande kranar och blandare",
-    "Löpande eller läckande toalettspol",
-    "Lågt vattentryck",
-    "Byta blandare, siffror och slangar",
-    "Montering av toalett och handfat",
-    "Anslutning av tvättmaskin och diskmaskin"
-   ],
-   "faq": [
-    [
-     "Hur snabbt kan du komma?",
-     "Beror på dagens schema. Skicka en bild via WhatsApp så berättar jag när jag kan vara där."
-    ],
-    [
-     "Vem köper delarna?",
-     "Det går båda vägarna. Jag kan köpa dem och ge dig kvitto."
-    ]
-   ]
-  },
   "srv-protechki": {
    "name": "Reparation av vattenläckage",
    "intro": "Att hitta och laga läckage: under diskbänkar, i väggar, duschar och trädgårdsledningar. Ett dolt läckage märks ofta på PDAM-mätaren eller en pump som inte stannar.",
@@ -219,23 +161,6 @@
     ]
    ]
   },
-  "srv-voda": {
-   "name": "Vattenpumpar och filter",
-   "intro": "Pumpar, tryckreläer, takreservoarer och vattenfilter. Längs stranden i Sanur kan brunnsvattnet vara brackigt – jag hjälper dig med filtrering eller övergång till PDAM.",
-   "items": [
-    "Pumpen cyklar ständigt",
-    "Ingen vatten i huset",
-    "Reservoar översvämmad eller tom",
-    "Filtermontering och patroner",
-    "Städning av takreservoir"
-   ],
-   "faq": [
-    [
-     "Hur ofta ska man byta patroner?",
-     "Vanligtvis var 3–6:e månad beroende på vattnet. Jag visar dig vad du ska titta efter."
-    ]
-   ]
-  },
   "srv-chistka-bassejna": {
    "name": "Bassängstädning",
    "intro": "Engångs bassängstädning: skimning, borstning, dammsugning, filterbackspolning och vattenbalans. Återställning av grön bassäng.",
@@ -283,22 +208,6 @@
     [
      "Kan jag skicka ett foto på pumprummet?",
      "Ja – det är bästa sättet för mig att veta vad jag ska ta med."
-    ]
-   ]
-  },
-  "srv-remont-bassejna": {
-   "name": "Bassängreparation",
-   "intro": "Läckage, lösa plattor, fogmassa, rörledningar. Många bassänger i Sanur är 15–20 år gamla – jag hjälper dig bestämma vad som ska åtgärdas först.",
-   "items": [
-    "Vattenförlust – läckagedetektering",
-    "Lösa plattor och mosaik",
-    "Fogning",
-    "Rörläckage i bassängen"
-   ],
-   "faq": [
-    [
-     "Avdunstning eller läcka?",
-     "Hinktest: sätt en hink med vatten på trappsteget och jämför båda nivåerna efter 24 timmar."
     ]
    ]
   },
