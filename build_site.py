@@ -220,8 +220,8 @@ def build():
     if ROOT.exists():
         shutil.rmtree(ROOT)
     ROOT.mkdir()
-    (ROOT / "style.css").write_text((("@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Public+Sans:wght@400;500;600;700&display=swap');
-" if THEME == "pro" else "")
+    PRO_FONTS = "@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Public+Sans:wght@400;500;600;700&display=swap');\n"
+    (ROOT / "style.css").write_text(((PRO_FONTS if THEME == "pro" else "")
                                    + (HERE / "tools" / "style.css").read_text(encoding="utf-8")
                                    + ((HERE / "tools" / "theme_pro.css").read_text(encoding="utf-8") if THEME == "pro" else "")), encoding="utf-8")
     ARTS = load_articles()

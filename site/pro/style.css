@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Public+Sans:wght@400;500;600;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;800&family=Titillium+Web:wght@400;600;700&display=swap');
 :root{--bg:#ffffff;--paper:#f4f4f4;--ink:#33373d;--muted:#757575;--line:#e4e4e4;--green:#000000;--green2:#003483;--brass:#bb0b0e;--wa:#1f9d57;--r:18px;--shadow:0 1px 2px rgba(28,36,34,.04),0 12px 32px rgba(28,36,34,.07)}
@@ -161,7 +162,6 @@ a:hover{color:var(--brass)}p.inl a{color:var(--green2)}
 .phead:after{background:linear-gradient(180deg,rgba(0,0,0,.45),rgba(0,0,0,.8))}
 @media(max-width:420px){.logo{font-size:19px;gap:7px}.logo svg{width:30px;height:30px}.hbtn{padding:8px 11px;font-size:13.5px}header .wrap{padding:0 14px;gap:8px}.burger{width:40px;height:40px}}
 /* Тема «pro» — по мотивам plumbingpro.com */
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Public+Sans:wght@400;500;600;700&display=swap');
 :root{--bg:#ffffff;--paper:#f2efea;--ink:#1f3a52;--muted:#566a7d;--line:#dfe3e8;--green:#0b2a45;--green2:#0f4775;--brass:#cc1a42;--r:8px}
 @media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0b1a2a;--paper:#10243a;--ink:#e8eef5;--muted:#9fb0c2;--line:#1d3550;--green:#07192b;--green2:#3f7fc4;--brass:#e8385e}}
 body{font-family:"Public Sans",system-ui,sans-serif}
