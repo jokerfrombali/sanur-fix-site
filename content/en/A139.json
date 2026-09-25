@@ -1,0 +1,88 @@
+{
+ "title": "Villa Check Before Guests Arrive: Sanur Owner's Guide",
+ "slug": "sanur-villa-prep-checklist",
+ "meta": "Walk through your Sanur villa before guests arrive: plumbing, pool, hot water, locks. A practical checklist for expat owners and long-term tenants.",
+ "intro": "Before you hand over keys or welcome a guest into your Sanur villa, take one focused hour to walk every room and check the systems they will use. This is not a deep renovation – just a practical sweep of plumbing, pool, hot water, and access points so nothing surprises anyone on day one.",
+ "sections": [
+  {
+   "h2": "Plumbing & Drains",
+   "paragraphs": [
+    "Start at each sink, shower, and toilet. Run cold water for thirty seconds, then hot. Watch the drain while it runs – if water pools around the base of the basin or the floor gets damp, there is a slow leak behind the wall. In older Sanur villas built in the 2000s or earlier, the PPR or copper joints under the kitchen counter are the usual suspects.",
+    "Check the rooftop tank (or well pump) next. Open the tap on the top floor and confirm pressure holds steady. PDAM supply can be patchy during the dry season, so make sure the float valve still shuts off properly and the overflow pipe drains away from the structure rather than onto a neighbour's roof."
+   ],
+   "bullets": [
+    "Flush every toilet twice; listen for running that never stops (worn flapper).",
+    "Wipe under the washing machine and dishwasher connections with a dry cloth.",
+    "Clear hair and debris from the bathroom drain strainers before guests arrive.",
+    "If you smell sewage near the septic vent, note it – do not open the tank yourself."
+   ],
+   "h2_note": ""
+  },
+  {
+   "h2": "Pool",
+   "paragraphs": [
+    "Walk the pool edge and check the water level sits mid-skimmer. After a heavy rainy-season downpour the level may have dropped or risen noticeably, which stresses the pump seal. Skim the surface, brush the walls, and run the filter for at least one full cycle before anyone swims.",
+    "Test chlorine and pH with strips. Sanur's sea air accelerates corrosion on ladders, handrails, and the pump housing, so give those metal parts a quick visual once-over for rust pitting. Keep your chlorine store locked and separate from any acid – mixing them releases toxic gas. If you are unsure about dosing, stop and call a professional to handle the chemistry."
+   ],
+   "bullets": [
+    "Confirm the pump starts without grinding and the pressure gauge reads in the green band.",
+    "Check the skimmer basket is empty and the leaf trap is clear.",
+    "Make sure the pool cover (if fitted) still seals flat; trapped rainwater adds weight."
+   ]
+  },
+  {
+   "h2": "Hot Water",
+   "paragraphs": [
+    "Locate your heater – most Sanur villas use either a gas cylinder unit under the kitchen sink or an electric instant heater near the bathroom. For gas: confirm the cylinder has enough fuel, the hose shows no cracks, and the pilot stays lit when you open the tap. Smell the area carefully. If you detect even a faint gas odour, close the cylinder valve, ventilate the room, and do not switch anything electrical on. Call a licensed technician before using the system again.",
+    "For electric heaters, check that the RCD trip button works and the element housing is dry. A small drip behind the unit can corrode terminals over weeks of humidity. Test hot water at every outlet; if one tap runs lukewarm while others are fine, the local valve may be stuck half-closed."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Doors & Locks",
+   "paragraphs": [
+    "Open and close the main gate, the front door, and every bedroom lock. In older villas the mortise locks seize after a few months of salt-laden air sitting on the mechanism. Apply a dry graphite powder to the keyway and work the bolt back and forth ten times.",
+    "Check window latches on the ground floor – guests often leave them open for cross-breeze and then wonder why the fan blew into the pool. Confirm the deadbolt on the service entrance still engages fully; a misaligned strike plate means the bolt only catches halfway."
+   ],
+   "bullets": [
+    "Count your spare keys against the guest list; label each set.",
+    "Make sure the gate motor (if automated) reverses when it hits an obstacle.",
+    "Tighten any loose hinge screws before they drop the door off its frame."
+   ]
+  },
+  {
+   "h2": "Quick Checklist",
+   "paragraphs": [
+    "Print this or save it in Notes so you can tick items off in one pass:"
+   ],
+   "bullets": [
+    "All taps run cold and hot without drips at the base.",
+    "Toilets flush cleanly; no running water after the flush.",
+    "Rooftop tank float works; overflow pipe clear.",
+    "Pool level correct, chlorine/pH in range, pump runs smoothly.",
+    "Hot-water heater tested at every outlet; gas area smells clean.",
+    "Every lock and latch operates smoothly; spare keys accounted for.",
+    "No visible rust on pool metalwork or drain covers.",
+    "Septic vent clear; no sewage smell near the garden."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "How long does a full pre-guest villa check take?",
+   "a": "For a typical two-to-three-bedroom Sanur villa, plan about sixty to ninety minutes if everything is in order. If you find a slow leak or a seized lock, budget extra time or send photos to your technician for a same-day quote."
+  },
+  {
+   "q": "Do I need to drain the pool before guests arrive?",
+   "a": "No – draining and refilling stresses the structure and wastes water. A thorough skim, brush, filter cycle, and chemical balance are all that most guests will notice. Only drain if there is a visible algae bloom or a liner issue."
+  },
+  {
+   "q": "What should I do if I find a plumbing leak during the check?",
+   "a": "Shut off the relevant isolation valve (or the main stopcock under the kitchen sink) and place a bucket underneath. Take a clear photo of the wet area and the joint, then message it on WhatsApp. The technician can tell from the image whether it is a washer swap or a pipe replacement and give you a price before any work starts."
+  }
+ ],
+ "cta": "If anything looks uncertain while you walk through, snap a quick photo and send it over on WhatsApp – a second pair of eyes on the image usually saves a full visit.",
+ "id": "A139",
+ "hub": "V",
+ "status": "draft-qwen"
+}
