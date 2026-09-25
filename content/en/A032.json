@@ -1,0 +1,83 @@
+{
+ "title": "Why Does My Water Pump Keep Turning On and Off?",
+ "slug": "water-pump-short-cycling-fix",
+ "meta": "Your villa pump in Sanur keeps switching on and off? Check the pressure switch, expansion tank, check valve, and leaks before calling a technician.",
+ "intro": "If your pump is short-cycling—clicking on every few minutes or running non-stop—the cause is almost always one of four things: a worn pressure switch, a tired expansion tank, a hidden leak, or a stuck check valve. In Sanur's salt-laden humidity these parts degrade faster than you'd expect, especially in older villas with rooftop tanks or bore-well setups. Here is how to narrow it down yourself before booking a call-out.",
+ "sections": [
+  {
+   "h2": "Pressure Switch: The Usual Suspect",
+   "paragraphs": [
+    "The pressure switch sits right next to the pump and decides when the motor starts and stops. Inside, a small diaphragm pushes metal contacts together or apart based on water pressure. Over time the contacts pit, oxidise, or stick—Sanur's coastal air speeds that up noticeably.",
+    "To check it, turn the pump off at the breaker (not just the little toggle on top) and wait ten seconds for residual pressure to bleed off. Open the cover. If you see black scoring, green corrosion, or a cracked rubber diaphragm under the contacts, the switch needs replacing. A quick wipe with contact cleaner can buy a week if the damage is light, but pitted contacts will keep failing.",
+    "Important safety note: never open the switch while the pump is live. Water and electricity are a bad combination, and a shorted contact can arc. If you are not comfortable working near the pump housing, stop and have someone qualified take a look."
+   ],
+   "bullets": [
+    "Rapid clicking every 30–90 seconds points straight at the switch.",
+    "A faint burning smell near the pump after a long run is another red flag.",
+    "Replacement switches are inexpensive; the cost depends on the model your villa uses."
+   ]
+  },
+  {
+   "h2": "Expansion Tank (Hydroaccumulator)",
+   "paragraphs": [
+    "The small steel tank bolted next to the pump holds an air cushion that absorbs each small draw of water so the motor does not restart every time you turn a tap. That air pocket slowly loses pressure—through the diaphragm, through tiny leaks in the valve, or simply because the original charge was set low.",
+    "With the pump off and the system depressurised, find the Schrader valve on top of the tank (it looks like a car tyre valve). Press it with a finger; if no air hisses out, the cushion is flat. A tyre gauge will give you a number: for most residential setups the pre-charge should sit about 1 bar below the cut-in pressure. If it reads zero or very low, recharge it with a compressor or replace the tank.",
+    "In many Sanur villas built before 2015 the expansion tank is still the original unit. Rubber diaphragms age faster in tropical heat, so a ten-year-old tank may be well past its useful life even if it looked fine externally."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Hidden Leak Somewhere in the System",
+   "paragraphs": [
+    "If the switch and tank are healthy but the pump still cycles, water is escaping somewhere. The classic culprits in an older Sanur villa are a dripping joint on the riser pipe to the rooftop tank, a corroded brass fitting at the PDAM inlet, or a slow weep from a cracked PVC coupling behind a kitchen cabinet.",
+    "Here is a quick test: shut off every tap, close the toilet cistern fill valves, and make sure the washing machine and dishwasher are not mid-cycle. Turn the pump on, let it build pressure, then watch the pressure gauge (or simply listen for the motor) over five minutes. If the needle drops steadily or the motor kicks back in, you have a leak to find.",
+    "During the rainy season this is trickier because rainwater running down external pipes can mask a small drip. Check the overflow pipe of your rooftop tank first—many villas here have a 15 mm gap where the float valve no longer seals properly."
+   ],
+   "bullets": [
+    "Rooftop tank overflow dripping into the garden.",
+    "PDAM line joint sweating after months of thermal expansion.",
+    "A hairline crack in a flexible hose under the sink that only shows when pressure builds."
+   ]
+  },
+  {
+   "h2": "Check Valve Letting Water Flow Back",
+   "paragraphs": [
+    "The check valve sits between the pump outlet and the rest of the plumbing (or at the well head). Its job is one-way flow: water goes up, but never back down. When the rubber flapper inside wears out or gets stuck open by mineral deposits, gravity pulls water back toward the source every time the pump stops. The next tap turn-on finds low pressure, so the motor restarts almost immediately.",
+    "This is especially common on bore-well setups in Sanur, where the column of water above the pump is long and heavy. You may notice the pump runs for a few seconds, stops, then kicks back on within ten to twenty seconds—a rhythm that feels different from a simple switch fault.",
+    "To test, shut off the pump, close all taps, and disconnect the pipe just downstream of the check valve. If water gushes out of the open end, the valve is not holding. Replace it; they are small, cheap parts, and the price for a fitted replacement will depend on how accessible the fitting is."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Calibration: Getting the Cut-In / Cut-Out Right",
+   "paragraphs": [
+    "Even with a perfect switch and tank, a badly set pressure band causes short cycling. The cut-in (start) and cut-out (stop) pressures should differ by roughly 1–2 bar for a typical villa. If someone tightened the adjustment spring too far, the band narrows to maybe 0.3 bar and the motor fires constantly.",
+    "With power off, you can loosen or tighten the large hex nut under the switch cover to change the cut-out point, and adjust the smaller spring for the differential. Turn in small increments—quarter turns—and retest after each change. Do not crank it wide open hoping for luck; an over-pressurised system stresses every joint and the tank diaphragm.",
+    "After any repair—new switch, new tank, new check valve—re-check these settings. A fresh component often needs a slightly different balance than the worn one it replaced."
+   ],
+   "bullets": [
+    "Aim for a 1–2 bar working band unless your pump manual says otherwise.",
+    "Re-test after the rainy season; thermal expansion shifts effective pressures.",
+    "If the gauge itself is old and sticky, replace it before trusting any reading."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "My pump runs non-stop even when nothing is on. What should I check first?",
+   "a": "Start with the rooftop tank overflow and the PDAM inlet joint—those are the two most common slow leaks in Sanur villas. If those are dry, test the check valve at the well or mains connection. If water still drains back, the expansion-tank cushion has likely gone flat."
+  },
+  {
+   "q": "Can I just tighten the pressure-switch screw instead of buying a new one?",
+   "a": "If the contacts are only lightly dirty, cleaning helps temporarily. But if you see pitting, melted spots, or a torn diaphragm inside, tightening will not fix it and risks burning out the motor windings. A replacement switch costs far less than a fried pump."
+  },
+  {
+   "q": "Does Sanur's sea air really shorten the life of these parts?",
+   "a": "Yes. Salt-laden humidity accelerates corrosion on brass fittings, steel switch housings, and rubber diaphragms. Components that might last ten years inland can fail in four or five here, so a yearly visual check of the pump area is worth doing before the rainy season hits."
+  }
+ ],
+ "cta": "If you have worked through all of this and the pump still misbehaves, send me a photo or short video of your pump setup on WhatsApp and I will tell you exactly what to look for next.",
+ "id": "A032",
+ "hub": "W",
+ "status": "draft-qwen"
+}

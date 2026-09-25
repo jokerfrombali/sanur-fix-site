@@ -1,0 +1,77 @@
+{
+ "title": "Float Valve Not Working? Fix an Overflowing or Empty Water Tank",
+ "slug": "float-valve-tank-fix-sanur-bali",
+ "meta": "Your Sanur villa's water tank overflows or won't fill? Learn how the float valve works, spot common faults, and know when to call a local technician.",
+ "intro": "Most rooftop tanks in Sanur villas rely on a simple brass or plastic float valve to stop the inlet once the water reaches the right level. When that small mechanism sticks, corrodes, or breaks, you either lose water down the overflow pipe or sit with an empty tank during a PDAM outage. In both cases the fix is usually straightforward, but the sea air here accelerates corrosion faster than most people expect.",
+ "sections": [
+  {
+   "h2": "How the Float Valve Works",
+   "paragraphs": [
+    "Inside your tank (or just below the inlet pipe) there is a vertical rod with a hollow ball or cylindrical float attached near the top. As water rises, the float lifts. At a preset height it pivots a lever that closes a rubber or ceramic disc against the inlet seat, cutting off flow from the PDAM line or your well pump.",
+    "In older Sanur villas built before 2010 you will often find a brass body with a neoprene seal; newer installations use a full-plastic unit with a silicone gasket. Both work the same way, but the rubber parts are what degrade over time, especially when the tank sits open to salt-laden air for months at a stretch."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Your Tank Keeps Overflowing",
+   "paragraphs": [
+    "If water runs steadily out of the overflow pipe even though no one is drawing water, the valve is not sealing. The most common causes in Bali's humid, salty environment are: a mineral-crusted float that has lost buoyancy and cannot lift high enough, a warped or torn rubber diaphragm, sand or rust particles lodged under the seat, or a float arm bent by a previous repair attempt.",
+    "Start by turning off the inlet tap (usually a ball valve on the pipe entering the tank) and lifting the float by hand. If it feels heavy, sticky, or does not spring back, the mechanism is seized. Wipe the rod clean, check the pivot pin for corrosion, and inspect the disc for nicks or limescale. A quick rinse with warm water and a soft brush often restores function without any part replacement.",
+    "If the seal itself is cracked or permanently deformed, you will need a new gasket or a full valve body. Because the parts are small and cheap, many owners buy a universal 1-inch or 3/4-inch float valve from a hardware shop in Sanur and swap it in over a weekend."
+   ],
+   "bullets": [
+    "Turn off the inlet before touching anything inside the tank.",
+    "Check the overflow pipe for a blockage; sometimes the tank IS filling correctly but the outlet is mis-routed.",
+    "During the rainy season (November–March) PDAM pressure can spike after a storm drain flushes through, hammering the valve harder than usual."
+   ]
+  },
+  {
+   "h2": "The Tank Won't Fill Up",
+   "paragraphs": [
+    "The opposite problem—tank stays empty while the tap runs dry—is usually a stuck-open float that never rises to close the seat, or more commonly a float that is jammed in the closed position so water cannot enter at all. Listen: if you hear no flow when you open the kitchen tap during a PDAM outage, the inlet path is blocked somewhere between the street main and your tank.",
+    "Work backwards. Open the ball valve on the inlet pipe and check whether water reaches the tank's fill port. If yes, the fault is inside the valve assembly. If no, look upstream: a cracked flexible hose, a corroded union, or a tripped well-pump circuit breaker are typical culprits in older Sanur properties with 10-year-old plumbing.",
+    "A less obvious cause specific to Bali: iron-oxide sludge from PDAM mains settles in low points of the pipe run and gradually chokes the small-bore inlet. Flushing the line for two minutes before re-filling can clear it."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Replacing the Float Valve",
+   "paragraphs": [
+    "Shut off the water supply and drain the tank as much as practical (open one outdoor tap). Unscrew the old valve body—most use a standard 1-inch BSP thread—and note the orientation so the new one goes in the same way. Apply PTFE tape to the threads; do not use thread-sealant paste that can contaminate drinking water.",
+    "Fit the new valve, tighten by hand plus a quarter turn with pliers wrapped in cloth to avoid cracking the plastic body. Re-open the inlet slowly and watch the float cycle through at least three full fill-and-stop cycles before you walk away. If it still drips after the third cycle, the seat may need a light polish or the gasket swapped again.",
+    "Because salt air eats exposed brass quickly, if your replacement is metal, consider painting the external rod with a thin coat of marine-grade anti-corrosion spray once a year, ideally just before the dry season when UV and heat accelerate oxidation."
+   ],
+   "bullets": [
+    "Keep a spare 1-inch float valve in the utility cupboard; they are inexpensive and fail without warning.",
+    "If the tank itself has hairline cracks around the inlet boss, replace the whole boss or have it epoxy-repaired before fitting the new valve."
+   ]
+  },
+  {
+   "h2": "Adding an Electronic Level Sensor",
+   "paragraphs": [
+    "For villas with two or more tanks (rooftop + garden) or a well-pump system, a mechanical float alone can be unreliable during power surges that trip the pump mid-cycle. A simple electronic level switch—two stainless-steel probes wired to a small relay box—gives you a hard cut-off independent of the float mechanism.",
+    "Installation is a job for someone comfortable working at height on a wet rooftop. The probes screw into pre-drilled holes near the top and bottom of the tank interior; the relay sits in a dry, ventilated junction box away from splashing water. If you are not confident routing low-voltage wiring near a live pump motor, stop and call a licensed electrician first—mixing wet hands with 230 V supply is genuinely dangerous.",
+    "The sensor does not replace the float valve; it acts as a backup. Together they give you redundancy so a single stuck part no longer means a flooded ceiling or three days without hot water."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "How often should I inspect the float valve in a Sanur villa?",
+   "a": "Twice a year is sensible: once before the rainy season (around October) when PDAM pressure fluctuates more, and once after the dry season when salt-air corrosion has had maximum effect. A two-minute visual check of the float arm, seat disc, and inlet threads catches most problems before they become an overflow mess."
+  },
+  {
+   "q": "Can I use a well-water tank with the same float valve as a PDAM-fed tank?",
+   "a": "Yes, the mechanism is identical. The only difference is that well water in parts of Sanur can be slightly acidic or carry fine silt, which clogs the small seat bore faster. If your well pump runs frequently, flush the inlet line for a minute every few months to keep the passage clear."
+  },
+  {
+   "q": "My tank overflows at night but not during the day—what could cause that?",
+   "a": "Nighttime overflows often point to a thermal-expansion issue: hot water from a geyser or solar heater expands in the closed loop and pushes back through the inlet, lifting the float just enough to crack the seal open. Fitting a small expansion vessel on the hot side, or checking that your geyser's own safety valve is not stuck, usually resolves it. If you are unsure, send a photo of the setup and a technician can advise remotely."
+  }
+ ],
+ "cta": "If your tank is still misbehaving after these checks, snap a quick photo of the valve assembly and the overflow pipe and send it over WhatsApp—the price depends on the job, and the technician will quote from what they see before anyone climbs onto your roof.",
+ "id": "A034",
+ "hub": "W",
+ "status": "draft-qwen"
+}

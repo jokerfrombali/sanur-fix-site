@@ -1,0 +1,80 @@
+{
+ "title": "No Water at Your Villa in Bali? Check This First",
+ "slug": "villa-no-water-sanur-fix",
+ "meta": "Lost water pressure or flow at your Sanur villa? Walk through rooftop tanks, pumps, PDAM outages, and quick fixes before calling a technician.",
+ "intro": "You open the kitchen tap and nothing comes out. In Sanur this happens more often than expats expect — PDAM maintenance, a tripped pump, or a cracked pipe under the floor can all drain your supply overnight. Before you panic, walk through these checks in order. Most no-water situations are solved in ten minutes once you know where to look.",
+ "sections": [
+  {
+   "h2": "Why Your Villa Lost Water",
+   "paragraphs": [
+    "The good news is that \"no water\" rarely means a catastrophic burst. In most Sanur villas the supply chain looks like this: PDAM main → street valve → underground pipe into your plot → filter or well backup → rooftop storage tank → gravity-fed taps. Any single link failing will stop flow at every fixture simultaneously.",
+    "The usual suspects, in rough order of frequency: an empty rooftop tank after heavy use; a pump that tripped its overload relay; a PDAM scheduled outage on your block; a corroded pipe (Sanur's sea air accelerates corrosion on older copper and galvanized lines); or a simple closed ball valve someone forgot about during renovation."
+   ],
+   "bullets": [
+    "Check whether neighbours also have no water — that points to PDAM.",
+    "Listen for the pump cycling; silence often means it tripped.",
+    "Look at the tank sight-glass or float level if accessible.",
+    "Note when you last had full pressure so you can narrow the window."
+   ]
+  },
+  {
+   "h2": "Check the Rooftop Tank and Pump First",
+   "paragraphs": [
+    "Climb to the tank (or ask your staff to do so safely — wet concrete roofs are slippery, especially after rain). If the glass sight-tube shows the level below the outlet pipe, the tank is simply empty. That is not a leak; it just needs refilling once mains supply returns.",
+    "Go to the pump housing, usually under the stairs or in a small utility room near the kitchen. Switch off the breaker first. Then check three things: the overload button (a small red or black push-button that pops out), the inlet strainer (clogged with sand or algae), and the cable connections for any burnt smell. If the button has popped, wait two minutes and press it back in. If you see scorch marks on wiring or smell burning plastic, stop and call an electrician before touching anything else."
+   ],
+   "bullets": [
+    "Reset the overload relay only after confirming the impeller spins freely by hand (pump must be off).",
+    "Rinse the inlet screen under running water if available.",
+    "Make sure the float switch inside the tank is not stuck down.",
+    "Re-seat any loose gland nuts on the discharge pipe."
+   ]
+  },
+  {
+   "h2": "If PDAM Shut Off Supply in Sanur",
+   "paragraphs": [
+    "PDAM does scheduled maintenance, especially during the dry season when demand peaks. Outages are sometimes announced via local WhatsApp groups or posted at the sub-district office, but many villa owners simply find out when the tap runs dry. Ask your neighbours or the security guard whether the whole block is affected.",
+    "If it is a PDAM issue there is nothing you can fix from inside the villa. You can check the PDAM customer line or their social-media page for outage notices. In the meantime, rely on whatever is left in the rooftop tank and any well backup you have installed. Avoid running the pump dry — cycling it with no water will overheat the motor within minutes."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Temporary Fixes While You Wait",
+   "paragraphs": [
+    "Prioritise water use. Fill buckets from the tank for drinking, cooking, and washing hands before the level drops below the outlet. If you have a garden hose connected to the tank, disconnect it so gravity flow goes only where you need it.",
+    "For showers, a jerry-can over the head works surprisingly well and uses far less water than a running tap. Keep the toilet cistern lid closed to slow evaporation if you are stuck without supply for more than a day. If the outage stretches into the second day and you have no well, ask your staff about local water-delivery vendors they already know."
+   ],
+   "bullets": [
+    "Do not mix chlorine tablets with any other chemical in the same container.",
+    "If you smell gas near the water heater while troubleshooting, leave the area and call a professional immediately.",
+    "Keep electrical sockets and switches dry when working around the pump room."
+   ]
+  },
+  {
+   "h2": "How to Protect Against Future Outages",
+   "paragraphs": [
+    "A few low-effort habits save a lot of stress. Once a month, open the lowest tap on each floor for thirty seconds to flush sediment that settles during outages. Inspect the pump inlet strainer every two months — sand from PDAM mains is common after heavy rain washes soil into the system.",
+    "Make sure your rooftop tank holds at least one full day's worth of capacity for the household. In Sanur's rainy season the tank fills quickly, but in the dry months a 1,000-litre tank can empty overnight if you run pool top-up and irrigation together. If your villa is older than ten years, consider having the underground pipe pressure-tested once so a slow leak does not become an expensive surprise under the concrete slab."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "How long can I go without running the pump before it breaks?",
+   "a": "Running a centrifugal or wet-rotor pump completely dry for more than about two minutes can overheat the seal and windings. If supply is off, switch the pump breaker off until water returns to the inlet line."
+  },
+  {
+   "q": "My well backup kicked in but the water tastes sandy. Is that normal?",
+   "a": "After a heavy storm, fine silt enters most Sanur wells. Run the well pump into a bucket for a few minutes, let the water settle, then reconnect. If the taste persists beyond a day, have the filter media cleaned or replaced."
+  },
+  {
+   "q": "Should I call a plumber every time the water stops?",
+   "a": "Not necessarily. Work through the tank, pump, and PDAM checks first. If those all look fine and flow is still zero, send photos of the pump housing, tank level, and any visible pipe joints on WhatsApp — the technician will tell you whether a visit is needed and quote from what they see."
+  }
+ ],
+ "cta": "Send a quick photo of your pump area or tank sight-glass on WhatsApp and we'll point you to the right next step before you spend money on a call-out.",
+ "id": "A037",
+ "hub": "W",
+ "status": "draft-qwen"
+}

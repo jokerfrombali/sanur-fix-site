@@ -1,0 +1,87 @@
+{
+ "title": "PDAM vs Well Water: Where Does Your Villa's Water Come From?",
+ "slug": "pdam-vs-well-water-sanur-villa",
+ "meta": "Understanding PDAM mains water and private wells in Sanur villas. Learn the pros, cons, outage risks, and how to combine both sources reliably.",
+ "intro": "If your villa in Sanur has a tap, the water comes from one of two places: the PDAM municipal network or a private borehole well. Many properties actually use both, fed into rooftop tanks by pumps. Knowing which source feeds which part of your house saves you headaches during dry spells and rainy-season pressure drops.",
+ "sections": [
+  {
+   "h2": "What Is PDAM?",
+   "paragraphs": [
+    "PDAM stands for Perusahaan Daerah Air Minum, the regional public-water utility that serves Bali. In Sanur, treated mains water runs through underground pipes laid along the main roads. Your villa connects to that pipe via a meter box, usually near the front gate or kitchen wall.",
+    "The water arrives under moderate pressure, enough for showers and washing machines on most days. However, Sanur's older street grid means some lanes see noticeably lower flow, especially when neighbouring villas all run their pools at once. During the hot months (June to September), demand spikes and pressure can dip further."
+   ],
+   "bullets": [
+    "Check your meter box weekly for leaks around the connection point; salt air corrodes fittings faster than inland.",
+    "If the water tastes strongly of chlorine, let it sit in an open container for 30 minutes before drinking or using it on plants.",
+    "Never mix chlorinated PDAM water with untreated well water in the same tank without proper separation. If you notice a sharp chemical smell after mixing, stop using that water and call a professional to inspect the setup."
+   ]
+  },
+  {
+   "h2": "Well Water at Your Villa",
+   "paragraphs": [
+    "A private borehole is drilled into the aquifer beneath your plot. In Sanur, typical depths range from 15 to 40 metres depending on soil composition. A submersible pump lifts the water up to a rooftop or ground-level storage tank, from where gravity feeds the house.",
+    "Well water is free of chlorine but often carries dissolved iron, manganese, or silica. You may notice a faint metallic taste, yellowish staining on taps, or a slight film on glassware. None of this is dangerous, but it will clog showerheads and damage washing-machine seals over time unless you fit a sediment filter and, ideally, a softener."
+   ],
+   "bullets": [
+    "Run the well pump for two minutes each morning to flush stagnant water from the pipe.",
+    "Have the water tested once a year, especially before the rainy season when the table rises and mineral content shifts.",
+    "If you smell sulphur (rotten eggs), shut the pump off and have the well inspected—this can indicate bacterial growth in the casing."
+   ]
+  },
+  {
+   "h2": "Pros and Cons of Each Source",
+   "paragraphs": [
+    "Neither source is perfect on its own. Here is how they compare in everyday villa use:"
+   ],
+   "bullets": [
+    "PDAM pros: consistent chemical treatment, no drilling cost, simple metered billing.",
+    "PDAM cons: pressure drops in dry season, occasional scheduled maintenance outages, chlorine taste.",
+    "Well pros: unlimited volume, independent of municipal schedules, great for pool top-ups and garden irrigation.",
+    "Well cons: variable mineral content, ongoing pump-and-filter upkeep, electricity draw for the submersible unit.",
+    "Both sources: salt-laden sea air accelerates corrosion on exposed fittings; stainless or PEX piping lasts longer than galvanized steel in Sanur's humidity."
+   ]
+  },
+  {
+   "h2": "Water Outages and Dry Spells",
+   "paragraphs": [
+    "The most common complaint from Sanur villa owners is not bad water quality but simply running out. PDAM does perform planned maintenance, usually overnight, but unplanned pipe bursts on shared mains can leave a whole lane without supply for a day or more.",
+    "If your villa relies solely on PDAM with a small 1,000-litre tank, a two-day outage means no showers. A well backup eliminates that risk entirely. Conversely, if you depend only on the well and the pump motor burns out during a heatwave, you are stuck until it is replaced."
+   ],
+   "bullets": [
+    "Size your rooftop tank to hold at least 2–3 days of household use (rough guide: 200 litres per person per day including laundry).",
+    "Install a float valve or level sensor so the tank cannot overflow and flood the roof terrace.",
+    "Keep a manual hand-pump or a jerry-can reserve for emergencies—simple, but practical during long outages."
+   ]
+  },
+  {
+   "h2": "Running Both Sources Together",
+   "paragraphs": [
+    "Most well-managed Sanur villas treat PDAM as the primary source and the well as the backup. A simple controller switches the pump over when the tank level drops below a set point. Some owners reverse this in the dry season, prioritising the well to conserve municipal pressure for neighbours.",
+    "A few cautions when combining sources:"
+   ],
+   "bullets": [
+    "Do not let chlorinated PDAM water and raw well water mix freely in one open tank. If you must share a tank, keep them in separate compartments or run PDAM through a carbon filter first. If an unusual odour appears after mixing, stop using that water and call a professional.",
+    "Label every pipe at the manifold: blue for PDAM, green for well. Future technicians will thank you.",
+    "Service both pump systems on the same annual visit so you are not chasing two different contractors."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is PDAM water safe to drink straight from the tap?",
+   "a": "It is treated and disinfected by the utility, but pipe age and storage-tank hygiene can affect taste and clarity. Boiling or a basic sediment-plus-carbon filter removes most concerns. If the water looks cloudy or smells strongly of chlorine, let it settle before use."
+  },
+  {
+   "q": "How deep should a villa well be in Sanur?",
+   "a": "Depths vary with local geology, but 15–40 metres is typical. A licensed driller assesses the site before drilling. The key is reaching a stable aquifer layer rather than just hitting any water pocket, which can dry up in the hot season."
+  },
+  {
+   "q": "Can I use well water to fill my pool?",
+   "a": "Yes, and many owners do, especially for initial filling or top-ups during the dry months when PDAM pressure is low. Just make sure your filtration system handles the mineral load, and allow proper circulation time if you are also adding chlorinated PDAM water."
+  }
+ ],
+ "cta": "If you are unsure whether your villa's plumbing is set up correctly—or if a tank, pump, or filter needs attention—send a quick photo on WhatsApp and we will point you in the right direction.",
+ "id": "A030",
+ "hub": "W",
+ "status": "draft-qwen"
+}

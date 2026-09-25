@@ -1,0 +1,75 @@
+{
+ "title": "Hard Water & Limescale in Bali: A Villa Owner's Guide",
+ "slug": "hard-water-limescale-bali-villa",
+ "meta": "Why Sanur villa taps get clogged with limescale, what it damages, how a water softener helps, and simple cleaning steps you can do yourself.",
+ "intro": "If your Sanur villa taps are dripping slowly, your showerhead sprays in one stubborn stream, or the bathroom glass looks permanently fogged – that is limescale. It builds up fast here because of the mineral content in both PDAM and well water, plus the tropical heat that concentrates those minerals inside pipes and tanks. The good news: most of it is preventable with a little routine care and the right products.",
+ "sections": [
+  {
+   "h2": "Why Limescale Builds Up Here",
+   "paragraphs": [
+    "Most Sanur villas draw from PDAM mains, but many older properties also tap into a borehole for backup or pool top-up. Both sources carry calcium and magnesium ions – the two minerals responsible for scale. In cooler climates the problem creeps in slowly; here the tropical sun does extra work.",
+    "Rooftop storage tanks sit under direct UV for hours every day, evaporating small amounts of water and concentrating dissolved minerals. By the time that water reaches your kitchen tap or geyser, the concentration is higher than at the source. During the dry season (May to September) evaporation is even more aggressive, so you will notice the buildup accelerating month by month."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "What Actually Suffers First",
+   "paragraphs": [
+    "The first victims are the small moving parts: showerhead nozzles, tap aerators, mixer cartridges. You feel reduced flow before you see anything obvious. Next come bigger appliances – electric geysers lose efficiency as scale coats the heating element, washing machines develop strange rattling noises, dishwashers stop rinsing properly.",
+    "Glass surfaces in bathrooms take on a permanent cloudy film that ordinary cleaner cannot shift. Over a year or two, pipe diameters narrow slightly and pressure drops across the whole villa. If your pool heater or pump draws from the same cold-water line, scale migrates into those components too and starts affecting circulation."
+   ],
+   "bullets": [
+    "Showerheads and aerators clog within 2–3 months without cleaning",
+    "Geyser elements lose up to half their efficiency under a thick scale layer",
+    "Pool pumps and heaters fed from the same supply line are not immune"
+   ]
+  },
+  {
+   "h2": "Should You Install a Water Softener?",
+   "paragraphs": [
+    "A whole-house ion-exchange softener sits between your main supply (or pump) and the distribution pipes. It swaps calcium and magnesium for sodium ions, so the water reaching every tap is genuinely softer. For a Sanur villa with multiple bathrooms and a geyser, this is often the single most effective step you can take.",
+    "Installation usually means a small bracket near the pump room or under the stairs; the unit needs a salt reservoir and a regeneration cycle roughly once a week depending on household size. It is not set-and-forget – someone has to top up the salt and occasionally check the resin bed. If your pool is fed separately, the softener will not touch that loop, so you still manage pool chemistry independently.",
+    "Before buying anything, send us photos of your current setup on WhatsApp. Sometimes a point-of-use filter at the geyser inlet solves the problem without plumbing the entire house, and the cost depends entirely on what we find."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "Cleaning Taps, Mixers & Showerheads",
+   "paragraphs": [
+    "Start simple: unscrew the showerhead or aerator cap and soak it in white vinegar overnight. The acetic acid dissolves calcium carbonate without damaging chrome or brass. For stubborn scale inside mixer cartridges, disassemble carefully – most modern cartridges use a quarter-turn lock, but older Sanur villas may have threaded fittings seized by years of mineral deposits.",
+    "Soak those parts in warm vinegar for two to three hours rather than forcing them with pliers. Wipe glass surfaces with a 50/50 water-vinegar spray after every few showers; this keeps the film thin enough to buff off with a microfibre cloth. Check O-rings while everything is apart – a dried-out seal will leak even after the scale is gone. Repeat this routine every six to eight weeks and you will avoid full cartridge replacements."
+   ],
+   "bullets": [
+    "White vinegar + warm water: safe on chrome, brass, stainless steel, glass",
+    "Avoid direct vinegar contact with unsealed marble or travertine around basins",
+    "Keep rubber O-ring soaks under four hours, then rinse thoroughly"
+   ]
+  },
+  {
+   "h2": "Prevention Habits That Save Money",
+   "paragraphs": [
+    "Flush your cold-water lines once a week by running each tap for thirty seconds – this stops minerals settling in dead-end pipe sections. Do not let your rooftop tank sit empty under the sun; a dry plastic liner degrades faster and can introduce organic matter into the supply.",
+    "Once a year, isolate power at the breaker, pull the geyser element, and check for a chalky coating. If it is thick, descale before switching the power back on. Keep an eye on flow rate: if your kitchen tap takes noticeably longer to fill a jug than last month, that is your early warning that scale is building upstream. During the rainy season, when PDAM pressure fluctuates more, give your pipes a good flush after any outage so sediment does not settle and start scaling."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is Sanur water hard enough to warrant a softener?",
+   "a": "It depends on whether you are on PDAM mains or well water and how many appliances draw from the same line. If you notice visible scale within two or three months of moving in, a whole-house unit usually pays for itself in saved repairs. Send us a photo of your showerhead or geyser element and we will tell you honestly whether one is needed."
+  },
+  {
+   "q": "Can I use vinegar on every bathroom fixture safely?",
+   "a": "Vinegar is safe on chrome, brass, stainless steel, and glass. Avoid using it directly on unsealed natural stone such as marble or travertine around your basin – the acid will etch the surface. For silicone seals and rubber O-rings, keep the soak under four hours and rinse thoroughly afterwards."
+  },
+  {
+   "q": "How often should I descale my electric water heater?",
+   "a": "In Sanur's climate, check the heating element at least once a year. If the villa has been occupied continuously, aim for every eight months. The element should look like clean metal; if there is a white or chalky layer, soak it in vinegar or a dedicated descaling solution before switching the power back on."
+  }
+ ],
+ "cta": "Send a clear photo of your clogged showerhead, scaled geyser element, or limescale-covered tap on WhatsApp, and we will walk you through exactly what needs doing – no obligation, just an honest answer.",
+ "id": "A036",
+ "hub": "W",
+ "status": "draft-qwen"
+}

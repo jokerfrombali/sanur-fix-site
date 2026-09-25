@@ -1,0 +1,97 @@
+{
+ "title": "Water Filter for Your Sanur Villa: What to Choose",
+ "slug": "water-filter-sanur-villa-bali",
+ "meta": "How to choose a water filter system for your Sanur villa — whole-house, reverse osmosis, UV. Practical guide for expats dealing with PDAM and well water.",
+ "intro": "Water from PDAM mains or a private well in Sanur can carry sediment, chlorine, iron, and — especially after heavy rain — bacteria that settle in rooftop storage tanks. A properly chosen filter protects your plumbing, makes tap water safe to drink, and keeps pool equipment running cleanly. Below is a practical breakdown of what each stage does and where it fits in your villa.",
+ "sections": [
+  {
+   "h2": "Types of Water Filters at a Glance",
+   "paragraphs": [
+    "Before buying anything, know which problem you are actually solving. In Sanur most villas receive either PDAM municipal water (chlorinated, sometimes discoloured, variable pressure) or draw from a borehole well (higher mineral content, possible iron). Both feed an overhead polyethylene tank, usually 1,000–3,000 litres, that gravity-feeds the house. Over time, rust from older galvanized risers, sand from nearby construction, and organic film from the tank itself all end up in your taps and appliances.",
+    "A complete setup typically combines two or three stages rather than relying on one device:"
+   ],
+   "bullets": [
+    "Sediment / spin-on cartridge – catches sand, rust flakes, silt",
+    "Activated carbon block – removes chlorine taste, some pesticides, improves odour",
+    "Reverse osmosis membrane – strips dissolved salts, heavy metals, micro-plastics",
+    "UV lamp – neutralises bacteria and viruses that slip past physical filters"
+   ]
+  },
+  {
+   "h2": "Whole-House (Magistralny) Filter",
+   "paragraphs": [
+    "A whole-house filter sits on the main inlet pipe, just before water enters the villa — usually near the meter or at the base of the rooftop-tank pump. It is the first line of defence for everything downstream: showers, washing machine, dishwasher, pool top-up line, and the kitchen tap.",
+    "In practice this means a 5-micron sediment cartridge followed by a 10-micron carbon block, both in a clear polycarbonate housing so you can see when the media turns brown. For older Sanur villas with original galvanized risers I would add a third sediment stage; those pipes shed rust particles that clog smaller cartridges quickly.",
+    "During the rainy season (roughly November to March), silt load spikes as construction runoff washes into PDAM intakes. Expect to change the first sediment cartridge more often in those months."
+   ],
+   "bullets": [
+    "Shut off PDAM supply or well pump before cutting into the pipe",
+    "Use PTFE tape on all threaded joints; avoid silicone sealant on potable-water fittings",
+    "Leave at least 60 cm clearance around the housing for cartridge swaps",
+    "If the villa has a pressure booster pump, install the filter upstream of it to protect the impeller"
+   ]
+  },
+  {
+   "h2": "Reverse Osmosis System",
+   "paragraphs": [
+    "If you want water that tastes clean for drinking and cooking — no chlorine aftertaste, no chalky film on your coffee cup — an RO unit delivers that. A standard under-sink system pushes water through a semi-permeable membrane, removing dissolved salts, heavy metals such as lead and arsenic, nitrates, and micro-plastics that carbon filters cannot catch.",
+    "A typical setup includes a pre-filter (sediment plus carbon), the RO membrane, a post-carbon polishing stage, and a small 8–12 litre storage tank under the kitchen counter. The system produces roughly one litre of purified water for every three litres of reject water, so plan a drain line back to the floor waste or garden.",
+    "RO does not remove chlorine completely at the membrane level, which is why the carbon pre- and post-filters matter: they protect the membrane and polish the final taste."
+   ],
+   "bullets": [
+    "Feed the membrane with cold water only; do not tap into a hot-water branch",
+    "In Sanur's humidity, wipe the membrane housing gasket during service to prevent mould growth",
+    "If well water tests above 0.3 mg/L iron, add an oxidation pre-stage before the membrane",
+    "The reject-water ratio means slightly higher PDAM consumption; factor this into your monthly bill"
+   ]
+  },
+  {
+   "h2": "UV Sterilizer",
+   "paragraphs": [
+    "A UV steriliser is not a filter in the traditional sense. It is a lamp inside a stainless-steel chamber that water flows through; the ultraviolet light disrupts the DNA of bacteria, viruses, and protozoa without adding any chemical.",
+    "This matters in two Sanur-specific situations. First, private-well water may contain coliform bacteria even when it looks perfectly clear. Second, after heavy rain rooftop tanks accumulate organic film and micro-organisms, especially if the tank has not been cleaned in over a year. A UV unit installed after the sediment and carbon stages gives you a final biological safety net.",
+    "Safety note: the UV chamber contains electrical components near plumbing. Keep the installation area dry, test the GFCI/RCD breaker quarterly, and never open the quartz sleeve while the lamp is energised — UV-C causes eye damage within seconds. If you smell ozone or burnt plastic near the unit, switch it off and call a licensed electrician before touching anything further."
+   ],
+   "bullets": [
+    "Replace the UV bulb at its rated life (commonly 9,000 hours) even if it still appears to glow",
+    "Clean the quartz sleeve annually with distilled water",
+    "Position the unit where it is accessible for service but out of direct sun"
+   ]
+  },
+  {
+   "h2": "Maintenance and Cartridge Replacement",
+   "paragraphs": [
+    "Even the best system degrades. In Bali's heat and humidity, carbon media can harbour biofilm if left past its service interval, and sediment cartridges lose efficiency as they load up. Here is a practical schedule I follow for Sanur villas:"
+   ],
+   "bullets": [
+    "Sediment cartridge: every 2–3 months in rainy season, every 4–6 months in dry season (or when housing turns dark brown)",
+    "Carbon block: every 6 months, or sooner if chlorine taste returns",
+    "RO membrane: 18–24 months depending on TDS of source water",
+    "UV lamp: replace at rated hours; clean the quartz sleeve once a year",
+    "Rooftop tank: flush and scrub once a year, ideally just before the wet season starts"
+   ],
+   "paragraphs_extra": [
+    "How do you know it is time? Simple signs include reduced flow rate, a yellowish tint returning to the tap, a faint chlorine smell after the carbon replacement was due, or the RO unit producing noticeably less purified water per cycle.",
+    "Cartridges are inexpensive consumables, but installation labour varies by job complexity — whether we are swapping a spin-on element under the sink or cutting into a main riser pipe. The price depends on the specific work involved; send me photos of your current setup on WhatsApp and I will quote from those."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I drink PDAM water straight from the tap in Sanur?",
+   "a": "It is chlorinated, so it is not immediately dangerous, but many expats report a strong chemical taste and occasional discolouration. A whole-house sediment-and-carbon filter removes most of that, and an RO unit takes care of dissolved minerals for drinking and cooking."
+  },
+  {
+   "q": "Do I need both a whole-house filter AND reverse osmosis?",
+   "a": "They solve different problems. The whole-house filter protects your plumbing, appliances, and pool line from particulates. RO gives you a dedicated clean-drinking stream at the kitchen. Many Sanur villas use both together because they serve separate purposes."
+  },
+  {
+   "q": "How often should I service my rooftop tank and filters during the rainy season?",
+   "a": "Increase your check-up frequency. Silt load rises sharply from November through March, so inspect the first sediment cartridge monthly rather than every two to three months. Flush the rooftop tank before the wet season if it has been sitting idle since the dry period."
+  }
+ ],
+ "cta": "Send me a photo of your current water inlet or under-sink area on WhatsApp and I will tell you exactly which stages your villa needs — no obligation, just a clear recommendation.",
+ "id": "A027",
+ "hub": "W",
+ "status": "draft-qwen"
+}

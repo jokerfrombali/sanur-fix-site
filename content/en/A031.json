@@ -1,0 +1,88 @@
+{
+ "title": "Well Pump for Your Sanur Villa: Selection, Setup & Repair",
+ "slug": "sanur-villa-well-pump-guide",
+ "meta": "How to choose, install, and maintain a submersible well pump in your Sanur villa. Practical tips on sizing, common faults, and when to call a technician.",
+ "intro": "Most Sanur villas pull their water from a borehole or shallow well rather than PDAM mains, so the pump is the heart of your supply. Choosing the wrong size or skipping basic upkeep means dry taps within a single dry season. Here is what actually matters when selecting, installing, or troubleshooting a well pump in tropical coastal conditions.",
+ "sections": [
+  {
+   "h2": "Types of Pumps You Will Actually Need",
+   "paragraphs": [
+    "In most Sanur wells the practical choice is a submersible (deep-well) pump that sits inside the casing below the water table. It pushes water up through a riser pipe to a rooftop tank or directly into house plumbing. Because it runs submerged, it stays cool and does not fight gravity from above.",
+    "A surface or jet pump can work for very shallow sources – say under five metres – but most villa wells here are deeper, and salt-laden air accelerates corrosion on any motor housing left exposed outside. A compact transfer pump may suffice for a small garden tap fed by a hand-dug well, but do not use one as a primary household supply."
+   ],
+   "bullets": [
+    "Submersible: best for wells deeper than about 5 m; quiet; long life if kept wet",
+    "Surface/jet: only for very shallow sources; more vulnerable to heat and salt air",
+    "Transfer pump: moves water between tanks; not designed to lift from depth"
+   ]
+  },
+  {
+   "h2": "Choosing the Right Power and Flow Rate",
+   "paragraphs": [
+    "Start with two numbers: how many litres per minute your household actually needs, and how deep the pump must sit. A typical two-bathroom villa with a pool top-up valve wants roughly 4–6 L/min sustained flow. Add a safety margin of about 20 % so the pump is not running at its absolute maximum all day.",
+    "Then check the static and dynamic water levels. In the dry season (May through September) the level can drop several metres compared with rainy months. Size the head rating accordingly, or the pump will struggle exactly when Bali is hottest and you need the most water.",
+    "Bali runs on 220 V single-phase power. Make sure the pump's starting current does not trip your main breaker, especially in older villas where wiring was sized for fewer appliances. If in doubt, have an electrician verify the circuit before first run."
+   ],
+   "bullets": [
+    "Calculate demand: bathrooms × simultaneous use + pool fill rate",
+    "Match head rating to worst-case (dry-season) water level",
+    "Verify voltage and breaker capacity against the existing electrical panel"
+   ]
+  },
+  {
+   "h2": "Installation Details That Matter in Sanur",
+   "paragraphs": [
+    "Lower the pump into the well casing with a stainless-steel or HDPE riser pipe, secured by a separate lifting cable – never by the electrical lead alone. Leave at least 30 cm between the impeller intake and the bottom of the casing so sediment does not get sucked up during low-water periods.",
+    "A non-return (check) valve sits just above the pump outlet inside the casing. Without it, every time the pump stops the column of water drains back down, and the next start puts enormous strain on the motor windings.",
+    "Sanur's coastal air is corrosive. Any junction box, controller, or surface-mounted component should be rated IP65 minimum and kept under cover. During the rainy season, make sure the electrical enclosure is elevated above any possible flood line from the garden or driveway.",
+    "Safety note: if you smell burning insulation or see sparks near the pump wiring, stop using the system immediately and call a licensed electrician before touching anything. Water and electricity in a humid tropical climate are a genuinely dangerous combination."
+   ],
+   "bullets": [
+    "Secure the pump with a dedicated lifting cable; do not hang it from the power lead",
+    "Install a check valve directly above the pump outlet",
+    "Use IP65-rated enclosures for all outdoor electrical parts"
+   ]
+  },
+  {
+   "h2": "Common Breakdowns We See in Sanur Villas",
+   "paragraphs": [
+    "The most frequent fault is thermal overload from dry running. When the well level drops below the intake, the pump keeps spinning with no water to cool it, the internal thermostat trips, and repeated cycles eventually cook the windings.",
+    "Second is corrosion. The combination of mineral-rich groundwater and salt-laden sea air attacks copper windings, aluminium housings, and even stainless fittings over time. You may notice a faint metallic taste, discoloured water, or a gradual loss of pressure before the pump fails outright.",
+    "Cable damage – chafed where it rubs against the casing, or bitten by rodents in older villa compounds – causes intermittent failure. A failing capacitor on single-phase motors can also make the pump hum without ever building pressure."
+   ],
+   "bullets": [
+    "Dry-run / thermal trip: check water level first, then inspect the motor",
+    "Corrosion: look for green or brown staining on fittings; test water clarity",
+    "Cable faults: visually inspect the full length at least once a year",
+    "Capacitor failure (single-phase): hum without rotation usually means a dead cap"
+   ]
+  },
+  {
+   "h2": "When to Repair vs. Replace the Pump",
+   "paragraphs": [
+    "A submersible pump that has been running continuously for several years will eventually wear its bearings, seals, and impeller vanes. If the repair involves rewinding the motor or replacing multiple mechanical seals, the cost often approaches buying a new unit – and you lose the peace of mind of fresh components.",
+    "As a rule of thumb: if the technician's quote from photos on WhatsApp comes close to the price of a comparable new pump, replacement is usually the wiser choice. The exact figure depends on the model, depth, and what exactly has failed, so always get a visual assessment before committing.",
+    "Replacing the pump also gives you a chance to upgrade the riser pipe, check valve, and controller in one visit, which saves a second call-out later."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I connect my well pump directly to PDAM mains as backup?",
+   "a": "It is possible but not recommended without a proper changeover valve and backflow prevention. Mixing municipal and well water can create pressure surges that damage both systems. Have a plumber design the connection rather than fitting a simple T-piece yourself."
+  },
+  {
+   "q": "How often should I service the pump in Bali's climate?",
+   "a": "At minimum once a year, ideally at the start of the dry season around April. A quick check of the cable, check valve, bearing noise, and amperage draw catches small problems before they become a full motor failure. In salt-heavy coastal spots like Sanur, annual inspection is really the floor, not the ceiling."
+  },
+  {
+   "q": "My well seems to run dry every July. Is there anything besides waiting for rain?",
+   "a": "You can lower the pump slightly if the casing allows, fit a larger-diameter intake screen to reduce sediment pull, or add a second rooftop tank so you store water during wet months. If the aquifer itself has dropped permanently, no pump size will fix it – a hydrogeological survey would be the next step."
+  }
+ ],
+ "cta": "If your pump is humming without flow, tripping the breaker, or losing pressure week by week, send a photo or short video on WhatsApp and we will point out what to inspect before the whole system seizes up.",
+ "id": "A031",
+ "hub": "W",
+ "status": "draft-qwen"
+}

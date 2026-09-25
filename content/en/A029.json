@@ -1,0 +1,83 @@
+{
+ "title": "UV Water Sterilizer: Do You Need One & How to Service It",
+ "slug": "uv-water-sterilizer-guide",
+ "meta": "Learn how a UV water sterilizer works, when your Sanur villa needs one, how to swap the lamp and quartz sleeve, common mistakes, and what a service visit involves.",
+ "intro": "A UV water sterilizer kills bacteria and viruses by exposing flowing water to ultraviolet light—no chemicals, no taste change. In Sanur, where many villas draw from wells or store PDAM water in rooftop tanks, a well-maintained unit is a sensible last line of defence before the tap. Below is how it actually works, when you really need one, and what servicing looks like in practice.",
+ "sections": [
+  {
+   "h2": "How a UV Sterilizer Works",
+   "paragraphs": [
+    "Water is pumped through a stainless-steel chamber that houses a quartz glass sleeve. Inside that sleeve sits a low-pressure mercury-vapour lamp emitting UVC light at around 254 nm. As the water passes the lamp, the UV photons break the DNA of bacteria, protozoa, and viruses so they can no longer reproduce. The process takes fractions of a second per microbe, which is why flow rate matters: if the water moves too fast, some organisms simply do not receive enough dose.",
+    "No chlorine, no carbon, no filter cartridge gets consumed. The only consumables are the lamp itself (which loses output over time) and the quartz sleeve (which collects mineral scale). That makes UV attractive for villa owners who want clean drinking water without adding a chemical taste to already soft Bali water."
+   ],
+   "bullets": []
+  },
+  {
+   "h2": "When Your Sanur Villa Actually Needs One",
+   "paragraphs": [
+    "PDAM mains water arriving directly into your kitchen tap is usually fine after basic sediment filtration. But most older Sanur villas—especially those built before the 2010s—rely on a bore well or a rooftop poly tank fed by rainwater. Both introduce risk: wells can carry coliforms from shallow aquifers, and an uncleaned tank becomes a breeding ground during the long rainy season when leaves and bird droppings wash in.",
+    "A UV unit earns its place when you have any of the following: a well as primary source, a rooftop tank that has not been desludged in over six months, frequent guests with sensitive stomachs, or a baby on formula. If you already run a good multi-stage filter and clean your tank twice a year, a UV sterilizer is still a useful safety net but not an emergency fix."
+   ],
+   "bullets": [
+    "Well water as main supply (very common in Sanur's older compounds)",
+    "Rooftop storage tank not cleaned recently",
+    "Heavy use during rainy season when tank quality drops",
+    "You want a chemical-free final barrier for drinking water"
+   ]
+  },
+  {
+   "h2": "Replacing the Lamp and Quartz Sleeve",
+   "paragraphs": [
+    "The lamp is the heart of the system. Its output fades gradually; most tubes are rated for a set number of operating hours printed on the glass. Once you pass that mark—or notice the indicator light dimming—it is time to swap it. The quartz sleeve, meanwhile, accumulates calcium and iron scale from hard well water, which blocks UV transmission even if the lamp is brand new.",
+    "Here is the basic sequence a technician follows: isolate the unit at the breaker, let the chamber cool for ten minutes, drain any residual water, unscrew the end cap, slide out the old lamp, wipe the inside of the sleeve with a soft cloth and a mild descaling solution, inspect the O-ring, seat the new lamp, reassemble, and run a short flush before reconnecting power.",
+    "Important safety note: this work involves electrical components sitting right next to standing water. If you are not comfortable working near live wiring in a damp utility room, stop and call a professional. A small spark or a dropped screw into the chamber can turn a simple job into an expensive repair."
+   ],
+   "bullets": [
+    "Always switch off at the mains before touching the housing",
+    "Let the lamp cool—hot glass can crack when handled",
+    "Clean the quartz sleeve every 3–4 months in hard-water areas",
+    "Check the O-ring for cracks each time you open the unit"
+   ]
+  },
+  {
+   "h2": "Common Mistakes Villa Owners Make",
+   "paragraphs": [
+    "The most frequent issue I see in Sanur villas is running the UV pump while the inlet tank is empty. The dry-run heats the lamp and can shatter it within minutes. Always make sure your storage tank has adequate level before switching the system on, especially after a long rainy-season outage when PDAM supply is intermittent.",
+    "Another trap: installing the unit inline with a flow rate higher than its rating. A 10-litre-per-minute unit will not protect you if your kitchen tap delivers 15 litres per minute. Check the plate on the side of the housing and match it to your actual peak draw.",
+    "Finally, many owners forget the unit entirely until the indicator light goes dark. Scale builds up silently; by the time water tastes 'off,' the sleeve may be 80 % opaque. A quick visual check through the end cap once a month takes thirty seconds."
+   ],
+   "bullets": [
+    "Never run the pump dry—install a low-level float switch if your tank runs out often",
+    "Match flow-rate rating to real household demand, not brochure numbers",
+    "Inspect quartz sleeve monthly for white or brown film",
+    "Keep the bypass valve closed during normal operation"
+   ]
+  },
+  {
+   "h2": "What a Service Visit Involves (and Rough Cost)",
+   "paragraphs": [
+    "A typical service call covers checking lamp output, cleaning or replacing the quartz sleeve, testing the O-ring seal, verifying flow rate against the unit's rating, and confirming the indicator circuit works. If the lamp is past its rated life, replacement is part of the same visit.",
+    "The exact cost depends on which parts need swapping, how accessible the installation is in your villa, and whether you are using well water that has heavily scaled the sleeve. Rather than quoting a fixed number here, I prefer to look at photos first: send me a clear picture of your unit, the label plate, and the surrounding plumbing on WhatsApp, and I will give you an itemised estimate before anyone picks up a wrench."
+   ],
+   "bullets": []
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I use a UV sterilizer with well water from my Sanur bore?",
+   "a": "Yes, but pair it with a sediment pre-filter first. Well water often carries fine silt that coats the quartz sleeve within weeks, killing UV transmission. A simple 5-micron cartridge upstream keeps the sleeve clean and extends lamp life considerably."
+  },
+  {
+   "q": "How do I know when the UV lamp needs replacing?",
+   "a": "Check the hour counter or the printed rating on the tube itself. Most units also have a small indicator LED; if it flickers or goes out while the pump is running, output has dropped below safe levels. When in doubt, replace it—UV lamps are inexpensive compared to a waterborne illness."
+  },
+  {
+   "q": "Do I still need a carbon filter if I have a UV sterilizer?",
+   "a": "They solve different problems. Carbon removes chlorine taste, organic compounds, and some pesticides; UV kills living microorganisms. In a typical Sanur villa setup—well or tank water plus a carbon stage for taste—a UV unit as the final barrier gives you both chemical and biological protection without adding any disinfectant residue."
+  }
+ ],
+ "cta": "Send me a clear photo of your UV unit (label plate visible) on WhatsApp and I will reply with an itemised service quote before we book anything.",
+ "id": "A029",
+ "hub": "W",
+ "status": "draft-qwen"
+}
